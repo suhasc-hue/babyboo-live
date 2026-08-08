@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>babyboo farm — live</title>
+<style>
+  :root { color-scheme: dark; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0e0f14; color:#e8e9ef; font:15px/1.45 -apple-system,'Segoe UI',Roboto,sans-serif;
+         padding:16px 14px 60px; max-width:560px; margin:0 auto; }
+  h1 { font-size:20px; display:flex; align-items:center; gap:8px; }
+  h1 .live { width:9px; height:9px; border-radius:50%; background:#41d97f;
+             box-shadow:0 0 8px #41d97f; display:inline-block; animation:pulse 2s infinite; }
+  @keyframes pulse { 50% { opacity:.4; } }
+  .stamp { color:#8a8fa3; font-size:12px; margin:4px 0 14px; }
+  .stamp.stale { color:#ffb03a; font-weight:600; }
+  .totals { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:14px; }
+  .tot { background:#171923; border:1px solid #262a3a; border-radius:14px; padding:12px 10px; text-align:center; }
+  .tot b { font-size:24px; display:block; color:#fff; }
+  .tot span { font-size:11px; color:#8a8fa3; text-transform:uppercase; letter-spacing:.4px; }
+  h2 { font-size:13px; color:#8a8fa3; text-transform:uppercase; letter-spacing:.6px; margin:18px 0 8px; }
+  .worker { background:#171923; border:1px solid #262a3a; border-radius:14px;
+            padding:12px 14px; margin-bottom:8px; display:flex; align-items:center; gap:12px; }
+  .dot { width:10px; height:10px; border-radius:50%; flex:none; }
+  .up { background:#41d97f; box-shadow:0 0 6px #41d97f66; }
+  .down { background:#f4536e; box-shadow:0 0 6px #f4536e66; }
+  .worker .name { font-weight:700; min-width:74px; }
+  .worker .info { color:#aab0c4; font-size:13px; flex:1; }
+  .worker .job { color:#7ec8ff; font-size:12px; display:block; overflow:hidden;
+                 text-overflow:ellipsis; white-space:nowrap; max-width:230px; }
+  table { width:100%; border-collapse:collapse; background:#171923; border:1px solid #262a3a;
+          border-radius:14px; overflow:hidden; font-size:13px; }
+  th,td { padding:9px 6px; text-align:center; }
+  th { background:#1d2030; color:#8a8fa3; font-size:10.5px; text-transform:uppercase; letter-spacing:.4px; }
+  td:first-child, th:first-child { text-align:left; padding-left:12px; font-weight:600; }
+  tr + tr td { border-top:1px solid #232636; }
+  .ok { color:#41d97f; } .warn { color:#ffb03a; } .muted { color:#5c6175; }
+  .feed { background:#171923; border:1px solid #262a3a; border-radius:14px; padding:10px 12px;
+          font:11.5px/1.7 ui-monospace,Consolas,monospace; color:#aab0c4;
+          overflow-x:auto; white-space:pre; }
+  footer { color:#5c6175; font-size:11px; text-align:center; margin-top:22px; }
+</style></head><body>
+<h1><span class="live"></span> babyboo farm</h1>
+<div class="stamp" id="stamp">loading…</div>
+<div class="totals">
+  <div class="tot"><b id="t_rendered">–</b><span>reels made</span></div>
+  <div class="tot"><b id="t_posted">–</b><span>posted</span></div>
+  <div class="tot"><b id="t_stories">–</b><span>stories today</span></div>
+</div>
+<h2>Computers</h2>
+<div id="workers"></div>
+<h2>Channels</h2>
+<table id="chan"><thead><tr>
+  <th>channel</th><th>made</th><th>qc ✓</th><th>approved</th><th>posted</th><th>today</th><th>ready</th>
+</tr></thead><tbody></tbody></table>
+<h2>Latest activity</h2>
+<div class="feed" id="feed">…</div>
+<footer>auto-refreshes every 60s · data updates every ~2 min · costs nothing to run</footer>
+<script>
+const FEED = 'https://gist.githubusercontent.com/suhasc-hue/165a3238639dfb22eb52fe0ce5680efa/raw/status.json';
+const NAMES = {tinycrafts:'TinyCrafts 🍼', happyhive:'HappyHive 🧒', wonderlab:'wonderlab 🔬',
+               storynook:'StoryNook 🏠', playground:'Playground 🏰'};
+async function load() {
+  try {
+    const r = await fetch(FEED + '?t=' + Date.now(), {cache:'no-store'});
+    const d = await r.json();
+    const age = (Date.now() - new Date(d.updated.replace(' ','T'))) / 60000;
+    const st = document.getElementById('stamp');
+    st.textContent = 'updated ' + d.updated + (age > 6 ? '  ⚠ feed stale ('+Math.round(age)+' min)' : '');
+    st.className = 'stamp' + (age > 6 ? ' stale' : '');
+    t_rendered.textContent = d.totals.rendered;
+    t_posted.textContent = d.totals.posted;
+    t_stories.textContent = d.totals.stories_today;
+    let wh = '';
+    for (const [n, w] of Object.entries(d.workers)) {
+      wh += `<div class="worker"><span class="dot ${w.up?'up':'down'}"></span>
+        <span class="name">${n}</span><span class="info">` +
+        (w.up ? `${w.running? 'rendering' : (w.queued? 'queued' : 'idle')} · ${w.queued} in queue · ${w.vram_free_gb} GB free
+                 <span class="job">${w.job || ''}</span>`
+              : 'offline / waiting') + `</span></div>`;
+    }
+    document.getElementById('workers').innerHTML = wh;
+    let ch = '';
+    for (const [k, c] of Object.entries(d.channels)) {
+      ch += `<tr><td>${NAMES[k]||k}</td><td>${c.rendered}</td><td>${c.qc_passed}</td>
+        <td class="${c.vision_ok<c.qc_passed?'warn':'ok'}">${c.vision_ok}</td>
+        <td class="ok">${c.posted}</td><td>${c.posted_today}</td>
+        <td class="${c.stored_ready>0?'':'muted'}">${c.stored_ready}</td></tr>`;
+    }
+    document.querySelector('#chan tbody').innerHTML = ch;
+    document.getElementById('feed').textContent = (d.events||[]).join('\n') || 'quiet';
+  } catch (e) {
+    document.getElementById('stamp').textContent = 'feed unreachable — retrying…';
+    document.getElementById('stamp').className = 'stamp stale';
+  }
+}
+load(); setInterval(load, 60000);
+</script></body></html>
