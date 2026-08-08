@@ -1,4 +1,6 @@
 <title>BABYBOO MAINFRAME</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <style>
   :root{
     --p:#00ff41; --p-dim:#0a8f2c; --amber:#ffaa00; --cyan:#00d4ff;
@@ -383,7 +385,8 @@ function paint(d){
   DATA=d;
   const age=(Date.now()-new Date(d.updated.replace(' ','T')))/60000;
   const st=document.getElementById('stamp');
-  st.textContent='SYNC '+d.updated+(age>6?'  ⚠ STALE '+Math.round(age)+'m':'');
+  st.textContent='SYNC '+d.updated.slice(11)+' · '+(age<1.2?'LIVE':Math.round(age)+'m ago')
+                 +'  ⟳ TAP TO REFRESH';
   st.className='stamp'+(age>6?' stale':'');
   const fmt=n=>n==null?'–':(n>=1000?(n/1000).toFixed(1)+'k':n);
   t_made.textContent=d.totals.rendered; t_posted.textContent=d.totals.posted;
@@ -425,5 +428,20 @@ async function load(){
     document.getElementById('stamp').className='stamp stale';
   }
 }
-addEventListener('load',()=>{buildScene();load();setInterval(load,60000);});
+/* Phones suspend background tabs and stop setInterval, so the panel could sit
+   on an hour-old number and look frozen. Re-fetch on every return to the tab,
+   tap the sync stamp to force it, and self-heal if a tick was ever missed. */
+let lastLoad=0;
+async function refresh(){ lastLoad=Date.now(); await load(); }
+addEventListener('load',()=>{
+  buildScene(); refresh();
+  setInterval(()=>{ if(!document.hidden) refresh(); },60000);
+  document.addEventListener('visibilitychange',()=>{ if(!document.hidden) refresh(); });
+  addEventListener('focus',()=>{ if(Date.now()-lastLoad>15000) refresh(); });
+  addEventListener('pageshow',refresh);
+  document.getElementById('stamp').style.cursor='pointer';
+  document.getElementById('stamp').onclick=()=>{
+    document.getElementById('stamp').textContent='SYNCING…'; refresh();
+  };
+});
 </script>
