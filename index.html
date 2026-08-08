@@ -1,100 +1,419 @@
-<!doctype html><html lang="en"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>babyboo farm — live</title>
+<title>BABYBOO MAINFRAME</title>
 <style>
-  :root { color-scheme: dark; }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { background:#0e0f14; color:#e8e9ef; font:15px/1.45 -apple-system,'Segoe UI',Roboto,sans-serif;
-         padding:16px 14px 60px; max-width:560px; margin:0 auto; }
-  h1 { font-size:20px; display:flex; align-items:center; gap:8px; }
-  h1 .live { width:9px; height:9px; border-radius:50%; background:#41d97f;
-             box-shadow:0 0 8px #41d97f; display:inline-block; animation:pulse 2s infinite; }
-  @keyframes pulse { 50% { opacity:.4; } }
-  .stamp { color:#8a8fa3; font-size:12px; margin:4px 0 14px; }
-  .stamp.stale { color:#ffb03a; font-weight:600; }
-  .totals { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:14px; }
-  .tot { background:#171923; border:1px solid #262a3a; border-radius:14px; padding:12px 10px; text-align:center; }
-  .tot b { font-size:24px; display:block; color:#fff; }
-  .tot span { font-size:11px; color:#8a8fa3; text-transform:uppercase; letter-spacing:.4px; }
-  h2 { font-size:13px; color:#8a8fa3; text-transform:uppercase; letter-spacing:.6px; margin:18px 0 8px; }
-  .worker { background:#171923; border:1px solid #262a3a; border-radius:14px;
-            padding:12px 14px; margin-bottom:8px; display:flex; align-items:center; gap:12px; }
-  .dot { width:10px; height:10px; border-radius:50%; flex:none; }
-  .up { background:#41d97f; box-shadow:0 0 6px #41d97f66; }
-  .down { background:#f4536e; box-shadow:0 0 6px #f4536e66; }
-  .worker .name { font-weight:700; min-width:74px; }
-  .worker .info { color:#aab0c4; font-size:13px; flex:1; }
-  .worker .job { color:#7ec8ff; font-size:12px; display:block; overflow:hidden;
-                 text-overflow:ellipsis; white-space:nowrap; max-width:230px; }
-  table { width:100%; border-collapse:collapse; background:#171923; border:1px solid #262a3a;
-          border-radius:14px; overflow:hidden; font-size:13px; }
-  th,td { padding:9px 6px; text-align:center; }
-  th { background:#1d2030; color:#8a8fa3; font-size:10.5px; text-transform:uppercase; letter-spacing:.4px; }
-  td:first-child, th:first-child { text-align:left; padding-left:12px; font-weight:600; }
-  tr + tr td { border-top:1px solid #232636; }
-  .ok { color:#41d97f; } .warn { color:#ffb03a; } .muted { color:#5c6175; }
-  .feed { background:#171923; border:1px solid #262a3a; border-radius:14px; padding:10px 12px;
-          font:11.5px/1.7 ui-monospace,Consolas,monospace; color:#aab0c4;
-          overflow-x:auto; white-space:pre; }
-  footer { color:#5c6175; font-size:11px; text-align:center; margin-top:22px; }
-</style></head><body>
-<h1><span class="live"></span> babyboo farm</h1>
-<div class="stamp" id="stamp">loading…</div>
-<div class="totals">
-  <div class="tot"><b id="t_rendered">–</b><span>reels made</span></div>
-  <div class="tot"><b id="t_posted">–</b><span>posted</span></div>
-  <div class="tot"><b id="t_stories">–</b><span>stories today</span></div>
+  :root{
+    --p:#00ff41; --p-dim:#0a8f2c; --amber:#ffaa00; --cyan:#00d4ff;
+    --void:#04070a; --panel:#0a1410; --line:#123322;
+    color-scheme: dark;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{background:var(--void);color:var(--p);overflow-x:hidden;
+       font-family:'SFMono-Regular',Consolas,'Roboto Mono',ui-monospace,monospace;
+       min-height:100vh}
+  /* ---------- CRT overlay: scanlines + vignette + flicker ---------- */
+  #crt{position:fixed;inset:0;pointer-events:none;z-index:90}
+  #crt:before{content:"";position:absolute;inset:0;
+    background:repeating-linear-gradient(0deg,rgba(0,0,0,.28) 0 1px,transparent 1px 3px);
+    mix-blend-mode:multiply}
+  #crt:after{content:"";position:absolute;inset:0;
+    background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.75) 100%);
+    animation:flick 7s infinite}
+  @keyframes flick{0%,97%,100%{opacity:1}98%{opacity:.86}99%{opacity:.95}}
+
+  /* ---------- boot ---------- */
+  #boot{position:fixed;inset:0;background:var(--void);z-index:100;padding:24px 18px;
+        font-size:12.5px;line-height:1.7;white-space:pre-wrap;transition:opacity .5s}
+  #boot.gone{opacity:0;pointer-events:none}
+
+  header{padding:14px 16px 6px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  h1{font-size:15px;letter-spacing:3px;text-shadow:0 0 12px var(--p)}
+  .stamp{font-size:10.5px;color:var(--p-dim);letter-spacing:1px}
+  .stamp.stale{color:var(--amber)}
+
+  /* ---------- 3D stage ---------- */
+  #stage{position:relative;height:46vh;min-height:290px;max-height:440px}
+  #stage canvas{display:block;width:100%;height:100%}
+  #fallback{display:none;padding:0 14px;gap:10px;grid-template-columns:repeat(3,1fr)}
+  .hint{text-align:center;font-size:10px;color:var(--p-dim);letter-spacing:2px;
+        margin-top:-8px;padding-bottom:6px}
+
+  /* ---------- readouts ---------- */
+  .bar{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:10px 14px}
+  .cell{border:1px solid var(--line);background:var(--panel);border-radius:3px;
+        padding:8px 6px;text-align:center;position:relative;overflow:hidden}
+  .cell b{display:block;font-size:19px;color:#dfffe9;text-shadow:0 0 10px var(--p)}
+  .cell span{font-size:8.5px;color:var(--p-dim);letter-spacing:1.2px;text-transform:uppercase}
+
+  h2{font-size:10.5px;color:var(--p-dim);letter-spacing:2.5px;margin:16px 14px 8px;
+     text-transform:uppercase;display:flex;align-items:center;gap:8px}
+  h2:after{content:"";flex:1;height:1px;background:var(--line)}
+
+  .rack{display:grid;gap:8px;padding:0 14px}
+  .unit{border:1px solid var(--line);background:var(--panel);border-radius:3px;
+        padding:11px 12px;display:flex;align-items:center;gap:11px;cursor:pointer;
+        transition:border-color .2s,transform .1s}
+  .unit:active{transform:scale(.99)}
+  .unit.on{border-color:var(--p)}
+  .led{width:9px;height:9px;border-radius:50%;flex:none;background:#3a1414}
+  .led.on{background:var(--p);box-shadow:0 0 9px var(--p);animation:pulse 1.6s infinite}
+  .led.busy{background:var(--cyan);box-shadow:0 0 9px var(--cyan)}
+  @keyframes pulse{50%{opacity:.45}}
+  .unit .who{font-size:13px;color:#dfffe9;min-width:96px}
+  .unit .who i{display:block;font-style:normal;font-size:9px;color:var(--p-dim);letter-spacing:1px}
+  .unit .st{flex:1;font-size:11px;color:var(--p-dim);overflow:hidden;
+            text-overflow:ellipsis;white-space:nowrap}
+  .unit .st em{color:var(--cyan);font-style:normal}
+  .unit .go{font-size:15px;color:var(--line)}
+
+  table{width:100%;border-collapse:collapse;font-size:11.5px}
+  th{font-size:8.5px;color:var(--p-dim);letter-spacing:1px;text-transform:uppercase;
+     padding:6px 3px;font-weight:400}
+  td{padding:9px 3px;text-align:center;border-top:1px solid var(--line)}
+  td:first-child,th:first-child{text-align:left;padding-left:10px}
+  .chrow{cursor:pointer}
+  .chrow:active{background:#0d1a14}
+  .ok{color:var(--p)} .warn{color:var(--amber)} .dim{color:var(--p-dim)}
+
+  .feed{margin:0 14px;border:1px solid var(--line);background:var(--panel);border-radius:3px;
+        padding:9px 10px;font-size:10px;line-height:1.75;color:var(--p-dim);
+        overflow-x:auto;white-space:pre;max-height:150px;overflow-y:auto}
+  footer{color:var(--line);font-size:9.5px;text-align:center;padding:16px 0 26px;letter-spacing:1.5px}
+
+  /* ---------- drill-down panel ---------- */
+  #panel{position:fixed;inset:0;z-index:95;background:rgba(2,5,4,.93);
+         display:none;flex-direction:column;backdrop-filter:blur(3px)}
+  #panel.open{display:flex}
+  .pbar{display:flex;align-items:center;gap:10px;padding:15px 15px 11px;
+        border-bottom:1px solid var(--line)}
+  .pbar b{font-size:14px;color:#dfffe9;letter-spacing:1.5px;flex:1;
+          text-shadow:0 0 10px var(--p)}
+  .x{border:1px solid var(--line);background:none;color:var(--p);font:inherit;
+     padding:5px 11px;border-radius:3px;cursor:pointer;font-size:12px}
+  .pbody{flex:1;overflow-y:auto;padding:14px 15px 40px}
+  .kv{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:14px}
+  .kv div{border:1px solid var(--line);background:var(--panel);border-radius:3px;padding:9px 10px}
+  .kv b{display:block;font-size:17px;color:#dfffe9}
+  .kv span{font-size:8.5px;color:var(--p-dim);letter-spacing:1.2px;text-transform:uppercase}
+  .reel{display:flex;gap:10px;align-items:center;border:1px solid var(--line);
+        background:var(--panel);border-radius:3px;padding:8px;margin-bottom:7px}
+  .reel img{width:42px;height:56px;object-fit:cover;border-radius:2px;flex:none;
+            filter:saturate(.75) contrast(1.05)}
+  .reel .t{flex:1;font-size:10.5px;color:var(--p-dim);line-height:1.5;overflow:hidden}
+  .reel .t b{display:block;color:#dfffe9;font-size:11px;margin-bottom:2px}
+  .reel .n{text-align:right;font-size:9.5px;color:var(--p-dim)}
+  .reel .n b{display:block;font-size:15px;color:var(--cyan)}
+  .lock{border:1px dashed var(--line);border-radius:3px;padding:11px;font-size:10.5px;
+        color:var(--p-dim);line-height:1.6}
+  a{color:var(--cyan);text-decoration:none}
+  @media(min-width:760px){
+    body{max-width:940px;margin:0 auto}
+    .kv{grid-template-columns:repeat(4,1fr)}
+    #stage{height:52vh;max-height:520px}
+  }
+</style>
+
+<div id="crt"></div>
+<div id="boot"></div>
+
+<header>
+  <h1>◈ BABYBOO MAINFRAME</h1>
+  <div class="stamp" id="stamp">SYNCING…</div>
+</header>
+
+<div id="stage"><div id="fallback"></div></div>
+<div class="hint">▲ TAP A TERMINAL FOR DETAIL ▲</div>
+
+<div class="bar">
+  <div class="cell"><b id="t_made">–</b><span>reels built</span></div>
+  <div class="cell"><b id="t_posted">–</b><span>posted</span></div>
+  <div class="cell"><b id="t_views">–</b><span>views</span></div>
+  <div class="cell"><b id="t_today">–</b><span>built today</span></div>
 </div>
-<h2>Computers</h2>
-<div id="workers"></div>
+
+<h2>Render nodes</h2>
+<div class="rack" id="rack"></div>
+
 <h2>Channels</h2>
 <table id="chan"><thead><tr>
-  <th>channel</th><th>made</th><th>qc ✓</th><th>approved</th><th>posted</th><th>today</th><th>ready</th>
+  <th>channel</th><th>built</th><th>ready</th><th>posted</th><th>views</th><th>stored</th>
 </tr></thead><tbody></tbody></table>
-<h2>Latest activity</h2>
+
+<h2>System log</h2>
 <div class="feed" id="feed">…</div>
-<footer>auto-refreshes every 60s · data updates every ~2 min · costs nothing to run</footer>
+<footer>SUHAS · MAIN CONSOLE ◈ 3 NODES LINKED ◈ AUTO-REFRESH 60s</footer>
+
+<div id="panel">
+  <div class="pbar"><b id="ptitle">—</b><button class="x" onclick="closePanel()">CLOSE ✕</button></div>
+  <div class="pbody" id="pbody"></div>
+</div>
+
+<script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
 <script>
-const FEED = 'https://gist.githubusercontent.com/suhasc-hue/165a3238639dfb22eb52fe0ce5680efa/raw/status.json';
-const NAMES = {tinycrafts:'TinyCrafts 🍼', happyhive:'HappyHive 🧒', wonderlab:'wonderlab 🔬',
-               storynook:'StoryNook 🏠', playground:'Playground 🏰'};
-const IG = {tinycrafts:'tinycraftsbyleo', happyhive:'happyhivekidss', wonderlab:'wonderlabwithmaya',
-            storynook:'storynooksam', playground:'playgroundpalszoe'};
-async function load() {
-  try {
-    const r = await fetch(FEED + '?t=' + Date.now(), {cache:'no-store'});
-    const d = await r.json();
-    const age = (Date.now() - new Date(d.updated.replace(' ','T'))) / 60000;
-    const st = document.getElementById('stamp');
-    st.textContent = 'updated ' + d.updated + (age > 6 ? '  ⚠ feed stale ('+Math.round(age)+' min)' : '');
-    st.className = 'stamp' + (age > 6 ? ' stale' : '');
-    t_rendered.textContent = d.totals.rendered;
-    t_posted.textContent = d.totals.posted;
-    t_stories.textContent = d.totals.stories_today;
-    let wh = '';
-    for (const [n, w] of Object.entries(d.workers)) {
-      wh += `<div class="worker"><span class="dot ${w.up?'up':'down'}"></span>
-        <span class="name">${n}</span><span class="info">` +
-        (w.up ? `${w.running? 'rendering' : (w.queued? 'queued' : 'idle')} · ${w.queued} in queue · ${w.vram_free_gb} GB free
-                 <span class="job">${w.job || ''}</span>`
-              : 'offline / waiting') + `</span></div>`;
-    }
-    document.getElementById('workers').innerHTML = wh;
-    let ch = '';
-    for (const [k, c] of Object.entries(d.channels)) {
-      ch += `<tr><td><a href="https://instagram.com/${IG[k]||k}" target="_blank"
-        style="color:inherit;text-decoration:none">${NAMES[k]||k} <span style="color:#7ec8ff;font-size:11px">↗</span></a></td><td>${c.rendered}</td><td>${c.qc_passed}</td>
-        <td class="${c.vision_ok<c.qc_passed?'warn':'ok'}">${c.vision_ok}</td>
-        <td class="ok">${c.posted}</td><td>${c.posted_today}</td>
-        <td class="${c.stored_ready>0?'':'muted'}">${c.stored_ready}</td></tr>`;
-    }
-    document.querySelector('#chan tbody').innerHTML = ch;
-    document.getElementById('feed').textContent = (d.events||[]).join('\n') || 'quiet';
-  } catch (e) {
-    document.getElementById('stamp').textContent = 'feed unreachable — retrying…';
-    document.getElementById('stamp').className = 'stamp stale';
+const FEED='https://gist.githubusercontent.com/suhasc-hue/165a3238639dfb22eb52fe0ce5680efa/raw/status.json';
+const NAMES={tinycrafts:'TinyCrafts',happyhive:'HappyHive',wonderlab:'WonderLab',
+             storynook:'StoryNook',playground:'Playground'};
+const ORDER=['tech-01','w40','pcconee'];
+let DATA=null, screens={}, meshes={};
+
+/* ---------------- boot sequence ---------------- */
+const BOOT=['BABYBOO MAINFRAME v4.2','────────────────────────────','POST … OK',
+  'LINK NODE 1 … JAGRAT      [OK]','LINK NODE 2 … NEERAJ      [OK]','LINK NODE 3 … ANSHU       [OK]',
+  'MOUNT CHANNEL BANK … 5 UNITS','FETCH TELEMETRY …','READY.'];
+(function boot(){
+  const el=document.getElementById('boot'); let i=0,txt='';
+  const t=setInterval(()=>{
+    txt+=BOOT[i++]+'\n'; el.textContent=txt+'█';
+    if(i>=BOOT.length){clearInterval(t);
+      setTimeout(()=>{el.classList.add('gone');},420);}
+  },140);
+})();
+
+/* ---------------- per-terminal screen texture ---------------- */
+function drawScreen(name){
+  const c=screens[name]; if(!c) return;
+  const g=c.ctx, W=c.cv.width, H=c.cv.height;
+  const w=(DATA&&DATA.workers&&DATA.workers[name])||{};
+  g.fillStyle='#02120a'; g.fillRect(0,0,W,H);
+  g.fillStyle='rgba(0,255,65,.05)';
+  for(let y=0;y<H;y+=6) g.fillRect(0,y,W,3);
+  g.textAlign='center'; g.fillStyle='#8bffb0'; g.font='bold 44px monospace';
+  g.fillText((w.owner||'—').toUpperCase(),W/2,66);
+  g.font='26px monospace'; g.fillStyle=w.up?'#00ff41':'#ff4d4d';
+  g.fillText(w.up?(w.running?'RENDERING':'IDLE'):'OFFLINE',W/2,112);
+  g.font='22px monospace'; g.fillStyle='#3fdc7a';
+  g.fillText('BUILT TODAY  '+(w.made_today??0),W/2,158);
+  if(w.up){ g.fillText('VRAM '+(w.vram_free_gb??'?')+'G FREE',W/2,196); }
+  g.font='18px monospace'; g.fillStyle='#1f8f4c';
+  const j=(w.job||'').slice(0,26); if(j) g.fillText(j,W/2,232);
+  c.tex.needsUpdate=true;
+}
+
+/* ---------------- three.js scene ---------------- */
+let renderer,scene,camera,ray,rig;
+function buildScene(){
+  if(typeof THREE==='undefined'){ document.getElementById('fallback').style.display='grid'; return false; }
+  const stage=document.getElementById('stage');
+  renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});
+  renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+  renderer.setSize(stage.clientWidth,stage.clientHeight);
+  stage.appendChild(renderer.domElement);
+  scene=new THREE.Scene();
+  scene.fog=new THREE.FogExp2(0x04070a,0.055);
+  camera=new THREE.PerspectiveCamera(46,stage.clientWidth/stage.clientHeight,0.1,100);
+  camera.position.set(0,2.6,9.2); camera.lookAt(0,.2,0);
+  scene.add(new THREE.AmbientLight(0x66ffaa,0.55));
+  const key=new THREE.PointLight(0x00ff88,2.2,26); key.position.set(0,5,6); scene.add(key);
+  const rim=new THREE.PointLight(0x00d4ff,1.5,26); rim.position.set(-6,2,-5); scene.add(rim);
+
+  // floor grid — the machine room
+  const grid=new THREE.GridHelper(34,34,0x0d6b32,0x073d1d);
+  grid.position.y=-1.9; scene.add(grid);
+
+  rig=new THREE.Group(); scene.add(rig);
+
+  ORDER.forEach((name,i)=>{
+    const g=new THREE.Group();
+    const a=(i/ORDER.length)*Math.PI*2;
+    g.position.set(Math.cos(a)*3.5,0,Math.sin(a)*3.5);
+
+    // beige CRT body
+    const body=new THREE.Mesh(new THREE.BoxGeometry(2.05,1.65,1.75),
+      new THREE.MeshStandardMaterial({color:0xd8cdb0,roughness:.82,metalness:.05}));
+    g.add(body);
+    // dark bezel
+    const bez=new THREE.Mesh(new THREE.BoxGeometry(1.78,1.34,.08),
+      new THREE.MeshStandardMaterial({color:0x1a1a18,roughness:.9}));
+    bez.position.set(0,.06,.89); g.add(bez);
+    // live screen
+    const cv=document.createElement('canvas'); cv.width=512; cv.height=256;
+    const tex=new THREE.CanvasTexture(cv);
+    screens[name]={cv,ctx:cv.getContext('2d'),tex};
+    const scr=new THREE.Mesh(new THREE.PlaneGeometry(1.56,1.12),
+      new THREE.MeshBasicMaterial({map:tex}));
+    scr.position.set(0,.06,.945); g.add(scr);
+    // glow slab in front of the screen
+    const glow=new THREE.Mesh(new THREE.PlaneGeometry(1.9,1.45),
+      new THREE.MeshBasicMaterial({color:0x00ff66,transparent:true,opacity:.07,
+        blending:THREE.AdditiveBlending,depthWrite:false}));
+    glow.position.set(0,.06,1.0); g.add(glow);
+    // pedestal + keyboard slab
+    const ped=new THREE.Mesh(new THREE.BoxGeometry(1.2,.28,1.1),
+      new THREE.MeshStandardMaterial({color:0xc4b89a,roughness:.85}));
+    ped.position.set(0,-.98,0); g.add(ped);
+    const kb=new THREE.Mesh(new THREE.BoxGeometry(1.95,.12,.72),
+      new THREE.MeshStandardMaterial({color:0xcfc3a6,roughness:.88}));
+    kb.position.set(0,-1.12,1.25); kb.rotation.x=-.09; g.add(kb);
+    // status lamp
+    const lamp=new THREE.Mesh(new THREE.SphereGeometry(.075,14,14),
+      new THREE.MeshBasicMaterial({color:0x00ff41}));
+    lamp.position.set(.74,-.62,.9); g.add(lamp);
+    g.userData={name,lamp};
+    g.lookAt(0,0,0); g.rotateY(Math.PI);
+    rig.add(g); meshes[name]=g;
+    drawScreen(name);
+  });
+
+  // Suhas's core — the thing the nodes orbit
+  const core=new THREE.Mesh(new THREE.IcosahedronGeometry(.72,0),
+    new THREE.MeshStandardMaterial({color:0x00ff88,emissive:0x00994d,
+      emissiveIntensity:.9,roughness:.3,wireframe:true}));
+  core.position.y=.1; scene.add(core);
+  const halo=new THREE.Mesh(new THREE.RingGeometry(1.05,1.14,64),
+    new THREE.MeshBasicMaterial({color:0x00d4ff,transparent:true,opacity:.55,
+      side:THREE.DoubleSide}));
+  halo.rotation.x=Math.PI/2; halo.position.y=.1; scene.add(halo);
+
+  // data links core -> nodes
+  const links=ORDER.map(n=>{
+    const geo=new THREE.BufferGeometry().setFromPoints(
+      [new THREE.Vector3(0,.1,0), meshes[n].position.clone()]);
+    const l=new THREE.Line(geo,new THREE.LineBasicMaterial({color:0x00d4ff,
+      transparent:true,opacity:.32}));
+    rig.add(l); return l;
+  });
+
+  ray=new THREE.Raycaster();
+  renderer.domElement.addEventListener('pointerdown',ev=>{
+    const r=renderer.domElement.getBoundingClientRect();
+    const pt=new THREE.Vector2(((ev.clientX-r.left)/r.width)*2-1,
+                               -((ev.clientY-r.top)/r.height)*2+1);
+    ray.setFromCamera(pt,camera);
+    const hit=ray.intersectObjects(rig.children,true)[0];
+    if(!hit) return;
+    let o=hit.object; while(o && !o.userData.name) o=o.parent;
+    if(o&&o.userData.name) openNode(o.userData.name);
+  });
+
+  addEventListener('resize',()=>{
+    renderer.setSize(stage.clientWidth,stage.clientHeight);
+    camera.aspect=stage.clientWidth/stage.clientHeight; camera.updateProjectionMatrix();
+  });
+
+  (function loop(t){
+    requestAnimationFrame(loop);
+    rig.rotation.y+=0.0025;                       // continuous orbit
+    ORDER.forEach((n,i)=>{
+      const g=meshes[n]; if(!g) return;
+      g.position.y=Math.sin(t/1400+i*2.1)*.09;    // gentle float
+      const w=(DATA&&DATA.workers&&DATA.workers[n])||{};
+      const c=!w.up?0xff3b3b:(w.running?0x00d4ff:0x00ff41);
+      g.userData.lamp.material.color.setHex(c);
+      g.userData.lamp.material.opacity=w.running?(0.55+0.45*Math.sin(t/180)):1;
+      g.userData.lamp.material.transparent=true;
+    });
+    core.rotation.y+=0.006; core.rotation.x+=0.003;
+    halo.rotation.z+=0.004;
+    links.forEach(l=>{l.material.opacity=0.22+0.18*Math.sin(t/500);});
+    renderer.render(scene,camera);
+  })(0);
+  return true;
+}
+
+/* ---------------- panels ---------------- */
+function openNode(name){
+  const w=DATA.workers[name]||{};
+  document.getElementById('ptitle').textContent=(w.owner||name).toUpperCase()+"'S PC";
+  const recent=(w.recent||[]).map(r=>
+    `<div class="reel"><div class="t"><b>${r.id}</b>${r.at} · ${r.min} min</div></div>`).join('')
+    || '<div class="lock">No completed reels logged yet on this node.</div>';
+  document.getElementById('pbody').innerHTML=`
+    <div class="kv">
+      <div><b class="${w.up?'ok':'warn'}">${w.up?(w.running?'RENDERING':'IDLE'):'OFFLINE'}</b><span>state</span></div>
+      <div><b>${w.made_today??0}</b><span>built today</span></div>
+      <div><b>${w.avg_min??'–'}</b><span>min / reel</span></div>
+      <div><b>${w.queued??0}</b><span>in queue</span></div>
+      <div><b>${w.vram_free_gb??'–'}<small style="font-size:11px">/${w.vram_total_gb??'–'}G</small></b><span>vram free</span></div>
+      <div><b>${w.ram_free_gb??'–'}G</b><span>ram free</span></div>
+      <div style="grid-column:span 2"><b style="font-size:12px;color:var(--cyan)">${w.job||'—'}</b><span>current build${w.shot?' · shot '+w.shot:''}</span></div>
+    </div>
+    <div class="lock">${w.gpu||''} · ${w.ip||''}</div>
+    <h2 style="margin-left:0">Last builds</h2>${recent}`;
+  document.getElementById('panel').classList.add('open');
+}
+
+function openChannel(k){
+  const c=DATA.channels[k], ig=c.ig||{};
+  document.getElementById('ptitle').textContent=(NAMES[k]||k).toUpperCase();
+  const fmt=n=>n==null?'–':(n>=1000?(n/1000).toFixed(1)+'k':n);
+  const media=(c.top_media||[]).map(m=>`
+    <a class="reel" href="${m.permalink||'#'}" target="_blank">
+      ${m.thumb?`<img src="${m.thumb}" loading="lazy">`:''}
+      <div class="t"><b>${(m.caption||'(no caption)').slice(0,52)}</b>
+        ${(m.timestamp||'').slice(0,10)} · ♥ ${m.likes??0} · ↺ ${m.shares??0}
+        ${m.ig_reels_avg_watch_time?' · ⏱ '+(m.ig_reels_avg_watch_time/1000).toFixed(1)+'s':''}</div>
+      <div class="n"><b>${fmt(m.views)}</b>views</div>
+    </a>`).join('') || '<div class="lock">No posts with view data yet.</div>';
+  const demo=ig.demographics_state==='ok'
+    ? Object.entries(ig.demographics||{}).map(([k2,rows])=>
+        `<div class="lock"><b>${k2.toUpperCase()}</b><br>${rows.map(r=>r.k+' — '+r.v).join('<br>')}</div>`).join('')
+    : `<div class="lock">AUDIENCE BREAKDOWN LOCKED — Instagram only releases
+       country / city / age data once an account passes ~100 followers.
+       This one is at ${ig.followers??0}. It unlocks itself automatically.</div>`;
+  document.getElementById('pbody').innerHTML=`
+    <div class="kv">
+      <div><b>${fmt(ig.followers)}</b><span>followers</span></div>
+      <div><b>${fmt(ig.total_views)}</b><span>total views</span></div>
+      <div><b>${fmt(ig.reach_today)}</b><span>reach today</span></div>
+      <div><b>${fmt(ig.avg_views)}</b><span>avg / reel</span></div>
+      <div><b>${c.posted}</b><span>posted</span></div>
+      <div><b>${c.posted_today}</b><span>posted today</span></div>
+      <div><b>${c.stored_ready}</b><span>stored ready</span></div>
+      <div><b>${fmt(ig.total_likes)}</b><span>likes</span></div>
+    </div>
+    ${ig.error?`<div class="lock warn">TOKEN ERROR ${ig.error} — posting paused for this channel until the token is refreshed.</div>`:''}
+    ${c.awaiting_review?`<div class="lock">${c.awaiting_review} reels are built and waiting on the Pixar-precision vision review before they can post.</div>`:''}
+    <h2 style="margin-left:0">Top performing</h2>${media}
+    <h2 style="margin-left:0">Audience</h2>${demo}
+    <div style="margin-top:12px"><a href="https://instagram.com/${ig.username||c.handle}" target="_blank">OPEN @${ig.username||c.handle} ↗</a></div>`;
+  document.getElementById('panel').classList.add('open');
+}
+function closePanel(){document.getElementById('panel').classList.remove('open');}
+
+/* ---------------- render 2D readouts ---------------- */
+function paint(d){
+  DATA=d;
+  const age=(Date.now()-new Date(d.updated.replace(' ','T')))/60000;
+  const st=document.getElementById('stamp');
+  st.textContent='SYNC '+d.updated+(age>6?'  ⚠ STALE '+Math.round(age)+'m':'');
+  st.className='stamp'+(age>6?' stale':'');
+  const fmt=n=>n==null?'–':(n>=1000?(n/1000).toFixed(1)+'k':n);
+  t_made.textContent=d.totals.rendered; t_posted.textContent=d.totals.posted;
+  t_views.textContent=fmt(d.totals.views); t_today.textContent=d.totals.made_today??'–';
+
+  document.getElementById('rack').innerHTML=ORDER.map(n=>{
+    const w=d.workers[n]||{};
+    const cls=!w.up?'':(w.running?'led on busy':'led on');
+    return `<div class="unit ${w.up?'on':''}" onclick="openNode('${n}')">
+      <span class="${w.up?cls:'led'}"></span>
+      <span class="who">${w.owner||n}<i>${n}</i></span>
+      <span class="st">${w.up?(w.running?'building <em>'+(w.job||'')+'</em>':'idle · queue '+(w.queued??0))
+        :'offline — waiting for this PC'}</span>
+      <span class="go">›</span></div>`;}).join('');
+
+  document.querySelector('#chan tbody').innerHTML=Object.entries(d.channels).map(([k,c])=>{
+    const ig=c.ig||{};
+    return `<tr class="chrow" onclick="openChannel('${k}')">
+      <td>${NAMES[k]||k}</td><td>${c.rendered}</td>
+      <td class="${c.awaiting_review?'warn':'ok'}">${c.vision_ok}</td>
+      <td class="ok">${c.posted}</td>
+      <td>${ig.total_views==null?'–':(ig.total_views>=1000?(ig.total_views/1000).toFixed(1)+'k':ig.total_views)}</td>
+      <td class="${c.stored_ready?'':'dim'}">${c.stored_ready}</td></tr>`;}).join('');
+
+  document.getElementById('feed').textContent=(d.events||[]).join('\n')||'quiet';
+  ORDER.forEach(drawScreen);
+  document.getElementById('fallback').innerHTML=ORDER.map(n=>{
+    const w=d.workers[n]||{};
+    return `<div class="cell" onclick="openNode('${n}')"><b>${w.made_today??0}</b>
+      <span>${w.owner||n}</span></div>`;}).join('');
+}
+
+async function load(){
+  try{
+    const r=await fetch(FEED+'?t='+Date.now(),{cache:'no-store'});
+    paint(await r.json());
+  }catch(e){
+    document.getElementById('stamp').textContent='LINK DOWN — RETRYING…';
+    document.getElementById('stamp').className='stamp stale';
   }
 }
-load(); setInterval(load, 60000);
-</script></body></html>
+addEventListener('load',()=>{buildScene();load();setInterval(load,60000);});
+</script>
