@@ -139,6 +139,9 @@
   <th>channel</th><th>built</th><th>ready</th><th>posted</th><th>views</th><th>stored</th>
 </tr></thead><tbody></tbody></table>
 
+<h2>What the numbers say</h2>
+<div class="feed" id="brain">collecting…</div>
+
 <h2>System log</h2>
 <div class="feed" id="feed">…</div>
 <footer>SUHAS · MAIN CONSOLE ◈ 3 NODES LINKED ◈ AUTO-REFRESH 60s</footer>
@@ -412,6 +415,11 @@ function paint(d){
       <td class="${c.stored_ready?'':'dim'}">${c.stored_ready}</td></tr>`;}).join('');
 
   document.getElementById('feed').textContent=(d.events||[]).join('\n')||'quiet';
+  const L=d.learnings;
+  document.getElementById('brain').textContent = !L ? 'no learnings yet' :
+    ['memory: '+L.sample+' reels analysed  ('+L.updated+')','',
+     ...(L.recommendations||[]).map(r=>'>> '+r), '',
+     ...(L.findings||[]).map(f=>' * '+f)].join('\n');
   ORDER.forEach(drawScreen);
   document.getElementById('fallback').innerHTML=ORDER.map(n=>{
     const w=d.workers[n]||{};
