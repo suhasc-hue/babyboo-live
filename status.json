@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17 19:17:33",
+ "updated": "2026-08-17 19:20:57",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -80,9 +80,9 @@
    "qc_passed": 196,
    "vision_ok": 44,
    "awaiting_review": 123,
-   "posted": 56,
-   "posted_today": 2,
-   "stored_ready": 42,
+   "posted": 57,
+   "posted_today": 3,
+   "stored_ready": 41,
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 47,
@@ -155,9 +155,9 @@
    "qc_passed": 95,
    "vision_ok": 51,
    "awaiting_review": 39,
-   "posted": 41,
-   "posted_today": 2,
-   "stored_ready": 49,
+   "posted": 42,
+   "posted_today": 3,
+   "stored_ready": 48,
    "ig": {
     "username": "happyhivekidss",
     "followers": 9,
@@ -452,7 +452,7 @@
  },
  "totals": {
   "rendered": 882,
-  "posted": 196,
+  "posted": 198,
   "stories_today": 0,
   "made_today": 61,
   "views": 74480,
@@ -463,12 +463,12 @@
   "[08-17 19:02:35] farm supervisor up: 2 workers configured",
   "[08-17 19:02:44] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-17 19:02:52] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-17 19:14:13] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-17 19:14:13] happyhive: warm-up \u2014 41 posts so far, holding to 24/day",
-  "[08-17 19:14:13] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-17 19:14:13] storynook: warm-up \u2014 62 posts so far, holding to 24/day",
-  "[08-17 19:15:14] tinycrafts: cap override 8 -> 24/day (channels.json)",
-  "[08-17 19:15:14] tinycrafts: warm-up \u2014 23 posts so far, holding to 24/day"
+  "[08-17 19:17:56] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-17 19:17:56] happyhive: warm-up \u2014 41 posts so far, holding to 24/day",
+  "[08-17 19:17:56] storynook: warm-up \u2014 62 posts so far, holding to 24/day",
+  "[08-17 19:18:46] happyhive/happyhive_hallway_crawl_race_t0r0y0: caption verified on Instagram",
+  "[08-17 19:18:46] happyhive: PUBLISHED happyhive_hallway_crawl_race_t0r0y0 media=18012664268948217",
+  "[08-17 19:18:46] happyhive: next reel no earlier than 20:18"
  ],
  "learnings": {
   "updated": "2026-08-17 19:06:51",
