@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17 20:01:20",
+ "updated": "2026-08-17 20:04:43",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -70,7 +70,7 @@
    "shot": "",
    "vram_free_gb": 2.8,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 32.4
+   "ram_free_gb": 32.3
   }
  },
  "channels": {
@@ -230,9 +230,9 @@
    "qc_passed": 265,
    "vision_ok": 265,
    "awaiting_review": 0,
-   "posted": 29,
-   "posted_today": 3,
-   "stored_ready": 236,
+   "posted": 30,
+   "posted_today": 4,
+   "stored_ready": 235,
    "ig": {
     "username": "kidswonderee",
     "followers": 2,
@@ -452,7 +452,7 @@
  },
  "totals": {
   "rendered": 882,
-  "posted": 199,
+  "posted": 200,
   "stories_today": 0,
   "made_today": 61,
   "views": 72293,
@@ -463,12 +463,12 @@
   "[08-17 19:36:23] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-17 19:36:31] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-17 19:36:31] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-17 19:58:48] storynook: warm-up \u2014 62 posts so far, holding to 24/day",
-  "[08-17 19:59:57] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-17 19:59:57] happyhive: warm-up \u2014 42 posts so far, holding to 24/day",
-  "[08-17 19:59:57] storynook/storynook_town_godown_readben_t0r0: caption verified on Instagram",
-  "[08-17 19:59:57] storynook: PUBLISHED storynook_town_godown_readben_t0r0 media=18084885989690039",
-  "[08-17 19:59:57] storynook: next reel no earlier than 20:59"
+  "[08-17 20:02:40] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-17 20:02:40] happyhive: warm-up \u2014 42 posts so far, holding to 24/day",
+  "[08-17 20:02:40] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-17 20:02:40] storynook: warm-up \u2014 63 posts so far, holding to 24/day",
+  "[08-17 20:02:40] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-17 20:02:40] wonderlab: warm-up \u2014 30 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-17 19:36:15",
