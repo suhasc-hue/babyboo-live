@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17 22:43:58",
+ "updated": "2026-08-17 22:55:21",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -29,10 +29,15 @@
    "ip": "192.168.1.148",
    "up": true,
    "enabled": true,
-   "made_today": 81,
-   "last_reel": "wonderlab_den70s_polaroid_t5r1",
-   "avg_min": 4.9,
+   "made_today": 82,
+   "last_reel": "wonderlab_cabin_espresso_t4r1",
+   "avg_min": 5.7,
    "recent": [
+    {
+     "id": "wonderlab_cabin_espresso_t4r1",
+     "min": 14.9,
+     "at": "22:54:56"
+    },
     {
      "id": "wonderlab_den70s_polaroid_t5r1",
      "min": 14.5,
@@ -57,20 +62,15 @@
      "id": "wonderlab_libr_vending_t2r2",
      "min": 3.3,
      "at": "22:14:42"
-    },
-    {
-     "id": "wonderlab_libr_washer_t5r2",
-     "min": 3.3,
-     "at": "22:11:25"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "wonderlab_cabin_espresso_t4r1",
-   "shot": "2",
-   "vram_free_gb": 1.0,
+   "job": "wonderlab_den70s_polaroid_t5r1",
+   "shot": "3",
+   "vram_free_gb": 2.7,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 11.9
+   "ram_free_gb": 11.5
   }
  },
  "channels": {
@@ -88,9 +88,9 @@
     "followers": 47,
     "media_count": 61,
     "reach_today": 6,
-    "total_views": 20247,
-    "total_likes": 231,
-    "avg_views": 506,
+    "total_views": 20356,
+    "total_likes": 232,
+    "avg_views": 509,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -139,7 +139,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DbvErxIDt5_/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769168912_28217922764504254_1085471702094142713_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=flz6NbPTuBkQ7kNvwHuQX19&_nc_oc=AdqD8dywQz2UqzsgF-eqOoHaVgQ2dyglBlwxIYYH6cDeLIprvLqMG-MCyifMaIwnxIQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=qKt7j4MLEcG2ryNKdUWMWA&_nc_tpa=Q5bMBQLySDEEdE_ALZyy_4OIB1lIbshSyC8lkarzwvVlEBIl8HGYNNxhSXd0e9IuBWeSVxl5X4sfIj79&oh=00_AQE_pba78omY3_zRfroMljveWSzR--MEhgkx5ooMlk4ozw&oe=6A88EE4F",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769168912_28217922764504254_1085471702094142713_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=flz6NbPTuBkQ7kNvwHuQX19&_nc_oc=AdqD8dywQz2UqzsgF-eqOoHaVgQ2dyglBlwxIYYH6cDeLIprvLqMG-MCyifMaIwnxIQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=1e2wGqWpaaUqUP_XGHfI6Q&_nc_tpa=Q5bMBQK1AtUu7sFZLeuyt8wvkffELKFRvtpgNKN165fmCgtx7QqOgl02dGqTMwjcIR43cvLg1dd_ceaQ&oh=00_AQHcl-6p57-nXUf3GfBv3xzR3bmU3lhTNoYgf_mB1UbG3g&oe=6A89268F",
      "views": 1075,
      "likes": 13,
      "shares": 1,
@@ -163,9 +163,9 @@
     "followers": 11,
     "media_count": 45,
     "reach_today": 13,
-    "total_views": 19680,
+    "total_views": 19751,
     "total_likes": 162,
-    "avg_views": 492,
+    "avg_views": 494,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -237,7 +237,7 @@
     "username": "kidswonderee",
     "followers": 2,
     "media_count": 32,
-    "reach_today": 327,
+    "reach_today": 328,
     "total_views": 11609,
     "total_likes": 57,
     "avg_views": 363,
@@ -313,9 +313,9 @@
     "followers": 41,
     "media_count": 64,
     "reach_today": 1295,
-    "total_views": 16887,
+    "total_views": 16941,
     "total_likes": 183,
-    "avg_views": 422,
+    "avg_views": 424,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -454,8 +454,8 @@
   "rendered": 893,
   "posted": 210,
   "stories_today": 0,
-  "made_today": 72,
-  "views": 70641,
+  "made_today": 73,
+  "views": 70875,
   "followers": 104
  },
  "events": [
@@ -463,12 +463,12 @@
   "[08-17 21:40:45] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-17 21:51:57] SPAWNED w40 pid=2928 shard=0/1 -> http://192.168.1.40:8188",
   "[08-17 21:54:13] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-17 22:41:57] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-17 22:41:57] storynook: warm-up \u2014 65 posts so far, holding to 24/day",
-  "[08-17 22:41:57] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-17 22:41:57] wonderlab: warm-up \u2014 32 posts so far, holding to 24/day",
-  "[08-17 22:41:58] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-17 22:41:58] happyhive: warm-up \u2014 45 posts so far, holding to 24/day"
+  "[08-17 22:53:14] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-17 22:53:14] storynook: warm-up \u2014 65 posts so far, holding to 24/day",
+  "[08-17 22:53:14] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-17 22:53:14] wonderlab: warm-up \u2014 32 posts so far, holding to 24/day",
+  "[08-17 22:53:15] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-17 22:53:15] happyhive: warm-up \u2014 45 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-17 22:36:17",
