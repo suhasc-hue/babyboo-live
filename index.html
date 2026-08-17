@@ -143,6 +143,7 @@
   <h1>◈ BABYBOO MAINFRAME</h1>
   <div class="stamp" id="stamp">SYNCING…</div>
   <button id="keybtn" onclick="tokenSet()" title="Token for worker switches">⚿ KEY</button>
+  <button id="keybtn" onclick="testKey()" title="Check the key and the connection">TEST</button>
 </header>
 <div id="toast"></div>
 
@@ -199,11 +200,38 @@ function toast(m){
   clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('on'),3200);
 }
 async function ghJSON(path,method,body,token){
-  const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`,{
-    method,headers:{Authorization:'Bearer '+token,Accept:'application/vnd.github+json'},
-    body:body?JSON.stringify(body):undefined});
+  let r;
+  try{
+    r=await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`,{
+      method,
+      headers:{Authorization:'Bearer '+token.trim(),
+               Accept:'application/vnd.github+json',
+               'Content-Type':'application/json',
+               'X-GitHub-Api-Version':'2022-11-28'},
+      body:body?JSON.stringify(body):undefined});
+  }catch(e){
+    // A thrown fetch (rather than an HTTP status) means the request never
+    // reached GitHub at all: an extension/network blocked it, or the device
+    // is offline. Say that instead of the browser's bare "Failed to fetch".
+    throw new Error('BLOCKED before reaching GitHub — an ad/privacy blocker or '
+      +'the network is stopping api.github.com. Try again in a private window, '
+      +'or on mobile data. ('+e.message+')');
+  }
+  if(r.status===401) throw new Error('401 token rejected — regenerate it and check it was pasted whole');
+  if(r.status===403) throw new Error('403 token lacks Contents:write on '+REPO);
+  if(r.status===404&&method!=='GET') throw new Error('404 — token cannot see '+REPO+' (wrong repo selected when creating it?)');
   if(!r.ok&&r.status!==404) throw new Error(r.status+' '+(await r.text()).slice(0,120));
   return r.status===404?null:r.json();
+}
+/* One-tap check that tells us which half is broken: reachability or the key. */
+async function testKey(){
+  const t=tokenGet(); if(!t){ tokenSet(); return; }
+  toast('Testing key…');
+  try{ const r=await fetch(`https://api.github.com/repos/${REPO}`,{
+        headers:{Authorization:'Bearer '+t.trim(),Accept:'application/vnd.github+json'}});
+    toast(r.ok?('Key OK — GitHub reachable ('+r.status+')')
+              :('Reached GitHub but refused: '+r.status));
+  }catch(e){ toast('Cannot reach api.github.com at all — blocker or network'); }
 }
 async function setWorker(name,on){
   const token=tokenGet();
@@ -221,7 +249,7 @@ async function setWorker(name,on){
     LOCAL_WANT[name]=on;
     toast(name+' → '+(on?'ON':'OFF')+' · applies within 2 min');
     openNode(name);
-  }catch(e){ toast('Failed: '+e.message.slice(0,60)); }
+  }catch(e){ toast(e.message.slice(0,150)); }
 }
 const LOCAL_WANT={};   /* optimistic switch state until status.json catches up */
 const NAMES={tinycrafts:'TinyCrafts',happyhive:'HappyHive',wonderlab:'WonderLab',
