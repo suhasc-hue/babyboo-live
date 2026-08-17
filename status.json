@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 00:23:11",
+ "updated": "2026-08-18 00:33:14",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,8 +12,8 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
-   "job": "happyhive_cardboard_box_t0r1y0",
+   "queued": 1,
+   "job": "happyhive_cardboard_box_t0r1y1",
    "shot": "1",
    "vram_free_gb": 13.0,
    "vram_total_gb": 17.1,
@@ -25,23 +25,28 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 1,
-   "last_reel": "storynook_tea_estate_toolshed_chaimal_t0r0",
-   "avg_min": 129.1,
+   "made_today": 2,
+   "last_reel": "storynook_shop_mezzanine_deskben_t0r0",
+   "avg_min": 9.1,
    "recent": [
+    {
+     "id": "storynook_shop_mezzanine_deskben_t0r0",
+     "min": 9.1,
+     "at": "00:25:55"
+    },
     {
      "id": "storynook_tea_estate_toolshed_chaimal_t0r0",
      "min": 4.2,
      "at": "00:01:06"
     }
    ],
-   "running": 1,
-   "queued": 1,
-   "job": "storynook_shop_mezzanine_deskben_t0r0",
-   "shot": "7",
-   "vram_free_gb": 3.3,
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 1.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.6
+   "ram_free_gb": 5.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -66,11 +71,11 @@
    ],
    "running": 1,
    "queued": 0,
-   "job": "wonderlab_green_aquarium_t1r2",
-   "shot": "4",
-   "vram_free_gb": 4.5,
+   "job": "wonderlab_green_aquarium_t1r0",
+   "shot": "3",
+   "vram_free_gb": 2.6,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 12.0
+   "ram_free_gb": 11.9
   }
  },
  "channels": {
@@ -86,11 +91,11 @@
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 47,
-    "media_count": 62,
+    "media_count": 63,
     "reach_today": 6,
-    "total_views": 19501,
-    "total_likes": 224,
-    "avg_views": 488,
+    "total_views": 18753,
+    "total_likes": 219,
+    "avg_views": 469,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -155,17 +160,17 @@
    "qc_passed": 95,
    "vision_ok": 51,
    "awaiting_review": 39,
-   "posted": 46,
-   "posted_today": 0,
-   "stored_ready": 44,
+   "posted": 47,
+   "posted_today": 1,
+   "stored_ready": 43,
    "ig": {
     "username": "happyhivekidss",
     "followers": 12,
-    "media_count": 46,
+    "media_count": 47,
     "reach_today": 13,
-    "total_views": 19818,
+    "total_views": 19657,
     "total_likes": 165,
-    "avg_views": 495,
+    "avg_views": 491,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -238,9 +243,9 @@
     "followers": 2,
     "media_count": 34,
     "reach_today": 328,
-    "total_views": 11794,
+    "total_views": 11911,
     "total_likes": 57,
-    "avg_views": 347,
+    "avg_views": 350,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -301,7 +306,7 @@
   },
   "storynook": {
    "handle": "storynooksam",
-   "rendered": 89,
+   "rendered": 90,
    "qc_passed": 67,
    "vision_ok": 67,
    "awaiting_review": 0,
@@ -313,7 +318,7 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16854,
+    "total_views": 16859,
     "total_likes": 181,
     "avg_views": 421,
     "demographics": {},
@@ -451,24 +456,24 @@
   }
  },
  "totals": {
-  "rendered": 900,
-  "posted": 216,
+  "rendered": 901,
+  "posted": 217,
   "stories_today": 0,
-  "made_today": 3,
-  "views": 70185,
+  "made_today": 4,
+  "views": 69398,
   "followers": 106
  },
  "events": [
-  "[08-18 00:16:50] SPAWNED pcconee pid=24612 shard=0/1 -> http://192.168.1.148:8188",
-  "[08-18 00:17:20] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 00:17:50] SPAWNED pcconee pid=21744 shard=0/1 -> http://192.168.1.148:8188",
-  "[08-18 00:17:50] worker pcconee switched ON by owner",
-  "[08-18 00:22:33] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 00:22:33] wonderlab: warm-up \u2014 34 posts so far, holding to 24/day",
-  "[08-18 00:22:34] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 00:22:34] happyhive: warm-up \u2014 46 posts so far, holding to 24/day",
-  "[08-18 00:22:34] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 00:22:34] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-18 00:24:21] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
+  "[08-18 00:24:51] SPAWNED pcconee pid=6188 shard=0/1 -> http://192.168.1.148:8188",
+  "[08-18 00:24:51] worker pcconee switched ON by owner",
+  "[08-18 00:32:19] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 00:32:19] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 00:32:19] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 00:32:19] wonderlab: warm-up \u2014 34 posts so far, holding to 24/day",
+  "[08-18 00:32:20] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 00:32:20] happyhive: warm-up \u2014 47 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-18 00:06:18",
