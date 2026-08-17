@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 04:34:56",
+ "updated": "2026-08-18 04:44:59",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "rooftop_t2r3y2",
-   "shot": "3",
-   "vram_free_gb": 9.8,
+   "queued": 1,
+   "job": "blanketfort_t2r2y2",
+   "shot": "1",
+   "vram_free_gb": 9.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 10,
-   "last_reel": "happyhive_mattress_bounce_t0r1y0",
-   "avg_min": 26.1,
+   "made_today": 11,
+   "last_reel": "happyhive_bottom_step_t0r1y0",
+   "avg_min": 26.2,
    "recent": [
+    {
+     "id": "happyhive_bottom_step_t0r1y0",
+     "min": 27.1,
+     "at": "04:39:57"
+    },
     {
      "id": "happyhive_mattress_bounce_t0r1y0",
      "min": 27.1,
@@ -53,20 +58,15 @@
      "id": "happyhive_muslin_peekaboo_t0r1y0",
      "min": 27.0,
      "at": "02:24:14"
-    },
-    {
-     "id": "happyhive_water_table_t0r1y0",
-     "min": 27.0,
-     "at": "01:57:11"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_bottom_step_t0r1y0",
+   "job": "happyhive_fridge_magnets_t0r1y0",
    "shot": "1",
-   "vram_free_gb": 8.0,
+   "vram_free_gb": 10.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.2
+   "ram_free_gb": 2.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,21 +121,21 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 278,
-   "qc_passed": 207,
+   "rendered": 279,
+   "qc_passed": 208,
    "vision_ok": 56,
-   "awaiting_review": 122,
+   "awaiting_review": 123,
    "posted": 66,
    "posted_today": 5,
    "stored_ready": 44,
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 49,
-    "media_count": 66,
+    "media_count": 67,
     "reach_today": 6,
-    "total_views": 17753,
-    "total_likes": 200,
-    "avg_views": 444,
+    "total_views": 16923,
+    "total_likes": 193,
+    "avg_views": 423,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -196,21 +196,21 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 103,
-   "qc_passed": 103,
+   "rendered": 104,
+   "qc_passed": 104,
    "vision_ok": 51,
-   "awaiting_review": 47,
+   "awaiting_review": 48,
    "posted": 51,
    "posted_today": 5,
    "stored_ready": 39,
    "ig": {
     "username": "happyhivekidss",
     "followers": 12,
-    "media_count": 50,
+    "media_count": 51,
     "reach_today": 13,
-    "total_views": 19926,
-    "total_likes": 168,
-    "avg_views": 498,
+    "total_views": 19730,
+    "total_likes": 167,
+    "avg_views": 493,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -259,7 +259,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Db3iOEEDmxn/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/766146963_2056670511625416_3900815110289935078_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=EJF2Hfx8aoUQ7kNvwG0IVkp&_nc_oc=AdrYRzYV5RXCcU3CTpEKArYdaFMaMTR6EpgX1Tju60tSHAZRUfPBxAE2jCslTfHqRwU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=utxem1Z6W9s-OFzMiRv5YA&_nc_tpa=Q5bMBQIbPnGnDlArJLQfnLhPZ0gwGE9cU5b8FVVmZW18XIcaBDPdigCaDDem7Hd3DxB_EOurwcBBSv-M&oh=00_AQFI_QKwIG7Fyppir9gMGEvJedGsXGui8g0ahapUEvOMxw&oe=6A8927A0",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/766146963_2056670511625416_3900815110289935078_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=EJF2Hfx8aoUQ7kNvwG0IVkp&_nc_oc=AdrYRzYV5RXCcU3CTpEKArYdaFMaMTR6EpgX1Tju60tSHAZRUfPBxAE2jCslTfHqRwU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=-IxOGI206jnJq-bbudYkpQ&_nc_tpa=Q5bMBQIpXLZHokCAwdktyPPMt9d14bF-DFdoD2yqCSRcmysQ4xRLA3q9u68E5chka6VJf9E_HtakyL9X&oh=00_AQHFSTapSYbV2pgCpk_hHmXw-RrOlTRlfpw-TQflwwAxlw&oe=6A895FE0",
      "views": 1677,
      "likes": 17,
      "shares": 0,
@@ -283,9 +283,9 @@
     "followers": 2,
     "media_count": 38,
     "reach_today": 328,
-    "total_views": 12336,
-    "total_likes": 59,
-    "avg_views": 325,
+    "total_views": 12452,
+    "total_likes": 61,
+    "avg_views": 328,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -304,12 +304,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcGmEfVDZsE/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776040718_1756066125418833_8951216160365408374_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ucJH_uBqq8AQ7kNvwEQFtQM&_nc_oc=AdrTIyTKUEHd5Bc0Ci2OZyDPpiRMuArynCZTewDYRLV8AhLQ2GXe34OExdXf7-Nlhxc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=x0v-eJYYfwY1QhWJp_W6Rw&_nc_tpa=Q5bMBQJ2ltryxTw87AuBSQzSaDu71cqCbPMqYQL38qnkQdLM8U9p_k-9XmkATnJepvw4hlIEVxZvvRZY&oh=00_AQHXwKX_0YxZzLcxI-Z1aK3ciQJ34xqoCk1I883uPDadwg&oe=6A894D9C",
-     "views": 1429,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776040718_1756066125418833_8951216160365408374_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ucJH_uBqq8AQ7kNvwEQFtQM&_nc_oc=AdrTIyTKUEHd5Bc0Ci2OZyDPpiRMuArynCZTewDYRLV8AhLQ2GXe34OExdXf7-Nlhxc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Z9Gm_bSB-2W0VP9HkhCp0w&_nc_tpa=Q5bMBQLiaaiFHJOUkDC3fRdNIR4bvIAW1JebR1HnzmswAa4zwh67jMeTVD80iuz6PvdnSXI38o8TzZxD&oh=00_AQHr4yAPNpTz1kilZpWiZSvY7GaZQbIN-TeQI3W7T9kC3Q&oe=6A894D9C",
+     "views": 1430,
      "likes": 9,
      "shares": 1,
      "timestamp": "2026-08-16T13:42:22+0000",
-     "ig_reels_avg_watch_time": 8010,
+     "ig_reels_avg_watch_time": 8007,
      "caption": ""
     },
     {
@@ -358,9 +358,9 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16937,
+    "total_views": 16942,
     "total_likes": 181,
-    "avg_views": 423,
+    "avg_views": 424,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -379,12 +379,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcGe_MUiOL9/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772888883_4354518724763920_4456647199048348094_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mOUlASWt998Q7kNvwHLfRBt&_nc_oc=AdoGBaYomxJdyaWclcMGJntowFNeQ2G8YhX6nH0sxytc3aFhCkMPPjTo5Q835ELg0rs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=p-fXVRGTokObmeH_w6fojw&_nc_tpa=Q5bMBQI9g_4R7-81PQkL8C_6TFKC5Z78zcfi5DdNi3KTRyZ67H-RZ0MNrklssieQQ5KFEjrTW4sPExg4&oh=00_AQG4FlGkVtPHK8gjtfGQbOO9ZjMR_hukkAJdgsq6FLEH0Q&oe=6A8931E5",
-     "views": 1386,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772888883_4354518724763920_4456647199048348094_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mOUlASWt998Q7kNvwHLfRBt&_nc_oc=AdoGBaYomxJdyaWclcMGJntowFNeQ2G8YhX6nH0sxytc3aFhCkMPPjTo5Q835ELg0rs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=SL6YDXb7DRNEDRkV2RG69w&_nc_tpa=Q5bMBQK4dH4do2wydEZN7ydWQOCfjEnLHA4qheBhLDuF4M7UvQNscAOMu0BsKGpZAdkRWvgkBe0kMlGG&oh=00_AQF4rZgBtCMKHpH86LojLxMFlhIIqg_zmoru3o-U_SgcjQ&oe=6A896A25",
+     "views": 1387,
      "likes": 11,
      "shares": 0,
      "timestamp": "2026-08-16T12:40:22+0000",
-     "ig_reels_avg_watch_time": 14866,
+     "ig_reels_avg_watch_time": 14849,
      "caption": ""
     },
     {
@@ -444,7 +444,7 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/Db1Qj8DCLyf/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769345649_1537048661494505_6306455837878330673_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=1_GgGF-qG-MQ7kNvwFtQgdd&_nc_oc=AdqZelqyFWB9V3O6ubGczJqVXLsELP2x8VwJw6pHecFiL-9NZ9__B4VuK0H-CRrsmos&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nqrIQiLLpX5aCfi06o70sg&_nc_tpa=Q5bMBQJnkiTRzsWNoLjiBlqRshgNW3QmXQ1iA96MnyjkU1tMkmxclcbuFSK9Z4JApm6iNcnJXGV4MNOR&oh=00_AQHwGFMFcO8P7TvVLxCMGxONedzZ6u-c35k_Rdluu1jbdg&oe=6A8921F8",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769345649_1537048661494505_6306455837878330673_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=1_GgGF-qG-MQ7kNvwFtQgdd&_nc_oc=AdqZelqyFWB9V3O6ubGczJqVXLsELP2x8VwJw6pHecFiL-9NZ9__B4VuK0H-CRrsmos&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=QL9WwB__Af-H3XkW_IQkOg&_nc_tpa=Q5bMBQLVk-rzcJtx8JfgHYQSiTr8uCSS_tWFY7HoM8TnjgsGTGV7a_oXCF6p95HDtO03LqzArhkr0xho&oh=00_AQHclt8A3I5F6zWfaj5O2KPwJLOOxorbmSb1JR5a8GM4hw&oe=6A895A38",
      "views": 1405,
      "likes": 9,
      "shares": 0,
@@ -454,7 +454,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Db1Qx_bgKbN/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/771821069_1022938270575159_7704976550456003881_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9leThN7RKpUQ7kNvwEEqyfT&_nc_oc=AdogRXrEIsRjLf0spo3Bq5FUC4-9oplxz59clRj5uuuS-qZR35ZkFdeW27ZbZpKFjX4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nqrIQiLLpX5aCfi06o70sg&_nc_tpa=Q5bMBQLLUrNnRBlnvSkchSiV6ZSfVltInVMa-nRWnmc9bNUtrOr7Dj3Nb2JOudLTVr9g816tjyzt5mAL&oh=00_AQGdwySp6UznIebNqgfu6mc6l6rc1fvAx-MQlQMwai3Ddg&oe=6A8949DA",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/771821069_1022938270575159_7704976550456003881_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9leThN7RKpUQ7kNvwEEqyfT&_nc_oc=AdogRXrEIsRjLf0spo3Bq5FUC4-9oplxz59clRj5uuuS-qZR35ZkFdeW27ZbZpKFjX4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=QL9WwB__Af-H3XkW_IQkOg&_nc_tpa=Q5bMBQJRK90eGI2bGK3fr_fMG7iaM4zA3KZq8axktNzaTAs2IfIJpR0AcFTnRCUrrA4A3jx5FCdq9Odd&oh=00_AQFelvTUEs4GwtxGNZTA8zWISjpz-j-_TEI_vhjcM4icgg&oe=6A89821A",
      "views": 693,
      "likes": 5,
      "shares": 0,
@@ -464,7 +464,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DbyM27uINHJ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/766305282_1557215942797108_8719651967809379272_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bRloEGfUSBcQ7kNvwErRqgr&_nc_oc=AdrFM7zjrTBDNVvne8c8ss0hZDYa7dWCpHijF5SpV4mWDWIt3wRUOAtyGbmLSNomtbk&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nqrIQiLLpX5aCfi06o70sg&_nc_tpa=Q5bMBQKRHV19ooyLpg6jtuGblaZLTpaJ1M6tSMElkKfFaOZlho9AyfKL9jUL-A1I-tYyxcQQ8tLrIVxq&oh=00_AQEHCGo60ZO1uqR0gCuxRwmOwTPO9bD8NA-cNLxRu7tUEQ&oe=6A89474A",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/766305282_1557215942797108_8719651967809379272_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bRloEGfUSBcQ7kNvwErRqgr&_nc_oc=AdrFM7zjrTBDNVvne8c8ss0hZDYa7dWCpHijF5SpV4mWDWIt3wRUOAtyGbmLSNomtbk&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=QL9WwB__Af-H3XkW_IQkOg&_nc_tpa=Q5bMBQL_ZCQmU5KNPp7yQjZ65Gz_5luAL_jsR53FOR0YQn_KrimTnCGDhOhBDX99z9K_0ED42ueR84dE&oh=00_AQFI1caLbmxLMA5UyuQLbKYCA1k8iw4PGDFVaSYhJar24g&oe=6A897F8A",
      "views": 84,
      "likes": 0,
      "shares": 0,
@@ -474,7 +474,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DbyMpaECcZL/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/765519789_27959996146973675_7082625360410682551_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_r676Zcteh4Q7kNvwHIZ_nJ&_nc_oc=AdogOA1wlXZfd_-MwcLYW2qG86b0Bvf_6JpXJHOtQhjBzt-wHes2dV0zCQOZfYd-BF4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nqrIQiLLpX5aCfi06o70sg&_nc_tpa=Q5bMBQKpKPN1QCIB8pHJM1gKbvqpp6Og0w29-rr532h4ZGdTiwRhK4y8gSj3oclpLS6OKIEahc6tFnZI&oh=00_AQE6nroyopUdUOjs8P7kfd13hxEq3K6ujcDtKCFcJpA9Cw&oe=6A892DC0",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/765519789_27959996146973675_7082625360410682551_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_r676Zcteh4Q7kNvwHIZ_nJ&_nc_oc=AdogOA1wlXZfd_-MwcLYW2qG86b0Bvf_6JpXJHOtQhjBzt-wHes2dV0zCQOZfYd-BF4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=QL9WwB__Af-H3XkW_IQkOg&_nc_tpa=Q5bMBQLsLS8porAPYYWrDzGvLLDMlMGQ0UfxLpAjWkM_fro9CHR4XIV2B-12iqZJHAlj5C8TGrteB6T1&oh=00_AQEtT5p9IbSSyTigCZiAKj71hdrDJsFBp0qvPi_YgFxAgQ&oe=6A896600",
      "views": 21,
      "likes": 0,
      "shares": 0,
@@ -484,7 +484,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DbyNiowlYNR/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/765602186_982240318167527_7415015814210059581_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0U-QkFMh0aMQ7kNvwG7gttY&_nc_oc=Adq1XTji7UXFKg0gUDk27tA0NXDx5h11yNAdUpO3KyubohvBN4TpQzSciCHAIrMPDYU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nqrIQiLLpX5aCfi06o70sg&_nc_tpa=Q5bMBQKOBVcXf0Pxqr1-by7uq76zq3JclnFm5i7XxHn3oHwy8f5j_5uh4iF8PWYcBdspdBU9jI7H6u3t&oh=00_AQERiA6KZZ4xO_WyuyV7zz3r-21FrIP7AMETKV25pVsvbg&oe=6A892728",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/765602186_982240318167527_7415015814210059581_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=0U-QkFMh0aMQ7kNvwG7gttY&_nc_oc=Adq1XTji7UXFKg0gUDk27tA0NXDx5h11yNAdUpO3KyubohvBN4TpQzSciCHAIrMPDYU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=QL9WwB__Af-H3XkW_IQkOg&_nc_tpa=Q5bMBQKNVZWemd4stFOEIR1E5pGgFjPI6F1bH99FETAqrRoYhyZPyiFih4vDBW7h-Ix177uJbq8fzBb_&oh=00_AQEzRl03kW09sT13rzM5iQXgdNt-Shjb_1RKHKYpb5ZLwA&oe=6A895F68",
      "views": 4,
      "likes": 0,
      "shares": 0,
@@ -496,11 +496,11 @@
   }
  },
  "totals": {
-  "rendered": 931,
+  "rendered": 933,
   "posted": 229,
   "stories_today": 0,
-  "made_today": 34,
-  "views": 69170,
+  "made_today": 36,
+  "views": 68265,
   "followers": 108
  },
  "events": [
@@ -508,16 +508,16 @@
   "[08-18 00:43:53] SPAWNED tech-01 pid=2432 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 00:43:53] reaped orphan run.py pid=3800",
-  "[08-18 04:34:23] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 04:34:23] happyhive: warm-up \u2014 51 posts so far, holding to 24/day",
-  "[08-18 04:34:23] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 04:34:23] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 04:34:23] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 04:34:23] wonderlab: warm-up \u2014 38 posts so far, holding to 24/day"
+  "[08-18 04:44:38] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 04:44:38] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 04:44:38] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 04:44:38] wonderlab: warm-up \u2014 38 posts so far, holding to 24/day",
+  "[08-18 04:44:39] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 04:44:39] happyhive: warm-up \u2014 51 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 04:06:21",
-  "sample": 157,
+  "updated": "2026-08-18 04:36:21",
+  "sample": 159,
   "findings": [
    "Strongest world: tinycrafts/beach (median 603 views, n=5). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
    "Average completion (watch time / duration) is 39% across 157 reels with data.",
@@ -532,17 +532,17 @@
   ],
   "by_channel": {
    "happyhive": {
-    "n": 40,
-    "median_views": 187,
-    "avg_completion": 0.547,
-    "avg_eng_rate": 0.0125,
-    "avg_saves": 0.5
+    "n": 39,
+    "median_views": 185,
+    "avg_completion": 0.553,
+    "avg_eng_rate": 0.0124,
+    "avg_saves": 0.4
    },
    "tinycrafts": {
-    "n": 32,
-    "median_views": 271,
-    "avg_completion": 0.266,
-    "avg_eng_rate": 0.0136,
+    "n": 33,
+    "median_views": 255,
+    "avg_completion": 0.268,
+    "avg_eng_rate": 0.0134,
     "avg_saves": 0.2
    },
    "playground": {
@@ -553,17 +553,17 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 37,
+    "n": 38,
     "median_views": 147,
-    "avg_completion": 0.377,
-    "avg_eng_rate": 0.0097,
+    "avg_completion": 0.375,
+    "avg_eng_rate": 0.0101,
     "avg_saves": 0.2
    },
    "storynook": {
     "n": 40,
     "median_views": 244,
     "avg_completion": 0.346,
-    "avg_eng_rate": 0.0139,
+    "avg_eng_rate": 0.0138,
     "avg_saves": 0.3
    }
   }
