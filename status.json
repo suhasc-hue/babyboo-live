@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 01:33:39",
+ "updated": "2026-08-18 01:43:44",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "picnic_t10r1y2",
-   "shot": "2",
-   "vram_free_gb": 6.0,
+   "queued": 3,
+   "job": "playroom_t1r2y2",
+   "shot": "6",
+   "vram_free_gb": 9.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -56,7 +56,7 @@
    "shot": "1",
    "vram_free_gb": 9.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.6
+   "ram_free_gb": 2.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -93,29 +93,29 @@
    "queued": 0,
    "job": "wonderlab_green_neon_t6r0",
    "shot": "1",
-   "vram_free_gb": 3.9,
+   "vram_free_gb": 4.3,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 11.3
+   "ram_free_gb": 11.4
   }
  },
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 268,
-   "qc_passed": 199,
+   "rendered": 269,
+   "qc_passed": 200,
    "vision_ok": 56,
-   "awaiting_review": 114,
+   "awaiting_review": 115,
    "posted": 63,
    "posted_today": 2,
    "stored_ready": 47,
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 49,
-    "media_count": 63,
+    "media_count": 64,
     "reach_today": 6,
-    "total_views": 19010,
-    "total_likes": 219,
-    "avg_views": 475,
+    "total_views": 18778,
+    "total_likes": 218,
+    "avg_views": 469,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -154,7 +154,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Dbx65_SFHE0/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769309706_1558008876009974_2444048910181394885_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzIifQ%3D%3D&_nc_ohc=FK9NcQBfxJ0Q7kNvwEU2x1_&_nc_oc=AdqqKty7sIsKRGHnnKGPzbUGmpswxUpKsXbOEsge-9WxEDne93cXlectvXirvnjAO6g&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=RT2JOJ9_4iLsmbgQ27PRXg&_nc_tpa=Q5bMBQIYQebxAoZRaTK2uBUDUZaBN4KylU1njWA2be8R30zB4m9TNEQm4TYAa8J8_9LkFVD_dgM7fGhH&oh=00_AQEW_giWt_FXHn8cTSLB_hclxzTqOKyTt-N7o8ZMzyiGdQ&oe=6A890E3B",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769309706_1558008876009974_2444048910181394885_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=FK9NcQBfxJ0Q7kNvwEU2x1_&_nc_oc=AdqqKty7sIsKRGHnnKGPzbUGmpswxUpKsXbOEsge-9WxEDne93cXlectvXirvnjAO6g&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=0t595E6KB3YQ6l-cYyfEIQ&_nc_tpa=Q5bMBQJQuCDtu9NK_S5-pRprlqt14QJ6aE2xNDxuEEk-13Ose7il2m7YfXdVboOhCyPGnU44fJM-HmfL&oh=00_AQFhSMUPnXILig227LnJ593bvQ6ieOzHMWJY-8j6sjt9CQ&oe=6A89467B",
      "views": 1304,
      "likes": 12,
      "shares": 0,
@@ -186,11 +186,11 @@
    "ig": {
     "username": "happyhivekidss",
     "followers": 12,
-    "media_count": 47,
+    "media_count": 48,
     "reach_today": 13,
-    "total_views": 19867,
-    "total_likes": 168,
-    "avg_views": 497,
+    "total_views": 19815,
+    "total_likes": 169,
+    "avg_views": 495,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -199,12 +199,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/Db24iZGjfpW/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772819246_1754237072370474_8949433898373307703_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=2jtg9DWeb24Q7kNvwHUukKg&_nc_oc=Ado6ftF39TbUQo2lS9XpI9V2fwNAdn4_2pWDZr5QvVgPZyvR84QqpcujeUqXEY9cXi4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=m8R8A8xjyI-wPfOgXp7MYA&_nc_tpa=Q5bMBQICtnfCRo6aH-2PoZeRu6_N6CFlWWyrEzz1iZxlxzCf9a0JbEecAA4v1gk6h6Ig9Dz3til_6F8c&oh=00_AQHA0mykj4Dm61SYx4m6VPxUSTnxHH2MJRZXANCqtYP8eA&oe=6A890293",
-     "views": 2491,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772819246_1754237072370474_8949433898373307703_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzIifQ%3D%3D&_nc_ohc=2jtg9DWeb24Q7kNvwHUukKg&_nc_oc=Ado6ftF39TbUQo2lS9XpI9V2fwNAdn4_2pWDZr5QvVgPZyvR84QqpcujeUqXEY9cXi4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=lbh_XHJLVhSlYmbVgeoDSA&_nc_tpa=Q5bMBQJa0_XuA6xz_DhAUOdTEM0zS9UKZpFdm-zlqbQPW4yXVwDGk2HBK5XYg4sYWMCbgB2Ii0pcBUS6&oh=00_AQHb1N6DM-dw0lvvWDIXZcnTmL4Gxx1b5DnY7lukuGA1Ng&oe=6A893AD3",
+     "views": 2493,
      "likes": 21,
      "shares": 2,
      "timestamp": "2026-08-10T11:15:48+0000",
-     "ig_reels_avg_watch_time": 15264,
+     "ig_reels_avg_watch_time": 15245,
      "caption": "Morning Slow Motion Cat Chase \ud83d\udc31\ud83d\ude02 The slowest chase scene eve"
     },
     {
@@ -263,9 +263,9 @@
     "followers": 2,
     "media_count": 35,
     "reach_today": 328,
-    "total_views": 11933,
-    "total_likes": 57,
-    "avg_views": 341,
+    "total_views": 12049,
+    "total_likes": 59,
+    "avg_views": 344,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -274,7 +274,7 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/Db_E_LKmFU0/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773881933_2119110155625981_570165134713643209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pKJxDuyiT_EQ7kNvwH8nnW_&_nc_oc=Adreokcl19YVVpCvj0wJa3V23ng_7Qe-9CF5sjVgAmGr3owV-idymVnWlnNdo2_InOU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Io5VO38GLUyXK0rSh3m9bQ&_nc_tpa=Q5bMBQK_7y21pxw0ZTZ9b9hsDPwbT5CPViwQFqkXT7Z-GYKDqgvOEtFSbGalpWl5K-MD2hvTFA98HEY_&oh=00_AQH-RujcvJ2w9Y_kR3AgJ0-rRBGX2h-vQk5xAXKtdAGIlw&oe=6A8916DA",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773881933_2119110155625981_570165134713643209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pKJxDuyiT_EQ7kNvwH8nnW_&_nc_oc=Adreokcl19YVVpCvj0wJa3V23ng_7Qe-9CF5sjVgAmGr3owV-idymVnWlnNdo2_InOU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=iXAbRQt3XOb03LsjwhIq_Q&_nc_tpa=Q5bMBQLNIT1JNJVwgnqMHT-Tmiv5tEf6Z6JmtpmLeWeuZv5P_lUYUN6Di2czMeIH53uga7YQTGVl5hA5&oh=00_AQEGg196KkPWmeWbiLH_zR1xxYRmbfgeO5ifMwtMkKJw_g&oe=6A894F1A",
      "views": 1445,
      "likes": 7,
      "shares": 0,
@@ -338,7 +338,7 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16890,
+    "total_views": 16893,
     "total_likes": 181,
     "avg_views": 422,
     "demographics": {},
@@ -369,7 +369,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcCCmxdD4dd/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773725137_1937725300253049_230821252616513771_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_0wStbNJ_NgQ7kNvwFr5cIX&_nc_oc=AdrUaKry054OEUBo3EB8itkhD3l_00iDMNKFv2sPRHBtL5-zjyP4v_MLM8RgL7law8M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=hHE3KqUEPnyTDq087-KfZw&_nc_tpa=Q5bMBQLKFe3Xxnx9EvEzpEvr8Cq7m4ZPfebQ-axZv7JNsM_sFejxyIyca2-wp4e5RvNVngByWxmrGzAe&oh=00_AQGZWUDi07WdMFSXsDy8oygKJ8M20cHRXvrmvCVUMMa2HQ&oe=6A88FABA",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773725137_1937725300253049_230821252616513771_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_0wStbNJ_NgQ7kNvwFr5cIX&_nc_oc=AdrUaKry054OEUBo3EB8itkhD3l_00iDMNKFv2sPRHBtL5-zjyP4v_MLM8RgL7law8M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=6OF-vm1A947_sFh9JlBqAA&_nc_tpa=Q5bMBQJc58YeRPt86zzEYZt9oVy-FMFZ0G_WoOytkCsDXIbb3hFehQ97CGFRS92csdsSSJJWA151I1f-&oh=00_AQFf9LgEEv9q54OWKc8MK7UmRjsE-jtjr5N0l0Hna7254A&oe=6A8932FA",
      "views": 1379,
      "likes": 12,
      "shares": 0,
@@ -476,11 +476,11 @@
   }
  },
  "totals": {
-  "rendered": 907,
+  "rendered": 908,
   "posted": 220,
   "stories_today": 0,
-  "made_today": 10,
-  "views": 69918,
+  "made_today": 11,
+  "views": 69753,
   "followers": 108
  },
  "events": [
@@ -488,16 +488,16 @@
   "[08-18 00:43:53] SPAWNED tech-01 pid=2432 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 00:43:53] reaped orphan run.py pid=3800",
-  "[08-18 01:33:10] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 01:33:10] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 01:33:10] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 01:33:10] wonderlab: warm-up \u2014 35 posts so far, holding to 24/day",
-  "[08-18 01:33:11] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 01:33:11] happyhive: warm-up \u2014 48 posts so far, holding to 24/day"
+  "[08-18 01:43:25] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 01:43:25] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 01:43:25] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 01:43:25] wonderlab: warm-up \u2014 35 posts so far, holding to 24/day",
+  "[08-18 01:43:26] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 01:43:26] happyhive: warm-up \u2014 48 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 01:06:19",
-  "sample": 152,
+  "updated": "2026-08-18 01:36:19",
+  "sample": 153,
   "findings": [
    "Strongest world: tinycrafts/beach (median 603 views, n=5). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
    "Average completion (watch time / duration) is 39% across 152 reels with data.",
@@ -513,16 +513,16 @@
   "by_channel": {
    "happyhive": {
     "n": 40,
-    "median_views": 184,
-    "avg_completion": 0.548,
-    "avg_eng_rate": 0.0125,
+    "median_views": 185,
+    "avg_completion": 0.556,
+    "avg_eng_rate": 0.0127,
     "avg_saves": 0.5
    },
    "tinycrafts": {
     "n": 29,
-    "median_views": 253,
-    "avg_completion": 0.261,
-    "avg_eng_rate": 0.0142,
+    "median_views": 262,
+    "avg_completion": 0.262,
+    "avg_eng_rate": 0.014,
     "avg_saves": 0.2
    },
    "playground": {
@@ -533,10 +533,10 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 34,
-    "median_views": 149,
+    "n": 35,
+    "median_views": 148,
     "avg_completion": 0.382,
-    "avg_eng_rate": 0.0094,
+    "avg_eng_rate": 0.0095,
     "avg_saves": 0.2
    },
    "storynook": {
