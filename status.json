@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 02:34:08",
+ "updated": "2026-08-18 02:44:11",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "blanketfort_t1r0y2",
-   "shot": "4",
-   "vram_free_gb": 10.0,
+   "shot": "2",
+   "vram_free_gb": 7.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_cat_chase_t0r1y0",
    "shot": "1",
-   "vram_free_gb": 10.5,
+   "vram_free_gb": 10.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 1.9
   },
   "pcconee": {
    "owner": "Anshu",
@@ -113,9 +113,9 @@
    "queued": 0,
    "job": "wonderlab_green_popcorn_t5r0",
    "shot": "1",
-   "vram_free_gb": 3.8,
+   "vram_free_gb": 4.3,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 11.6
+   "ram_free_gb": 11.5
   }
  },
  "channels": {
@@ -508,16 +508,16 @@
   "[08-18 00:43:53] SPAWNED tech-01 pid=2432 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 00:43:53] reaped orphan run.py pid=3800",
-  "[08-18 02:33:18] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 02:33:18] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 02:33:18] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 02:33:18] wonderlab: warm-up \u2014 36 posts so far, holding to 24/day",
-  "[08-18 02:33:19] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 02:33:19] happyhive: warm-up \u2014 49 posts so far, holding to 24/day"
+  "[08-18 02:43:35] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 02:43:35] happyhive: warm-up \u2014 49 posts so far, holding to 24/day",
+  "[08-18 02:43:35] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 02:43:35] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 02:43:35] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 02:43:35] wonderlab: warm-up \u2014 36 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 02:06:20",
-  "sample": 153,
+  "updated": "2026-08-18 02:36:20",
+  "sample": 155,
   "findings": [
    "Strongest world: tinycrafts/beach (median 603 views, n=5). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
    "Average completion (watch time / duration) is 39% across 153 reels with data.",
@@ -532,17 +532,17 @@
   ],
   "by_channel": {
    "happyhive": {
-    "n": 40,
+    "n": 39,
     "median_views": 187,
-    "avg_completion": 0.553,
-    "avg_eng_rate": 0.0126,
+    "avg_completion": 0.559,
+    "avg_eng_rate": 0.0128,
     "avg_saves": 0.5
    },
    "tinycrafts": {
-    "n": 30,
-    "median_views": 286,
-    "avg_completion": 0.261,
-    "avg_eng_rate": 0.0139,
+    "n": 31,
+    "median_views": 255,
+    "avg_completion": 0.266,
+    "avg_eng_rate": 0.0137,
     "avg_saves": 0.2
    },
    "playground": {
@@ -553,16 +553,16 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 35,
+    "n": 36,
     "median_views": 148,
-    "avg_completion": 0.381,
+    "avg_completion": 0.377,
     "avg_eng_rate": 0.0097,
     "avg_saves": 0.2
    },
    "storynook": {
     "n": 40,
     "median_views": 244,
-    "avg_completion": 0.345,
+    "avg_completion": 0.346,
     "avg_eng_rate": 0.0139,
     "avg_saves": 0.3
    }
