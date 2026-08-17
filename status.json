@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 01:03:26",
+ "updated": "2026-08-18 01:13:30",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 1,
    "job": "garden_t5r2y1",
-   "shot": "0",
-   "vram_free_gb": 10.3,
+   "shot": "5",
+   "vram_free_gb": 7.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 1.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -49,9 +49,9 @@
    "queued": 0,
    "job": "happyhive_balloon_bat_t0r1y0",
    "shot": "1",
-   "vram_free_gb": 12.0,
+   "vram_free_gb": 10.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.0
+   "ram_free_gb": 2.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -59,10 +59,15 @@
    "ip": "192.168.1.148",
    "up": true,
    "enabled": true,
-   "made_today": 2,
-   "last_reel": "wonderlab_green_washer_t7r0",
-   "avg_min": 7.1,
+   "made_today": 3,
+   "last_reel": "wonderlab_green_aquarium_t1r2",
+   "avg_min": 23.0,
    "recent": [
+    {
+     "id": "wonderlab_green_aquarium_t1r2",
+     "min": 22.9,
+     "at": "01:06:51"
+    },
     {
      "id": "wonderlab_green_washer_t7r0",
      "min": 3.3,
@@ -76,11 +81,11 @@
    ],
    "running": 1,
    "queued": 0,
-   "job": "wonderlab_green_aquarium_t1r2",
+   "job": "wonderlab_green_aquarium_t1r0",
    "shot": "1",
-   "vram_free_gb": 5.9,
+   "vram_free_gb": 4.3,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 11.6
+   "ram_free_gb": 11.7
   }
  },
  "channels": {
@@ -98,9 +103,9 @@
     "followers": 49,
     "media_count": 63,
     "reach_today": 6,
-    "total_views": 18924,
+    "total_views": 18977,
     "total_likes": 219,
-    "avg_views": 473,
+    "avg_views": 474,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -162,9 +167,9 @@
   "happyhive": {
    "handle": "happyhivekidss",
    "rendered": 96,
-   "qc_passed": 95,
+   "qc_passed": 96,
    "vision_ok": 51,
-   "awaiting_review": 39,
+   "awaiting_review": 40,
    "posted": 47,
    "posted_today": 1,
    "stored_ready": 43,
@@ -173,7 +178,7 @@
     "followers": 12,
     "media_count": 47,
     "reach_today": 13,
-    "total_views": 19828,
+    "total_views": 19841,
     "total_likes": 166,
     "avg_views": 496,
     "demographics": {},
@@ -240,17 +245,17 @@
    "qc_passed": 266,
    "vision_ok": 266,
    "awaiting_review": 0,
-   "posted": 34,
-   "posted_today": 1,
-   "stored_ready": 232,
+   "posted": 35,
+   "posted_today": 2,
+   "stored_ready": 231,
    "ig": {
     "username": "kidswonderee",
     "followers": 2,
-    "media_count": 34,
+    "media_count": 35,
     "reach_today": 328,
-    "total_views": 11920,
+    "total_views": 11925,
     "total_likes": 57,
-    "avg_views": 351,
+    "avg_views": 341,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -323,7 +328,7 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16862,
+    "total_views": 16864,
     "total_likes": 181,
     "avg_views": 422,
     "demographics": {},
@@ -462,10 +467,10 @@
  },
  "totals": {
   "rendered": 904,
-  "posted": 217,
+  "posted": 218,
   "stories_today": 0,
   "made_today": 7,
-  "views": 69752,
+  "views": 69825,
   "followers": 108
  },
  "events": [
@@ -473,19 +478,19 @@
   "[08-18 00:43:53] SPAWNED tech-01 pid=2432 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 00:43:53] reaped orphan run.py pid=3800",
-  "[08-18 01:03:09] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 01:03:09] happyhive: warm-up \u2014 47 posts so far, holding to 24/day",
-  "[08-18 01:03:09] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 01:03:09] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 01:03:09] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 01:03:09] wonderlab: warm-up \u2014 34 posts so far, holding to 24/day"
+  "[08-18 01:13:24] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 01:13:24] happyhive: warm-up \u2014 47 posts so far, holding to 24/day",
+  "[08-18 01:13:24] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 01:13:24] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 01:13:24] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 01:13:24] wonderlab: warm-up \u2014 35 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 00:36:18",
+  "updated": "2026-08-18 01:06:19",
   "sample": 152,
   "findings": [
    "Strongest world: tinycrafts/beach (median 603 views, n=5). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 40% across 150 reels with data.",
+   "Average completion (watch time / duration) is 39% across 152 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): snow_t0r1y2, bathtub_t10r3y0, garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), happyhive_spaghetti_t0r0y0 (3), wonderlab_cyber_arcade_t1r2 (3)",
    "Best posting hours so far: 3:00, 18:00, 7:00 (median views 572 at 3:00).",
@@ -497,17 +502,17 @@
   ],
   "by_channel": {
    "happyhive": {
-    "n": 39,
+    "n": 40,
     "median_views": 184,
-    "avg_completion": 0.56,
-    "avg_eng_rate": 0.0127,
+    "avg_completion": 0.548,
+    "avg_eng_rate": 0.0125,
     "avg_saves": 0.5
    },
    "tinycrafts": {
     "n": 29,
     "median_views": 253,
-    "avg_completion": 0.262,
-    "avg_eng_rate": 0.0143,
+    "avg_completion": 0.261,
+    "avg_eng_rate": 0.0142,
     "avg_saves": 0.2
    },
    "playground": {
@@ -521,7 +526,7 @@
     "n": 34,
     "median_views": 149,
     "avg_completion": 0.382,
-    "avg_eng_rate": 0.0095,
+    "avg_eng_rate": 0.0094,
     "avg_saves": 0.2
    },
    "storynook": {
