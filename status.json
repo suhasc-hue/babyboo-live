@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17 20:04:43",
+ "updated": "2026-08-17 20:08:07",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -70,7 +70,7 @@
    "shot": "",
    "vram_free_gb": 2.8,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 32.3
+   "ram_free_gb": 32.4
   }
  },
  "channels": {
@@ -463,19 +463,19 @@
   "[08-17 19:36:23] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-17 19:36:31] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-17 19:36:31] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-17 20:02:40] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-17 20:02:40] happyhive: warm-up \u2014 42 posts so far, holding to 24/day",
-  "[08-17 20:02:40] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-17 20:02:40] storynook: warm-up \u2014 63 posts so far, holding to 24/day",
-  "[08-17 20:02:40] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-17 20:02:40] wonderlab: warm-up \u2014 30 posts so far, holding to 24/day"
+  "[08-17 20:06:46] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-17 20:06:46] happyhive: warm-up \u2014 42 posts so far, holding to 24/day",
+  "[08-17 20:06:46] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-17 20:06:46] storynook: warm-up \u2014 63 posts so far, holding to 24/day",
+  "[08-17 20:06:46] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-17 20:06:46] wonderlab: warm-up \u2014 30 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-17 19:36:15",
+  "updated": "2026-08-17 20:06:15",
   "sample": 147,
   "findings": [
    "Strongest world: tinycrafts/beach (median 603 views, n=5). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 40% across 143 reels with data.",
+   "Average completion (watch time / duration) is 40% across 147 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): kitchen_t1r0y2, snow_t0r1y2, bathtub_t10r3y0, garden_t9r0y0, playground_bouncecathedral_t0r1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), happyhive_spaghetti_t0r0y0 (3), wonderlab_cyber_arcade_t1r2 (3)",
    "Best posting hours so far: 16:00, 3:00, 15:00 (median views 771 at 16:00).",
@@ -489,15 +489,15 @@
    "happyhive": {
     "n": 40,
     "median_views": 195,
-    "avg_completion": 0.557,
-    "avg_eng_rate": 0.0119,
+    "avg_completion": 0.545,
+    "avg_eng_rate": 0.012,
     "avg_saves": 0.5
    },
    "tinycrafts": {
-    "n": 23,
+    "n": 24,
     "median_views": 363,
-    "avg_completion": 0.271,
-    "avg_eng_rate": 0.0143,
+    "avg_completion": 0.265,
+    "avg_eng_rate": 0.0142,
     "avg_saves": 0.2
    },
    "playground": {
@@ -510,15 +510,15 @@
    "wonderlab": {
     "n": 29,
     "median_views": 149,
-    "avg_completion": 0.39,
+    "avg_completion": 0.387,
     "avg_eng_rate": 0.0091,
     "avg_saves": 0.2
    },
    "storynook": {
-    "n": 39,
+    "n": 40,
     "median_views": 253,
-    "avg_completion": 0.365,
-    "avg_eng_rate": 0.0143,
+    "avg_completion": 0.363,
+    "avg_eng_rate": 0.0148,
     "avg_saves": 0.4
    }
   }
