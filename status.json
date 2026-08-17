@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17 23:06:45",
+ "updated": "2026-08-17 23:18:09",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -29,10 +29,15 @@
    "ip": "192.168.1.148",
    "up": true,
    "enabled": true,
-   "made_today": 84,
-   "last_reel": "wonderlab_cabin_espresso_t4r1",
-   "avg_min": 5.5,
+   "made_today": 85,
+   "last_reel": "wonderlab_cabin_arcade_t1r2",
+   "avg_min": 6.1,
    "recent": [
+    {
+     "id": "wonderlab_cabin_arcade_t1r2",
+     "min": 15.2,
+     "at": "23:17:45"
+    },
     {
      "id": "wonderlab_cabin_espresso_t4r1",
      "min": 3.8,
@@ -57,20 +62,15 @@
      "id": "wonderlab_libr_pinball_t6r0",
      "min": 3.8,
      "at": "22:25:32"
-    },
-    {
-     "id": "wonderlab_libr_greenhouse_t1r2",
-     "min": 3.3,
-     "at": "22:21:45"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "wonderlab_cabin_arcade_t1r2",
-   "shot": "2",
-   "vram_free_gb": 2.2,
+   "job": "wonderlab_cabin_washer_t6r0",
+   "shot": "1",
+   "vram_free_gb": 3.5,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 12.3
+   "ram_free_gb": 10.8
   }
  },
  "channels": {
@@ -88,9 +88,9 @@
     "followers": 47,
     "media_count": 61,
     "reach_today": 6,
-    "total_views": 20372,
-    "total_likes": 232,
-    "avg_views": 509,
+    "total_views": 20385,
+    "total_likes": 233,
+    "avg_views": 510,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -163,9 +163,9 @@
     "followers": 11,
     "media_count": 45,
     "reach_today": 13,
-    "total_views": 19762,
+    "total_views": 19787,
     "total_likes": 162,
-    "avg_views": 494,
+    "avg_views": 495,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -236,11 +236,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 2,
-    "media_count": 32,
+    "media_count": 33,
     "reach_today": 328,
-    "total_views": 11646,
+    "total_views": 11733,
     "total_likes": 57,
-    "avg_views": 364,
+    "avg_views": 356,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -313,9 +313,9 @@
     "followers": 41,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16688,
+    "total_views": 16707,
     "total_likes": 180,
-    "avg_views": 417,
+    "avg_views": 418,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -454,8 +454,8 @@
   "rendered": 895,
   "posted": 212,
   "stories_today": 0,
-  "made_today": 74,
-  "views": 70686,
+  "made_today": 75,
+  "views": 70830,
   "followers": 104
  },
  "events": [
@@ -463,12 +463,12 @@
   "[08-17 21:40:45] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-17 21:51:57] SPAWNED w40 pid=2928 shard=0/1 -> http://192.168.1.40:8188",
   "[08-17 21:54:13] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-17 23:05:22] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-17 23:05:22] happyhive: warm-up \u2014 45 posts so far, holding to 24/day",
-  "[08-17 23:05:22] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-17 23:05:22] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-17 23:05:22] wonderlab: PUBLISHED wonderlab_jpn_crt_t2r1 media=18423557443147574",
-  "[08-17 23:05:22] wonderlab: next reel no earlier than 00:05"
+  "[08-17 23:16:38] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-17 23:16:38] wonderlab: warm-up \u2014 33 posts so far, holding to 24/day",
+  "[08-17 23:16:39] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-17 23:16:39] happyhive: warm-up \u2014 45 posts so far, holding to 24/day",
+  "[08-17 23:16:39] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-17 23:16:39] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-17 23:06:17",
