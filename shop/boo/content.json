@@ -225,7 +225,7 @@
    "how": "Download, print whichever page they are in the mood for. It is your file forever.",
    "trust": "Instant download · Print it again whenever · One family's use",
    "file": "boo/boo_worlds_colouring.pdf",
-   "cover": null,
+   "cover": "boo/boo_worlds_colouring_cover.png",
    "ages": [
     2,
     7
@@ -433,7 +433,7 @@
    "how": "Download, print, hand over crayons.",
    "trust": "Instant download · Print again whenever · One family's use",
    "file": "hive/hive_expeditions_colouring.pdf",
-   "cover": null,
+   "cover": "hive/hive_expeditions_colouring_cover.png",
    "ages": [
     2,
     7
@@ -517,12 +517,13 @@
     "Print as many times as you like"
    ],
    "file": "boo/boo_dots.pdf",
-   "cover": null,
+   "cover": "boo/boo_dots_cover.png",
    "ages": [
     3,
     6
    ],
    "available": true,
+   "img": "img/boo-dots.webp",
    "pages": []
   },
   {
@@ -576,7 +577,7 @@
     "Unlimited printing"
    ],
    "file": "hive/hive_dots.pdf",
-   "cover": null,
+   "cover": "hive/hive_dots_cover.png",
    "ages": [
     3,
     6
