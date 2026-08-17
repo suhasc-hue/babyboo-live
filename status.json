@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17 21:47:01",
+ "updated": "2026-08-17 21:58:24",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -29,10 +29,25 @@
    "ip": "192.168.1.148",
    "up": true,
    "enabled": true,
-   "made_today": 69,
-   "last_reel": "wonderlab_green_arcade_t2r2",
-   "avg_min": 15.2,
+   "made_today": 72,
+   "last_reel": "wonderlab_cabin_vending_t3r2",
+   "avg_min": 5.7,
    "recent": [
+    {
+     "id": "wonderlab_cabin_vending_t3r2",
+     "min": 3.8,
+     "at": "21:57:50"
+    },
+    {
+     "id": "wonderlab_cabin_polaroid_t6r1",
+     "min": 3.3,
+     "at": "21:54:03"
+    },
+    {
+     "id": "wonderlab_cabin_jukebox_t1r0",
+     "min": 10.0,
+     "at": "21:50:46"
+    },
     {
      "id": "wonderlab_green_arcade_t2r2",
      "min": 49.1,
@@ -47,30 +62,15 @@
      "id": "wonderlab_green_record_t0r0",
      "min": 15.2,
      "at": "16:31:39"
-    },
-    {
-     "id": "wonderlab_green_crt_t3r2",
-     "min": 14.7,
-     "at": "16:16:27"
-    },
-    {
-     "id": "wonderlab_libr_train_t0r2",
-     "min": 14.9,
-     "at": "16:01:41"
-    },
-    {
-     "id": "wonderlab_libr_ferris_t3r1",
-     "min": 15.1,
-     "at": "15:46:48"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "wonderlab_cabin_jukebox_t1r0",
+   "job": "wonderlab_cabin_greenhouse_t2r2",
    "shot": "3",
-   "vram_free_gb": 3.0,
+   "vram_free_gb": 2.3,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 12.6
+   "ram_free_gb": 11.9
   }
  },
  "channels": {
@@ -88,7 +88,7 @@
     "followers": 47,
     "media_count": 60,
     "reach_today": 5,
-    "total_views": 20593,
+    "total_views": 20596,
     "total_likes": 236,
     "avg_views": 515,
     "demographics": {},
@@ -226,7 +226,7 @@
   },
   "wonderlab": {
    "handle": "wonderlabwithmaya",
-   "rendered": 392,
+   "rendered": 394,
    "qc_passed": 265,
    "vision_ok": 265,
    "awaiting_review": 0,
@@ -238,9 +238,9 @@
     "followers": 2,
     "media_count": 31,
     "reach_today": 327,
-    "total_views": 11339,
+    "total_views": 11417,
     "total_likes": 53,
-    "avg_views": 366,
+    "avg_views": 368,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -451,24 +451,24 @@
   }
  },
  "totals": {
-  "rendered": 882,
+  "rendered": 884,
   "posted": 206,
   "stories_today": 0,
-  "made_today": 61,
-  "views": 70798,
+  "made_today": 64,
+  "views": 70879,
   "followers": 102
  },
  "events": [
-  "[08-17 21:40:28] farm supervisor up: 3 workers configured",
-  "[08-17 21:40:37] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-17 21:40:45] SPAWNED pcconee pid=3004 shard=0/1 -> http://192.168.1.148:8188",
   "[08-17 21:40:45] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-17 21:45:37] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-17 21:45:37] wonderlab: warm-up \u2014 31 posts so far, holding to 24/day",
-  "[08-17 21:45:38] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-17 21:45:38] happyhive: warm-up \u2014 44 posts so far, holding to 24/day",
-  "[08-17 21:45:38] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-17 21:45:38] storynook: warm-up \u2014 64 posts so far, holding to 24/day"
+  "[08-17 21:51:57] SPAWNED w40 pid=2928 shard=0/1 -> http://192.168.1.40:8188",
+  "[08-17 21:54:13] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[08-17 21:56:53] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-17 21:56:53] wonderlab: warm-up \u2014 31 posts so far, holding to 24/day",
+  "[08-17 21:56:54] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-17 21:56:54] happyhive: warm-up \u2014 44 posts so far, holding to 24/day",
+  "[08-17 21:56:54] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-17 21:56:54] storynook: warm-up \u2014 64 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-17 21:36:16",
