@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 00:13:07",
+ "updated": "2026-08-18 00:23:11",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
+   "queued": 2,
    "job": "happyhive_cardboard_box_t0r1y0",
    "shot": "1",
    "vram_free_gb": 13.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -36,12 +36,12 @@
     }
    ],
    "running": 1,
-   "queued": 3,
-   "job": "storynook_shop_mezzanine_deskben_t1r1",
-   "shot": "6",
-   "vram_free_gb": 2.4,
+   "queued": 1,
+   "job": "storynook_shop_mezzanine_deskben_t0r0",
+   "shot": "7",
+   "vram_free_gb": 3.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.6
   },
   "pcconee": {
    "owner": "Anshu",
@@ -67,10 +67,10 @@
    "running": 1,
    "queued": 0,
    "job": "wonderlab_green_aquarium_t1r2",
-   "shot": "2",
-   "vram_free_gb": 1.5,
+   "shot": "4",
+   "vram_free_gb": 4.5,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 11.2
+   "ram_free_gb": 12.0
   }
  },
  "channels": {
@@ -80,17 +80,17 @@
    "qc_passed": 196,
    "vision_ok": 44,
    "awaiting_review": 123,
-   "posted": 61,
-   "posted_today": 0,
-   "stored_ready": 37,
+   "posted": 62,
+   "posted_today": 1,
+   "stored_ready": 36,
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 47,
     "media_count": 62,
     "reach_today": 6,
-    "total_views": 19495,
-    "total_likes": 223,
-    "avg_views": 487,
+    "total_views": 19501,
+    "total_likes": 224,
+    "avg_views": 488,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -163,7 +163,7 @@
     "followers": 12,
     "media_count": 46,
     "reach_today": 13,
-    "total_views": 19812,
+    "total_views": 19818,
     "total_likes": 165,
     "avg_views": 495,
     "demographics": {},
@@ -313,7 +313,7 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16850,
+    "total_views": 16854,
     "total_likes": 181,
     "avg_views": 421,
     "demographics": {},
@@ -452,23 +452,23 @@
  },
  "totals": {
   "rendered": 900,
-  "posted": 215,
+  "posted": 216,
   "stories_today": 0,
   "made_today": 3,
-  "views": 70169,
+  "views": 70185,
   "followers": 106
  },
  "events": [
-  "[08-17 21:51:57] SPAWNED w40 pid=2928 shard=0/1 -> http://192.168.1.40:8188",
-  "[08-17 21:54:13] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-17 23:22:31] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-18 00:09:13] SPAWNED tech-01 pid=17276 shard=0/1 -> http://192.168.1.57:8188",
-  "[08-18 00:12:20] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 00:12:20] happyhive: warm-up \u2014 46 posts so far, holding to 24/day",
-  "[08-18 00:12:20] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 00:12:20] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 00:12:20] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 00:12:20] wonderlab: warm-up \u2014 34 posts so far, holding to 24/day"
+  "[08-18 00:16:50] SPAWNED pcconee pid=24612 shard=0/1 -> http://192.168.1.148:8188",
+  "[08-18 00:17:20] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
+  "[08-18 00:17:50] SPAWNED pcconee pid=21744 shard=0/1 -> http://192.168.1.148:8188",
+  "[08-18 00:17:50] worker pcconee switched ON by owner",
+  "[08-18 00:22:33] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 00:22:33] wonderlab: warm-up \u2014 34 posts so far, holding to 24/day",
+  "[08-18 00:22:34] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 00:22:34] happyhive: warm-up \u2014 46 posts so far, holding to 24/day",
+  "[08-18 00:22:34] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 00:22:34] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-18 00:06:18",
