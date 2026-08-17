@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17 23:40:56",
+ "updated": "2026-08-17 23:52:20",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -29,10 +29,15 @@
    "ip": "192.168.1.148",
    "up": true,
    "enabled": true,
-   "made_today": 87,
-   "last_reel": "wonderlab_cabin_arcade_t1r2",
-   "avg_min": 6.4,
+   "made_today": 88,
+   "last_reel": "wonderlab_green_washer_t7r0",
+   "avg_min": 6.8,
    "recent": [
+    {
+     "id": "wonderlab_green_washer_t7r0",
+     "min": 14.8,
+     "at": "23:50:45"
+    },
     {
      "id": "wonderlab_cabin_arcade_t1r2",
      "min": 3.3,
@@ -57,20 +62,15 @@
      "id": "wonderlab_den70s_polaroid_t5r1",
      "min": 3.8,
      "at": "22:58:43"
-    },
-    {
-     "id": "wonderlab_cabin_espresso_t4r1",
-     "min": 14.9,
-     "at": "22:54:56"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "wonderlab_green_washer_t7r0",
-   "shot": "2",
-   "vram_free_gb": 2.9,
+   "job": "wonderlab_green_gumball_t4r1",
+   "shot": "1",
+   "vram_free_gb": 1.8,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 11.8
+   "ram_free_gb": 12.0
   }
  },
  "channels": {
@@ -88,9 +88,9 @@
     "followers": 47,
     "media_count": 62,
     "reach_today": 6,
-    "total_views": 19336,
-    "total_likes": 220,
-    "avg_views": 483,
+    "total_views": 19460,
+    "total_likes": 222,
+    "avg_views": 486,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -163,9 +163,9 @@
     "followers": 12,
     "media_count": 46,
     "reach_today": 13,
-    "total_views": 19630,
+    "total_views": 19773,
     "total_likes": 165,
-    "avg_views": 491,
+    "avg_views": 494,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -226,7 +226,7 @@
   },
   "wonderlab": {
    "handle": "wonderlabwithmaya",
-   "rendered": 407,
+   "rendered": 408,
    "qc_passed": 266,
    "vision_ok": 266,
    "awaiting_review": 0,
@@ -238,7 +238,7 @@
     "followers": 2,
     "media_count": 33,
     "reach_today": 328,
-    "total_views": 11783,
+    "total_views": 11787,
     "total_likes": 57,
     "avg_views": 357,
     "demographics": {},
@@ -313,9 +313,9 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16802,
+    "total_views": 16837,
     "total_likes": 181,
-    "avg_views": 420,
+    "avg_views": 421,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -451,11 +451,11 @@
   }
  },
  "totals": {
-  "rendered": 897,
+  "rendered": 898,
   "posted": 214,
   "stories_today": 0,
   "made_today": 76,
-  "views": 69769,
+  "views": 70075,
   "followers": 106
  },
  "events": [
@@ -463,12 +463,12 @@
   "[08-17 21:51:57] SPAWNED w40 pid=2928 shard=0/1 -> http://192.168.1.40:8188",
   "[08-17 21:54:13] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-17 23:22:31] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-17 23:39:33] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-17 23:39:33] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-17 23:39:33] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-17 23:39:33] wonderlab: warm-up \u2014 33 posts so far, holding to 24/day",
-  "[08-17 23:39:34] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-17 23:39:34] happyhive: warm-up \u2014 46 posts so far, holding to 24/day"
+  "[08-17 23:50:50] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-17 23:50:50] happyhive: warm-up \u2014 46 posts so far, holding to 24/day",
+  "[08-17 23:50:50] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-17 23:50:50] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-17 23:50:50] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-17 23:50:50] wonderlab: warm-up \u2014 33 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-17 23:36:17",
