@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>BABYBOO MAINFRAME</title>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
@@ -105,6 +106,28 @@
   .reel .n b{display:block;font-size:15px;color:var(--cyan)}
   .lock{border:1px dashed var(--line);border-radius:3px;padding:11px;font-size:10.5px;
         color:var(--p-dim);line-height:1.6}
+  /* worker on/off switch */
+  .switch{display:flex;align-items:center;gap:10px;margin:14px 0 4px;
+          border:1px solid var(--line);border-radius:4px;padding:11px 12px}
+  .switch>span{font-size:10px;letter-spacing:2px;color:var(--p-dim)}
+  .switch small{font-size:9.5px;color:var(--p-dim);margin-left:auto;text-align:right}
+  .sw{display:flex;align-items:center;gap:8px;background:#12161c;cursor:pointer;
+      border:1px solid var(--line);border-radius:99px;padding:5px 12px 5px 6px;
+      font:700 11px inherit;color:var(--p-dim);letter-spacing:1.5px;
+      transition:border-color .18s,color .18s}
+  .sw i{width:11px;height:11px;border-radius:50%;background:#3a4450;
+        box-shadow:0 0 0 0 rgba(0,255,65,0);transition:background .18s,box-shadow .18s}
+  .sw.on{color:var(--green);border-color:var(--green)}
+  .sw.on i{background:var(--green);box-shadow:0 0 9px 1px rgba(0,255,65,.55)}
+  .sw:active{transform:translateY(1px)}
+  #toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,20px);
+         background:#0d1116;border:1px solid var(--cyan);color:var(--cyan);
+         padding:11px 16px;border-radius:4px;font-size:11.5px;letter-spacing:1px;
+         opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;z-index:99}
+  #toast.on{opacity:1;transform:translate(-50%,0)}
+  #keybtn{background:none;border:1px solid var(--line);color:var(--p-dim);
+          border-radius:3px;font:inherit;font-size:9.5px;letter-spacing:1.5px;
+          padding:4px 9px;cursor:pointer}
   a{color:var(--cyan);text-decoration:none}
   @media(min-width:760px){
     body{max-width:940px;margin:0 auto}
@@ -119,7 +142,9 @@
 <header>
   <h1>◈ BABYBOO MAINFRAME</h1>
   <div class="stamp" id="stamp">SYNCING…</div>
+  <button id="keybtn" onclick="tokenSet()" title="Token for worker switches">⚿ KEY</button>
 </header>
+<div id="toast"></div>
 
 <div id="stage"><div id="fallback"></div></div>
 <div class="hint">▲ TAP A TERMINAL FOR DETAIL ▲</div>
@@ -153,7 +178,52 @@
 
 <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
 <script>
-const FEED='https://gist.githubusercontent.com/suhasc-hue/165a3238639dfb22eb52fe0ce5680efa/raw/status.json';
+/* Status rides this very site now. The gist path died silently when the gh
+   CLI's auth expired (08-12 -> 08-17: five days of frozen numbers on the
+   owner's phone while the factory was fine). status_push.py commits
+   status.json into this repo, so the console reads it same-origin. */
+const FEED='status.json';
+/* Worker switches: the phone writes commands.json into this repo with the
+   owner's own fine-grained token, kept ONLY in this device's localStorage
+   (never in the repo). status_push applies it to config/workers.json and
+   farm.py obeys within one 2-minute poll. */
+const REPO='suhasc-hue/babyboo-live';
+const tokenGet=()=>localStorage.getItem('bb_gh_token')||'';
+function tokenSet(){
+  const t=prompt('Paste a GitHub fine-grained token with Contents:write on '+REPO+
+                 '\n(stored only on this phone, never uploaded)');
+  if(t!==null){ localStorage.setItem('bb_gh_token',t.trim()); toast('Token saved on this device'); }
+}
+function toast(m){
+  const el=document.getElementById('toast'); el.textContent=m; el.classList.add('on');
+  clearTimeout(el._t); el._t=setTimeout(()=>el.classList.remove('on'),3200);
+}
+async function ghJSON(path,method,body,token){
+  const r=await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`,{
+    method,headers:{Authorization:'Bearer '+token,Accept:'application/vnd.github+json'},
+    body:body?JSON.stringify(body):undefined});
+  if(!r.ok&&r.status!==404) throw new Error(r.status+' '+(await r.text()).slice(0,120));
+  return r.status===404?null:r.json();
+}
+async function setWorker(name,on){
+  const token=tokenGet();
+  if(!token){ tokenSet(); return; }
+  toast((on?'Starting ':'Stopping ')+name+'…');
+  try{
+    const cur=await ghJSON('commands.json','GET',null,token);
+    let doc={workers:{}}, sha;
+    if(cur){ sha=cur.sha; try{ doc=JSON.parse(decodeURIComponent(escape(atob(cur.content.replace(/\n/g,''))))); }catch(_){} }
+    doc.workers=doc.workers||{}; doc.workers[name]={enabled:on};
+    doc.updated=new Date().toISOString();
+    const content=btoa(unescape(encodeURIComponent(JSON.stringify(doc,null,1))));
+    await ghJSON('commands.json','PUT',
+      {message:`worker ${name} ${on?'ON':'OFF'}`,content,sha},token);
+    LOCAL_WANT[name]=on;
+    toast(name+' → '+(on?'ON':'OFF')+' · applies within 2 min');
+    openNode(name);
+  }catch(e){ toast('Failed: '+e.message.slice(0,60)); }
+}
+const LOCAL_WANT={};   /* optimistic switch state until status.json catches up */
 const NAMES={tinycrafts:'TinyCrafts',happyhive:'HappyHive',wonderlab:'WonderLab',
              storynook:'StoryNook',playground:'Playground'};
 const ORDER=['tech-01','w40','pcconee'];
@@ -326,6 +396,7 @@ function buildScene(){
 /* ---------------- panels ---------------- */
 function openNode(name){
   const w=DATA.workers[name]||{};
+  const sw=(name in LOCAL_WANT)?LOCAL_WANT[name]:(w.enabled!==false);
   document.getElementById('ptitle').textContent=(w.owner||name).toUpperCase()+"'S PC";
   const recent=(w.recent||[]).map(r=>
     `<div class="reel"><div class="t"><b>${r.id}</b>${r.at} · ${r.min} min</div></div>`).join('')
@@ -341,6 +412,12 @@ function openNode(name){
       <div style="grid-column:span 2"><b style="font-size:12px;color:var(--cyan)">${w.job||'—'}</b><span>current build${w.shot?' · shot '+w.shot:''}</span></div>
     </div>
     <div class="lock">${w.gpu||''} · ${w.ip||''}</div>
+    <div class="switch">
+      <span>WORKER</span>
+      <button class="sw ${sw?'on':''}" onclick="setWorker('${name}',${!sw})">
+        <i></i><b>${sw?'ON':'OFF'}</b></button>
+      <small>${w.enabled===false?'switched off by you':(w.up?'':'box not answering')}</small>
+    </div>
     <h2 style="margin-left:0">Last builds</h2>${recent}`;
   document.getElementById('panel').classList.add('open');
 }
