@@ -1,0 +1,708 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boo & Co. — Small girl. Very large imagination.</title><meta name="description" content="Bedtime stories, colouring worlds and personalised books starring a small girl called Boo — and, if you like, your child beside her.">
+<meta property="og:type" content="website"><meta property="og:title" content="Boo & Co. — Small girl. Very large imagination.">
+<meta property="og:description" content="Bedtime stories, colouring worlds and personalised books starring a small girl called Boo — and, if you like, your child beside her.">
+<meta property="og:url" content="https://suhasc-hue.github.io/boostudio-live/boo/">
+<meta property="og:image" content="https://suhasc-hue.github.io/boostudio-live/boo/img/hero.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#6f52c4">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☁️</text></svg>">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@500;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--ink:#3b2d5c;--paper:#fffaf3;--cream:#fff3e2;--accent:#ff7fa3;
+  --accent2:#ffc94d;--deep:#6f52c4;--btnink:#ffffff}
+html{scroll-behavior:smooth}
+body{font-family:'Quicksand',system-ui,sans-serif;color:var(--ink);background:var(--paper);
+  line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Fredoka',cursive;line-height:1.08;font-weight:700}
+img{max-width:100%;display:block} a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:50;background:rgba(255,250,243,.94);
+  backdrop-filter:blur(6px);border-bottom:2px solid var(--cream)}
+.nav{display:flex;align-items:center;gap:18px;height:64px}
+.logo{font-family:'Fredoka',cursive;font-size:22px;color:var(--deep);
+  text-decoration:none;font-weight:700} .logo b{color:var(--accent)}
+.nav .sp{flex:1} .nav a.l{text-decoration:none;font-weight:700;font-size:14.5px;opacity:.8}
+.nav a.l:hover{opacity:1;color:var(--deep)}
+@media(max-width:820px){.nav a.l{display:none}.nav a.l.keep{display:inline}}
+.nav .ig{background:var(--accent);color:var(--ink);padding:8px 15px;border-radius:99px;
+  text-decoration:none;font-weight:700;font-size:14px}
+.hero{background:radial-gradient(1200px 520px at 50% -8%, var(--cream) 0%, var(--paper) 62%)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:34px;align-items:center;
+  padding:44px 20px 52px}
+.hero h1{font-size:clamp(32px,5.4vw,54px);letter-spacing:-.8px}
+.hero p.sub{margin-top:16px;font-size:17.5px;font-weight:600;max-width:36ch;opacity:.86}
+.eyebrow{font-weight:700;font-size:12.5px;letter-spacing:2.4px;text-transform:uppercase;
+  color:var(--accent);margin-bottom:10px}
+.btns{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap}
+.btn{background:var(--deep);color:var(--btnink);border:0;padding:14px 24px;border-radius:99px;
+  font:700 15.5px 'Quicksand',sans-serif;cursor:pointer;text-decoration:none;
+  box-shadow:0 6px 0 rgba(0,0,0,.12)}
+.btn:active{transform:translateY(3px);box-shadow:0 3px 0 rgba(0,0,0,.12)}
+.btn.alt{background:var(--accent2);color:var(--ink)}
+.heroart img{border-radius:26px;box-shadow:0 26px 50px rgba(0,0,0,.16);transform:rotate(-1.5deg)}
+.float{animation:fl 7s ease-in-out infinite} @keyframes fl{50%{transform:translateY(-12px) rotate(-1.5deg)}}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.heroart{order:-1}}
+.marq{background:var(--deep);color:var(--btnink);padding:11px 0;font-weight:700;font-size:14px;
+  text-align:center}
+@media(max-width:640px){.marq{white-space:normal;padding:9px 14px}}
+section{padding:60px 0}
+h2.big{font-size:clamp(26px,3.6vw,38px);letter-spacing:-.5px;margin-bottom:10px}
+.sub2{font-size:16.5px;opacity:.8;font-weight:600;max-width:58ch}
+/* worlds */
+.worlds{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:26px}
+.world{background:#fff;border:2px solid var(--cream);border-radius:20px;padding:22px;
+  position:relative;overflow:hidden}
+.world h3{font-size:20px;color:var(--deep)} .world p{font-size:14.5px;opacity:.78;
+  font-weight:600;margin-top:6px}
+.world:after{content:"";position:absolute;right:-24px;bottom:-24px;width:80px;height:80px;
+  border-radius:50%;background:var(--accent2);opacity:.18}
+/* shop */
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0 10px}
+.filters+.filters{margin-top:0;margin-bottom:22px}
+.f{border:2px solid var(--cream);background:#fff;padding:8px 15px;border-radius:99px;
+  font:700 13.5px 'Quicksand',sans-serif;cursor:pointer;color:var(--ink)}
+.f.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:22px}
+.card{background:#fff;border-radius:20px;overflow:hidden;border:2px solid var(--cream);
+  transition:transform .16s,box-shadow .16s;cursor:pointer}
+.card:hover{transform:translateY(-5px);box-shadow:0 16px 30px rgba(0,0,0,.1)}
+.shot{position:relative;background:var(--cream)}
+.shot img{aspect-ratio:3/4;object-fit:cover;width:100%}
+.flag{position:absolute;top:11px;left:11px;background:var(--accent);color:var(--ink);
+  font:700 11.5px 'Quicksand',sans-serif;padding:5px 11px;border-radius:99px}
+.wtag{position:absolute;bottom:11px;left:11px;background:rgba(0,0,0,.55);color:#fff;
+  font:700 11px 'Quicksand',sans-serif;padding:4px 10px;border-radius:99px;backdrop-filter:blur(3px)}
+.cbody{padding:14px 15px 16px} .cbody h3{font-size:17.5px;margin-bottom:4px}
+.vline{font-size:12.5px;font-weight:700;color:var(--deep);margin-bottom:6px}
+.hook{font-size:14px;opacity:.78;font-weight:600;min-height:38px}
+.crow{display:flex;align-items:center;justify-content:space-between;margin-top:12px}
+.price{font-family:'Fredoka',cursive;font-size:17px;color:var(--deep)}
+.buy{background:var(--accent);color:var(--ink);border:0;padding:9px 15px;border-radius:99px;
+  font:700 13.5px 'Quicksand',sans-serif;cursor:pointer}
+/* sheet */
+.sheet{display:none;position:fixed;inset:0;z-index:80;background:rgba(30,20,40,.55);
+  backdrop-filter:blur(4px);overflow-y:auto;padding:24px}
+.sheet.open{display:block}
+.swrap{max-width:980px;margin:0 auto;background:var(--paper);border-radius:26px;
+  display:grid;grid-template-columns:.95fr 1.05fr;overflow:hidden}
+@media(max-width:840px){.swrap{grid-template-columns:1fr}}
+.sleft{background:var(--cream);padding:22px}
+.sleft .big{border-radius:14px;box-shadow:0 12px 26px rgba(0,0,0,.14)}
+.pv{margin-top:14px} .pv h5{font-size:12px;letter-spacing:1.6px;text-transform:uppercase;
+  opacity:.6;margin-bottom:8px}
+.pages{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.pages img{border-radius:8px;aspect-ratio:3/4;object-fit:cover;cursor:zoom-in;
+  border:2px solid #fff}
+.sright{padding:26px 26px 30px}
+.kicker{font-weight:700;font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--accent)}
+.sright h2{font-size:27px;margin:8px 0 6px}
+.valuebar{background:var(--cream);border-radius:12px;padding:11px 14px;font-weight:700;
+  font-size:14px;margin:12px 0 14px}
+.lead{font-size:15.5px;font-weight:600;opacity:.88}
+.sright h4{font-size:13.5px;margin:18px 0 7px;letter-spacing:.3px}
+.inside{list-style:none} .inside li{padding-left:22px;position:relative;font-size:14.5px;
+  font-weight:600;opacity:.85;margin-bottom:5px}
+.inside li:before{content:"●";position:absolute;left:0;color:var(--accent2)}
+.how{font-size:14.5px;font-weight:600;opacity:.85}
+.bigbuy{display:block;width:100%;text-align:center;margin-top:20px;background:var(--deep);
+  color:var(--btnink);border:0;padding:16px;border-radius:99px;font:700 16px 'Quicksand',sans-serif;
+  cursor:pointer;text-decoration:none;box-shadow:0 6px 0 rgba(0,0,0,.14)}
+.trust{font-size:12.5px;opacity:.65;text-align:center;margin-top:10px;font-weight:600}
+.x{position:fixed;top:18px;right:20px;background:#fff;border:0;width:40px;height:40px;
+  border-radius:50%;font-size:17px;cursor:pointer;z-index:2}
+/* personalise */
+.perso{background:var(--cream);border-radius:30px;padding:34px;display:grid;
+  grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+@media(max-width:880px){.perso{grid-template-columns:1fr;padding:24px}}
+.steps{counter-reset:s;margin-top:18px}
+.step{counter-increment:s;position:relative;padding-left:42px;margin-bottom:16px}
+.step:before{content:counter(s);position:absolute;left:0;top:-2px;width:28px;height:28px;
+  border-radius:50%;background:var(--accent);color:var(--ink);font:700 14px sans-serif;
+  display:grid;place-items:center}
+.step b{display:block;font-size:15.5px} .step span{font-size:14px;opacity:.78;font-weight:600}
+.pform{background:#fff;border-radius:22px;padding:22px}
+.pform label{display:block;font-weight:700;font-size:13px;margin:14px 0 5px}
+.pform input[type=text],.pform select{width:100%;border:2px solid var(--cream);
+  border-radius:12px;padding:11px 13px;font:600 15px 'Quicksand',sans-serif;color:var(--ink)}
+.pform input:focus,.pform select:focus{outline:0;border-color:var(--accent)}
+.drop{border:2.5px dashed var(--accent);border-radius:18px;padding:22px;text-align:center;
+  background:var(--paper);cursor:pointer;transition:background .15s}
+.drop:hover,.drop.over{background:var(--cream)}
+.drop .ic{font-size:30px} .drop b{display:block;margin-top:6px;font-size:15px}
+.drop span{font-size:12.5px;opacity:.7;font-weight:600}
+.thumb{display:none;align-items:center;gap:12px;margin-top:12px;background:var(--paper);
+  border-radius:14px;padding:10px}
+.thumb.on{display:flex} .thumb img{width:56px;height:56px;object-fit:cover;border-radius:10px}
+.thumb .m{flex:1;font-size:13px;font-weight:700} .thumb .m i{display:block;font-style:normal;
+  font-weight:600;opacity:.65;font-size:12px}
+.thumb button{background:none;border:0;font-size:17px;cursor:pointer;opacity:.5}
+.mock{margin-top:16px;background:var(--paper);border-radius:16px;padding:18px;text-align:center}
+.mock .cv{position:relative;display:inline-block;border-radius:10px;overflow:hidden;
+  box-shadow:0 10px 24px rgba(0,0,0,.18)}
+.mock .cv img{width:150px;aspect-ratio:3/4;object-fit:cover}
+.mock .cv .ttl{position:absolute;left:0;right:0;bottom:0;padding:26px 8px 10px;color:#fff;
+  font-family:'Fredoka',cursive;font-size:13.5px;line-height:1.2;
+  background:linear-gradient(0deg,rgba(0,0,0,.78),rgba(0,0,0,0))}
+.mock p{margin-top:10px;font-size:13px;font-weight:700}
+.privacy{font-size:12px;opacity:.7;font-weight:600;margin-top:10px;line-height:1.5}
+/* misc */
+.free{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.tile{background:#fff;border:2px dashed var(--cream);border-radius:20px;padding:22px}
+.tile h3{font-size:18px;margin-bottom:6px} .tile p{font-size:14.5px;opacity:.8;font-weight:600}
+details{background:#fff;border:2px solid var(--cream);border-radius:16px;padding:15px 18px;
+  margin-bottom:10px} summary{font-weight:700;cursor:pointer;font-size:15.5px}
+details p{margin-top:9px;font-size:14.5px;opacity:.85;font-weight:600}
+.signup{background:var(--ink);color:#fff;border-radius:28px;padding:36px;text-align:center}
+.signup h2{color:#fff;font-size:clamp(22px,3vw,30px)}
+.signup p{opacity:.82;margin:10px auto 20px;max-width:48ch;font-weight:600}
+footer{padding:44px 0 60px;border-top:2px solid var(--cream);margin-top:40px;font-size:13.5px;
+  font-weight:600}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px}
+@media(max-width:760px){.fgrid{grid-template-columns:1fr 1fr}}
+footer a{display:block;opacity:.72;text-decoration:none;margin-bottom:6px}
+footer a:hover{opacity:1} .tiny{opacity:.5;font-size:12px;margin-top:24px}
+.lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:120;
+  place-items:center;padding:26px;cursor:zoom-out}
+.lightbox.on{display:grid} .lightbox img{max-height:92vh;border-radius:10px}
+
+/* ---------- v2: hero art, worlds, lifestyle, cart, tour, motion ---------- */
+.heroart .real{border-radius:26px;box-shadow:0 26px 50px rgba(0,0,0,.16);width:100%;
+  object-fit:cover;aspect-ratio:16/10}
+.rhyme{margin-top:22px;font-family:'Fredoka',cursive;font-size:16.5px;line-height:1.5;
+  color:var(--deep);opacity:.9}
+.world{padding:0;cursor:default}
+.world img{width:100%;aspect-ratio:1/1;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.3,1)}
+.world:hover img{transform:scale(1.04)}
+.world .wbody{padding:18px 20px 22px}
+.give{display:flex;align-items:center;gap:14px;background:var(--cream);border-radius:20px;
+  padding:16px 20px;margin-top:26px;font-weight:700;font-size:15px}
+.give .pct{font-family:'Fredoka',cursive;font-size:30px;color:var(--deep);line-height:1}
+.give small{display:block;font-weight:600;opacity:.75;font-size:13px;margin-top:2px}
+.lsrow{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(240px,1fr);gap:16px;
+  overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;margin-top:24px}
+.lsrow figure{scroll-snap-align:start}
+.lsrow img{border-radius:18px;aspect-ratio:3/4;object-fit:cover;width:100%}
+.lsrow figcaption{font-size:13.5px;font-weight:600;opacity:.75;margin-top:9px}
+.trustrow{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:26px}
+.trustrow div{background:#fff;border:2px solid var(--cream);border-radius:16px;padding:14px 16px;
+  font-weight:700;font-size:13.5px;display:flex;gap:10px;align-items:center}
+.trustrow span{font-size:20px}
+/* cart */
+.cartbtn{position:relative;background:var(--accent2);color:var(--ink);border:0;border-radius:99px;
+  padding:8px 15px;font:700 14px 'Quicksand',sans-serif;cursor:pointer}
+.cartbtn b{position:absolute;top:-7px;right:-7px;background:var(--deep);color:var(--btnink);
+  min-width:21px;height:21px;border-radius:99px;font-size:11.5px;display:grid;place-items:center;
+  transform:scale(0);transition:transform .3s cubic-bezier(.2,1.6,.4,1)}
+.cartbtn b.on{transform:scale(1)}
+.cartbtn b.pop{animation:pop .45s cubic-bezier(.2,1.6,.4,1)}
+@keyframes pop{40%{transform:scale(1.45)}100%{transform:scale(1)}}
+.drawer{position:fixed;inset:0;z-index:90;background:rgba(30,20,40,.5);backdrop-filter:blur(4px);
+  display:none}
+.drawer.open{display:block}
+.dpanel{position:absolute;right:0;top:0;bottom:0;width:min(420px,100%);background:var(--paper);
+  padding:24px;overflow-y:auto;transform:translateX(100%);transition:transform .32s cubic-bezier(.2,.7,.3,1)}
+.drawer.open .dpanel{transform:none}
+.ditem{display:flex;gap:12px;align-items:center;border-bottom:2px solid var(--cream);padding:12px 0}
+.ditem img{width:52px;border-radius:8px} .ditem .t{flex:1;font-weight:700;font-size:14px}
+.ditem button{background:none;border:0;font-size:17px;cursor:pointer;opacity:.45}
+.flyer{position:fixed;z-index:200;border-radius:10px;pointer-events:none;
+  transition:transform .58s cubic-bezier(.4,0,.5,1),opacity .58s;object-fit:cover}
+.conf{position:fixed;width:9px;height:9px;z-index:210;pointer-events:none;border-radius:2px}
+/* Boo's guided tour */
+#tour{position:fixed;z-index:150;left:0;top:0;display:none;align-items:flex-end;gap:10px;
+  pointer-events:none;transition:transform .9s cubic-bezier(.3,.7,.3,1),opacity .4s}
+#tour.on{display:flex}
+#tour img{width:88px;filter:drop-shadow(0 10px 18px rgba(0,0,0,.28))}
+#tour .bub{background:#fff;border:2px solid var(--cream);border-radius:16px 16px 16px 4px;
+  padding:10px 14px;font-weight:700;font-size:14px;max-width:220px;
+  box-shadow:0 10px 24px rgba(0,0,0,.12);pointer-events:auto}
+#tour .bub i{display:block;font-style:normal;font-weight:600;font-size:12px;opacity:.6;margin-top:4px}
+/* motion */
+.rev{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.3,1)}
+.rev.in{opacity:1;transform:none}
+.sheet .swrap{transform:scale(.97);opacity:0;transition:transform .22s cubic-bezier(.2,.7,.3,1),opacity .22s}
+.sheet.open .swrap{transform:none;opacity:1}
+#toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,22px);background:var(--ink);
+  color:#fff;padding:12px 18px;border-radius:99px;font-weight:700;font-size:14px;z-index:220;
+  opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+#toast.on{opacity:1;transform:translate(-50%,0)}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .rev{opacity:1;transform:none} #tour{display:none!important}
+}
+</style></head><body>
+
+<nav><div class="wrap nav">
+  <a class="logo" id="logo" href="#top">·</a><span class="sp"></span>
+  <a class="l" href="#worlds-s">Worlds</a><a class="l keep" href="#shop">Shop</a>
+  <a class="l" href="#personalised">Personalised</a><a class="l keep" href="#free">Free</a>
+  <a class="l" href="#about">About</a>
+  <a class="ig" id="ig" target="_blank" rel="noopener">Instagram</a>
+  <button class="cartbtn" id="cartBtn" onclick="cartOpen()">Bag <b id="cartCount">0</b></button>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div><div class="eyebrow" id="eyebrow"></div><h1 id="h1"></h1>
+    <p class="sub" id="hsub"></p>
+    <p class="rhyme" id="rhyme"></p>
+    <div class="btns"><a class="btn" id="cta1" href="#shop"></a>
+      <a class="btn alt" href="#personalised">Put your child in it</a></div></div>
+  <div class="heroart"><img class="float" id="heroimg" alt=""></div>
+</div></header>
+
+<div class="marq"><span>Instant download &nbsp;•&nbsp; Every book drawn for that book only
+  &nbsp;•&nbsp; Made in India, with love</span></div>
+
+<section id="worlds-s"><div class="wrap">
+  <div class="eyebrow" id="worldsK"></div>
+  <h2 class="big">Pick a place to go</h2>
+  <p class="sub2">Same character, completely different world. Each one is its own book,
+     drawn from scratch for that story.</p>
+  <div class="worlds" id="worlds"></div>
+</div></section>
+
+<section id="shop"><div class="wrap">
+  <div class="eyebrow">The shop</div>
+  <h2 class="big">Things to read, colour and keep</h2>
+  <p class="sub2">Every product here does a different job. The bedtime book winds a
+     child down, the colouring book sends them somewhere new, the personalised one
+     puts them in it.</p>
+  <div class="filters" id="filters"></div>
+  <div class="filters" id="agef"></div>
+  <div class="grid" id="grid"></div>
+  <div class="giveslot"></div>
+  <div class="trustrow">
+    <div><span>⚡</span>Instant download, straight after you order</div>
+    <div><span>↩</span>Refund if it will not open</div>
+    <div><span>🔒</span>Your child's photo stays yours</div>
+  </div>
+</div></section>
+
+<section id="lsSection"><div class="wrap">
+  <div class="eyebrow">In real houses</div>
+  <h2 class="big">What it looks like on a Tuesday</h2>
+  <p class="sub2">Printed, coloured, stuck on the fridge, read for the fourth night running.</p>
+  <div class="lsrow" id="lsrow"></div>
+</div></section>
+
+<section id="personalised"><div class="wrap"><div class="perso">
+  <div>
+    <div class="eyebrow">Made for one child</div>
+    <h2 id="persoT"></h2>
+    <p class="sub2" style="margin-top:12px" id="persoP"></p>
+    <div class="steps">
+      <div class="step"><b>Tell us about them</b>
+        <span>Name, age, and the thing they will not stop talking about.</span></div>
+      <div class="step"><b>Send one photo</b>
+        <span>We use it once, to draw them in our style, then it is deleted.</span></div>
+      <div class="step"><b>Approve the preview</b>
+        <span>We send you the cover and two pages within 48 hours. Change anything.</span></div>
+      <div class="step"><b>We print and post it</b>
+        <span>A real bound book, at your door in about a week.</span></div>
+    </div>
+  </div>
+  <div class="pform">
+    <label>Your child's name</label>
+    <input type="text" id="cn" placeholder="Aarav" oninput="pv()">
+    <label>How old are they?</label>
+    <select id="ca" onchange="pv()"><option>1</option><option>2</option>
+      <option selected>3</option><option>4</option><option>5</option>
+      <option>6</option><option>7</option></select>
+    <label>Which world should they go to?</label>
+    <select id="cw" onchange="pv()"></select>
+
+    <label>A photo of your child</label>
+    <div class="drop" id="dropzone" onclick="document.getElementById('fileIn').click()"
+      ondragover="event.preventDefault();this.classList.add('over')"
+      ondragleave="this.classList.remove('over')"
+      ondrop="event.preventDefault();this.classList.remove('over');pickFile(event.dataTransfer.files[0])">
+      <div class="ic">🖼️</div>
+      <b>Tap to add a photo</b>
+      <span>One clear photo of their face. This is what we draw them from.</span>
+    </div>
+    <input type="file" id="fileIn" accept="image/*" hidden
+      onchange="pickFile(this.files[0])">
+    <div class="thumb" id="thumb">
+      <img id="thumbImg" alt="your photo">
+      <div class="m"><span id="thumbName"></span><i id="thumbSize"></i></div>
+      <button onclick="clearFile()" aria-label="remove">✕</button>
+    </div>
+
+    <div class="mock">
+      <div class="cv"><img id="mockCover" alt="book cover preview">
+        <div class="ttl" id="mockTitle"></div></div>
+      <p id="mockNote"></p>
+    </div>
+    <button class="bigbuy" onclick="waitlist()"><span id="persoCta"></span> ·
+      <span id="persoPrice"></span></button>
+    <p class="privacy">This book opens for orders soon — the waitlist lives in our Instagram
+      DMs, where a real person replies. Your photo stays on your device until you order. We
+      use it once to draw the character, delete it within 30 days, and never put a customer's
+      child in our marketing without asking you in writing first.</p>
+  </div>
+</div></div></section>
+
+<section id="free"><div class="wrap">
+  <div class="eyebrow">Free</div><h2 class="big">Take something for nothing</h2>
+  <p class="sub2">Print these tonight. No email needed.</p>
+  <div class="free" style="margin-top:24px">
+    <div class="tile"><h3>Two colouring worlds</h3>
+      <p>Two full pages from the colouring book, A4.</p>
+      <p style="margin-top:10px"><a href="free/colouring-sampler.pdf" download><b>Download →</b></a></p></div>
+    <div class="tile"><h3>The first pages of a story</h3>
+      <p>Read the opening spreads before you decide.</p>
+      <p style="margin-top:10px"><a href="free/story-sampler.pdf" download><b>Download →</b></a></p></div>
+    <div class="tile"><h3>Phone wallpaper</h3>
+      <p>Because your lock screen could be nicer.</p>
+      <p style="margin-top:10px"><a href="free/wallpaper.jpg" download><b>Download →</b></a></p></div>
+  </div>
+  <div class="signup" style="margin-top:32px">
+    <h2>A free worksheet every week</h2>
+    <p>One printable, every week, plus whatever Boo and Rico got up to. Leave whenever you like.</p>
+    <a class="btn" id="suBtn" target="_blank" rel="noopener"
+       style="background:var(--accent);color:var(--ink)">Send me the free ones →</a>
+  </div>
+  <div class="tile" style="margin-top:22px;text-align:center">
+    <h3>Printed copies are coming</h3>
+    <p>Real paper books, posted to your door. We are choosing a printer now —
+       put your hand up and you will be first to know.</p>
+    <p style="margin-top:10px"><a id="printWait" target="_blank" rel="noopener"><b>Tell me when →</b></a></p>
+  </div>
+</div></section>
+
+<section id="about"><div class="wrap" style="max-width:760px">
+  <div class="eyebrow">Who makes this</div>
+  <h2 class="big" id="aboutT"></h2>
+  <p class="sub2" style="margin-top:14px;max-width:none" id="aboutB"></p>
+</div></section>
+
+<section><div class="wrap" style="max-width:760px">
+  <div class="eyebrow">Questions</div><h2 class="big" style="margin-bottom:20px">Before you ask</h2>
+  <details><summary>Are the pictures reused between books?</summary>
+    <p>No. Every book, and every page of the colouring book, is drawn for that book
+       alone. That is the whole reason they take as long as they do.</p></details>
+  <details><summary>How fast do I get the digital books?</summary>
+    <p>Straight away once checkout is live. Right now, order over Instagram DM and a
+       real person sends the file back the same day.</p></details>
+  <details><summary>What happens to my child's photo?</summary>
+    <p>It stays on your device until you place the order. We use it once to draw the
+       character, delete it within 30 days, and never use it in marketing without
+       written permission.</p></details>
+  <details><summary>What if my child hates it?</summary>
+    <p>Tell us and we refund you. Personalised books we will redo once, free.</p></details>
+</div></section>
+
+<section><div class="wrap"><div class="signup">
+  <h2 id="suH"></h2><p id="suP"></p>
+  <a class="btn" id="suBtn" target="_blank" rel="noopener"
+     style="background:var(--accent);color:var(--ink)">Say hi on Instagram →</a>
+</div></div></section>
+
+<div class="sheet" id="sheet"><button class="x" onclick="closeP()">✕</button>
+  <div id="sheetBody"></div></div>
+<div class="lightbox" id="lb" onclick="this.classList.remove('on')"><img alt="page"></div>
+
+<div class="drawer" id="drawer" onclick="if(event.target===this)cartClose()">
+  <div class="dpanel">
+    <button class="x" style="position:static;float:right" onclick="cartClose()">✕</button>
+    <h2 style="margin-bottom:6px">Your bag</h2>
+    <div id="ditems"></div>
+    <p style="margin-top:14px;font-weight:700;font-size:19px" id="dtotal"></p>
+    <a class="bigbuy" id="dorder" target="_blank" rel="noopener">Order these on Instagram</a>
+    <p class="trust">A real person replies, usually within the hour.</p>
+  </div>
+</div>
+
+<div id="tour"><img alt=""><div class="bub" onclick="tourEnd()"></div></div>
+<div id="toast"></div>
+
+<footer><div class="wrap"><div class="fgrid">
+  <div><div class="logo" id="flogo" style="font-size:20px"></div>
+    <p style="opacity:.7;margin-top:8px;max-width:30ch" id="promise"></p></div>
+  <div><a href="#shop">Shop</a><a href="#personalised">Personalised books</a>
+    <a href="#free">Free downloads</a><a id="igf" target="_blank" rel="noopener">Instagram</a></div>
+  <div><a href="giving.html">Our 10% pledge</a><a href="legal.html#terms">Terms</a><a href="legal.html#privacy">Privacy</a>
+    <a href="legal.html#refunds">Refunds</a><a href="legal.html#shipping">Shipping</a>
+    <a href="legal.html#contact">Contact</a></div>
+</div><p class="tiny">© 2026. Stories, characters and illustrations are ours. Made in India.</p>
+</div></footer>
+
+<script>const BRAND='boo';
+let C=null,BK=null,PRODS=[];
+const $=s=>document.querySelector(s);
+const PLACEHOLDER='data:image/svg+xml;utf8,'+encodeURIComponent(
+  '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3 4"><rect width="3" height="4" fill="#f3ead9"/></svg>');
+/* One price, one currency. Showing "₹349 · ~$4" everywhere made every price
+   read like a conversion table (owner, 2026-08-17). Rupees are the default;
+   the dollar figure appears ONLY for visitors whose browser is not set to
+   India, and only in the product sheet, never on the grid. */
+const INR = !/-IN\b/.test(navigator.language||'') &&
+            (Intl.DateTimeFormat().resolvedOptions().timeZone||'') !== 'Asia/Calcutta';
+const money=n=>'₹'+n.toLocaleString('en-IN');
+const moneyFull=n=>INR?('₹'+n.toLocaleString('en-IN')+' · about $'+Math.max(2,Math.round(n/87))):money(n);
+function fb(img){ if(img.dataset.alt){ img.src=img.dataset.alt; img.dataset.alt=''; }
+  else { img.onerror=null; img.src=PLACEHOLDER; } }
+
+async function boot(){
+  C = await (await fetch('content.json?v='+Date.now())).json();
+  BK = C.brands[BRAND];
+  // truth gate: only products whose deliverable exists at build time render;
+  // personalised SKUs render as a waitlist.
+  PRODS = C.products.filter(p=>p.brand===BRAND && (p.available||p.personalised));
+  paintBrand(); paintWorlds(); paintShop(); paintPerso();
+  paintLifestyle(); paintGiving(); paintRhyme(); cartPaint(); observeReveals();
+  if(location.hash.startsWith('#p/')) openP(location.hash.slice(3));
+  setTimeout(tourStart, 1400);
+}
+/* ---------------- cart: adding something must feel like a win ------------- */
+let CART = (()=>{ try{ return JSON.parse(localStorage.getItem(BRAND+'_cart')||'[]'); }catch(_){ return []; } })();
+const cartSave=()=>{ try{ localStorage.setItem(BRAND+'_cart', JSON.stringify(CART)); }catch(_){} };
+function cartPaint(){
+  const n=CART.length, b=$('#cartCount');
+  b.textContent=n; b.classList.toggle('on', n>0);
+  const items=CART.map(id=>PRODS.find(p=>p.id===id)).filter(Boolean);
+  const total=items.reduce((s,p)=>s+p.price,0);
+  $('#ditems').innerHTML = items.length ? items.map(p=>`
+    <div class="ditem"><img src="${imgOf(p)}" alt="">
+      <div class="t">${p.name}<br><span style="font-weight:600;opacity:.6">${money(p.price)}</span></div>
+      <button onclick="cartRemove('${p.id}')" aria-label="remove">✕</button></div>`).join('')
+    : '<p style="opacity:.7;font-weight:600;padding:20px 0">Nothing in here yet.</p>';
+  $('#dtotal').textContent = items.length ? money(total) : '';
+  const msg = encodeURIComponent('Hi! I would like: '+items.map(p=>p.name).join(', ')+
+              ` — total ${'₹'}${total}. My email is:`);
+  $('#dorder').href = 'https://ig.me/m/'+BK.handle+'?text='+msg;
+  $('#dorder').style.display = items.length ? 'block' : 'none';
+}
+function cartRemove(id){ CART=CART.filter(x=>x!==id); cartSave(); cartPaint(); }
+function cartOpen(){ $('#drawer').classList.add('open'); document.body.style.overflow='hidden'; }
+function cartClose(){ $('#drawer').classList.remove('open'); document.body.style.overflow=''; }
+function addToCart(id, ev){
+  if(CART.includes(id)){ toast('Already in your bag'); return; }
+  CART.push(id); cartSave();
+  const p=PRODS.find(x=>x.id===id);
+  const src=(ev&&ev.target.closest('.card,.swrap')||document).querySelector('img');
+  if(src) flyToCart(src);
+  const b=$('#cartCount');
+  setTimeout(()=>{ cartPaint(); b.classList.add('pop'); confetti();
+    setTimeout(()=>b.classList.remove('pop'),480); }, 520);
+  toast('Added. That is tonight sorted.');
+}
+function flyToCart(img){
+  const a=img.getBoundingClientRect(), t=$('#cartBtn').getBoundingClientRect();
+  const f=document.createElement('img'); f.src=img.src; f.className='flyer';
+  f.style.cssText+=`left:${a.left}px;top:${a.top}px;width:${a.width}px;height:${a.height}px`;
+  document.body.appendChild(f);
+  requestAnimationFrame(()=>{
+    const dx=t.left+t.width/2-(a.left+a.width/2), dy=t.top+t.height/2-(a.top+a.height/2);
+    f.style.transform=`translate(${dx}px,${dy}px) scale(.08) rotate(-12deg)`; f.style.opacity='.2';
+  });
+  setTimeout(()=>f.remove(), 620);
+}
+function confetti(){
+  const t=$('#cartBtn').getBoundingClientRect();
+  const cols=[getComputedStyle(document.body).getPropertyValue('--accent'),
+              getComputedStyle(document.body).getPropertyValue('--accent2'),
+              getComputedStyle(document.body).getPropertyValue('--deep')];
+  for(let i=0;i<14;i++){
+    const c=document.createElement('i'); c.className='conf';
+    c.style.background=cols[i%3];
+    c.style.left=(t.left+t.width/2)+'px'; c.style.top=(t.top+t.height/2)+'px';
+    document.body.appendChild(c);
+    const ang=Math.random()*Math.PI*2, dist=46+Math.random()*70;
+    c.animate([{transform:'translate(0,0) rotate(0)',opacity:1},
+               {transform:`translate(${Math.cos(ang)*dist}px,${Math.sin(ang)*dist+42}px) rotate(${Math.random()*540}deg)`,opacity:0}],
+              {duration:760+Math.random()*380, easing:'cubic-bezier(.2,.7,.3,1)'}).onfinish=()=>c.remove();
+  }
+}
+function toast(m){ const e=$('#toast'); e.textContent=m; e.classList.add('on');
+  clearTimeout(e._t); e._t=setTimeout(()=>e.classList.remove('on'), 2600); }
+/* ---------------- Boo's little guided tour (once per visitor) ------------- */
+const TOUR=[{sel:'#shop', say:"This is everything we've made.", sub:'tap any book to look inside'},
+            {sel:'#free', say:'Take this one. It’s free.', sub:'no email needed'}];
+let tourStep=0;
+function tourStart(){
+  try{ if(localStorage.getItem(BRAND+'_tour')) return; }catch(_){ return; }
+  const el=$('#tour'); if(!el||!BK.tour_img) return;
+  el.querySelector('img').src=BK.tour_img;
+  el.classList.add('on'); tourHop();
+}
+function tourHop(){
+  const el=$('#tour'), step=TOUR[tourStep];
+  if(!step){ tourEnd(); return; }
+  const target=document.querySelector(step.sel); if(!target){ tourEnd(); return; }
+  const r=target.getBoundingClientRect();
+  el.style.transform=`translate(${Math.max(12,r.left+10)}px,${Math.min(innerHeight-150, r.top+40)}px)`;
+  el.querySelector('.bub').innerHTML=`${step.say}<i>${step.sub}</i>`;
+  tourStep++;
+  clearTimeout(el._t); el._t=setTimeout(tourHop, 4200);
+}
+function tourEnd(){ const el=$('#tour'); el.style.opacity='0';
+  setTimeout(()=>el.classList.remove('on'),420);
+  try{ localStorage.setItem(BRAND+'_tour','1'); }catch(_){} }
+/* ---------------- scroll reveals ---------------- */
+function observeReveals(){
+  const nodes=[...document.querySelectorAll('section .wrap > *, .card, .world, .lsrow figure')];
+  // FAIL-SAFE FIRST. .rev starts at opacity:0, so if IntersectionObserver never
+  // fires — unsupported, a non-compositing tab, a background render — the whole
+  // page would stay invisible. Anything not revealed within 1.2s is revealed
+  // unconditionally: the animation is a nicety, the content is not.
+  const revealAll=()=>nodes.forEach(n=>n.classList.add('in'));
+  if(!('IntersectionObserver' in window)){ revealAll(); return; }
+  const io=new IntersectionObserver(es=>es.forEach((e,i)=>{
+    if(e.isIntersecting){ setTimeout(()=>e.target.classList.add('in'), i*55); io.unobserve(e.target); }
+  }),{rootMargin:'0px 0px -8% 0px'});
+  nodes.forEach(n=>{ n.classList.add('rev'); io.observe(n); });
+  setTimeout(revealAll, 1200);
+}
+function paintLifestyle(){
+  const ls=(C.art&&C.art.lifestyle)||[]; if(!ls.length){ $('#lsSection').style.display='none'; return; }
+  $('#lsrow').innerHTML = ls.map(x=>`<figure><img src="${x.img}" loading="lazy" alt="">
+    <figcaption>${x.cap}</figcaption></figure>`).join('');
+}
+function paintGiving(){
+  const g=C.giving; if(!g) return;
+  document.querySelectorAll('.giveslot').forEach(el=>{
+    el.innerHTML=`<div class="give"><span class="pct">${g.percent}%</span>
+      <div>${g.line}<small>${g.sub}</small></div></div>`;});
+}
+function paintRhyme(){
+  const r=(C.rhyme||{})[BRAND]; if(!r) return;
+  $('#rhyme').innerHTML = r.join('<br>');
+}
+function imgOf(p){ return p.img || ('img/'+p.id+'.png'); }
+function paintBrand(){
+  $('#logo').innerHTML = BK.short+'<b>.</b>';
+  $('#eyebrow').textContent = BK.tagline;
+  $('#h1').textContent = BK.hero_line;
+  $('#hsub').textContent = BK.hero_sub;
+  $('#cta1').textContent = BK.cta;
+  $('#ig').href='https://instagram.com/'+BK.handle;
+  $('#igf').href='https://instagram.com/'+BK.handle;
+  $('#aboutT').textContent = BK.community;
+  $('#aboutB').innerHTML = BK.about;
+  $('#promise').textContent = BK.promise;
+  $('#flogo').innerHTML = BK.short+'<b>.</b>';
+  const im=$('#heroimg');
+  if(C.art&&C.art.hero){ im.src=C.art.hero; im.className='real'; im.alt=BK.hero; }
+  else { const h=PRODS.find(p=>!p.personalised);
+    if(h){ im.dataset.alt='img/'+h.id+'.png'; im.onerror=()=>fb(im); im.src=imgOf(h); im.alt=BK.hero; } }
+  $('#suH').textContent = 'One new world a week, free';
+  $('#suP').textContent = 'A page, a colouring sheet, and wherever '+BK.hero+
+    ' got to this week — over Instagram DM, where a real person replies.';
+  $('#suBtn').href = 'https://ig.me/m/'+BK.handle+'?text='+encodeURIComponent('Send me the free weekly worksheet please!');
+  $('#printWait').href = 'https://ig.me/m/'+BK.handle+'?text='+encodeURIComponent('Tell me when printed copies are ready!');
+}
+function paintWorlds(){
+  const wa=(C.art&&C.art.worlds)||[];
+  $('#worlds').innerHTML = BK.worlds.map((w,i)=>
+    `<div class="world">${wa[i]?`<img src="${wa[i]}" loading="lazy" alt="${w.n}">`:''}
+      <div class="wbody"><h3>${w.n}</h3><p>${w.d}</p></div></div>`).join('');
+  $('#worldsK').textContent = BK.hero+"'s worlds";
+}
+function ageLabel(a){ return a[0]+'–'+a[1]+' yrs'; }
+function paintShop(){
+  const cats=[...new Set(PRODS.map(p=>p.cat))];
+  $('#filters').innerHTML = `<button class="f on" data-c="all">Everything</button>`+
+    cats.map(c=>`<button class="f" data-c="${c}">${c}</button>`).join('');
+  const bands=[[0,2,'0–2'],[2,4,'2–4'],[4,7,'4–6']];
+  $('#agef').innerHTML = `<button class="f on" data-a="all">Any age</button>`+
+    bands.map((b,i)=>`<button class="f" data-a="${i}">${b[2]}</button>`).join('');
+  let cat='all', band='all';
+  const apply=()=>{ document.querySelectorAll('.card').forEach(k=>{
+    const p=PRODS.find(x=>x.id===k.dataset.id);
+    const okC = cat==='all'||p.cat===cat;
+    const okA = band==='all'|| (p.ages && p.ages[0] < bands[band][1] && p.ages[1] > bands[band][0]);
+    k.style.display=(okC&&okA)?'':'none';});};
+  $('#filters').onclick=e=>{ const b=e.target.closest('.f'); if(!b)return;
+    [...$('#filters').children].forEach(x=>x.classList.remove('on')); b.classList.add('on');
+    cat=b.dataset.c; apply();};
+  $('#agef').onclick=e=>{ const b=e.target.closest('.f'); if(!b)return;
+    [...$('#agef').children].forEach(x=>x.classList.remove('on')); b.classList.add('on');
+    band=b.dataset.a==='all'?'all':+b.dataset.a; apply();};
+  $('#grid').innerHTML = PRODS.map(p=>`
+    <article class="card" data-id="${p.id}" onclick="openP('${p.id}')">
+      <div class="shot"><img src="${imgOf(p)}" data-alt="img/${p.id}.png" alt="${p.name}"
+          loading="lazy" onerror="fb(this)">
+        ${p.flag?`<span class="flag">${p.flag}</span>`:''}
+        ${p.world?`<span class="wtag">${p.world}</span>`:''}</div>
+      <div class="cbody"><h3>${p.name}</h3>
+        <div class="vline">${p.value}</div>
+        <p class="hook">${p.hook}</p>
+        <div class="crow"><span class="price">${money(p.price)}${p.compare_at?` <s style="opacity:.45;font-size:14px">${money(p.compare_at)}</s>`:''}</span>
+          <button class="buy" onclick="event.stopPropagation();${p.personalised?`openP('${p.id}')`:`addToCart('${p.id}',event)`}">${p.personalised?'Waitlist':'Add'}</button></div></div>
+    </article>`).join('');
+}
+function openP(id){
+  const p = PRODS.find(x=>x.id===id); if(!p) return;
+  history.replaceState(null,'','#p/'+id);
+  const pages = (p.pages||[]).map(n=>
+    `<img src="img/pages/${p.id}_p${n}.webp" alt="page ${n} of ${p.name}"
+      loading="lazy" onclick="zoom(this.src)"
+      onerror="this.style.display='none'">`).join('');
+  const buy = p.buy
+    ? `<a class="bigbuy" href="${p.buy}" target="_blank" rel="noopener">${p.cta} · ${moneyFull(p.price)}</a>`
+    : p.personalised
+      ? `<a class="bigbuy" href="https://ig.me/m/${BK.handle}" target="_blank" rel="noopener">Join the waitlist on Instagram</a>`
+      : `<button class="bigbuy" onclick="addToCart('${p.id}',event)">${p.cta} · ${moneyFull(p.price)}</button>`;
+  $('#sheetBody').innerHTML = `
+    <div class="swrap">
+      <div class="sleft"><img class="big" src="${imgOf(p)}" data-alt="img/${p.id}.png"
+          alt="${p.name}" onerror="fb(this)">
+        ${pages?`<div class="pv"><h5>Look inside — real pages</h5>
+          <div class="pages">${pages}</div></div>`:''}</div>
+      <div class="sright">
+        <span class="kicker">${p.kicker}</span>
+        <h2>${p.name}</h2>
+        <div class="valuebar">${p.value}</div>
+        <p class="lead">${p.pitch}</p>
+        <h4>What your child gets</h4><p class="how">${p.child_gets||''}</p>
+        <h4>What's inside</h4><ul class="inside">${p.inside.map(i=>`<li>${i}</li>`).join('')}</ul>
+        ${p.how?`<h4>How it works</h4><p class="how">${p.how}</p>`:''}
+        ${buy}
+        <p class="trust">${p.trust||''}</p>
+      </div></div>`;
+  $('#sheet').classList.add('open'); document.body.style.overflow='hidden';
+}
+function closeP(){$('#sheet').classList.remove('open');document.body.style.overflow='';
+  history.replaceState(null,'',location.pathname);}
+function zoom(src){const l=$('#lb');l.querySelector('img').src=src;l.classList.add('on');}
+function paintPerso(){
+  const p = PRODS.find(x=>x.personalised); if(!p) return;
+  $('#persoT').textContent = 'What if your child was in the story?';
+  $('#persoP').innerHTML = p.pitch;
+  $('#persoPrice').textContent = moneyFull(p.price);
+  $('#persoCta').textContent = 'Join the waitlist';
+  const mc=$('#mockCover'); mc.dataset.alt='img/'+p.id+'.png';
+  mc.onerror=()=>fb(mc); mc.src=(C.art&&C.art.perso)||imgOf(p);
+  const worlds = [...new Set(PRODS.filter(x=>x.world&&x.world!=='All of them'&&x.world!=='Yours').map(x=>x.world))];
+  $('#cw').innerHTML = worlds.map(w=>`<option>${w}</option>`).join('');
+  pv();
+}
+function pv(){
+  const n=($('#cn').value||'').trim(), a=$('#ca').value, w=$('#cw').value;
+  $('#mockTitle').textContent = n ? `${n} and ${BK.hero} in ${w}` : `Your child and ${BK.hero}`;
+  $('#mockNote').textContent = n ? `A ${a}-year-old's own book, made only for ${n}.`
+    : 'Type a name and watch the cover change.';
+}
+/* --- photo upload: stays in the browser until checkout --- */
+function pickFile(f){
+  if(!f) return;
+  if(!/^image\//.test(f.type)){alert('That needs to be a photo (jpg or png).');return;}
+  if(f.size>8*1024*1024){alert('That photo is over 8MB — a smaller one works better.');return;}
+  const r=new FileReader();
+  r.onload=e=>{ $('#thumbImg').src=e.target.result;
+    $('#thumbName').textContent=f.name;
+    $('#thumbSize').textContent=Math.round(f.size/1024)+' KB · stays on your device until you order';
+    $('#thumb').classList.add('on'); $('#dropzone').style.display='none';
+    $('#mockCover').style.filter='saturate(1.05)';};
+  r.readAsDataURL(f);
+}
+function clearFile(){ $('#thumb').classList.remove('on'); $('#dropzone').style.display='';
+  $('#fileIn').value=''; }
+function waitlist(){ window.open('https://ig.me/m/'+BK.handle,'_blank'); }
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeP();$('#lb').classList.remove('on');}});
+boot();
+</script></body></html>
