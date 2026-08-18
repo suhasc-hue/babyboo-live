@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 01:32:04",
+ "updated": "2026-08-19 01:42:08",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,10 +18,10 @@
     }
    ],
    "running": 1,
-   "queued": 34,
+   "queued": 27,
    "job": "kf_EP02",
-   "shot": "05_18",
-   "vram_free_gb": 0.9,
+   "shot": "09_32",
+   "vram_free_gb": 0.8,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.5
   },
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 38,
+   "queued": 30,
    "job": "kf_EP02",
-   "shot": "03_09",
+   "shot": "07_25",
    "vram_free_gb": 0.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.6
+   "ram_free_gb": 1.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 16179,
+    "total_views": 16202,
     "total_likes": 132,
-    "avg_views": 404,
+    "avg_views": 405,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -214,9 +214,9 @@
     "followers": 16,
     "media_count": 71,
     "reach_today": 2273,
-    "total_views": 10694,
+    "total_views": 10715,
     "total_likes": 73,
-    "avg_views": 267,
+    "avg_views": 268,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,11 +287,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 3,
-    "media_count": 58,
+    "media_count": 59,
     "reach_today": 3058,
-    "total_views": 9981,
-    "total_likes": 51,
-    "avg_views": 250,
+    "total_views": 9834,
+    "total_likes": 49,
+    "avg_views": 246,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -364,8 +364,8 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1216,
-    "total_views": 17217,
-    "total_likes": 183,
+    "total_views": 17218,
+    "total_likes": 184,
     "avg_views": 430,
     "demographics": {},
     "demographics_state": "locked",
@@ -506,7 +506,7 @@
   "posted": 285,
   "stories_today": 0,
   "made_today": 0,
-  "views": 56289,
+  "views": 56187,
   "followers": 115
  },
  "events": [
@@ -514,15 +514,15 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 01:31:42] wonderlab: PUBLISHED wonderlab_libr_crt_t1r1 media=18086115713223765",
-  "[08-19 01:31:42] wonderlab: next reel no earlier than 02:31",
-  "[08-19 01:31:43] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-19 01:31:43] happyhive: warm-up \u2014 71 posts so far, holding to 24/day",
-  "[08-19 01:31:43] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 01:31:43] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-19 01:41:57] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 01:41:58] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 01:41:58] happyhive: warm-up \u2014 71 posts so far, holding to 24/day",
+  "[08-19 01:41:58] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 01:41:58] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 01:41:58] wonderlab: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-08-19 01:06:35",
+  "updated": "2026-08-19 01:36:36",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 471 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -541,7 +541,7 @@
     "n": 40,
     "median_views": 286,
     "avg_completion": 0.349,
-    "avg_eng_rate": 0.0122,
+    "avg_eng_rate": 0.0121,
     "avg_saves": 0.2
    },
    "playground": {
@@ -554,7 +554,7 @@
    "happyhive": {
     "n": 40,
     "median_views": 165,
-    "avg_completion": 0.476,
+    "avg_completion": 0.481,
     "avg_eng_rate": 0.0121,
     "avg_saves": 0.3
    },
@@ -562,14 +562,14 @@
     "n": 40,
     "median_views": 245,
     "avg_completion": 0.35,
-    "avg_eng_rate": 0.0137,
+    "avg_eng_rate": 0.0135,
     "avg_saves": 0.3
    },
    "wonderlab": {
-    "n": 40,
-    "median_views": 131,
+    "n": 39,
+    "median_views": 130,
     "avg_completion": 0.335,
-    "avg_eng_rate": 0.0105,
+    "avg_eng_rate": 0.0103,
     "avg_saves": 0.1
    }
   }
