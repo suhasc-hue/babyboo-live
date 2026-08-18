@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 23:51:24",
+ "updated": "2026-08-19 00:01:28",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 3,
+   "queued": 2,
    "job": "EP01",
-   "shot": "11_03",
-   "vram_free_gb": 11.6,
+   "shot": "11_05",
+   "vram_free_gb": 4.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 6,
+   "queued": 5,
    "job": "EP01",
-   "shot": "10_02",
-   "vram_free_gb": 2.6,
+   "shot": "10_04",
+   "vram_free_gb": 4.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 0.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -132,16 +132,16 @@
    "vision_ok": 56,
    "awaiting_review": 147,
    "posted": 81,
-   "posted_today": 20,
+   "posted_today": 0,
    "stored_ready": 29,
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 15375,
+    "total_views": 15526,
     "total_likes": 127,
-    "avg_views": 384,
+    "avg_views": 388,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -150,12 +150,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcK0ad7AkDE/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775166813_1093959249722547_5834968079390773407_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Mc-ffBzkTm4Q7kNvwHt9wD9&_nc_oc=Adr_gxGU7sbHzfhbA8on6Hx72LbhtJBhtMhHa3MEhw8Yxb4x0ZGkWrITCjtnncPKSJ0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=g0QJ4wvZrMnUooweSeOKCw&_nc_tpa=Q5bMBQLx-RtmIxvQVRklHCCnzrcUC9ranmYQJXNKMpid2sLUScEmYzx7swzxlz4Xl0936lRLWThy2d5v&oh=00_AQEJN7E-7bqhdwKUqWN9nZoP_ptCSFVIH0te-RYoJDesPA&oe=6A8A8089",
-     "views": 1680,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775166813_1093959249722547_5834968079390773407_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Mc-ffBzkTm4Q7kNvwHt9wD9&_nc_oc=Adr_gxGU7sbHzfhbA8on6Hx72LbhtJBhtMhHa3MEhw8Yxb4x0ZGkWrITCjtnncPKSJ0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=HGLdDB8mC1r06_yYLBF7NA&_nc_tpa=Q5bMBQLPxZXadS_eaQ9WRouZBm_K1cEaFLSz9C2txiWb9eQMhBbmlJe6Exunj5zMxZ00Zt0QKHxHKPBi&oh=00_AQGvKj1Rc7oHKkCm7cRB8mGE6CLTZttafuAFANA2B4Oz9Q&oe=6A8A8089",
+     "views": 1734,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-18T05:04:34+0000",
-     "ig_reels_avg_watch_time": 14080,
+     "ig_reels_avg_watch_time": 13894,
      "caption": "babyboo's snack comes ALIVE \ud83c\udf5d\u2728 \u2014 she finds a walnut-sized do"
     },
     {
@@ -207,16 +207,16 @@
    "vision_ok": 51,
    "awaiting_review": 73,
    "posted": 70,
-   "posted_today": 24,
+   "posted_today": 0,
    "stored_ready": 20,
    "ig": {
     "username": "happyhivekidss",
     "followers": 16,
-    "media_count": 69,
+    "media_count": 70,
     "reach_today": 2273,
-    "total_views": 10583,
-    "total_likes": 80,
-    "avg_views": 265,
+    "total_views": 10203,
+    "total_likes": 77,
+    "avg_views": 255,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -235,12 +235,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcLJk2_lP9A/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4_3rbAjZ2XsQ7kNvwFp3W7W&_nc_oc=Ado5Eui0mqQH1Vx7cISRp2S9jOOZosdzXlTnv2xpwaDTjgrmHODKyYo_mysfEYZr2NY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=fZ23c4crl5dDe8VxSrF4pA&_nc_tpa=Q5bMBQImrk6xLF4gRI41-tttkZbCjLnB-jU55YIuD99rjQbr0iiLVx2J7vUglQl7_ksPFQ_l-y5FiTNl&oh=00_AQHfDx8c_Sqpca-6126dGVOb14MkjaGcRMNU24fA2S-wUA&oe=6A8A7EEE",
-     "views": 1195,
-     "likes": 1,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4_3rbAjZ2XsQ7kNvwFp3W7W&_nc_oc=Ado5Eui0mqQH1Vx7cISRp2S9jOOZosdzXlTnv2xpwaDTjgrmHODKyYo_mysfEYZr2NY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=X5Xqvsv0lcsVq2OjETaMSA&_nc_tpa=Q5bMBQJ6F-NAhOyt7DsX3Ol58UTjMrkU_GaFKlhkYCWAXFU8TZFXqBJ4NYZCIJD5vtenUM4NjxBvCIRJ&oh=00_AQEfqiHGQvbtlAZS6jVXn2Hqz8NxOEeCVZRL8aYHoF7MpQ&oe=6A8A7EEE",
+     "views": 1232,
+     "likes": 2,
      "shares": 0,
      "timestamp": "2026-08-18T08:09:20+0000",
-     "ig_reels_avg_watch_time": 10425,
+     "ig_reels_avg_watch_time": 10410,
      "caption": "Morning Chaos: Bounce Bounce Bounce \ud83d\udecf\ufe0f\ud83d\ude01 He has figured out t"
     },
     {
@@ -264,14 +264,14 @@
      "caption": ""
     },
     {
-     "permalink": "https://www.instagram.com/reel/Db3GSkXD5Su/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/764817828_1728597748357768_2711596436967340976_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YWuWT7YW6zkQ7kNvwH3_wv-&_nc_oc=Ado5WYo8TCYklgihMzzcuAllvnflyVwUKVDuYiHunHBBakILGppxzjC4gDaKzjJQf7E&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=fZ23c4crl5dDe8VxSrF4pA&_nc_tpa=Q5bMBQLf8Pvj1owcY1FbO7YOr5ZBhnrPyq0cElyhMEcHwenrhksJg3jO3oHk9lhr_wHZU7hmVj4WFFQz&oh=00_AQHNKDxQCcscr7WxymwEmPOXHIGt-AiTccXSl9dvekJEUw&oe=6A8A8376",
-     "views": 421,
-     "likes": 4,
+     "permalink": "https://www.instagram.com/reel/Db8nI9jktOG/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/771909961_4539549409660738_4753985587698661538_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vrr2KbSgvoYQ7kNvwFwnbiE&_nc_oc=AdqUvMS1rMjVvy2WMf4AOtNrv1t_n8Q4ByF7bL7-VgLEIuvsYzQgTKmJZEZbN4QaPtc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=ykjyAMKuZXHahYvKvxJt7A&_nc_tpa=Q5bMBQIYvIojFBHUehJQ3IzoYEOX_lEgSRIXQI7HKjEA7rWTwyw2VaujAOKwvZs0psuFrvHtjeCstsgG&oh=00_AQGXFKD9cuY0A9bAD8WGZkehV5fIF2hxZrFfhRpMzsr49A&oe=6A8A5163",
+     "views": 347,
+     "likes": 5,
      "shares": 0,
-     "timestamp": "2026-08-10T13:15:59+0000",
-     "ig_reels_avg_watch_time": 9609,
-     "caption": "Morning Chaos: He Threw Them All \ud83c\udf41\ud83d\ude04 Fifteen seconds of leaf "
+     "timestamp": "2026-08-12T16:39:01+0000",
+     "ig_reels_avg_watch_time": 8007,
+     "caption": ""
     }
    ]
   },
@@ -282,14 +282,14 @@
    "vision_ok": 270,
    "awaiting_review": 0,
    "posted": 57,
-   "posted_today": 24,
+   "posted_today": 0,
    "stored_ready": 213,
    "ig": {
     "username": "kidswonderee",
     "followers": 3,
     "media_count": 57,
     "reach_today": 3058,
-    "total_views": 9719,
+    "total_views": 9721,
     "total_likes": 48,
     "avg_views": 243,
     "demographics": {},
@@ -505,8 +505,8 @@
   "rendered": 1009,
   "posted": 282,
   "stories_today": 0,
-  "made_today": 112,
-  "views": 55106,
+  "made_today": 0,
+  "views": 54879,
   "followers": 115
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 23:50:11] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 23:50:12] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 23:50:12] happyhive: warm-up \u2014 69 posts so far, holding to 24/day",
-  "[08-18 23:50:54] happyhive/happyhive_leaf_pile_t0r1y0: caption verified on Instagram",
-  "[08-18 23:50:54] happyhive: PUBLISHED happyhive_leaf_pile_t0r1y0 media=18214170298344340",
-  "[08-18 23:50:54] happyhive: next reel no earlier than 00:50"
+  "[08-19 00:01:08] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-19 00:01:08] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 00:01:09] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 00:01:09] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 00:01:09] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 00:01:09] wonderlab: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-18 23:36:34",
