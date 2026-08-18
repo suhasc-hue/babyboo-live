@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 12:56:28",
+ "updated": "2026-08-18 13:06:31",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 1,
-   "job": "picnic_t1r1y1",
-   "shot": "5",
-   "vram_free_gb": 2.9,
+   "queued": 3,
+   "job": "beach_t1r3y1",
+   "shot": "4",
+   "vram_free_gb": 3.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -70,9 +70,9 @@
    "queued": 0,
    "job": "happyhive_pillow_fort_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 12.2,
+   "vram_free_gb": 12.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 5.5
+   "ram_free_gb": 4.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,16 +121,16 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 30.6
+   "ram_free_gb": 30.7
   }
  },
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 301,
-   "qc_passed": 224,
+   "rendered": 302,
+   "qc_passed": 225,
    "vision_ok": 56,
-   "awaiting_review": 139,
+   "awaiting_review": 140,
    "posted": 74,
    "posted_today": 13,
    "stored_ready": 36,
@@ -138,10 +138,10 @@
     "username": "tinycraftsbyleo",
     "followers": 51,
     "media_count": 75,
-    "reach_today": 2967,
-    "total_views": 14090,
+    "reach_today": 2971,
+    "total_views": 14110,
     "total_likes": 138,
-    "avg_views": 352,
+    "avg_views": 353,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -214,7 +214,7 @@
     "followers": 14,
     "media_count": 59,
     "reach_today": 2264,
-    "total_views": 13057,
+    "total_views": 13059,
     "total_likes": 108,
     "avg_views": 326,
     "demographics": {},
@@ -288,10 +288,10 @@
     "username": "kidswonderee",
     "followers": 2,
     "media_count": 46,
-    "reach_today": 3028,
-    "total_views": 9697,
+    "reach_today": 3041,
+    "total_views": 9710,
     "total_likes": 53,
-    "avg_views": 242,
+    "avg_views": 243,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -502,11 +502,11 @@
   }
  },
  "totals": {
-  "rendered": 993,
+  "rendered": 994,
   "posted": 253,
   "stories_today": 0,
-  "made_today": 96,
-  "views": 56064,
+  "made_today": 97,
+  "views": 56099,
   "followers": 112
  },
  "events": [
@@ -514,41 +514,41 @@
   "[08-18 11:46:01] SPAWNED w40 pid=14288 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 11:46:01] farm supervisor up: 3 workers configured",
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 12:55:43] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 12:55:43] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 12:55:43] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 12:55:43] wonderlab: warm-up \u2014 46 posts so far, holding to 24/day",
-  "[08-18 12:55:44] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 12:55:44] happyhive: warm-up \u2014 59 posts so far, holding to 24/day"
+  "[08-18 13:05:58] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 13:05:58] wonderlab: warm-up \u2014 46 posts so far, holding to 24/day",
+  "[08-18 13:05:59] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 13:05:59] happyhive: warm-up \u2014 59 posts so far, holding to 24/day",
+  "[08-18 13:05:59] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 13:05:59] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 12:36:27",
+  "updated": "2026-08-18 13:06:27",
   "sample": 168,
   "findings": [
-   "Strongest world: tinycrafts/beach (median 603 views, n=6). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 38% across 167 reels with data.",
-   "Reels losing viewers fastest (completion <60% of average): bathtub_t10r3y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1 \u2014 study their first 3 seconds.",
-   "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), happyhive_spaghetti_t0r0y0 (3), wonderlab_cyber_arcade_t1r2 (3)",
-   "Best posting hours so far: 18:00, 0:00, 3:00 (median views 371 at 18:00).",
+   "Strongest world: tinycrafts/beach (median 544 views, n=7). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
+   "Average completion (watch time / duration) is 38% across 166 reels with data.",
+   "Reels losing viewers fastest (completion <60% of average): playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1, kitchen_t11r1y2 \u2014 study their first 3 seconds.",
+   "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), wonderlab_cyber_arcade_t1r2 (3), storynook_tea_estate_toolshed_readsto_t0r0 (3)",
+   "Best posting hours so far: 18:00, 0:00, 3:00 (median views 420 at 18:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
-   "Shift render/posting share toward tinycrafts/beach; its median outperforms playground/playground_bouncecathedral by 201.0x.",
+   "Shift render/posting share toward tinycrafts/beach; its median outperforms playground/playground_bouncecathedral by 181.3x.",
    "Most-saved concepts are the first candidates for storybook/product adaptation \u2014 a save is a parent bookmarking for their child."
   ],
   "by_channel": {
    "happyhive": {
     "n": 40,
-    "median_views": 166,
-    "avg_completion": 0.519,
-    "avg_eng_rate": 0.0127,
-    "avg_saves": 0.4
+    "median_views": 163,
+    "avg_completion": 0.511,
+    "avg_eng_rate": 0.013,
+    "avg_saves": 0.3
    },
    "tinycrafts": {
     "n": 40,
     "median_views": 256,
-    "avg_completion": 0.296,
-    "avg_eng_rate": 0.0129,
+    "avg_completion": 0.3,
+    "avg_eng_rate": 0.0125,
     "avg_saves": 0.2
    },
    "playground": {
@@ -559,10 +559,10 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 39,
+    "n": 40,
     "median_views": 139,
-    "avg_completion": 0.359,
-    "avg_eng_rate": 0.011,
+    "avg_completion": 0.356,
+    "avg_eng_rate": 0.0109,
     "avg_saves": 0.2
    },
    "storynook": {
