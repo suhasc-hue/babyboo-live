@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 04:53:19",
+ "updated": "2026-08-19 05:03:24",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 7.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.0
+   "ram_free_gb": 8.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,13 +66,13 @@
      "at": "13:46:28"
     }
    ],
-   "running": 1,
+   "running": 0,
    "queued": 0,
-   "job": "EP02",
-   "shot": "12_41",
-   "vram_free_gb": 6.4,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 5.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.5
+   "ram_free_gb": 3.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 0.7,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 8.5
+   "ram_free_gb": 8.3
   }
  },
  "channels": {
@@ -139,7 +139,7 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 16911,
+    "total_views": 16912,
     "total_likes": 136,
     "avg_views": 423,
     "demographics": {},
@@ -212,11 +212,11 @@
    "ig": {
     "username": "happyhivekidss",
     "followers": 16,
-    "media_count": 74,
+    "media_count": 75,
     "reach_today": 2273,
-    "total_views": 9455,
-    "total_likes": 56,
-    "avg_views": 236,
+    "total_views": 9313,
+    "total_likes": 55,
+    "avg_views": 233,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -255,12 +255,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcL6g4EkvZ-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=GtSvH8K0in1kf3yDIeTUMA&_nc_tpa=Q5bMBQJ-V30Anqe0qAoktRyV-Rl20SrvgXk-whRKVrH12eZexz43OdL_5Y6oaXOM0Antck5XouqK4heW&oh=00_AQE-aceRYb2Ao59JmdH8xO6sWXTgRgXvoX0W07XozlXC6A&oe=6A8ACC36",
-     "views": 383,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=OZtvh3q9c-c8l-srTrIstw&_nc_tpa=Q5bMBQItSX22jDFwU2waDIcohbY5WnTykmPkr9rtMgbjpj1jOy8SxH_tLBmhPY2iLEhXfH-fZPpVpwRg&oh=00_AQGKMDqGn_U_WkIBiGVjwO1Xr2UZFpioo8InBGvV60o0cQ&oe=6A8ACC36",
+     "views": 386,
      "likes": 1,
      "shares": 0,
      "timestamp": "2026-08-18T15:17:11+0000",
-     "ig_reels_avg_watch_time": 7947,
+     "ig_reels_avg_watch_time": 7942,
      "caption": "Ball Pit Swimming Lessons \ud83c\udf89\ud83d\ude01 Every ball must leave the pit. "
     },
     {
@@ -289,9 +289,9 @@
     "followers": 3,
     "media_count": 62,
     "reach_today": 3058,
-    "total_views": 9600,
-    "total_likes": 48,
-    "avg_views": 240,
+    "total_views": 9701,
+    "total_likes": 49,
+    "avg_views": 243,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -506,7 +506,7 @@
   "posted": 292,
   "stories_today": 0,
   "made_today": 0,
-  "views": 55425,
+  "views": 55385,
   "followers": 115
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 04:53:07] tinycrafts: cap override 15 -> 24/day (channels.json)",
-  "[08-19 04:53:07] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 04:53:07] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 04:53:08] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-19 04:53:08] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 04:53:08] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-19 05:03:03] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-19 05:03:03] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 05:03:06] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-19 05:03:07] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 05:03:07] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 05:03:07] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-19 04:36:38",
