@@ -1,12 +1,12 @@
 {
- "updated": "2026-08-18 15:38:14",
+ "updated": "2026-08-18 15:48:17",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.57",
    "up": true,
-   "enabled": true,
+   "enabled": false,
    "made_today": 1,
    "last_reel": "happyhive_drum_bucket_garden_t0r1y0",
    "avg_min": 20.0,
@@ -17,13 +17,13 @@
      "at": "10:04:30"
     }
    ],
-   "running": 1,
-   "queued": 1,
-   "job": "snow_t10r2y1",
-   "shot": "1",
-   "vram_free_gb": 1.2,
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 14.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 11.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -70,9 +70,9 @@
    "queued": 0,
    "job": "happyhive_leaf_pile_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 4.9,
+   "vram_free_gb": 12.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 0.6
+   "ram_free_gb": 3.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 30.4
+   "ram_free_gb": 30.3
   }
  },
  "channels": {
@@ -131,17 +131,17 @@
    "qc_passed": 232,
    "vision_ok": 56,
    "awaiting_review": 147,
-   "posted": 76,
-   "posted_today": 15,
-   "stored_ready": 34,
+   "posted": 77,
+   "posted_today": 16,
+   "stored_ready": 33,
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 51,
-    "media_count": 77,
+    "media_count": 78,
     "reach_today": 2976,
-    "total_views": 14034,
-    "total_likes": 136,
-    "avg_views": 351,
+    "total_views": 13751,
+    "total_likes": 131,
+    "avg_views": 344,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -206,17 +206,17 @@
    "qc_passed": 128,
    "vision_ok": 51,
    "awaiting_review": 72,
-   "posted": 61,
-   "posted_today": 15,
-   "stored_ready": 29,
+   "posted": 62,
+   "posted_today": 16,
+   "stored_ready": 28,
    "ig": {
     "username": "happyhivekidss",
     "followers": 14,
-    "media_count": 61,
-    "reach_today": 2267,
-    "total_views": 13111,
-    "total_likes": 106,
-    "avg_views": 328,
+    "media_count": 62,
+    "reach_today": 2270,
+    "total_views": 11673,
+    "total_likes": 100,
+    "avg_views": 292,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -244,16 +244,6 @@
      "caption": "Splash Table Specialist (One Take, No Cuts) \ud83d\udca7\ud83d\ude04 He emptied th"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DbwmMLYjdzO/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/768567953_1541917743602576_1884111539632158659_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pVjCWKgO-cMQ7kNvwELlY8X&_nc_oc=AdqmqqrGyWSiRshikYpHb-bkDAaLCe5EJuXPKm3r-P1sO2ZJov_cSxv6-fRaTMZNpMs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=3TBRZCHHg5A3_8_E-4N8Qg&_nc_tpa=Q5bMBQI6-_uyxVjNz91Fb9PCd-3z6PK2cUwOpT070Lt-KzUjRaQfntoMEF_4B-OiVc6a6sa3DRrBhSQC&oh=00_AQFgdSDespKsavGciFayGHlcshHjNL4Njiuk2aqzoVilcw&oe=6A89F8F0",
-     "views": 1439,
-     "likes": 6,
-     "shares": 0,
-     "timestamp": "2026-08-08T00:40:02+0000",
-     "ig_reels_avg_watch_time": 12005,
-     "caption": "Tower Down \u2014 Morning Edition \ud83c\udf08\ud83d\ude06 He does not build towers. He"
-    },
-    {
      "permalink": "https://www.instagram.com/reel/Db8SVZ8EnIr/",
      "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/774512130_1059988776958173_5346993608520769608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vZF6Po3roQQQ7kNvwHbvO_E&_nc_oc=AdpzaCrOAITKXh1v1tl-o_Y-B_-23cj2klGn22gQWBCQ2QXzlO9383qj_iR4WAdMSGU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=yxUa6Megt5UzimiE6hkRXQ&_nc_tpa=Q5bMBQJSBiLIxCyFpl5rxCF8hTCzHk-6XuZ4BIt9a3KHnp2CAkWWMuFHH0yLpNagtGrqbB_jSmkL7nIQ&oh=00_AQFFgOXXX5f1CV5Q_JsEYZ1etSdhW262-EUDbUojtXGFxA&oe=6A89D9AF",
      "views": 794,
@@ -272,6 +262,16 @@
      "timestamp": "2026-08-12T15:38:30+0000",
      "ig_reels_avg_watch_time": 9403,
      "caption": ""
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/Db3GSkXD5Su/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/764817828_1728597748357768_2711596436967340976_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YWuWT7YW6zkQ7kNvwH3_wv-&_nc_oc=Ado5WYo8TCYklgihMzzcuAllvnflyVwUKVDuYiHunHBBakILGppxzjC4gDaKzjJQf7E&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=fCFj5IbPfGP4pIjeAhlXSw&_nc_tpa=Q5bMBQJPU4-vL_cH59-9WWhyG2fhclgVZpgUTnURFAVedAlEmh-Jwq-ouGVnHw_GWgqsYMQJ56Ct-oAi&oh=00_AQH2JRlMQ7kFyh8gHOSAB4Sum9dF6-NWncNeZmClCxPX-A&oe=6A89DAB6",
+     "views": 421,
+     "likes": 4,
+     "shares": 0,
+     "timestamp": "2026-08-10T13:15:59+0000",
+     "ig_reels_avg_watch_time": 9609,
+     "caption": "Morning Chaos: He Threw Them All \ud83c\udf41\ud83d\ude04 Fifteen seconds of leaf "
     }
    ]
   },
@@ -289,7 +289,7 @@
     "followers": 2,
     "media_count": 49,
     "reach_today": 3045,
-    "total_views": 9346,
+    "total_views": 9349,
     "total_likes": 50,
     "avg_views": 234,
     "demographics": {},
@@ -364,7 +364,7 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1214,
-    "total_views": 17052,
+    "total_views": 17059,
     "total_likes": 181,
     "avg_views": 426,
     "demographics": {},
@@ -503,23 +503,23 @@
  },
  "totals": {
   "rendered": 1008,
-  "posted": 260,
+  "posted": 262,
   "stories_today": 0,
   "made_today": 111,
-  "views": 55761,
+  "views": 54050,
   "followers": 112
  },
  "events": [
   "[08-18 11:46:01] SPAWNED tech-01 pid=10760 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 11:46:01] SPAWNED w40 pid=14288 shard=0/1 -> http://192.168.1.40:8188",
-  "[08-18 11:46:01] farm supervisor up: 3 workers configured",
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 15:36:50] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 15:36:50] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 15:36:51] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 15:36:51] happyhive: warm-up \u2014 61 posts so far, holding to 24/day",
-  "[08-18 15:37:51] tinycrafts: cap override 15 -> 24/day (channels.json)",
-  "[08-18 15:37:51] tinycrafts: warm-up \u2014 43 posts so far, holding to 24/day"
+  "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
+  "[08-18 15:47:36] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 15:47:36] happyhive: warm-up \u2014 62 posts so far, holding to 24/day",
+  "[08-18 15:47:36] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 15:47:36] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 15:47:36] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 15:47:36] wonderlab: warm-up \u2014 49 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-18 15:36:29",
