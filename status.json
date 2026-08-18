@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 18:19:12",
+ "updated": "2026-08-18 18:29:16",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,13 +17,13 @@
      "at": "10:04:30"
     }
    ],
-   "running": 1,
-   "queued": 1,
+   "running": 0,
+   "queued": 0,
    "job": "",
-   "shot": "MiniMax_H3",
-   "vram_free_gb": 11.0,
+   "shot": "",
+   "vram_free_gb": 9.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 5.2
+   "ram_free_gb": 7.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 6,
+   "queued": 0,
    "job": "kf_EP01",
-   "shot": "11_04",
-   "vram_free_gb": 2.5,
+   "shot": "12_05",
+   "vram_free_gb": 2.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 80,
     "reach_today": 2980,
-    "total_views": 13138,
-    "total_likes": 123,
-    "avg_views": 328,
+    "total_views": 13186,
+    "total_likes": 124,
+    "avg_views": 330,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -214,9 +214,9 @@
     "followers": 15,
     "media_count": 64,
     "reach_today": 2270,
-    "total_views": 12031,
+    "total_views": 12100,
     "total_likes": 102,
-    "avg_views": 301,
+    "avg_views": 302,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -281,17 +281,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 51,
-   "posted_today": 18,
-   "stored_ready": 219,
+   "posted": 52,
+   "posted_today": 19,
+   "stored_ready": 218,
    "ig": {
     "username": "kidswonderee",
     "followers": 3,
-    "media_count": 51,
+    "media_count": 52,
     "reach_today": 3054,
-    "total_views": 10541,
+    "total_views": 10407,
     "total_likes": 52,
-    "avg_views": 264,
+    "avg_views": 260,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -340,7 +340,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcJXhDjAePR/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775798824_2485038845340598_6112622944579405398_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=d79v8XFERTIQ7kNvwHx0Cl8&_nc_oc=AdpkeO4Uj9SXZtRw8iCje4fJGRMznjnykJm_WHPRrTHhrxZ4hLv9vfX4ejc2QG93vb0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=XrjAIMZ_cR7brjkg6QGoJw&_nc_tpa=Q5bMBQI_OQKKsNitXJIetMbEVkMbNj7VrBz-DyJouQt7YhgitZIYLRBFEox7HRHO3xW1CUoIjfN8_DAV&oh=00_AQFUGj8iMTf8F8A6vWRAOWwNI0jcXxsuUET6n55CHDkQ0Q&oe=6A8A079B",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775798824_2485038845340598_6112622944579405398_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=d79v8XFERTIQ7kNvwHx0Cl8&_nc_oc=AdpkeO4Uj9SXZtRw8iCje4fJGRMznjnykJm_WHPRrTHhrxZ4hLv9vfX4ejc2QG93vb0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=VWq2eBwd-8YdqngemKHKKA&_nc_tpa=Q5bMBQI4QwpTcBO7ngOJLC-Ukrxsx1_7wiJhp4ZW_ewouQ6K8iKxxlOnE_AE_CtjuAtKI7xDvusz3FbS&oh=00_AQHBfBT3F7Wa-Qhu76oCIsaYWowRP54Ti2EH6EZj9N7DzA&oe=6A8A3FDB",
      "views": 188,
      "likes": 1,
      "shares": 0,
@@ -364,9 +364,9 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1216,
-    "total_views": 17095,
+    "total_views": 17100,
     "total_likes": 181,
-    "avg_views": 427,
+    "avg_views": 428,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -503,10 +503,10 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 268,
+  "posted": 269,
   "stories_today": 0,
   "made_today": 112,
-  "views": 55023,
+  "views": 55011,
   "followers": 114
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 18:18:35] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 18:18:35] wonderlab: warm-up \u2014 51 posts so far, holding to 24/day",
-  "[08-18 18:18:36] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 18:18:36] happyhive: warm-up \u2014 64 posts so far, holding to 24/day",
-  "[08-18 18:18:36] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 18:18:36] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-18 18:28:39] tinycrafts: warm-up \u2014 46 posts so far, holding to 24/day",
+  "[08-18 18:28:39] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 18:28:40] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 18:28:40] happyhive: warm-up \u2014 64 posts so far, holding to 24/day",
+  "[08-18 18:28:40] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 18:28:40] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-18 18:06:31",
