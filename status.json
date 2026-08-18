@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 09:56:56",
+ "updated": "2026-08-18 10:07:01",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,17 +7,23 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 0,
-   "last_reel": "",
-   "avg_min": null,
-   "recent": [],
+   "made_today": 1,
+   "last_reel": "happyhive_drum_bucket_garden_t0r1y0",
+   "avg_min": 20.0,
+   "recent": [
+    {
+     "id": "happyhive_drum_bucket_garden_t0r1y0",
+     "min": 16.7,
+     "at": "10:04:30"
+    }
+   ],
    "running": 1,
-   "queued": 0,
-   "job": "happyhive_drum_bucket_garden_t0r1y0",
-   "shot": "1",
-   "vram_free_gb": 11.5,
+   "queued": 3,
+   "job": "garden_t0r3y1",
+   "shot": "4",
+   "vram_free_gb": 1.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +70,9 @@
    "queued": 0,
    "job": "happyhive_drum_bucket_garden_t0r1y0",
    "shot": "1",
-   "vram_free_gb": 11.5,
+   "vram_free_gb": 7.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.8
+   "ram_free_gb": 0.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -113,7 +119,7 @@
    "queued": 0,
    "job": "wonderlab_arcadeloft_polaroid_t2r0",
    "shot": "1",
-   "vram_free_gb": 1.5,
+   "vram_free_gb": 4.8,
    "vram_total_gb": 8.5,
    "ram_free_gb": 10.6
   }
@@ -130,12 +136,12 @@
    "stored_ready": 39,
    "ig": {
     "username": "tinycraftsbyleo",
-    "followers": 50,
+    "followers": 51,
     "media_count": 72,
     "reach_today": 6,
-    "total_views": 14461,
-    "total_likes": 157,
-    "avg_views": 362,
+    "total_views": 14550,
+    "total_likes": 159,
+    "avg_views": 364,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -196,10 +202,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 115,
-   "qc_passed": 115,
+   "rendered": 116,
+   "qc_passed": 116,
    "vision_ok": 51,
-   "awaiting_review": 59,
+   "awaiting_review": 60,
    "posted": 56,
    "posted_today": 10,
    "stored_ready": 34,
@@ -208,9 +214,9 @@
     "followers": 14,
     "media_count": 56,
     "reach_today": 13,
-    "total_views": 16650,
+    "total_views": 16771,
     "total_likes": 138,
-    "avg_views": 416,
+    "avg_views": 419,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -283,8 +289,8 @@
     "followers": 2,
     "media_count": 43,
     "reach_today": 328,
-    "total_views": 10949,
-    "total_likes": 56,
+    "total_views": 10964,
+    "total_likes": 57,
     "avg_views": 274,
     "demographics": {},
     "demographics_state": "locked",
@@ -496,34 +502,34 @@
   }
  },
  "totals": {
-  "rendered": 973,
+  "rendered": 974,
   "posted": 244,
   "stories_today": 0,
-  "made_today": 76,
-  "views": 61267,
-  "followers": 111
+  "made_today": 77,
+  "views": 61492,
+  "followers": 112
  },
  "events": [
   "[08-18 00:43:53] SPAWNED pcconee pid=29860 shard=0/1 -> http://192.168.1.148:8188",
   "[08-18 00:43:53] SPAWNED tech-01 pid=2432 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 06:00:01] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-18 09:56:01] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 09:56:01] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 09:56:01] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 09:56:01] wonderlab: warm-up \u2014 43 posts so far, holding to 24/day",
-  "[08-18 09:56:02] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 09:56:02] happyhive: warm-up \u2014 56 posts so far, holding to 24/day"
+  "[08-18 10:06:17] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 10:06:17] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 10:06:17] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 10:06:17] wonderlab: warm-up \u2014 43 posts so far, holding to 24/day",
+  "[08-18 10:06:18] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 10:06:18] happyhive: warm-up \u2014 56 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 09:36:25",
-  "sample": 165,
+  "updated": "2026-08-18 10:06:25",
+  "sample": 166,
   "findings": [
    "Strongest world: tinycrafts/beach (median 603 views, n=6). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 39% across 164 reels with data.",
+   "Average completion (watch time / duration) is 39% across 166 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): bathtub_t10r3y0, garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), happyhive_spaghetti_t0r0y0 (3), wonderlab_cyber_arcade_t1r2 (3)",
-   "Best posting hours so far: 18:00, 0:00, 4:00 (median views 370 at 18:00).",
+   "Best posting hours so far: 18:00, 0:00, 7:00 (median views 370 at 18:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -533,16 +539,16 @@
   "by_channel": {
    "happyhive": {
     "n": 40,
-    "median_views": 180,
-    "avg_completion": 0.544,
-    "avg_eng_rate": 0.0123,
+    "median_views": 173,
+    "avg_completion": 0.542,
+    "avg_eng_rate": 0.0121,
     "avg_saves": 0.5
    },
    "tinycrafts": {
-    "n": 37,
+    "n": 38,
     "median_views": 248,
-    "avg_completion": 0.279,
-    "avg_eng_rate": 0.0132,
+    "avg_completion": 0.284,
+    "avg_eng_rate": 0.0131,
     "avg_saves": 0.2
    },
    "playground": {
@@ -556,14 +562,14 @@
     "n": 40,
     "median_views": 142,
     "avg_completion": 0.37,
-    "avg_eng_rate": 0.01,
+    "avg_eng_rate": 0.0107,
     "avg_saves": 0.2
    },
    "storynook": {
     "n": 40,
     "median_views": 244,
     "avg_completion": 0.346,
-    "avg_eng_rate": 0.0138,
+    "avg_eng_rate": 0.0137,
     "avg_saves": 0.3
    }
   }
