@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 21:10:20",
+ "updated": "2026-08-18 21:20:24",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 6,
+   "queued": 1,
    "job": "kf_EP01",
-   "shot": "10_01",
-   "vram_free_gb": 0.5,
+   "shot": "12_02",
+   "vram_free_gb": 1.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 6,
+   "queued": 1,
    "job": "kf_EP01",
-   "shot": "10_02",
-   "vram_free_gb": 7.6,
+   "shot": "12_03",
+   "vram_free_gb": 12.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 3.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 30.5
+   "ram_free_gb": 30.7
   }
  },
  "channels": {
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 21:09:41] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 21:09:41] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 21:09:41] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-18 21:09:41] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 21:09:41] wonderlab: warm-up \u2014 54 posts so far, holding to 24/day",
-  "[08-18 21:09:42] happyhive: cap override 15 -> 24/day (channels.json)"
+  "[08-18 21:19:56] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 21:19:56] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 21:19:56] wonderlab: warm-up \u2014 54 posts so far, holding to 24/day",
+  "[08-18 21:19:57] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 21:19:57] happyhive: warm-up \u2014 67 posts so far, holding to 24/day",
+  "[08-18 21:19:57] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-18 21:06:33",
