@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 11:27:37",
+ "updated": "2026-08-18 11:37:40",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 1,
-   "job": "garden_t1r2y1",
-   "shot": "5",
-   "vram_free_gb": 1.0,
+   "queued": 3,
+   "job": "picnic_t6r1y0",
+   "shot": "6",
+   "vram_free_gb": 1.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.6
   },
   "w40": {
    "owner": "Neeraj",
@@ -31,10 +31,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 25,
-   "last_reel": "happyhive_mirror_t0r1y1",
+   "made_today": 26,
+   "last_reel": "happyhive_sprinkler_t0r1y1",
    "avg_min": 26.9,
    "recent": [
+    {
+     "id": "happyhive_sprinkler_t0r1y1",
+     "min": 27.1,
+     "at": "11:28:49"
+    },
     {
      "id": "happyhive_mirror_t0r1y1",
      "min": 27.2,
@@ -59,20 +64,15 @@
      "id": "happyhive_towel_burrito_t0r1y0",
      "min": 27.6,
      "at": "09:12:30"
-    },
-    {
-     "id": "happyhive_fan_ribbons_t0r1y0",
-     "min": 27.4,
-     "at": "08:44:54"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_sprinkler_t0r1y1",
+   "job": "happyhive_ball_pit_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 11.8,
+   "vram_free_gb": 10.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.9
+   "ram_free_gb": 1.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,27 +121,27 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 28.5
+   "ram_free_gb": 28.3
   }
  },
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 296,
+   "rendered": 297,
    "qc_passed": 221,
    "vision_ok": 56,
    "awaiting_review": 136,
-   "posted": 72,
-   "posted_today": 11,
-   "stored_ready": 38,
+   "posted": 73,
+   "posted_today": 12,
+   "stored_ready": 37,
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 51,
     "media_count": 73,
     "reach_today": 6,
-    "total_views": 14493,
+    "total_views": 14534,
     "total_likes": 156,
-    "avg_views": 362,
+    "avg_views": 363,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -202,19 +202,19 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 118,
-   "qc_passed": 118,
+   "rendered": 119,
+   "qc_passed": 119,
    "vision_ok": 51,
-   "awaiting_review": 62,
-   "posted": 57,
-   "posted_today": 11,
-   "stored_ready": 33,
+   "awaiting_review": 63,
+   "posted": 58,
+   "posted_today": 12,
+   "stored_ready": 32,
    "ig": {
     "username": "happyhivekidss",
     "followers": 14,
     "media_count": 57,
     "reach_today": 13,
-    "total_views": 15038,
+    "total_views": 15043,
     "total_likes": 123,
     "avg_views": 376,
     "demographics": {},
@@ -235,7 +235,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DbwgAW5lPbv/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769584723_3072530116284521_3102365029772613971_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UwkKVXnh31MQ7kNvwEi7Vnu&_nc_oc=AdoaSoO_OtMbhPHXQ5J-DiqBBKWGilTxaoBdQ7Vi7B6fPND5PpgULFYHrm_Vyyk_FxQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=TiKqsJn15IbXlg1NpbiCHA&_nc_tpa=Q5bMBQLAck-Sj_o5OvzS1Op6iCAuOga2D9uDwyeMr7Fn4mFW9YcuLsOb8CdYinxUvLJV1EeljLZjosMu&oh=00_AQGY58ROilDGC1n1nnPafPRdZItOLMFwZUM7NrIzemY6rw&oe=6A89B55B",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769584723_3072530116284521_3102365029772613971_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UwkKVXnh31MQ7kNvwEi7Vnu&_nc_oc=AdoaSoO_OtMbhPHXQ5J-DiqBBKWGilTxaoBdQ7Vi7B6fPND5PpgULFYHrm_Vyyk_FxQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Yks_z-vkcFNQP6y3-OXfbA&_nc_tpa=Q5bMBQJiwdzxKj3CWKL6xtf-yLzXB7yd4PCPsknJWzseBxzTdRZRA-kbWRi_wDdk3Ak9ZV6jMRjosgSf&oh=00_AQFoHlQLkLxT8v7CW2ExV5Aj2gKgTVM2KVIXwKS9mSumxw&oe=6A89B55B",
      "views": 1938,
      "likes": 13,
      "shares": 0,
@@ -289,7 +289,7 @@
     "followers": 2,
     "media_count": 45,
     "reach_today": 328,
-    "total_views": 9602,
+    "total_views": 9607,
     "total_likes": 53,
     "avg_views": 240,
     "demographics": {},
@@ -340,7 +340,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Db8Y4CuEdbF/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773315685_1837499377231114_7242480450726593472_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bULgtLw_3S8Q7kNvwH5K545&_nc_oc=AdpQExPC0GOWcKoztQMOljU7tqX2rzg_xESTKkIptMDy5Hrn-qEAAv_KVH2BIMiHjM8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=MZTTgqP95rxN4vsp2TXcRg&_nc_tpa=Q5bMBQLm2zqJyjVwS-F1jUzrOMQTOxyXpfLcx4xfj23qL-pEUXo1IiLKMSxdUCYAY7-zxhJjvJvusXg4&oh=00_AQHqC_eSMCdV4vp-61k3qPTVTS_v7xw-MeKigRJjH5WJGw&oe=6A897DCB",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773315685_1837499377231114_7242480450726593472_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=bULgtLw_3S8Q7kNvwH5K545&_nc_oc=AdpQExPC0GOWcKoztQMOljU7tqX2rzg_xESTKkIptMDy5Hrn-qEAAv_KVH2BIMiHjM8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=_Ek2TcTYW9tj2lMmEPBzKw&_nc_tpa=Q5bMBQLKFtqZ6iq3tjtt8PWf5kTjzLOAtSwwD6CsiTHkrpVXTzNYOO-CxwfQa8VyvkZhZ6QmJVgjaJBL&oh=00_AQFUlgmp2c2WIW_guP_WAz03N86VfBmGh5Po8iIcK3dOgQ&oe=6A89B60B",
      "views": 274,
      "likes": 0,
      "shares": 0,
@@ -502,11 +502,11 @@
   }
  },
  "totals": {
-  "rendered": 984,
-  "posted": 248,
+  "rendered": 986,
+  "posted": 250,
   "stories_today": 0,
-  "made_today": 87,
-  "views": 58351,
+  "made_today": 89,
+  "views": 58402,
   "followers": 112
  },
  "events": [
@@ -514,22 +514,22 @@
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 06:00:01] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-18 11:00:26] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 11:27:26] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 11:27:26] happyhive: warm-up \u2014 57 posts so far, holding to 24/day",
-  "[08-18 11:27:26] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 11:27:26] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 11:27:26] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 11:27:26] wonderlab: warm-up \u2014 45 posts so far, holding to 24/day"
+  "[08-18 11:36:35] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 11:36:35] happyhive: warm-up \u2014 57 posts so far, holding to 24/day",
+  "[08-18 11:36:35] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 11:37:25] happyhive/happyhive_laundry_basket_t0r0y1: caption verified on Instagram",
+  "[08-18 11:37:25] happyhive: PUBLISHED happyhive_laundry_basket_t0r0y1 media=18106756271604986",
+  "[08-18 11:37:25] happyhive: next reel no earlier than 12:37"
  ],
  "learnings": {
-  "updated": "2026-08-18 11:06:26",
+  "updated": "2026-08-18 11:36:26",
   "sample": 167,
   "findings": [
    "Strongest world: tinycrafts/beach (median 603 views, n=6). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 38% across 167 reels with data.",
+   "Average completion (watch time / duration) is 38% across 166 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): bathtub_t10r3y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), happyhive_spaghetti_t0r0y0 (3), wonderlab_cyber_arcade_t1r2 (3)",
-   "Best posting hours so far: 18:00, 0:00, 7:00 (median views 370 at 18:00).",
+   "Best posting hours so far: 18:00, 0:00, 3:00 (median views 370 at 18:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -539,7 +539,7 @@
   "by_channel": {
    "happyhive": {
     "n": 40,
-    "median_views": 171,
+    "median_views": 173,
     "avg_completion": 0.526,
     "avg_eng_rate": 0.0129,
     "avg_saves": 0.4
@@ -547,8 +547,8 @@
    "tinycrafts": {
     "n": 39,
     "median_views": 256,
-    "avg_completion": 0.292,
-    "avg_eng_rate": 0.0132,
+    "avg_completion": 0.296,
+    "avg_eng_rate": 0.0131,
     "avg_saves": 0.2
    },
    "playground": {
@@ -559,10 +559,10 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 40,
-    "median_views": 141,
+    "n": 39,
+    "median_views": 139,
     "avg_completion": 0.364,
-    "avg_eng_rate": 0.0109,
+    "avg_eng_rate": 0.011,
     "avg_saves": 0.2
    },
    "storynook": {
