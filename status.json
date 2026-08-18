@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 01:52:11",
+ "updated": "2026-08-19 02:02:15",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 21,
+   "queued": 15,
    "job": "kf_EP02",
-   "shot": "01_02",
-   "vram_free_gb": 0.7,
+   "shot": "04_14",
+   "vram_free_gb": 1.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,9 +67,9 @@
     }
    ],
    "running": 1,
-   "queued": 23,
+   "queued": 16,
    "job": "kf_EP02",
-   "shot": "12_39",
+   "shot": "03_11",
    "vram_free_gb": 0.9,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.2
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 16293,
+    "total_views": 16308,
     "total_likes": 134,
-    "avg_views": 407,
+    "avg_views": 408,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -212,11 +212,11 @@
    "ig": {
     "username": "happyhivekidss",
     "followers": 16,
-    "media_count": 71,
+    "media_count": 72,
     "reach_today": 2273,
-    "total_views": 10779,
-    "total_likes": 74,
-    "avg_views": 269,
+    "total_views": 10558,
+    "total_likes": 72,
+    "avg_views": 264,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -289,9 +289,9 @@
     "followers": 3,
     "media_count": 59,
     "reach_today": 3058,
-    "total_views": 9836,
+    "total_views": 9954,
     "total_likes": 49,
-    "avg_views": 246,
+    "avg_views": 249,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -506,7 +506,7 @@
   "posted": 286,
   "stories_today": 0,
   "made_today": 0,
-  "views": 56344,
+  "views": 56256,
   "followers": 115
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 01:52:01] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 01:52:01] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-19 01:52:01] tinycrafts: cap override 15 -> 24/day (channels.json)",
-  "[08-19 01:52:01] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 01:52:01] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 01:52:02] happyhive: cap override 15 -> 24/day (channels.json)"
+  "[08-19 02:01:14] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-19 02:01:14] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 02:01:15] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 02:01:15] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 02:01:15] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 02:01:15] wonderlab: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-19 01:36:36",
