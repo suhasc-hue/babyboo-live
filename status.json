@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 17:59:04",
+ "updated": "2026-08-18 18:09:08",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -21,9 +21,9 @@
    "queued": 1,
    "job": "",
    "shot": "MiniMax_H3",
-   "vram_free_gb": 4.0,
+   "vram_free_gb": 9.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.0
+   "ram_free_gb": 6.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 18,
+   "queued": 12,
    "job": "kf_EP01",
-   "shot": "08_01",
-   "vram_free_gb": 3.3,
+   "shot": "10_02",
+   "vram_free_gb": 0.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 30.6
+   "ram_free_gb": 30.9
   }
  },
  "channels": {
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 80,
     "reach_today": 2980,
-    "total_views": 12972,
+    "total_views": 13031,
     "total_likes": 122,
-    "avg_views": 324,
+    "avg_views": 326,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -214,9 +214,9 @@
     "followers": 15,
     "media_count": 64,
     "reach_today": 2270,
-    "total_views": 11818,
+    "total_views": 11910,
     "total_likes": 102,
-    "avg_views": 295,
+    "avg_views": 298,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -288,7 +288,7 @@
     "username": "kidswonderee",
     "followers": 3,
     "media_count": 51,
-    "reach_today": 3045,
+    "reach_today": 3050,
     "total_views": 10390,
     "total_likes": 52,
     "avg_views": 260,
@@ -506,7 +506,7 @@
   "posted": 268,
   "stories_today": 0,
   "made_today": 112,
-  "views": 54493,
+  "views": 54644,
   "followers": 114
  },
  "events": [
@@ -514,34 +514,34 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 17:57:04] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 17:58:04] tinycrafts: cap override 15 -> 24/day (channels.json)",
-  "[08-18 17:58:05] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 17:58:05] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 17:58:05] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 17:58:05] wonderlab: cap override 15 -> 24/day (channels.json)"
+  "[08-18 18:08:19] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-18 18:08:20] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 18:08:20] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 18:08:20] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 18:08:20] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 18:08:20] wonderlab: warm-up \u2014 51 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 17:36:30",
+  "updated": "2026-08-18 18:06:31",
   "sample": 168,
   "findings": [
-   "Strongest world: tinycrafts/beach (median 544 views, n=6). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 38% across 167 reels with data.",
+   "Strongest world: tinycrafts/beach (median 417 views, n=5). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
+   "Average completion (watch time / duration) is 38% across 166 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1, kitchen_t11r1y2 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), wonderlab_cyber_arcade_t1r2 (3), storynook_tea_estate_toolshed_readsto_t0r0 (3)",
    "Best posting hours so far: 18:00, 0:00, 1:00 (median views 421 at 18:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
-   "Shift render/posting share toward tinycrafts/beach; its median outperforms playground/playground_bouncecathedral by 181.3x.",
+   "Shift render/posting share toward tinycrafts/beach; its median outperforms playground/playground_bouncecathedral by 139.0x.",
    "Most-saved concepts are the first candidates for storybook/product adaptation \u2014 a save is a parent bookmarking for their child."
   ],
   "by_channel": {
    "tinycrafts": {
     "n": 40,
     "median_views": 256,
-    "avg_completion": 0.321,
-    "avg_eng_rate": 0.0122,
+    "avg_completion": 0.324,
+    "avg_eng_rate": 0.0125,
     "avg_saves": 0.2
    },
    "playground": {
@@ -554,8 +554,8 @@
    "happyhive": {
     "n": 40,
     "median_views": 161,
-    "avg_completion": 0.494,
-    "avg_eng_rate": 0.0125,
+    "avg_completion": 0.503,
+    "avg_eng_rate": 0.0127,
     "avg_saves": 0.3
    },
    "storynook": {
@@ -568,7 +568,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 137,
-    "avg_completion": 0.35,
+    "avg_completion": 0.349,
     "avg_eng_rate": 0.0109,
     "avg_saves": 0.1
    }
