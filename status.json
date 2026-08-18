@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 03:02:37",
+ "updated": "2026-08-19 03:12:42",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 15,
+   "queued": 13,
    "job": "EP02",
-   "shot": "04_12",
-   "vram_free_gb": 4.5,
+   "shot": "04_16",
+   "vram_free_gb": 5.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 16,
+   "queued": 14,
    "job": "EP02",
-   "shot": "03_09",
-   "vram_free_gb": 7.4,
+   "shot": "04_13",
+   "vram_free_gb": 6.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -116,12 +116,12 @@
     }
    ],
    "running": 1,
-   "queued": 0,
-   "job": "",
-   "shot": "s03_02_i2v_8",
-   "vram_free_gb": 4.5,
+   "queued": 35,
+   "job": "kf_EP03",
+   "shot": "02_02",
+   "vram_free_gb": 0.6,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 9.0
+   "ram_free_gb": 9.2
   }
  },
  "channels": {
@@ -139,7 +139,7 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 16509,
+    "total_views": 16521,
     "total_likes": 135,
     "avg_views": 413,
     "demographics": {},
@@ -214,9 +214,9 @@
     "followers": 16,
     "media_count": 73,
     "reach_today": 2273,
-    "total_views": 10723,
+    "total_views": 10748,
     "total_likes": 73,
-    "avg_views": 268,
+    "avg_views": 269,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -264,14 +264,14 @@
      "caption": ""
     },
     {
-     "permalink": "https://www.instagram.com/reel/Db8nI9jktOG/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/771909961_4539549409660738_4753985587698661538_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vrr2KbSgvoYQ7kNvwFwnbiE&_nc_oc=AdqUvMS1rMjVvy2WMf4AOtNrv1t_n8Q4ByF7bL7-VgLEIuvsYzQgTKmJZEZbN4QaPtc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=_ennw3skVJp-_GxOMlVSiQ&_nc_tpa=Q5bMBQKDvuQKMjbkNmuuByGnRx-Jj5-OJ4Zl0-13M84UpG0HZ--n_YDENoCGTDTnLOGUVFdK-Oj99YPl&oh=00_AQHDUl1BJlO4r-1NEhTIAJlSby1AcDJ-RmTtH24MqKNwpg&oe=6A8A89A3",
-     "views": 347,
-     "likes": 5,
+     "permalink": "https://www.instagram.com/reel/DcL6g4EkvZ-/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=O498EogGnyW0mBZs2oUsPA&_nc_tpa=Q5bMBQI8RhSZw_fA-2XlqfcFDU7dUvxH54zVtWYBL-oQ5W9pXWAoqL5jeklthFit9EF6HLpV9XIoiDv9&oh=00_AQGhU0TAKhaNFPnPLZ71vXvpk-F9WBC06mv9vE3vDrFkPA&oe=6A8A93F6",
+     "views": 363,
+     "likes": 1,
      "shares": 0,
-     "timestamp": "2026-08-12T16:39:01+0000",
-     "ig_reels_avg_watch_time": 8007,
-     "caption": ""
+     "timestamp": "2026-08-18T15:17:11+0000",
+     "ig_reels_avg_watch_time": 7832,
+     "caption": "Ball Pit Swimming Lessons \ud83c\udf89\ud83d\ude01 Every ball must leave the pit. "
     }
    ]
   },
@@ -289,9 +289,9 @@
     "followers": 3,
     "media_count": 60,
     "reach_today": 3058,
-    "total_views": 9649,
+    "total_views": 9677,
     "total_likes": 48,
-    "avg_views": 241,
+    "avg_views": 242,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -506,7 +506,7 @@
   "posted": 288,
   "stories_today": 0,
   "made_today": 0,
-  "views": 56334,
+  "views": 56399,
   "followers": 115
  },
  "events": [
@@ -514,19 +514,19 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 03:01:37] tinycrafts: cap override 15 -> 24/day (channels.json)",
-  "[08-19 03:01:37] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 03:01:37] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 03:01:38] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-19 03:01:38] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 03:01:38] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-19 03:11:55] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 03:11:55] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-19 03:11:55] wonderlab: warm-up \u2014 60 posts so far, holding to 24/day",
+  "[08-19 03:11:56] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 03:11:56] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 03:11:56] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-19 02:36:37",
+  "updated": "2026-08-19 03:06:37",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 471 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 38% across 168 reels with data.",
+   "Average completion (watch time / duration) is 38% across 166 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1, kitchen_t11r1y2 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2)",
    "Best posting hours so far: 7:00, 3:00, 2:00 (median views 355 at 7:00).",
@@ -540,8 +540,8 @@
    "tinycrafts": {
     "n": 40,
     "median_views": 290,
-    "avg_completion": 0.35,
-    "avg_eng_rate": 0.0122,
+    "avg_completion": 0.349,
+    "avg_eng_rate": 0.0121,
     "avg_saves": 0.2
    },
    "playground": {
@@ -552,10 +552,10 @@
     "avg_saves": 0.1
    },
    "happyhive": {
-    "n": 40,
-    "median_views": 166,
+    "n": 39,
+    "median_views": 165,
     "avg_completion": 0.474,
-    "avg_eng_rate": 0.0123,
+    "avg_eng_rate": 0.0124,
     "avg_saves": 0.3
    },
    "storynook": {
@@ -568,8 +568,8 @@
    "wonderlab": {
     "n": 40,
     "median_views": 130,
-    "avg_completion": 0.337,
-    "avg_eng_rate": 0.0103,
+    "avg_completion": 0.333,
+    "avg_eng_rate": 0.0109,
     "avg_saves": 0.1
    }
   }
