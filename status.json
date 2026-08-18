@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 08:36:26",
+ "updated": "2026-08-18 08:46:30",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "rooftop_t4r3y2",
-   "shot": "3",
-   "vram_free_gb": 0.5,
+   "queued": 1,
+   "job": "blanketfort_t0r0y1",
+   "shot": "1",
+   "vram_free_gb": 2.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 19,
-   "last_reel": "happyhive_hallway_crawl_race_t0r1y0",
+   "made_today": 20,
+   "last_reel": "happyhive_fan_ribbons_t0r1y0",
    "avg_min": 26.7,
    "recent": [
+    {
+     "id": "happyhive_fan_ribbons_t0r1y0",
+     "min": 27.4,
+     "at": "08:44:54"
+    },
     {
      "id": "happyhive_hallway_crawl_race_t0r1y0",
      "min": 27.3,
@@ -53,20 +58,15 @@
      "id": "happyhive_popup_toy_t0r1y1",
      "min": 27.1,
      "at": "06:28:30"
-    },
-    {
-     "id": "happyhive_puddle_pat_t0r1y0",
-     "min": 27.1,
-     "at": "06:01:23"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_fan_ribbons_t0r1y0",
+   "job": "happyhive_towel_burrito_t0r1y0",
    "shot": "1",
-   "vram_free_gb": 10.5,
+   "vram_free_gb": 8.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.3
+   "ram_free_gb": 2.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -113,7 +113,7 @@
    "queued": 0,
    "job": "wonderlab_arcadeloft_claw_t6r2",
    "shot": "1",
-   "vram_free_gb": 4.8,
+   "vram_free_gb": 3.8,
    "vram_total_gb": 8.5,
    "ram_free_gb": 10.6
   }
@@ -121,37 +121,27 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 287,
-   "qc_passed": 214,
+   "rendered": 288,
+   "qc_passed": 215,
    "vision_ok": 56,
-   "awaiting_review": 129,
+   "awaiting_review": 130,
    "posted": 70,
    "posted_today": 9,
    "stored_ready": 40,
    "ig": {
     "username": "tinycraftsbyleo",
     "followers": 50,
-    "media_count": 70,
+    "media_count": 71,
     "reach_today": 6,
-    "total_views": 15967,
-    "total_likes": 180,
-    "avg_views": 399,
+    "total_views": 14490,
+    "total_likes": 162,
+    "avg_views": 362,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
     "stale": null
    },
    "top_media": [
-    {
-     "permalink": "https://www.instagram.com/reel/DbvdsS6RJ3H/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.82787-15/768452597_18082978076311123_7302579118510631961_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=xCefxssJ52YQ7kNvwHE_cG-&_nc_oc=AdpdhUYghOzEuT-PdZGpL5y9p3F7tYvygDxzZIff4jAohTBeB9uCer0fqFUgOcuNh9k&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=NSQVs828zBvQmRGNvvHMtQ&_nc_tpa=Q5bMBQIdzJeuQMFT72C9PvDaWL-henXNcv95uIUbE1kPuiNMP-kXlo-k6EMEzlHrOE8bK3jQ1Oz5yKCj&oh=00_AQFELApJwDEQcvBioiZkTZiyaS5PYpgCsAVN710QD8cZig&oe=6A89ADB1",
-     "views": 1484,
-     "likes": 18,
-     "shares": 0,
-     "timestamp": "2026-08-07T14:06:21+0000",
-     "ig_reels_avg_watch_time": 9471,
-     "caption": ""
-    },
     {
      "permalink": "https://www.instagram.com/reel/Dbx9yIIDPss/",
      "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/767389286_1408350934501189_7848188166874202882_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TybzTib1w1cQ7kNvwGMspGF&_nc_oc=Adro9hTs2xfR8f8jXEuULGB_0Pd6aATYs9cR0Z0nRJ3_DoQFob1xayroIG6t3zoy2xg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=X4kfdJnQiOP59qsi9D5cNw&_nc_tpa=Q5bMBQIaJh3_Xacxx7s3NENZdou-KcJrHUSmAwRfBkGTNXlX3-e-LkDEzOlR7qRS9Z6vlRsj5ejWuNLG&oh=00_AQHOhWcRU94bk6kscUDcvLVOph8XXTgMt04SbNlBaFM1YQ&oe=6A898354",
@@ -191,26 +181,36 @@
      "timestamp": "2026-08-09T02:20:07+0000",
      "ig_reels_avg_watch_time": 8228,
      "caption": ""
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/Dbx8MuiCZT4/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/770005335_1545620533929682_7677953172231121619_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=rhWKclbcTH4Q7kNvwG-042P&_nc_oc=Adrdcmq7OADVsFYc-uqjCtOGNGJzZwr0WWokPceqpQn7w6VR8AlyUKkEHNvQiypF_yU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=7AYgUtyQy2GQACoa7tCG_Q&_nc_tpa=Q5bMBQK9prkjaFX6ADrw2p15i3xT0AxGwOeYOxt_CebTbXey3C2ODqxW1rnV1pDVA95nfZki3tf5S8YU&oh=00_AQEdJTV9ouTW5TNS3UOnT7fX1eowYfmua8tcpcaJRT1r0A&oe=6A89A8B0",
+     "views": 709,
+     "likes": 6,
+     "shares": 1,
+     "timestamp": "2026-08-08T13:11:32+0000",
+     "ig_reels_avg_watch_time": 8182,
+     "caption": "babyboo finds garden magic \ud83c\udf38\u2728 \u2014 she finds a tiny glowing spi"
     }
    ]
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 112,
-   "qc_passed": 112,
+   "rendered": 113,
+   "qc_passed": 113,
    "vision_ok": 51,
-   "awaiting_review": 56,
+   "awaiting_review": 57,
    "posted": 55,
    "posted_today": 9,
    "stored_ready": 35,
    "ig": {
     "username": "happyhivekidss",
     "followers": 13,
-    "media_count": 54,
+    "media_count": 55,
     "reach_today": 13,
-    "total_views": 17517,
-    "total_likes": 145,
-    "avg_views": 438,
+    "total_views": 16708,
+    "total_likes": 140,
+    "avg_views": 418,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -283,9 +283,9 @@
     "followers": 2,
     "media_count": 42,
     "reach_today": 328,
-    "total_views": 10964,
+    "total_views": 11082,
     "total_likes": 55,
-    "avg_views": 274,
+    "avg_views": 277,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -496,11 +496,11 @@
   }
  },
  "totals": {
-  "rendered": 961,
+  "rendered": 963,
   "posted": 241,
   "stories_today": 0,
-  "made_today": 64,
-  "views": 63640,
+  "made_today": 66,
+  "views": 61472,
   "followers": 110
  },
  "events": [
@@ -508,12 +508,12 @@
   "[08-18 00:43:53] SPAWNED tech-01 pid=2432 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 06:00:01] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-18 08:36:07] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 08:36:07] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 08:36:07] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 08:36:07] wonderlab: warm-up \u2014 42 posts so far, holding to 24/day",
-  "[08-18 08:36:08] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 08:36:08] happyhive: warm-up \u2014 55 posts so far, holding to 24/day"
+  "[08-18 08:46:22] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 08:46:22] happyhive: warm-up \u2014 55 posts so far, holding to 24/day",
+  "[08-18 08:46:22] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 08:46:22] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 08:46:22] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 08:46:22] wonderlab: warm-up \u2014 42 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-18 08:36:24",
