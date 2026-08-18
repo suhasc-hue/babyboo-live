@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 21:40:31",
+ "updated": "2026-08-18 21:50:35",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 2,
-   "job": "kf_EP01",
-   "shot": "10_02",
-   "vram_free_gb": 0.5,
+   "queued": 18,
+   "job": "EP01",
+   "shot": "01_02",
+   "vram_free_gb": 8.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.6
+   "ram_free_gb": 2.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 3,
-   "job": "kf_EP01",
-   "shot": "08_02",
-   "vram_free_gb": 0.9,
+   "queued": 19,
+   "job": "EP01",
+   "shot": "01_01",
+   "vram_free_gb": 8.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 2.5
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 30.6
+   "ram_free_gb": 30.7
   }
  },
  "channels": {
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 13798,
-    "total_likes": 116,
-    "avg_views": 345,
+    "total_views": 13906,
+    "total_likes": 117,
+    "avg_views": 348,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -170,12 +170,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcKYW5sCcQN/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779001309_1961706637872735_7239783447935595466_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=F9aEHIF_WWoQ7kNvwHcMa06&_nc_oc=Ado7Qu5-u8M0zJZw-xYbpzE4_svp0Tm60_nE_Wd7DwghGLMMhI-0rBxd_wA4TbdONzc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=yUJKeZeq5r9EPY4DoerQAQ&_nc_tpa=Q5bMBQL0o1rvfZ90uQU3dhNpfJWyquVKSzu0UQntvWvvpIKDxBaDoMn_yUkzCezeYaoMzcorKMnMc9Z4&oh=00_AQGv8c75EMsUZhXrh0kj_o5IEG_NUUtTK5IErU94S27-3Q&oe=6A8A51AE",
-     "views": 860,
-     "likes": 5,
-     "shares": 0,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779001309_1961706637872735_7239783447935595466_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=F9aEHIF_WWoQ7kNvwHcMa06&_nc_oc=Ado7Qu5-u8M0zJZw-xYbpzE4_svp0Tm60_nE_Wd7DwghGLMMhI-0rBxd_wA4TbdONzc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=8WF0zh000LsvEM8AGJ1bRw&_nc_tpa=Q5bMBQILPk-Li8EHcr64HhciCKoz1MZDdhnRuDddvwDyov4Yjx0k5xxocCV6IUEAwiLddfrDJ_VKWlEU&oh=00_AQGfqgikLQhIhCjXz0RrQHnlCc-d6kFoVP-aRRpYUPg4Pg&oe=6A8A51AE",
+     "views": 921,
+     "likes": 6,
+     "shares": 1,
      "timestamp": "2026-08-18T00:59:25+0000",
-     "ig_reels_avg_watch_time": 13595,
+     "ig_reels_avg_watch_time": 13682,
      "caption": "babyboo's snack comes ALIVE \ud83c\udf5d\u2728 \u2014 she finds one ice pebble th"
     },
     {
@@ -206,15 +206,15 @@
    "qc_passed": 129,
    "vision_ok": 51,
    "awaiting_review": 73,
-   "posted": 67,
-   "posted_today": 21,
-   "stored_ready": 23,
+   "posted": 68,
+   "posted_today": 22,
+   "stored_ready": 22,
    "ig": {
     "username": "happyhivekidss",
     "followers": 16,
     "media_count": 67,
     "reach_today": 2273,
-    "total_views": 12603,
+    "total_views": 12616,
     "total_likes": 100,
     "avg_views": 315,
     "demographics": {},
@@ -289,7 +289,7 @@
     "followers": 3,
     "media_count": 55,
     "reach_today": 3058,
-    "total_views": 9672,
+    "total_views": 9675,
     "total_likes": 48,
     "avg_views": 242,
     "demographics": {},
@@ -503,10 +503,10 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 277,
+  "posted": 278,
   "stories_today": 0,
   "made_today": 112,
-  "views": 55464,
+  "views": 55588,
   "followers": 115
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 21:39:45] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 21:39:45] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 21:39:45] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-18 21:39:45] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 21:39:46] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 21:39:46] happyhive: warm-up \u2014 67 posts so far, holding to 24/day"
+  "[08-18 21:49:50] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-18 21:49:50] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-18 21:49:51] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 21:49:51] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 21:49:51] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 21:49:51] wonderlab: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-18 21:36:33",
