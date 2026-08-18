@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 14:27:46",
+ "updated": "2026-08-18 14:37:50",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 0,
-   "job": "bathtub_t4r3y2",
-   "shot": "2",
-   "vram_free_gb": 2.4,
+   "queued": 3,
+   "job": "nursery_t4r0y2",
+   "shot": "6",
+   "vram_free_gb": 2.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -72,7 +72,7 @@
    "shot": "1",
    "vram_free_gb": 13.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 1.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -127,10 +127,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 306,
-   "qc_passed": 229,
+   "rendered": 307,
+   "qc_passed": 230,
    "vision_ok": 56,
-   "awaiting_review": 144,
+   "awaiting_review": 145,
    "posted": 75,
    "posted_today": 14,
    "stored_ready": 35,
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 76,
     "reach_today": 2976,
-    "total_views": 14504,
+    "total_views": 14607,
     "total_likes": 138,
-    "avg_views": 363,
+    "avg_views": 365,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -170,7 +170,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Dbx6IoRD9Wb/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769295099_2308637039940828_6953224169927517055_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dxXGGOU-KREQ7kNvwHpyRBQ&_nc_oc=AdpoVF_rZbXMMXHEAIRO6HgoRIA0mx8gCjSVRC-eJNevipZw8g0A23G1VJlzNOWLKCs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=tp6x9R-Yh1XLxKJ_UJARSA&_nc_tpa=Q5bMBQJvD_L645nhReUJ1UUwb0CbdQGM50Sn2cw9OuJf950S_sIsD1jLDhV-zKIMZP6k2mKvoxy-9ejc&oh=00_AQFcO5uSiFaCkLiUPms3BIjALRQB4nl5HluHH6nmmF7t9A&oe=6A89B3BE",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769295099_2308637039940828_6953224169927517055_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dxXGGOU-KREQ7kNvwHpyRBQ&_nc_oc=AdpoVF_rZbXMMXHEAIRO6HgoRIA0mx8gCjSVRC-eJNevipZw8g0A23G1VJlzNOWLKCs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=tqin6VqC7o2UmnjWY1aXjA&_nc_tpa=Q5bMBQJLVjIqlLtxpEjeSykQHabf4LyxgfziDMVvONK-RpYBhYtgyrDIX7XMIZLFoabkXQ9VRQ3cfRRk&oh=00_AQFdT0if5sSvdHRRYGRSdrMwdIl_Wb8Am4xp8spesxQVPA&oe=6A89EBFE",
      "views": 903,
      "likes": 4,
      "shares": 0,
@@ -214,9 +214,9 @@
     "followers": 14,
     "media_count": 60,
     "reach_today": 2267,
-    "total_views": 13128,
+    "total_views": 13147,
     "total_likes": 110,
-    "avg_views": 328,
+    "avg_views": 329,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -364,7 +364,7 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1212,
-    "total_views": 17037,
+    "total_views": 17041,
     "total_likes": 181,
     "avg_views": 426,
     "demographics": {},
@@ -502,11 +502,11 @@
   }
  },
  "totals": {
-  "rendered": 1001,
+  "rendered": 1002,
   "posted": 257,
   "stories_today": 0,
-  "made_today": 104,
-  "views": 56572,
+  "made_today": 105,
+  "views": 56698,
   "followers": 112
  },
  "events": [
@@ -514,19 +514,19 @@
   "[08-18 11:46:01] SPAWNED w40 pid=14288 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 11:46:01] farm supervisor up: 3 workers configured",
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 14:27:01] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 14:27:01] wonderlab: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-18 14:27:02] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 14:27:02] happyhive: warm-up \u2014 60 posts so far, holding to 24/day",
-  "[08-18 14:27:02] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 14:27:02] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-18 14:36:15] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 14:36:15] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 14:36:16] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 14:36:16] happyhive: warm-up \u2014 60 posts so far, holding to 24/day",
+  "[08-18 14:37:16] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-18 14:37:16] tinycrafts: warm-up \u2014 42 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 14:06:28",
+  "updated": "2026-08-18 14:36:28",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 544 views, n=7). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 38% across 166 reels with data.",
+   "Average completion (watch time / duration) is 38% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1, kitchen_t11r1y2 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), wonderlab_cyber_arcade_t1r2 (3), storynook_tea_estate_toolshed_readsto_t0r0 (3)",
    "Best posting hours so far: 18:00, 0:00, 3:00 (median views 420 at 18:00).",
@@ -540,13 +540,13 @@
    "happyhive": {
     "n": 40,
     "median_views": 161,
-    "avg_completion": 0.511,
-    "avg_eng_rate": 0.0132,
+    "avg_completion": 0.506,
+    "avg_eng_rate": 0.013,
     "avg_saves": 0.3
    },
    "tinycrafts": {
-    "n": 39,
-    "median_views": 264,
+    "n": 40,
+    "median_views": 265,
     "avg_completion": 0.304,
     "avg_eng_rate": 0.0121,
     "avg_saves": 0.2
@@ -559,16 +559,16 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 40,
+    "n": 39,
     "median_views": 137,
-    "avg_completion": 0.353,
-    "avg_eng_rate": 0.0112,
+    "avg_completion": 0.355,
+    "avg_eng_rate": 0.011,
     "avg_saves": 0.2
    },
    "storynook": {
     "n": 40,
     "median_views": 244,
-    "avg_completion": 0.346,
+    "avg_completion": 0.347,
     "avg_eng_rate": 0.0137,
     "avg_saves": 0.3
    }
