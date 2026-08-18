@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 22:30:52",
+ "updated": "2026-08-18 22:40:55",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 12,
+   "queued": 11,
    "job": "EP01",
-   "shot": "05_01",
-   "vram_free_gb": 2.3,
+   "shot": "06_01",
+   "vram_free_gb": 6.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 15,
+   "queued": 14,
    "job": "EP01",
-   "shot": "03_02",
-   "vram_free_gb": 9.2,
+   "shot": "04_01",
+   "vram_free_gb": 7.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 5.9
+   "ram_free_gb": 2.6
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 30.7
+   "ram_free_gb": 30.6
   }
  },
  "channels": {
@@ -139,15 +139,25 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 14611,
-    "total_likes": 119,
-    "avg_views": 365,
+    "total_views": 14802,
+    "total_likes": 120,
+    "avg_views": 370,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
     "stale": null
    },
    "top_media": [
+    {
+     "permalink": "https://www.instagram.com/reel/DcK0ad7AkDE/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775166813_1093959249722547_5834968079390773407_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Mc-ffBzkTm4Q7kNvwHt9wD9&_nc_oc=Adr_gxGU7sbHzfhbA8on6Hx72LbhtJBhtMhHa3MEhw8Yxb4x0ZGkWrITCjtnncPKSJ0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=m2azl5BG8hCUURG871sgLQ&_nc_tpa=Q5bMBQIIn8J-qCAglPBY77E5Scp7Z_AFbFObOfMFofxuCQ6g9Ovgib9FeGvJp8KNO5mGQToSKqCKlrby&oh=00_AQFFoyxJa0sTveNBWcg07JPrNQuOp35IY0ef2QE-KW_TJg&oe=6A8A4849",
+     "views": 1476,
+     "likes": 7,
+     "shares": 0,
+     "timestamp": "2026-08-18T05:04:34+0000",
+     "ig_reels_avg_watch_time": 14123,
+     "caption": "babyboo's snack comes ALIVE \ud83c\udf5d\u2728 \u2014 she finds a walnut-sized do"
+    },
     {
      "permalink": "https://www.instagram.com/reel/Dbx9yIIDPss/",
      "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/767389286_1408350934501189_7848188166874202882_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=TybzTib1w1cQ7kNvwGMspGF&_nc_oc=Adro9hTs2xfR8f8jXEuULGB_0Pd6aATYs9cR0Z0nRJ3_DoQFob1xayroIG6t3zoy2xg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=hquUWzdtF2jcHFWWQlsHCQ&_nc_tpa=Q5bMBQJoWXoWz_bysQmTh2pKcf_k57Sm6wAfq3Nc6BMQJ2Bo73nNH7r8PPrObv28FEwABhexzrRUvajg&oh=00_AQEp0wf-vzZwQFuDuXkfQDnoMRljKu7x37jaUqnf75J5kQ&oe=6A8A2C14",
@@ -157,16 +167,6 @@
      "timestamp": "2026-08-08T13:25:28+0000",
      "ig_reels_avg_watch_time": 11343,
      "caption": "babyboo's snack comes ALIVE \ud83c\udf5d\u2728 \u2014 she finds the tiny grumpy c"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcK0ad7AkDE/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775166813_1093959249722547_5834968079390773407_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Mc-ffBzkTm4Q7kNvwHt9wD9&_nc_oc=Adr_gxGU7sbHzfhbA8on6Hx72LbhtJBhtMhHa3MEhw8Yxb4x0ZGkWrITCjtnncPKSJ0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Mqf9OuYqZywIh9-L9wGOeg&_nc_tpa=Q5bMBQLW1TECIMNGir4YeczRhCYv6m6V8ivhSRs42evRmUDrIBSYeOlcoMao3Ot0r4ehRT0YXlu4HUJ0&oh=00_AQGHFTEwGYYVwwyk3fzozxH3GBL2ItHhKWaCFqgpWlmSqA&oe=6A8A4849",
-     "views": 1319,
-     "likes": 6,
-     "shares": 0,
-     "timestamp": "2026-08-18T05:04:34+0000",
-     "ig_reels_avg_watch_time": 14021,
-     "caption": "babyboo's snack comes ALIVE \ud83c\udf5d\u2728 \u2014 she finds a walnut-sized do"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcKYW5sCcQN/",
@@ -214,9 +214,9 @@
     "followers": 16,
     "media_count": 68,
     "reach_today": 2273,
-    "total_views": 10344,
+    "total_views": 10481,
     "total_likes": 80,
-    "avg_views": 259,
+    "avg_views": 262,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -235,12 +235,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcLJk2_lP9A/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4_3rbAjZ2XsQ7kNvwFp3W7W&_nc_oc=Ado5Eui0mqQH1Vx7cISRp2S9jOOZosdzXlTnv2xpwaDTjgrmHODKyYo_mysfEYZr2NY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Kbz0jCyOOOVBJMFQKfwGOg&_nc_tpa=Q5bMBQJwpZtzGQ6RNTjgvtZ1k37Z-X3BkPLl8pH9CTjWX1HqQ0pGb7Lur_elX3b23ZZ4Regn3gq1avUa&oh=00_AQEMerZPRzPldJMEsBdrxWmYLsGJ5QqFs05Ev-G5ZlpKeg&oe=6A8A46AE",
-     "views": 1052,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4_3rbAjZ2XsQ7kNvwFp3W7W&_nc_oc=Ado5Eui0mqQH1Vx7cISRp2S9jOOZosdzXlTnv2xpwaDTjgrmHODKyYo_mysfEYZr2NY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=QEPFM6g1xPcxsRBJP88BFA&_nc_tpa=Q5bMBQLtcPK2G1GPS6bd__hbgVyp6jbrpUCZ0CQ8YC279VNpO10TgnDwjKpRfmVbRbb_mEHYmykIWrA5&oh=00_AQEnnvQM4mgSMEUCiPD7TIMj8ronRpOYuvQDiRiVcgkcDg&oe=6A8A7EEE",
+     "views": 1119,
      "likes": 1,
      "shares": 0,
      "timestamp": "2026-08-18T08:09:20+0000",
-     "ig_reels_avg_watch_time": 10501,
+     "ig_reels_avg_watch_time": 10620,
      "caption": "Morning Chaos: Bounce Bounce Bounce \ud83d\udecf\ufe0f\ud83d\ude01 He has figured out t"
     },
     {
@@ -289,7 +289,7 @@
     "followers": 3,
     "media_count": 56,
     "reach_today": 3058,
-    "total_views": 9684,
+    "total_views": 9690,
     "total_likes": 49,
     "avg_views": 242,
     "demographics": {},
@@ -340,12 +340,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcJejCXifuW/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777570406_2141584830111956_6286087844769838729_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lhpEfRSBMOcQ7kNvwEenuDW&_nc_oc=Adqd2eVxYSOn4HVu_wEAEYkY-Y-rcyyP39XgSL3Vxv2fMyw7Ck79KDAQ2MSDQf9sSnw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=IZp7DU_tht1V4W61y08Tqg&_nc_tpa=Q5bMBQJpkIhsrMpyGYNy5n65i_sXxBsepjkUdWnD1kKbjZDaZ5zu2zJx6pO9UNyY48A9SSSJtZmd30a9&oh=00_AQHfyjQno93xLLTOZYOBrNZzn-x4HealCBliB5hEuIssPA&oe=6A8A4DAD",
-     "views": 186,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777570406_2141584830111956_6286087844769838729_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lhpEfRSBMOcQ7kNvwEenuDW&_nc_oc=Adqd2eVxYSOn4HVu_wEAEYkY-Y-rcyyP39XgSL3Vxv2fMyw7Ck79KDAQ2MSDQf9sSnw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=s4IYO0py_P4J7z68qkjBqw&_nc_tpa=Q5bMBQJlfGa42pfRi5LHGSPJnnsjb5O3AdiggtOZKPX25yglbdQwoIlMY5ZH6j8HJPnnvRWka3sl5s1R&oh=00_AQFBR6_wtpRvlvxsjtAXgzDkoRxCTRLFxzrQcrTYHoQ7fQ&oe=6A8A4DAD",
+     "views": 189,
      "likes": 4,
      "shares": 0,
      "timestamp": "2026-08-17T16:34:14+0000",
-     "ig_reels_avg_watch_time": 6070,
+     "ig_reels_avg_watch_time": 5977,
      "caption": "\ud83d\udd79\ufe0f\ud83d\udca1 Wax-Seal Unbox: a Working Arcade Cabinet in a Botanist's"
     }
    ]
@@ -506,7 +506,7 @@
   "posted": 279,
   "stories_today": 0,
   "made_today": 112,
-  "views": 54033,
+  "views": 54367,
   "followers": 115
  },
  "events": [
@@ -514,15 +514,15 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 22:30:45] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 22:30:45] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 22:30:45] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-18 22:30:45] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 22:30:46] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 22:30:46] happyhive: warm-up \u2014 68 posts so far, holding to 24/day"
+  "[08-18 22:39:58] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-18 22:39:59] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 22:39:59] happyhive: warm-up \u2014 68 posts so far, holding to 24/day",
+  "[08-18 22:39:59] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 22:39:59] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 22:39:59] wonderlab: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-08-18 22:06:33",
+  "updated": "2026-08-18 22:36:34",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 467 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -540,8 +540,8 @@
    "tinycrafts": {
     "n": 40,
     "median_views": 270,
-    "avg_completion": 0.338,
-    "avg_eng_rate": 0.0121,
+    "avg_completion": 0.341,
+    "avg_eng_rate": 0.012,
     "avg_saves": 0.2
    },
    "playground": {
@@ -552,10 +552,10 @@
     "avg_saves": 0.1
    },
    "happyhive": {
-    "n": 39,
+    "n": 40,
     "median_views": 164,
-    "avg_completion": 0.491,
-    "avg_eng_rate": 0.0127,
+    "avg_completion": 0.489,
+    "avg_eng_rate": 0.0128,
     "avg_saves": 0.3
    },
    "storynook": {
@@ -566,7 +566,7 @@
     "avg_saves": 0.3
    },
    "wonderlab": {
-    "n": 40,
+    "n": 39,
     "median_views": 130,
     "avg_completion": 0.34,
     "avg_eng_rate": 0.0109,
