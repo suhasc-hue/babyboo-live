@@ -1,0 +1,768 @@
+<meta charset="utf-8">
+<title>BOO · MARK II</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>
+  /* ============ design tokens — near-black + ONE accent (cyan) ============
+     Research-derived rules (docs/BOO_MARK2_PLAN.md): no Matrix green, no pure
+     #000, accent stored as an RGB triplet so alpha composes, full saturation
+     reserved for state changes, amber/red only for real alerts.            */
+  :root{
+    --acc: 0,240,255;            /* the one accent */
+    --warn: 255,170,0;           /* alerts only */
+    --bad: 255,0,60;             /* errors only */
+    --ok: 0,255,157;             /* success flashes only */
+    --bg:#07070b; --s0:#0a0a10; --s1:#0d0d15; --s2:#12121c; --s3:#2a2a3d;
+    --ink:#c8d2dc; --dim:#5a6b78; --faint:#333d47;
+    --mono:'Cascadia Mono','Consolas',ui-monospace,monospace;
+    --sans:'Segoe UI',system-ui,sans-serif;
+    color-scheme:dark;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{height:100%}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);overflow:hidden}
+  #bg{position:fixed;inset:0;z-index:0}
+
+  /* ---- chamfered panel (nested-div border technique) ---- */
+  .cham{--c:10px;position:relative;
+    clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c));
+    background:rgba(var(--acc),.22);padding:1px}
+  .cham>.in{clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c));
+    background:linear-gradient(160deg,var(--s1),var(--s0));height:100%;padding:12px 14px}
+
+  /* ---- typography roles ---- */
+  .lbl{font:600 9px var(--mono);letter-spacing:.2em;color:var(--dim);text-transform:uppercase}
+  .num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  h1{font:600 15px var(--sans);letter-spacing:.34em;color:#e8f6fa;text-transform:uppercase}
+
+  /* ---- layout ---- */
+  #hud{position:relative;z-index:2;height:100%;display:grid;opacity:0;transition:opacity .5s;
+       grid-template-columns:270px 1fr 285px;grid-template-rows:52px 1fr 30px;
+       grid-template-areas:"hd hd hd" "lft mid rgt" "ft ft ft";
+       gap:12px;padding:12px 14px}
+  #hud.on{opacity:1}
+  /* the asymmetric full-height rail — one edge only, deliberately */
+  #hud::before{content:'';position:absolute;left:7px;top:60px;bottom:40px;width:1px;
+       background:linear-gradient(180deg,transparent,rgba(var(--acc),.4) 12%,rgba(var(--acc),.4) 88%,transparent)}
+  header{grid-area:hd;display:flex;align-items:center;gap:14px;padding:0 4px}
+  #left{grid-area:lft;display:flex;flex-direction:column;gap:12px;min-height:0}
+  #mid{grid-area:mid;display:flex;flex-direction:column;align-items:center;min-height:0}
+  #right{grid-area:rgt;display:flex;flex-direction:column;gap:12px;min-height:0;overflow:hidden}
+  footer{grid-area:ft;display:flex;align-items:center;gap:18px;padding:0 6px}
+
+  .pill{font:600 9px var(--mono);letter-spacing:.15em;padding:4px 10px;color:var(--dim);
+        border:1px solid var(--faint);cursor:default;
+        clip-path:polygon(6px 0,100% 0,100% calc(100% - 6px),calc(100% - 6px) 100%,0 100%,0 6px)}
+  .pill.live{color:rgb(var(--acc));border-color:rgba(var(--acc),.5)}
+  .pill.warn{color:rgb(var(--warn));border-color:rgba(var(--warn),.5)}
+  .pill.bad{color:rgb(var(--bad));border-color:rgba(var(--bad),.6);animation:blink 1.1s steps(2) infinite}
+  @keyframes blink{50%{opacity:.45}}
+  .sp{flex:1}
+
+  /* ---- side panels ---- */
+  .row{display:flex;align-items:baseline;gap:8px;padding:5px 0;border-bottom:1px solid rgba(var(--acc),.06)}
+  .row:last-child{border-bottom:0}
+  .row .nm{font:600 11px var(--mono);letter-spacing:.06em;color:var(--ink);width:86px;
+           white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .v{font:600 12px var(--mono);color:rgb(var(--acc));min-width:34px;text-align:right}
+  .row .u{font:9px var(--mono);color:var(--dim)}
+  .row .st{width:6px;height:6px;transform:rotate(45deg);background:var(--faint);margin-right:2px;flex:none}
+  .row .st.on{background:rgb(var(--acc));box-shadow:0 0 7px rgba(var(--acc),.8)}
+  .row .st.warn{background:rgb(var(--warn));box-shadow:0 0 7px rgba(var(--warn),.7)}
+  .row .st.off{background:#20242c}
+  .sub{font:9.5px var(--mono);color:var(--dim);letter-spacing:.04em;padding:1px 0 4px 14px;
+       white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+  /* ---- center: reactor + transcript ---- */
+  #core{position:relative;width:min(46vh,330px);aspect-ratio:1;flex:none;margin-top:6px}
+  #reactor{width:100%;height:100%}
+  #stateword{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+       font:600 11px var(--mono);letter-spacing:.34em;color:rgba(var(--acc),.9);text-transform:uppercase;
+       text-align:center;pointer-events:none}
+  #corestat{position:absolute;left:50%;top:calc(50% + 22px);transform:translateX(-50%);
+       font:600 10px var(--mono);color:var(--dim);letter-spacing:.1em;pointer-events:none}
+
+  #feed{flex:1;min-height:0;width:min(680px,100%);display:flex;flex-direction:column;
+        justify-content:flex-end;gap:8px;overflow-y:auto;padding:10px 6px;scrollbar-width:none}
+  .ex{display:flex;flex-direction:column;gap:3px;animation:up .3s ease-out}
+  @keyframes up{from{opacity:0;transform:translateY(8px)}}
+  .ex .you{font:11px var(--mono);color:var(--dim);letter-spacing:.05em}
+  .ex .you::before{content:'▸ ';color:rgba(var(--acc),.6)}
+  .ex .ans{font:13.5px/1.55 var(--sans);color:#dfe9f2}
+  .ex.old .ans{font-size:12px;color:#8b98a5}
+  .ex .det{font:10px/1.5 var(--mono);color:var(--dim);white-space:pre;overflow-x:auto;
+           border-left:2px solid rgba(var(--acc),.25);padding-left:8px;margin-top:3px;
+           max-height:130px;overflow-y:auto}
+  .chip{align-self:flex-start;font:600 10px var(--mono);letter-spacing:.12em;cursor:pointer;
+        color:rgb(var(--acc));border:1px solid rgba(var(--acc),.45);padding:7px 14px;background:rgba(var(--acc),.06);
+        clip-path:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px)}
+  .chip:active{background:rgba(var(--acc),.18)}
+
+  #qrow{display:flex;gap:7px;flex-wrap:wrap;justify-content:center;padding:4px 0 8px}
+  .q{font:600 9.5px var(--mono);letter-spacing:.1em;color:var(--dim);cursor:pointer;background:none;
+     border:1px solid var(--faint);padding:6px 11px;text-transform:uppercase;
+     clip-path:polygon(5px 0,100% 0,100% calc(100% - 5px),calc(100% - 5px) 100%,0 100%,0 5px)}
+  .q:hover,.q:active{color:rgb(var(--acc));border-color:rgba(var(--acc),.5)}
+
+  #dock{display:flex;gap:9px;width:min(680px,100%);align-items:center;padding-bottom:4px}
+  #box{flex:1;background:var(--s1);border:1px solid var(--faint);color:var(--ink);
+       font:13px var(--mono);padding:11px 13px;outline:0;
+       clip-path:polygon(8px 0,100% 0,100% calc(100% - 8px),calc(100% - 8px) 100%,0 100%,0 8px)}
+  #box:focus{border-color:rgba(var(--acc),.55)}
+  #micbtn{width:46px;height:46px;flex:none;cursor:pointer;border:1px solid rgba(var(--acc),.5);
+       background:rgba(var(--acc),.07);color:rgb(var(--acc));font-size:19px;display:grid;place-items:center;
+       clip-path:polygon(9px 0,100% 0,100% calc(100% - 9px),calc(100% - 9px) 100%,0 100%,0 9px)}
+  #micbtn.hot{background:rgba(var(--acc),.22);box-shadow:0 0 18px rgba(var(--acc),.35)}
+
+  footer{font:9.5px var(--mono);color:var(--faint);letter-spacing:.12em}
+  footer .num{color:var(--dim)}
+
+  /* ---- boot overlay ---- */
+  #boot{position:fixed;inset:0;z-index:10;background:var(--bg);display:grid;place-items:center;
+        transition:opacity .6s;flex-direction:column}
+  #boot.gone{opacity:0;pointer-events:none}
+  #bootbtn{font:600 13px var(--mono);letter-spacing:.4em;color:rgb(var(--acc));cursor:pointer;
+        border:1px solid rgba(var(--acc),.55);background:rgba(var(--acc),.05);padding:20px 44px 20px 52px;
+        clip-path:polygon(14px 0,100% 0,100% calc(100% - 14px),calc(100% - 14px) 100%,0 100%,0 14px)}
+  #bootbtn:hover{background:rgba(var(--acc),.14);box-shadow:0 0 34px rgba(var(--acc),.25)}
+  #bootsub{margin-top:16px;font:10px var(--mono);color:var(--dim);letter-spacing:.18em;text-align:center}
+
+  /* panel assemble: staged, asymmetric (bg fades early, edges draw, deco late-flickers) */
+  .as{opacity:0}
+  #hud.on .as{animation:asm .55s ease-out forwards}
+  @keyframes asm{0%{opacity:0;transform:translateY(6px)}55%{opacity:1}70%{opacity:.55}100%{opacity:1;transform:none}}
+
+  /* mobile: stack, big mic */
+  @media(max-width:900px){
+    #hud{grid-template-columns:1fr;grid-template-rows:44px auto 1fr 30px;
+         grid-template-areas:"hd" "mid" "lft" "ft";overflow-y:auto}
+    #right{display:none}
+    #hud::before{display:none}
+    #core{width:min(52vw,220px)}
+    body{overflow:auto}
+  }
+</style>
+
+<canvas id="bg"></canvas>
+
+<div id="boot">
+  <div style="display:flex;flex-direction:column;align-items:center">
+    <div id="boottitle" style="font:600 17px var(--mono);letter-spacing:.5em;color:#e8f6fa;margin-bottom:34px">BOO&nbsp;·&nbsp;MARK&nbsp;II</div>
+    <button id="bootbtn">INITIALIZE</button>
+    <div id="bootsub">one tap arms the microphone, the voice,<br>and the stage window · then it is hands-free</div>
+  </div>
+</div>
+
+<div id="hud">
+  <header>
+    <h1 id="title">BOO</h1>
+    <span class="lbl" style="color:rgba(var(--acc),.55)">MARK II</span>
+    <span class="sp"></span>
+    <span class="pill" id="p-mic">MIC —</span>
+    <span class="pill" id="p-state">BOOT</span>
+    <span class="pill" id="p-net">NET —</span>
+  </header>
+
+  <div id="left">
+    <div class="cham as" style="animation-delay:.1s"><div class="in">
+      <div class="lbl" style="margin-bottom:6px">CHANNELS · LIVE</div>
+      <div id="chanrows"></div>
+    </div></div>
+    <div class="cham as" style="animation-delay:.25s;flex:1;min-height:0"><div class="in" style="overflow:hidden">
+      <div class="lbl" style="margin-bottom:6px">WHAT THE NUMBERS SAY</div>
+      <div id="learn" style="font:10.5px/1.7 var(--mono);color:var(--dim)"></div>
+    </div></div>
+  </div>
+
+  <div id="mid">
+    <div id="core" class="as" style="animation-delay:.05s">
+      <canvas id="reactor"></canvas>
+      <div id="stateword">STANDBY</div>
+      <div id="corestat" class="num"></div>
+    </div>
+    <div id="feed"></div>
+    <div id="qrow"></div>
+    <div id="dock">
+      <input id="box" placeholder="type — or just say: hey boo …" autocomplete="off">
+      <button id="micbtn" title="talk">◉</button>
+    </div>
+  </div>
+
+  <div id="right">
+    <div class="cham as" style="animation-delay:.15s"><div class="in">
+      <div class="lbl" style="margin-bottom:6px">RENDER FARM</div>
+      <div id="workrows"></div>
+    </div></div>
+    <div class="cham as" style="animation-delay:.3s"><div class="in">
+      <div class="lbl" style="margin-bottom:6px">TODAY</div>
+      <div id="todayrows"></div>
+    </div></div>
+    <div class="cham as" style="animation-delay:.45s"><div class="in">
+      <div class="lbl" style="margin-bottom:6px">CREW</div>
+      <div id="crewrows" style="font:10px/1.9 var(--mono);color:var(--dim)"></div>
+    </div></div>
+  </div>
+
+  <footer>
+    <span id="clock" class="num">--:--:--</span><span>IST</span>
+    <span class="sp"></span>
+    <span id="foot-note">local · zero-API · hourly-spacing enforced</span>
+  </footer>
+</div>
+
+<script>
+'use strict';
+/* ======================================================================
+   BOO MARK II — hands-free HUD. Every technique here is cited in
+   docs/BOO_MARK2_PLAN.md; the research findings live in the session notes.
+   Voice is desktop-first by measured constraint: Android Chrome's continuous
+   SpeechRecognition is broken (Chromium bug 40324711) and beeps per restart,
+   so the phone gets tap-to-talk and the desktop gets the wake word.
+   ====================================================================== */
+const $ = id => document.getElementById(id);
+const ACC = getComputedStyle(document.documentElement).getPropertyValue('--acc').trim();
+const IS_MOBILE = /Android|iPhone|iPad/i.test(navigator.userAgent) || innerWidth < 900;
+const state = { mode:'BOOT', status:null, prefs:null, lastSpoken:'', ttsEndTs:0,
+                openMicUntil:0, stageOpened:false, energy:0.15, micLevel:0 };
+
+/* ---------------------------------------------------- weighted decipher */
+/* char pool deliberately ~16% blank/low-ink so scramble reads as signal,
+   not noise (arwes' pool, copied exactly) */
+const POOL = '    ----____abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+function decipher(el, text, ms=420){
+  const n = text.length; if(!n){ el.textContent=''; return; }
+  const order = [...Array(n).keys()].sort(()=>Math.random()-.5);
+  const t0 = performance.now();
+  (function tick(){
+    const p = Math.min(1,(performance.now()-t0)/ms);
+    const done = new Set(order.slice(0, Math.round(n*p)));
+    el.textContent = [...text].map((c,i)=> c===' '?' ': done.has(i)?c:POOL[Math.random()*POOL.length|0]).join('');
+    if(p<1) requestAnimationFrame(tick); else el.textContent = text;
+  })();
+}
+
+/* ---------------------------------------------------------- earcons     */
+/* acknowledgement as sound, not speech — faster, immune to TTS limits    */
+let AC=null;
+function ac(){ if(!AC) AC = new (window.AudioContext||window.webkitAudioContext)(); return AC; }
+function tone(freqs, dur=.09, type='sine', vol=.12){
+  try{
+    const ctx=ac(); let t=ctx.currentTime;
+    freqs.forEach(f=>{
+      const o=ctx.createOscillator(), g=ctx.createGain();
+      o.type=type; o.frequency.value=f; o.connect(g); g.connect(ctx.destination);
+      g.gain.setValueAtTime(0,t); g.gain.linearRampToValueAtTime(vol,t+.012);
+      g.gain.exponentialRampToValueAtTime(.0001,t+dur);
+      o.start(t); o.stop(t+dur+.02); t+=dur*.8;
+    });
+  }catch(_){}
+}
+const earWake = ()=>tone([880,1320]);
+const earDone = ()=>tone([990,660]);
+const earErr  = ()=>tone([196,147],.14,'triangle',.14);
+
+/* ------------------------------------------------------------- TTS      */
+/* EasySpeech-pattern engine: voiceschanged-vs-poll init race, sentence
+   chunking via Intl.Segmenter, module-held utterances (GC bug), cancel-
+   then-speak with a deferred start, per-chunk rate jitter for prosody.   */
+const TTS = {
+  voice:null, ready:false, held:[], speaking:false, resumeTimer:null,
+  init(){
+    return new Promise(res=>{
+      let settled=false;
+      const pick=()=>{
+        const vs=speechSynthesis.getVoices(); if(!vs.length) return false;
+        const isEdge=/Edg\//.test(navigator.userAgent);
+        this.voice =
+          (isEdge && vs.find(v=>/en/.test(v.lang)&&/natural/i.test(v.name)&&/(aria|jenny|sonia|neerja)/i.test(v.name))) ||
+          (isEdge && vs.find(v=>/en/.test(v.lang)&&/natural/i.test(v.name))) ||
+          vs.find(v=>v.name==='Google US English') ||
+          vs.find(v=>/en-GB/.test(v.lang)&&/Google/.test(v.name)) ||
+          vs.find(v=>/^en/.test(v.lang)) || vs[0];
+        this.ready=true; return true;
+      };
+      const done=()=>{ if(!settled&&pick()){settled=true;res();} };
+      try{ speechSynthesis.onvoiceschanged = done; }catch(_){}
+      const iv=setInterval(()=>{ done(); if(settled) clearInterval(iv); },250);
+      setTimeout(()=>{ clearInterval(iv); if(!settled){settled=true;res();} },5000);
+      done();
+    });
+  },
+  speak(text, onend){
+    if(!text){ onend&&onend(); return; }
+    speechSynthesis.cancel(); this.held.length=0;
+    // sentence chunks — fixes the ~15s Chrome cutoff AND gives per-chunk prosody
+    let chunks;
+    try{ chunks=[...new Intl.Segmenter('en',{granularity:'sentence'}).segment(text)].map(s=>s.segment.trim()).filter(Boolean); }
+    catch(_){ chunks=text.split(/(?<=[.!?])\s+/); }
+    state.lastSpoken = text.toLowerCase();
+    let i=0; this.speaking=true; setMode('SPEAK'); sttGate(true);
+    const base = 1.12;
+    const next=()=>{
+      if(i>=chunks.length){ this.stop(onend); return; }
+      const u=new SpeechSynthesisUtterance(chunks[i]);
+      this.held.push(u);                          // survive GC mid-speech
+      if(this.voice) u.voice=this.voice;
+      const last = i===chunks.length-1;
+      u.rate=Math.min(1.8, base + (Math.random()*.1-.05) - (last?.1:0));
+      u.pitch=1.02; u.volume=1;
+      u.onend=u.onerror=()=>{ i++; setTimeout(next,60); };
+      setTimeout(()=>speechSynthesis.speak(u),15); // post-cancel drop guard
+      i===0 && this._resumeHack(u);
+    };
+    next();
+  },
+  _resumeHack(u){
+    // Chrome-desktop-only pause/resume keepalive; corrupts Android/natural voices
+    clearInterval(this.resumeTimer);
+    const okHere = !IS_MOBILE && /Chrome/.test(navigator.userAgent)
+                   && !(this.voice && /\(natural\)/i.test(this.voice.name));
+    if(!okHere) return;
+    this.resumeTimer=setInterval(()=>{
+      if(this.speaking && speechSynthesis.speaking){ speechSynthesis.pause(); speechSynthesis.resume(); }
+      else clearInterval(this.resumeTimer);
+    },5000);
+  },
+  stop(onend){
+    clearInterval(this.resumeTimer);
+    this.speaking=false; this.held.length=0; state.ttsEndTs=performance.now();
+    state.openMicUntil = performance.now()+9000;   // conversation window
+    setMode('IDLE'); setTimeout(()=>sttGate(false),300);
+    onend&&onend();
+  },
+  primer(){ // user-gesture unlock (required on Chrome M71+, iOS)
+    try{ const u=new SpeechSynthesisUtterance(' '); u.volume=0; u.rate=5; speechSynthesis.speak(u);}catch(_){}
+  }
+};
+
+/* varied acknowledgements — shuffle-bag, never immediate repeats          */
+function bag(items){ let pool=[]; return ()=>{ if(!pool.length) pool=[...items].sort(()=>Math.random()-.5); return pool.pop(); }; }
+const ackDo  = bag(['On it.','Right away.','Done.','You got it.','Handled.']);
+const ackHmm = bag(['One second.','Checking.','Pulling it up.','Let me look.']);
+
+/* ------------------------------------------------------------- STT      */
+/* Desktop: continuous wake loop. Restart ONLY in onend (never onerror —
+   both fire and double-start), guard InvalidStateError with a flag,
+   backoff on network errors, hard-stop on not-allowed. Half-duplex gate:
+   abort while Boo speaks, 300ms tail, echo-match discard.                */
+const SR = window.SpeechRecognition||window.webkitSpeechRecognition;
+const STT = { rec:null, running:false, want:false, backoff:250, gated:false };
+function sttInit(){
+  if(!SR){ pill('p-mic','NO MIC API','warn'); return; }
+  const r=new SR();
+  r.lang='en-IN'; r.continuous=!IS_MOBILE; r.interimResults=false; r.maxAlternatives=1;
+  try{ if(!IS_MOBILE && 'processLocally' in r) r.processLocally=false; }catch(_){}
+  r.onresult=e=>{
+    const said=(e.results[e.results.length-1][0].transcript||'').trim();
+    if(said) onHeard(said);
+  };
+  r.onend=()=>{
+    STT.running=false;
+    if(STT.want && !STT.gated) setTimeout(sttStart, STT.backoff);
+    else pill('p-mic', STT.gated?'MIC HELD':'MIC OFF','');
+  };
+  r.onerror=e=>{
+    if(e.error==='not-allowed'||e.error==='service-not-allowed'){
+      STT.want=false; pill('p-mic','MIC BLOCKED','bad'); earErr();
+      say("The microphone is blocked for this page. Open the padlock menu and allow it, then reload.");
+      return;
+    }
+    if(e.error==='network'){ STT.backoff=Math.min(8000,STT.backoff*2); }
+  };
+  STT.rec=r;
+}
+function sttStart(){
+  if(!STT.rec||STT.running||STT.gated||!STT.want) return;
+  try{ STT.rec.start(); STT.running=true; STT.backoff=250; pill('p-mic','LISTENING','live'); }
+  catch(_){ /* InvalidStateError — already started */ }
+}
+function sttGate(on){          // half-duplex: never hear our own voice
+  STT.gated=on;
+  if(on&&STT.rec&&STT.running){ try{STT.rec.abort();}catch(_){} STT.running=false; }
+  if(!on&&STT.want) sttStart();
+}
+function tokenOverlap(a,b){
+  const A=new Set(a.split(/\W+/).filter(w=>w.length>2));
+  const B=new Set(b.split(/\W+/).filter(w=>w.length>2));
+  if(!A.size||!B.size) return 0;
+  let n=0; A.forEach(w=>B.has(w)&&n++);
+  return n/Math.min(A.size,B.size);
+}
+function onHeard(said){
+  const low=said.toLowerCase();
+  // echo guard — our own tail sneaking past the gate
+  if(performance.now()-state.ttsEndTs<1500 && tokenOverlap(low,state.lastSpoken)>.5) return;
+  const wake=/\b(?:hey|okay|ok|yo)?\s*(?:boo|blue|bhoo|bu)\b/i;
+  const inWindow = performance.now()<state.openMicUntil;
+  if(wake.test(low)){
+    const cmd=low.split(wake).pop().trim().replace(/^[,.\s]+/,'');
+    earWake();
+    if(cmd.length>2) ask(cmd, true);
+    else{ state.openMicUntil=performance.now()+8000; setMode('LISTEN'); say('Yes?'); }
+  } else if(inWindow && low.length>2 && !IS_MOBILE){
+    ask(said, true);              // follow-up window: no wake word needed
+  } else if(IS_MOBILE){
+    ask(said, true);              // tap-to-talk: everything heard is a command
+  }
+}
+
+/* ------------------------------------------------------------- speak     */
+function say(t){ TTS.speak(t); }
+
+/* ------------------------------------------------------------- the ask   */
+async function ask(text, spoken=false){
+  if(!text||!text.trim()) return;
+  addExchange(text);
+  setMode('THINK');
+  let j;
+  try{
+    const r=await fetch('/ask',{method:'POST',headers:{'Content-Type':'application/json'},
+                                body:JSON.stringify({text})});
+    j=await r.json();
+  }catch(e){
+    earErr(); setMode('ALERT');
+    answerExchange('The factory is not answering: '+e.message,''); return;
+  }
+  answerExchange(j.speech, j.detail, j.action);
+  if(spoken||!IS_MOBILE) say(j.speech); else earDone();
+  execAction(j.action);
+  refreshPrefs();
+}
+
+/* stage window: voice results carry no user gesture, so window.open of a
+   NEW window is popup-blocked. But RE-navigating an existing named window
+   is allowed — so the first open per session comes from a tapped chip,
+   and every open after that is fully hands-free. */
+function execAction(a){
+  if(!a) return;
+  if(a.type==='toggle'){
+    fetch('/toggle',{method:'POST',headers:{'Content-Type':'application/json'},
+                     body:JSON.stringify({name:a.name,enabled:a.enabled})})
+      .then(r=>r.json()).then(t=>{ earDone(); poll(); })
+      .catch(()=>{ earErr(); answerExchange('That toggle failed on the server.',''); });
+    return;
+  }
+  if(a.type==='open'){
+    const url=a.url.startsWith('/')?location.origin+a.url:a.url;
+    const w=window.open(url,'boo_stage');
+    if(w){ state.stageOpened=true; try{w.focus();}catch(_){} }
+    else addChip('TAP TO OPEN ⤴', ()=>{ window.open(url,'boo_stage'); state.stageOpened=true; });
+  }
+}
+
+/* ------------------------------------------------------------- feed      */
+function addExchange(you){
+  const feed=$('feed');
+  [...feed.children].forEach(c=>c.classList.add('old'));
+  const d=document.createElement('div'); d.className='ex';
+  d.innerHTML='<div class="you"></div><div class="ans" style="color:var(--dim)">…</div>';
+  d.querySelector('.you').textContent=you;
+  feed.appendChild(d);
+  while(feed.children.length>7) feed.removeChild(feed.firstChild);
+  feed.scrollTop=feed.scrollHeight;
+  state._cur=d;
+}
+function answerExchange(speech, detail, action){
+  const d=state._cur; if(!d) return;
+  const ans=d.querySelector('.ans'); ans.style.color=''; ans.textContent=speech;
+  if(detail){
+    const p=document.createElement('div'); p.className='det'; p.textContent=detail;
+    d.appendChild(p);
+  }
+  $('feed').scrollTop=$('feed').scrollHeight;
+}
+function addChip(label, fn){
+  const c=document.createElement('button'); c.className='chip'; c.textContent=label;
+  c.onclick=()=>{ fn(); c.remove(); };
+  (state._cur||$('feed')).appendChild(c);
+  $('feed').scrollTop=$('feed').scrollHeight;
+}
+
+/* ------------------------------------------------------------- pills/mode */
+function pill(id,txt,cls){ const p=$(id); p.textContent=txt; p.className='pill '+(cls||''); }
+function setMode(m){
+  if(state.mode===m) return;
+  state.mode=m;
+  const w=$('stateword');
+  const map={IDLE:'ONLINE',LISTEN:'LISTENING',THINK:'WORKING',SPEAK:'SPEAKING',ALERT:'FAULT',BOOT:'STANDBY'};
+  decipher(w, map[m]||m, 300);
+  pill('p-state', map[m]||m, m==='ALERT'?'bad':(m==='IDLE'?'':'live'));
+}
+
+/* ------------------------------------------------------------- reactor   */
+/* three-stroke neon (blurred accent glow / saturated mid / WHITE hairline
+   core), counter-rotating tick rings, energy-reactive arcs. Every element
+   gets its own period+phase — nothing breathes in unison.               */
+const RX = { c:null, ctx:null, t0:performance.now() };
+function reactorInit(){
+  RX.c=$('reactor'); RX.ctx=RX.c.getContext('2d');
+  const fit=()=>{ const dpr=Math.min(2,devicePixelRatio||1), r=RX.c.getBoundingClientRect();
+    RX.c.width=r.width*dpr; RX.c.height=r.height*dpr; RX.ctx.setTransform(dpr,0,0,dpr,0,0); RX.w=r.width; RX.h=r.height; };
+  fit(); new ResizeObserver(fit).observe(RX.c);
+  (function frame(){
+    if(!document.hidden) reactorDraw((performance.now()-RX.t0)/1000);
+    requestAnimationFrame(frame);
+  })();
+}
+function reactorDraw(t){
+  const x=RX.ctx, W=RX.w, H=RX.h, cx=W/2, cy=H/2, R=Math.min(W,H)/2-8;
+  x.clearRect(0,0,W,H);
+  // target energy per mode; mic level drives LISTEN
+  const tgt = state.mode==='LISTEN' ? .25+state.micLevel*1.6
+            : state.mode==='THINK' ? .55
+            : state.mode==='SPEAK' ? .35+.22*Math.sin(t*7.3)+.08*Math.sin(t*13.7)
+            : state.mode==='ALERT' ? .5+.3*Math.sin(t*11)
+            : .13+.05*Math.sin(t*2*Math.PI/7);      // idle: 7s breath
+  state.energy += (tgt-state.energy)*.08;
+  const E=Math.max(.05,Math.min(1,state.energy));
+  const col = state.mode==='ALERT' ? '255,0,60' : ACC;
+
+  const ring=(r,w,alpha,glow)=>{ x.beginPath(); x.arc(cx,cy,r,0,7);
+    x.strokeStyle=`rgba(${col},${alpha})`; x.lineWidth=w;
+    x.shadowBlur=glow||0; x.shadowColor=`rgba(${col},.8)`; x.stroke(); x.shadowBlur=0; };
+
+  // outer tick ring — 72 ticks, slow rotation (period 41s)
+  x.save(); x.translate(cx,cy); x.rotate(t*2*Math.PI/41);
+  for(let i=0;i<72;i++){
+    const a=i/72*2*Math.PI, big=i%6===0;
+    x.beginPath();
+    x.moveTo(Math.cos(a)*(R-(big?10:5)), Math.sin(a)*(R-(big?10:5)));
+    x.lineTo(Math.cos(a)*R, Math.sin(a)*R);
+    x.strokeStyle=`rgba(${col},${big?.5:.18})`; x.lineWidth=big?1.6:1; x.stroke();
+  }
+  x.restore();
+
+  // mid arc trio — counter-rotating (period 23s), gap arcs
+  x.save(); x.translate(cx,cy); x.rotate(-t*2*Math.PI/23);
+  for(let k=0;k<3;k++){
+    x.beginPath(); x.arc(0,0,R*.78, k*2.1, k*2.1+1.5);
+    x.strokeStyle=`rgba(${col},.4)`; x.lineWidth=2;
+    x.shadowBlur=8; x.shadowColor=`rgba(${col},.6)`; x.stroke(); x.shadowBlur=0;
+  }
+  x.restore();
+
+  // energy arc — sweeps with E (period 17s rotation)
+  x.save(); x.translate(cx,cy); x.rotate(t*2*Math.PI/17);
+  x.beginPath(); x.arc(0,0,R*.62,0,E*2*Math.PI);
+  x.strokeStyle=`rgba(${col},.85)`; x.lineWidth=3;
+  x.shadowBlur=14; x.shadowColor=`rgba(${col},.9)`; x.stroke(); x.shadowBlur=0;
+  x.restore();
+
+  // core: three-stroke neon — wide blurred glow, saturated mid, white hairline
+  const cr=R*.44 + E*6;
+  x.shadowBlur=18; x.shadowColor=`rgba(${col},.55)`;
+  x.beginPath(); x.arc(cx,cy,cr,0,7); x.strokeStyle=`rgba(${col},.35)`; x.lineWidth=5; x.stroke();
+  x.shadowBlur=0;
+  x.beginPath(); x.arc(cx,cy,cr,0,7); x.strokeStyle=`rgba(${col},.9)`; x.lineWidth=1.6; x.stroke();
+  x.beginPath(); x.arc(cx,cy,cr-2,0,7); x.strokeStyle='rgba(255,255,255,.85)'; x.lineWidth=.75; x.stroke();
+  // inner fill breathing
+  const g=x.createRadialGradient(cx,cy,0,cx,cy,cr);
+  g.addColorStop(0,`rgba(${col},${.10+E*.14})`); g.addColorStop(1,'rgba(0,0,0,0)');
+  x.fillStyle=g; x.beginPath(); x.arc(cx,cy,cr,0,7); x.fill();
+}
+
+/* mic level for the LISTEN state — analyser on the same stream            */
+async function micAnalyser(){
+  try{
+    const s=await navigator.mediaDevices.getUserMedia({audio:true});
+    const ctx=ac(), src=ctx.createMediaStreamSource(s), an=ctx.createAnalyser();
+    an.fftSize=512; src.connect(an);
+    const buf=new Uint8Array(an.frequencyBinCount);
+    (function lvl(){ an.getByteTimeDomainData(buf);
+      let sum=0; for(let i=0;i<buf.length;i++){const v=(buf[i]-128)/128; sum+=v*v;}
+      state.micLevel=Math.sqrt(sum/buf.length);
+      requestAnimationFrame(lvl); })();
+    return true;
+  }catch(_){ return false; }
+}
+
+/* ------------------------------------------------------------- background */
+/* cross-grid substrate (registration ticks, not polka dots) with a radial
+   boot wave, plus phase-offset streaming line sets. DPR capped at 2.      */
+const BGC={};
+function bgInit(){
+  const c=$('bg'), x=c.getContext('2d');
+  const fit=()=>{ const dpr=Math.min(2,devicePixelRatio||1);
+    c.width=innerWidth*dpr; c.height=innerHeight*dpr; x.setTransform(dpr,0,0,dpr,0,0);
+    BGC.w=innerWidth; BGC.h=innerHeight; mkLines(); };
+  addEventListener('resize',fit); fit();
+  BGC.boot0=0;
+  function mkLines(){
+    BGC.sets=[];
+    const cols=Math.floor(BGC.w/30);
+    for(let s=0;s<5;s++){
+      const lines=[];
+      const n=Math.floor((Math.random()*.4+.1)*cols*.5);
+      for(let i=0;i<n;i++) lines.push({col:Math.random()*cols|0, off:Math.random(),
+                                       len:(Math.random()*.4+.1)*BGC.h});
+      BGC.sets.push(lines);
+    }
+  }
+  const ease=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+  (function frame(t){
+    if(!document.hidden){
+      x.clearRect(0,0,BGC.w,BGC.h);
+      // crosses at 30px pitch — boot wave from center
+      const bootP=BGC.boot0? Math.min(1,(t-BGC.boot0)/1400) : 0;
+      const maxD=Math.hypot(BGC.w,BGC.h)/2;
+      x.strokeStyle=`rgba(${ACC},.09)`; x.lineWidth=1;
+      for(let gx=15;gx<BGC.w;gx+=30) for(let gy=15;gy<BGC.h;gy+=30){
+        if(bootP<1){
+          const d=Math.hypot(gx-BGC.w/2,gy-BGC.h/2)/maxD;
+          if(bootP/Math.max(.05,d)<1) continue;
+        }
+        x.beginPath(); x.moveTo(gx-3,gy); x.lineTo(gx+3,gy);
+        x.moveTo(gx,gy-3); x.lineTo(gx,gy+3); x.stroke();
+      }
+      // streaming vertical segments — 5 phase-offset sets, 9s loop
+      if(bootP>=1||!BGC.boot0){
+        BGC.sets.forEach((lines,s)=>{
+          const p=ease(((t/9000)+(s/5))%1);
+          x.strokeStyle=`rgba(${ACC},.05)`; x.lineWidth=1;
+          x.shadowBlur=3; x.shadowColor=`rgba(${ACC},.3)`;
+          lines.forEach(L=>{
+            const y=((L.off+p)%1)*(BGC.h+L.len)-L.len;
+            x.beginPath(); x.moveTo(L.col*30+15,y); x.lineTo(L.col*30+15,y+L.len); x.stroke();
+          });
+          x.shadowBlur=0;
+        });
+      }
+    }
+    requestAnimationFrame(frame);
+  })(performance.now());
+}
+
+/* ------------------------------------------------------------- data poll */
+async function poll(){
+  try{
+    const r=await fetch('/status.json'); const s=await r.json();
+    state.status=s; pill('p-net','NET LIVE','live'); render(s);
+  }catch(_){ pill('p-net','NET LOST','bad'); }
+}
+function num(el, v){ // heartbeat: numbers decipher only when they CHANGE
+  const t=(v==null?'—':v.toLocaleString('en-IN'));
+  if(el.textContent!==t){ decipher(el, t, 260); }
+}
+function render(s){
+  const ch=s.channels||{}, wk=s.workers||{}, tot=s.totals||{};
+  const order=['tinycrafts','happyhive','wonderlab','storynook','playground'];
+  const cr=$('chanrows');
+  if(!cr.dataset.built){
+    cr.innerHTML=order.map(c=>`<div class="row" data-c="${c}">
+      <span class="st"></span><span class="nm">${c}</span>
+      <span class="v ready">—</span><span class="u">rdy</span>
+      <span class="v today" style="color:var(--ink)">—</span><span class="u">today</span>
+    </div>`).join('');
+    cr.dataset.built=1;
+    cr.querySelectorAll('.row').forEach(r=>r.onclick=()=>ask('how is '+r.dataset.c+' doing'));
+  }
+  order.forEach(c=>{
+    const d=ch[c]||{}, row=cr.querySelector(`[data-c="${c}"]`); if(!row) return;
+    num(row.querySelector('.ready'), d.stored_ready);
+    num(row.querySelector('.today'), d.posted_today);
+    row.querySelector('.st').className='st '+((d.posted_today||0)>0?'on':((d.stored_ready||0)>0?'warn':'off'));
+  });
+  const wr=$('workrows');
+  wr.innerHTML=Object.entries(wk).map(([n,w])=>{
+    const st=!w.enabled?'off':(w.up&&w.running?'on':(w.up?'warn':'off'));
+    const line=!w.enabled?'switched off':(w.up?(w.running?('rendering '+(w.job||'')):'idle'):'not answering');
+    return `<div class="row" style="cursor:pointer" data-w="${n}">
+        <span class="st ${st}"></span><span class="nm">${(w.owner||n)}</span>
+        <span class="v">${w.made_today??'—'}</span><span class="u">today</span>
+      </div><div class="sub">${line}</div>`;
+  }).join('');
+  wr.querySelectorAll('.row').forEach(r=>r.onclick=()=>ask('how are the workers'));
+  const tr=$('todayrows');
+  if(!tr.dataset.built){
+    tr.innerHTML=[['posted','POSTED'],['made','RENDERED'],['views','VIEWS'],['fol','FOLLOWERS']]
+      .map(([k,l])=>`<div class="row"><span class="nm" style="width:auto;flex:1;color:var(--dim)">${l}</span>
+                     <span class="v num" data-k="${k}" style="min-width:64px">—</span></div>`).join('');
+    tr.dataset.built=1;
+  }
+  const posts=Object.values(ch).reduce((a,c)=>a+(c.posted_today||0),0);
+  num(tr.querySelector('[data-k=posted]'), posts);
+  num(tr.querySelector('[data-k=made]'), tot.made_today);
+  num(tr.querySelector('[data-k=views]'), tot.views);
+  num(tr.querySelector('[data-k=fol]'), tot.followers);
+  $('corestat').textContent=posts+' POSTED · '+(tot.made_today??0)+' MADE';
+  const lf=(s.learnings&&s.learnings.findings)||[];
+  $('learn').innerHTML=lf.slice(0,5).map(f=>'▸ '+f).join('<br>');
+  $('crewrows').innerHTML=['analytics — the numbers','marketing — hooks & funnel',
+    'writer — stories & formats','developer — the pipeline','producer — schedule & capacity']
+    .map(c=>'◈ '+c).join('<br>');
+}
+async function refreshPrefs(){
+  try{
+    const p=await (await fetch('/prefs')).json(); state.prefs=p;
+    const map={overall:"what's up",workers:'workers',bank:'runway',best:"what's working",
+               audience:"who's watching",open_compare:'all five',open_analytics:'analytics'};
+    const usage=p.usage||{};
+    const ranked=Object.keys(map).sort((a,b)=>(usage[b]||0)-(usage[a]||0)).slice(0,5);
+    $('qrow').innerHTML='';
+    ranked.forEach(k=>{
+      const b=document.createElement('button'); b.className='q'; b.textContent=map[k];
+      b.onclick=()=>ask(map[k]==='all five'?'open all five side by side':
+                        map[k]==='analytics'?'open analytics':map[k]);
+      $('qrow').appendChild(b);
+    });
+  }catch(_){}
+}
+
+/* ------------------------------------------------------------- lifecycle */
+let wakeLock=null;
+async function grabWakeLock(){
+  try{ wakeLock=await navigator.wakeLock.request('screen'); }catch(_){}
+}
+document.addEventListener('visibilitychange',()=>{
+  if(!document.hidden){ grabWakeLock(); if(STT.want&&!STT.gated) sttStart(); }
+});
+
+/* ------------------------------------------------------------- boot      */
+$('bootbtn').onclick=async ()=>{
+  const btn=$('bootbtn'); btn.disabled=true; btn.textContent='ARMING…';
+  try{ ac().resume(); }catch(_){}
+  TTS.primer();
+  await TTS.init();
+  sttInit();
+  $('boot').classList.add('gone');
+  $('hud').classList.add('on');
+  BGC.boot0=performance.now();
+  decipher($('title'),'BOO',600);
+  setMode('IDLE');
+  grabWakeLock();
+  poll(); refreshPrefs();
+  earWake();
+  // Mic arming must NOT block boot: an unanswered permission prompt would
+  // otherwise freeze the whole HUD at ARMING. The UI comes up immediately
+  // and voice attaches whenever the grant lands.
+  pill('p-mic','MIC …','');
+  micAnalyser().then(micOK=>{
+    if(SR && micOK && !IS_MOBILE){
+      STT.want=true; sttStart();
+      say("Boo online. I'm listening — just say, hey boo.");
+    } else if(SR && micOK){
+      pill('p-mic','TAP TO TALK','live');
+      say("Boo online. Tap the mic and talk to me.");
+    } else {
+      pill('p-mic', micOK?'NO SPEECH API':'MIC BLOCKED','warn');
+      say("Boo online. The microphone is not available here, so type to me.");
+    }
+  });
+};
+
+/* mobile / manual mic */
+$('micbtn').onclick=()=>{
+  if(!STT.rec){ $('box').focus(); return; }
+  if(STT.running){ try{STT.rec.stop();}catch(_){} $('micbtn').classList.remove('hot'); return; }
+  speechSynthesis.cancel(); TTS.speaking=false; STT.want=true; STT.gated=false;
+  $('micbtn').classList.add('hot'); earWake(); sttStart();
+  if(IS_MOBILE) setTimeout(()=>$('micbtn').classList.remove('hot'), 9000);
+};
+$('box').addEventListener('keydown',e=>{
+  if(e.key==='Enter'&&e.target.value.trim()){ ask(e.target.value.trim()); e.target.value=''; }
+});
+
+/* clock — something is always alive on screen */
+setInterval(()=>{ $('clock').textContent=new Date().toLocaleTimeString('en-IN',{hour12:false}); },1000);
+setInterval(poll,10000);
+bgInit(); reactorInit();
+</script>

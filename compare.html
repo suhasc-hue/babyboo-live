@@ -1,0 +1,60 @@
+<meta charset="utf-8">
+<title>BOO · THE MAIN FIVE</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root{--acc:0,240,255;--warn:255,170,0;--bg:#07070b;--s0:#0a0a10;--s1:#0d0d15;
+        --ink:#c8d2dc;--dim:#5a6b78;--faint:#333d47;
+        --mono:'Cascadia Mono','Consolas',ui-monospace,monospace;color-scheme:dark}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--ink);font-family:'Segoe UI',system-ui,sans-serif;
+       min-height:100vh;padding:22px 20px}
+  h1{font:600 13px var(--mono);letter-spacing:.34em;color:#e8f6fa;margin-bottom:4px}
+  .sub{font:10px var(--mono);letter-spacing:.14em;color:var(--dim);margin-bottom:20px}
+  #grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+  .card{--c:10px;position:relative;background:rgba(var(--acc),.2);padding:1px;
+    clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c))}
+  .card .in{clip-path:polygon(var(--c) 0,100% 0,100% calc(100% - var(--c)),calc(100% - var(--c)) 100%,0 100%,0 var(--c));
+    background:linear-gradient(160deg,var(--s1),var(--s0));padding:16px 16px 14px}
+  .nm{font:600 13px var(--mono);letter-spacing:.1em;color:#e8f6fa;text-transform:uppercase}
+  .hd{font:10px var(--mono);color:var(--dim);margin:2px 0 12px}
+  .stats{display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:14px}
+  .st{text-align:center}
+  .st .v{font:600 17px var(--mono);font-variant-numeric:tabular-nums;color:rgb(var(--acc))}
+  .st .l{font:8.5px var(--mono);letter-spacing:.14em;color:var(--dim);text-transform:uppercase}
+  a.open{display:block;text-align:center;text-decoration:none;font:600 10px var(--mono);
+    letter-spacing:.2em;color:rgb(var(--acc));border:1px solid rgba(var(--acc),.45);
+    padding:9px 0;background:rgba(var(--acc),.06);
+    clip-path:polygon(7px 0,100% 0,100% calc(100% - 7px),calc(100% - 7px) 100%,0 100%,0 7px)}
+  a.open:hover{background:rgba(var(--acc),.16)}
+  .note{margin-top:18px;font:9.5px var(--mono);color:var(--faint);letter-spacing:.08em}
+</style>
+<h1>THE MAIN FIVE</h1>
+<div class="sub">LIVE FROM THE FACTORY · TAP A CARD TO OPEN THE ACCOUNT</div>
+<div id="grid"></div>
+<div class="note">Instagram forbids embedding its pages, so each opens in its own tab — the numbers here are live off the factory's own ledger.</div>
+<script>
+'use strict';
+const ORDER=['tinycrafts','happyhive','wonderlab','storynook','playground'];
+const HANDLES={tinycrafts:'tinycraftsbyleo',happyhive:'happyhivekidss',wonderlab:'kidswonderee',
+               storynook:'storynooksam',playground:'playgroundpalszoe'};
+async function load(){
+  let s={};
+  try{ s=await (await fetch('/status.json')).json(); }catch(_){}
+  const ch=s.channels||{};
+  document.getElementById('grid').innerHTML=ORDER.map(c=>{
+    const d=ch[c]||{}, ig=d.ig||{};
+    const f=ig.followers!=null?ig.followers:'—';
+    return `<div class="card"><div class="in">
+      <div class="nm">${c}</div>
+      <div class="hd">@${HANDLES[c]}</div>
+      <div class="stats">
+        <div class="st"><div class="v">${f}</div><div class="l">followers</div></div>
+        <div class="st"><div class="v">${d.posted_today??'—'}</div><div class="l">today</div></div>
+        <div class="st"><div class="v">${d.stored_ready??'—'}</div><div class="l">ready</div></div>
+      </div>
+      <a class="open" href="https://instagram.com/${HANDLES[c]}" target="_blank" rel="noopener">OPEN ON INSTAGRAM ⤴</a>
+    </div></div>`;
+  }).join('');
+}
+load(); setInterval(load,15000);
+</script>
