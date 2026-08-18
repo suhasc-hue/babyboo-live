@@ -1,0 +1,179 @@
+<meta charset="utf-8">
+<title>BOO</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>
+  :root{--p:#00ff41;--dim:#0a8f2c;--cyan:#00d4ff;--amber:#ffaa00;
+        --void:#04070a;--panel:#0a1410;--line:#123322;color-scheme:dark}
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{background:var(--void);color:var(--p);min-height:100vh;
+       font-family:'SFMono-Regular',Consolas,ui-monospace,monospace;
+       display:flex;flex-direction:column}
+  header{padding:14px 16px 8px;display:flex;align-items:center;gap:10px}
+  h1{font-size:15px;letter-spacing:4px;text-shadow:0 0 12px var(--p)}
+  .sp{flex:1}
+  .pill{font-size:9.5px;letter-spacing:1.5px;color:var(--dim);border:1px solid var(--line);
+        border-radius:99px;padding:4px 10px}
+  .pill.live{color:var(--p);border-color:var(--p)}
+  #log{flex:1;overflow-y:auto;padding:8px 14px 120px;display:flex;flex-direction:column;gap:10px}
+  .msg{max-width:92%;border:1px solid var(--line);border-radius:4px;padding:10px 12px;
+       font-size:13px;line-height:1.6;white-space:pre-wrap;word-break:break-word}
+  .me{align-self:flex-end;background:#0d1a14;color:#dfffe9;border-color:var(--dim)}
+  .boo{align-self:flex-start;background:var(--panel)}
+  .boo .det{margin-top:8px;font-size:10.5px;color:var(--dim);white-space:pre;
+            overflow-x:auto;border-top:1px dashed var(--line);padding-top:7px}
+  .boo a{color:var(--cyan)}
+  .thinking{color:var(--dim);font-style:italic}
+  /* mic */
+  #dock{position:fixed;left:0;right:0;bottom:0;background:linear-gradient(180deg,transparent,var(--void) 22%);
+        padding:18px 14px 22px;display:flex;flex-direction:column;gap:10px;align-items:center}
+  #mic{width:74px;height:74px;border-radius:50%;border:2px solid var(--p);background:#08140d;
+       color:var(--p);font-size:26px;cursor:pointer;display:grid;place-items:center;
+       transition:transform .12s,box-shadow .2s}
+  #mic:active{transform:scale(.94)}
+  #mic.on{box-shadow:0 0 0 0 rgba(0,255,65,.55);animation:ring 1.4s infinite;border-color:var(--cyan);color:var(--cyan)}
+  @keyframes ring{0%{box-shadow:0 0 0 0 rgba(0,212,255,.5)}100%{box-shadow:0 0 0 26px rgba(0,212,255,0)}}
+  #hint{font-size:10px;color:var(--dim);letter-spacing:1.5px;text-align:center}
+  .row{display:flex;gap:7px;flex-wrap:wrap;justify-content:center;max-width:560px}
+  .q{border:1px solid var(--line);background:var(--panel);color:var(--dim);border-radius:99px;
+     padding:6px 12px;font:inherit;font-size:11px;cursor:pointer}
+  .q:active{color:var(--p);border-color:var(--p)}
+  form{display:flex;gap:8px;width:100%;max-width:560px}
+  input{flex:1;background:var(--panel);border:1px solid var(--line);color:var(--p);
+        border-radius:4px;padding:11px 12px;font:inherit;font-size:13px}
+  input:focus{outline:0;border-color:var(--p)}
+  button.send{border:1px solid var(--line);background:var(--panel);color:var(--p);
+              border-radius:4px;padding:0 14px;font:inherit;cursor:pointer}
+</style>
+
+<header>
+  <h1>◈ BOO</h1><span class="sp"></span>
+  <span class="pill" id="voicepill">VOICE OFF</span>
+  <span class="pill" id="wakepill">WAKE OFF</span>
+</header>
+
+<div id="log"></div>
+
+<div id="dock">
+  <div class="row">
+    <button class="q" onclick="ask('what\'s up')">what's up</button>
+    <button class="q" onclick="ask('how are the workers')">workers</button>
+    <button class="q" onclick="ask('how much runway is left')">runway</button>
+    <button class="q" onclick="ask('who is watching')">audience</button>
+    <button class="q" onclick="ask('what is working best')">what works</button>
+  </div>
+  <button id="mic" title="Hold to talk">🎙</button>
+  <div id="hint">tap to talk · say “hey boo, what’s up”</div>
+  <form onsubmit="return typed(event)">
+    <input id="box" placeholder="or type here…" autocomplete="off">
+    <button class="send">↵</button>
+  </form>
+</div>
+
+<script>
+const log = document.getElementById('log');
+const micBtn = document.getElementById('mic');
+let speakOn = true;
+
+function bubble(cls, text, detail, url){
+  const d = document.createElement('div');
+  d.className = 'msg ' + cls;
+  d.textContent = text;
+  if (detail) {
+    const s = document.createElement('div');
+    s.className = 'det';
+    if (url) { const a=document.createElement('a'); a.href=url; a.target='_blank'; a.textContent=detail; s.appendChild(a); }
+    else s.textContent = detail;
+    d.appendChild(s);
+  }
+  log.appendChild(d);
+  log.scrollTop = log.scrollHeight;
+  return d;
+}
+
+/* Speech synthesis: pick a natural English voice once available. */
+let VOICE = null;
+function pickVoice(){
+  const vs = speechSynthesis.getVoices();
+  VOICE = vs.find(v => /en-GB/.test(v.lang) && /female|Sonia|Libby|Hazel/i.test(v.name))
+       || vs.find(v => /en-GB/.test(v.lang))
+       || vs.find(v => /en-US/.test(v.lang)) || vs[0] || null;
+}
+speechSynthesis.onvoiceschanged = pickVoice; pickVoice();
+function say(t){
+  if (!speakOn || !t) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(t);
+  if (VOICE) u.voice = VOICE;
+  u.rate = 1.03; u.pitch = 1.0;
+  speechSynthesis.speak(u);
+}
+
+async function ask(text){
+  if (!text || !text.trim()) return;
+  bubble('me', text);
+  const think = bubble('boo thinking', '…');
+  try{
+    const r = await fetch('/ask', {method:'POST', headers:{'Content-Type':'application/json'},
+                                   body: JSON.stringify({text})});
+    const j = await r.json();
+    think.remove();
+    const act = j.action || null;
+    bubble('boo', j.speech, j.detail, act && act.type === 'open' ? act.url : null);
+    say(j.speech);
+    if (act && act.type === 'open') window.open(act.url, '_blank');
+    if (act && act.type === 'toggle'){
+      const t = await fetch('/toggle', {method:'POST', headers:{'Content-Type':'application/json'},
+                                        body: JSON.stringify({name:act.name, enabled:act.enabled})});
+      bubble('boo', t.ok ? 'Done — ' + act.name + ' is now ' + (act.enabled?'ON':'OFF') + '.'
+                         : 'That toggle failed on the server.');
+    }
+  }catch(e){
+    think.remove();
+    bubble('boo', 'I could not reach the factory: ' + e.message);
+  }
+}
+function typed(e){ e.preventDefault(); const b=document.getElementById('box');
+  const v=b.value; b.value=''; ask(v); return false; }
+
+/* ---- speech recognition: tap to talk, plus optional always-on wake word ---- */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+let rec = null, wake = null, listening = false;
+if (SR){
+  document.getElementById('voicepill').textContent = 'VOICE READY';
+  document.getElementById('voicepill').className = 'pill live';
+  rec = new SR(); rec.lang='en-IN'; rec.interimResults=false; rec.maxAlternatives=1;
+  rec.onresult = e => ask(e.results[0][0].transcript);
+  rec.onend = () => { listening=false; micBtn.classList.remove('on'); };
+  rec.onerror = () => { listening=false; micBtn.classList.remove('on'); };
+} else {
+  document.getElementById('voicepill').textContent = 'NO VOICE (use Chrome)';
+}
+micBtn.onclick = () => {
+  if (!rec) { document.getElementById('box').focus(); return; }
+  if (listening){ rec.stop(); return; }
+  speechSynthesis.cancel();
+  listening = true; micBtn.classList.add('on'); rec.start();
+};
+
+/* Wake word runs a second, continuous recogniser. Chrome only gives one
+   microphone stream at a time, so it pauses itself while Boo is speaking. */
+const wakePill = document.getElementById('wakepill');
+wakePill.onclick = () => {
+  if (!SR){ return; }
+  if (wake){ wake.stop(); wake=null; wakePill.textContent='WAKE OFF'; wakePill.className='pill'; return; }
+  wake = new SR(); wake.lang='en-IN'; wake.continuous=true; wake.interimResults=true;
+  wake.onresult = e => {
+    const said = e.results[e.results.length-1][0].transcript.toLowerCase();
+    if (/\bhey\s*(boo|bo|blue)\b/.test(said)){
+      const q = said.split(/\bhey\s*(?:boo|bo|blue)\b/).pop().trim();
+      if (q.length > 2) ask(q); else { say('Yes?'); }
+    }
+  };
+  wake.onend = () => { if (wake) { try{ wake.start(); }catch(_){} } };  // keep alive
+  try{ wake.start(); wakePill.textContent='WAKE ON'; wakePill.className='pill live'; }
+  catch(_){ wakePill.textContent='WAKE FAILED'; }
+};
+
+bubble('boo', 'Boo online. Ask me what is running, how a channel is doing, who is '
+            + 'watching, or tell me to switch a PC on or off.');
+</script>
