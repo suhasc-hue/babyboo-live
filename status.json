@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 07:05:50",
+ "updated": "2026-08-18 07:15:53",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 11.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.8
+   "ram_free_gb": 2.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -74,10 +74,15 @@
    "ip": "192.168.1.148",
    "up": true,
    "enabled": true,
-   "made_today": 28,
-   "last_reel": "wonderlab_arcadeloft_record_t3r1",
-   "avg_min": 14.1,
+   "made_today": 29,
+   "last_reel": "wonderlab_arcadeloft_arcade_t5r0",
+   "avg_min": 14.3,
    "recent": [
+    {
+     "id": "wonderlab_arcadeloft_arcade_t5r0",
+     "min": 20.1,
+     "at": "07:10:40"
+    },
     {
      "id": "wonderlab_arcadeloft_record_t3r1",
      "min": 0.0,
@@ -102,18 +107,13 @@
      "id": "wonderlab_arcadeloft_crt_t6r0",
      "min": 20.1,
      "at": "06:10:13"
-    },
-    {
-     "id": "wonderlab_green_train_t2r0",
-     "min": 20.2,
-     "at": "05:50:06"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "wonderlab_arcadeloft_arcade_t5r0",
+   "job": "wonderlab_arcadeloft_washer_t2r1",
    "shot": "1",
-   "vram_free_gb": 5.8,
+   "vram_free_gb": 4.3,
    "vram_total_gb": 8.5,
    "ram_free_gb": 10.8
   }
@@ -133,9 +133,9 @@
     "followers": 50,
     "media_count": 69,
     "reach_today": 6,
-    "total_views": 16808,
+    "total_views": 16833,
     "total_likes": 184,
-    "avg_views": 420,
+    "avg_views": 421,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -208,7 +208,7 @@
     "followers": 13,
     "media_count": 53,
     "reach_today": 13,
-    "total_views": 19797,
+    "total_views": 19799,
     "total_likes": 168,
     "avg_views": 495,
     "demographics": {},
@@ -275,17 +275,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 40,
-   "posted_today": 7,
-   "stored_ready": 230,
+   "posted": 41,
+   "posted_today": 8,
+   "stored_ready": 229,
    "ig": {
     "username": "kidswonderee",
     "followers": 2,
-    "media_count": 40,
+    "media_count": 41,
     "reach_today": 328,
-    "total_views": 12732,
-    "total_likes": 61,
-    "avg_views": 318,
+    "total_views": 11370,
+    "total_likes": 54,
+    "avg_views": 284,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -313,16 +313,6 @@
      "caption": ""
     },
     {
-     "permalink": "https://www.instagram.com/reel/Db5a6kqjY98/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769175896_27226735960334856_8853494982637082905_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=b2X0FffdZtUQ7kNvwHv-R21&_nc_oc=AdqNMWavTjKQWc0SB7XVXAuXTv-ZS0KWtgwuRorYZ5-G7aeT6J7Qj0mx8FlPbMR6b4U&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=k7IWFK48R_9O_fUgIXJXTg&_nc_tpa=Q5bMBQKqc7rWidHXj-_OUuMr0GeDYsSaFQXV659Roq8G0SahadfFl73TOavCIYeSwipUFZF85lUujFOG&oh=00_AQGqCwEPdgpJ5FcZh5Nzn7fjSrnBX2syqcfiYWbBuYTatw&oe=6A896CA8",
-     "views": 1362,
-     "likes": 7,
-     "shares": 0,
-     "timestamp": "2026-08-11T10:54:41+0000",
-     "ig_reels_avg_watch_time": 8475,
-     "caption": "\ud83d\udc20\ud83d\udca7 Ribbon-Bow Unbox: a Working Aquarium in an Atomic-Age Kit"
-    },
-    {
      "permalink": "https://www.instagram.com/reel/Db6Aw5zDAE0/",
      "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/769403373_1051869791138317_3914189505648542106_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_Ku-kiJMbacQ7kNvwEB22Xv&_nc_oc=AdqASkOh29AvJ_eTH0IT1EIRgixoOsMMLGjj9_mCwaW3WySDzns4rsO3Pl7uqjVnTm8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=k7IWFK48R_9O_fUgIXJXTg&_nc_tpa=Q5bMBQJUePGM8u8OWslWKzYzK3beLIx8f_ebufU2q4iU0X1Hwot7zoCkdSc45dgEesY2eWsTxMxK7YRy&oh=00_AQE7BNF1xzyWQOfgqeT0mdnRM6R97LlbCvWlDautvWn1lw&oe=6A895E44",
      "views": 1289,
@@ -341,6 +331,16 @@
      "timestamp": "2026-08-12T16:36:08+0000",
      "ig_reels_avg_watch_time": 9795,
      "caption": ""
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/Db5r5XVgn6m/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773249342_956643020781300_3875750407775518508_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=gap38dFGTlUQ7kNvwG6WqVR&_nc_oc=AdrzcOrhDNNdSQZ5QCfypMJIShXc4p1_sDb1YvfYo1HjHqGJud9Jf1iu0-JT7WQr5Gc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=k7IWFK48R_9O_fUgIXJXTg&_nc_tpa=Q5bMBQKzW3CBz5qToU3LClooWhErWuP43Pc4GXwg1F5ZYLp92Z_z5I25wo9KZgA9esZtQ40XHH7VIiBM&oh=00_AQF-cAt9BYFxoyjcUto1SEyHLxq33HMXRLAb9M0UQAIegg&oe=6A896E35",
+     "views": 545,
+     "likes": 0,
+     "shares": 0,
+     "timestamp": "2026-08-11T13:23:03+0000",
+     "ig_reels_avg_watch_time": 6711,
+     "caption": "\ud83d\ude82\ud83d\udee4\ufe0f Bubble-Wrap Unbox: a Working Train Set in an Atomic-Age "
     }
    ]
   },
@@ -358,7 +358,7 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16959,
+    "total_views": 16960,
     "total_likes": 181,
     "avg_views": 424,
     "demographics": {},
@@ -497,10 +497,10 @@
  },
  "totals": {
   "rendered": 950,
-  "posted": 235,
+  "posted": 236,
   "stories_today": 0,
   "made_today": 53,
-  "views": 68514,
+  "views": 67180,
   "followers": 110
  },
  "events": [
@@ -508,19 +508,19 @@
   "[08-18 00:43:53] SPAWNED tech-01 pid=2432 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 06:00:01] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-18 07:05:01] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 07:05:01] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 07:05:01] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 07:05:01] wonderlab: warm-up \u2014 40 posts so far, holding to 24/day",
-  "[08-18 07:05:02] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 07:05:02] happyhive: warm-up \u2014 53 posts so far, holding to 24/day"
+  "[08-18 07:15:16] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 07:15:16] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 07:15:16] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 07:15:16] wonderlab: warm-up \u2014 41 posts so far, holding to 24/day",
+  "[08-18 07:15:17] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 07:15:17] happyhive: warm-up \u2014 53 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 06:36:23",
-  "sample": 162,
+  "updated": "2026-08-18 07:06:23",
+  "sample": 163,
   "findings": [
    "Strongest world: tinycrafts/beach (median 603 views, n=5). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 39% across 161 reels with data.",
+   "Average completion (watch time / duration) is 39% across 163 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): bathtub_t10r3y0, garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), happyhive_spaghetti_t0r0y0 (3), wonderlab_cyber_arcade_t1r2 (3)",
    "Best posting hours so far: 16:00, 18:00, 7:00 (median views 1362 at 16:00).",
@@ -533,16 +533,16 @@
   "by_channel": {
    "happyhive": {
     "n": 40,
-    "median_views": 187,
-    "avg_completion": 0.559,
-    "avg_eng_rate": 0.0121,
-    "avg_saves": 0.4
+    "median_views": 185,
+    "avg_completion": 0.55,
+    "avg_eng_rate": 0.0125,
+    "avg_saves": 0.5
    },
    "tinycrafts": {
-    "n": 34,
-    "median_views": 255,
-    "avg_completion": 0.278,
-    "avg_eng_rate": 0.0132,
+    "n": 35,
+    "median_views": 246,
+    "avg_completion": 0.275,
+    "avg_eng_rate": 0.0134,
     "avg_saves": 0.2
    },
    "playground": {
@@ -555,8 +555,8 @@
    "wonderlab": {
     "n": 40,
     "median_views": 144,
-    "avg_completion": 0.375,
-    "avg_eng_rate": 0.0101,
+    "avg_completion": 0.372,
+    "avg_eng_rate": 0.01,
     "avg_saves": 0.2
    },
    "storynook": {
