@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 02:52:33",
+ "updated": "2026-08-19 03:02:37",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 17,
+   "queued": 15,
    "job": "EP02",
-   "shot": "02_08",
-   "vram_free_gb": 7.2,
+   "shot": "04_12",
+   "vram_free_gb": 4.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 17,
+   "queued": 16,
    "job": "EP02",
-   "shot": "02_07",
-   "vram_free_gb": 7.8,
+   "shot": "03_09",
+   "vram_free_gb": 7.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.7
+   "ram_free_gb": 2.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -115,13 +115,13 @@
      "at": "10:12:11"
     }
    ],
-   "running": 0,
+   "running": 1,
    "queued": 0,
    "job": "",
-   "shot": "",
-   "vram_free_gb": 7.2,
+   "shot": "s03_02_i2v_8",
+   "vram_free_gb": 4.5,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 30.4
+   "ram_free_gb": 9.0
   }
  },
  "channels": {
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 16467,
+    "total_views": 16509,
     "total_likes": 135,
-    "avg_views": 412,
+    "avg_views": 413,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -150,12 +150,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcK0ad7AkDE/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775166813_1093959249722547_5834968079390773407_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Mc-ffBzkTm4Q7kNvwHt9wD9&_nc_oc=Adr_gxGU7sbHzfhbA8on6Hx72LbhtJBhtMhHa3MEhw8Yxb4x0ZGkWrITCjtnncPKSJ0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=EseFkpNSiltxKgw_amFfCQ&_nc_tpa=Q5bMBQJxqoxnkzteuxVpGvC6g0X2rCwB6JoOYD6281WgS257LrS8nkrYfLqNOWovn8T9WMETq_E8Jhvm&oh=00_AQHow8LHO9fj7LrTfuBC641JjHa-nIzZ_Y7m3AhwrUJjJA&oe=6A8A8089",
-     "views": 2002,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775166813_1093959249722547_5834968079390773407_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Mc-ffBzkTm4Q7kNvwHt9wD9&_nc_oc=Adr_gxGU7sbHzfhbA8on6Hx72LbhtJBhtMhHa3MEhw8Yxb4x0ZGkWrITCjtnncPKSJ0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Fi19TTDFhqyvzahevR4ufw&_nc_tpa=Q5bMBQIVt9uwNhBEbbzHuPYgPp7TdX4hi-s6e9bq_3qw4gwNlzsPIJojP4cxS22eu1PzZndifV1hXO5q&oh=00_AQEbaYb004OTkm7OQ5r28oHK4-nZI5eIPSLSzcHbiJr3Dw&oe=6A8AB8C9",
+     "views": 2015,
      "likes": 13,
      "shares": 0,
      "timestamp": "2026-08-18T05:04:34+0000",
-     "ig_reels_avg_watch_time": 13912,
+     "ig_reels_avg_watch_time": 13878,
      "caption": "babyboo's snack comes ALIVE \ud83c\udf5d\u2728 \u2014 she finds a walnut-sized do"
     },
     {
@@ -212,11 +212,11 @@
    "ig": {
     "username": "happyhivekidss",
     "followers": 16,
-    "media_count": 72,
+    "media_count": 73,
     "reach_today": 2273,
-    "total_views": 10870,
+    "total_views": 10723,
     "total_likes": 73,
-    "avg_views": 272,
+    "avg_views": 268,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -235,12 +235,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcLJk2_lP9A/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4_3rbAjZ2XsQ7kNvwFp3W7W&_nc_oc=Ado5Eui0mqQH1Vx7cISRp2S9jOOZosdzXlTnv2xpwaDTjgrmHODKyYo_mysfEYZr2NY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=W_-JHL-RtLPbzkC2DQY3eA&_nc_tpa=Q5bMBQI5_kQkyn8ab0ztLf_eehCg_tv1cpIB0nPFkfMbkLk_ZhaXTAvYl8mAIX9douH_xygWKZCfOr1b&oh=00_AQGWPLiHMo5ybSX2Kq0bCQqf6D9ktYzMqUWoMUmRUOOgsQ&oe=6A8AB72E",
-     "views": 1579,
-     "likes": 2,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4_3rbAjZ2XsQ7kNvwFp3W7W&_nc_oc=Ado5Eui0mqQH1Vx7cISRp2S9jOOZosdzXlTnv2xpwaDTjgrmHODKyYo_mysfEYZr2NY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=ITgUBQ0BvnJuBR8XYf7X-w&_nc_tpa=Q5bMBQIHT3IRxz0aNS_giLFIB0FrD4oPFVyckm-92-uw-m7CgeFlAW41FAsGIPAnMarVenR7bZFHGkZp&oh=00_AQGJk-DKLWrWGTmGRwdjldiiwz2lo9iW-5ikVuDRzQJfTg&oe=6A8AB72E",
+     "views": 1621,
+     "likes": 3,
      "shares": 0,
      "timestamp": "2026-08-18T08:09:20+0000",
-     "ig_reels_avg_watch_time": 10419,
+     "ig_reels_avg_watch_time": 10373,
      "caption": "Morning Chaos: Bounce Bounce Bounce \ud83d\udecf\ufe0f\ud83d\ude01 He has figured out t"
     },
     {
@@ -506,7 +506,7 @@
   "posted": 288,
   "stories_today": 0,
   "made_today": 0,
-  "views": 56439,
+  "views": 56334,
   "followers": 115
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 02:52:08] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 02:52:08] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-19 02:52:08] tinycrafts: cap override 15 -> 24/day (channels.json)",
-  "[08-19 02:52:08] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 02:52:08] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 02:52:09] happyhive: cap override 15 -> 24/day (channels.json)"
+  "[08-19 03:01:37] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-19 03:01:37] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 03:01:37] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-19 03:01:38] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 03:01:38] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 03:01:38] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-19 02:36:37",
