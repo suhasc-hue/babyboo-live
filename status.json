@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 09:16:42",
+ "updated": "2026-08-18 09:26:46",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,10 +12,10 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "blanketfort_t4r1y1",
-   "shot": "6",
-   "vram_free_gb": 2.6,
+   "shot": "2",
+   "vram_free_gb": 4.4,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.4
   },
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_ice_cube_t0r1y0",
    "shot": "1",
-   "vram_free_gb": 10.5,
+   "vram_free_gb": 10.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.5
+   "ram_free_gb": 4.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -133,9 +133,9 @@
     "followers": 50,
     "media_count": 71,
     "reach_today": 6,
-    "total_views": 14598,
+    "total_views": 14661,
     "total_likes": 162,
-    "avg_views": 365,
+    "avg_views": 367,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -208,9 +208,9 @@
     "followers": 14,
     "media_count": 55,
     "reach_today": 13,
-    "total_views": 16817,
+    "total_views": 16833,
     "total_likes": 141,
-    "avg_views": 420,
+    "avg_views": 421,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -281,11 +281,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 2,
-    "media_count": 42,
+    "media_count": 43,
     "reach_today": 328,
-    "total_views": 11101,
-    "total_likes": 55,
-    "avg_views": 278,
+    "total_views": 10828,
+    "total_likes": 53,
+    "avg_views": 271,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -358,7 +358,7 @@
     "followers": 42,
     "media_count": 65,
     "reach_today": 1295,
-    "total_views": 16981,
+    "total_views": 16983,
     "total_likes": 181,
     "avg_views": 425,
     "demographics": {},
@@ -500,7 +500,7 @@
   "posted": 242,
   "stories_today": 0,
   "made_today": 72,
-  "views": 61715,
+  "views": 61523,
   "followers": 111
  },
  "events": [
@@ -508,12 +508,12 @@
   "[08-18 00:43:53] SPAWNED tech-01 pid=2432 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 00:43:53] SPAWNED w40 pid=24004 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 06:00:01] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-18 09:15:54] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 09:15:54] happyhive: warm-up \u2014 55 posts so far, holding to 24/day",
-  "[08-18 09:15:54] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 09:15:54] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 09:15:54] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 09:15:54] wonderlab: warm-up \u2014 43 posts so far, holding to 24/day"
+  "[08-18 09:26:09] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 09:26:09] happyhive: warm-up \u2014 55 posts so far, holding to 24/day",
+  "[08-18 09:26:09] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 09:26:09] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 09:26:09] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 09:26:09] wonderlab: warm-up \u2014 43 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-18 09:06:24",
