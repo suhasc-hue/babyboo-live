@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 16:18:28",
+ "updated": "2026-08-18 16:28:32",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,14 +23,14 @@
    "shot": "",
    "vram_free_gb": 9.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.5
+   "ram_free_gb": 5.3
   },
   "w40": {
    "owner": "Neeraj",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.40",
    "up": true,
-   "enabled": true,
+   "enabled": false,
    "made_today": 36,
    "last_reel": "happyhive_leaf_pile_t0r1y1",
    "avg_min": 25.9,
@@ -68,11 +68,11 @@
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_beach_sand_t0r1y1",
-   "shot": "1",
-   "vram_free_gb": 11.5,
+   "job": "kf_EP01",
+   "shot": "01_01",
+   "vram_free_gb": 5.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.8
+   "ram_free_gb": 1.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 30.4
+   "ram_free_gb": 30.5
   }
  },
  "channels": {
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 78,
     "reach_today": 2980,
-    "total_views": 14008,
-    "total_likes": 132,
-    "avg_views": 350,
+    "total_views": 14130,
+    "total_likes": 133,
+    "avg_views": 353,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -214,9 +214,9 @@
     "followers": 14,
     "media_count": 62,
     "reach_today": 2270,
-    "total_views": 11801,
+    "total_views": 11828,
     "total_likes": 100,
-    "avg_views": 295,
+    "avg_views": 296,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -281,17 +281,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 49,
-   "posted_today": 16,
-   "stored_ready": 221,
+   "posted": 50,
+   "posted_today": 17,
+   "stored_ready": 220,
    "ig": {
     "username": "kidswonderee",
     "followers": 2,
-    "media_count": 49,
+    "media_count": 50,
     "reach_today": 3045,
-    "total_views": 9877,
+    "total_views": 9772,
     "total_likes": 51,
-    "avg_views": 247,
+    "avg_views": 244,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -363,8 +363,8 @@
     "username": "storynooksam",
     "followers": 42,
     "media_count": 65,
-    "reach_today": 1214,
-    "total_views": 17063,
+    "reach_today": 1216,
+    "total_views": 17064,
     "total_likes": 181,
     "avg_views": 427,
     "demographics": {},
@@ -503,23 +503,23 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 262,
+  "posted": 263,
   "stories_today": 0,
   "made_today": 112,
-  "views": 54967,
+  "views": 55012,
   "followers": 112
  },
  "events": [
-  "[08-18 11:46:01] SPAWNED tech-01 pid=10760 shard=0/1 -> http://192.168.1.57:8188",
   "[08-18 11:46:01] SPAWNED w40 pid=14288 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 16:18:23] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 16:18:23] happyhive: warm-up \u2014 62 posts so far, holding to 24/day",
-  "[08-18 16:18:23] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 16:18:23] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 16:18:23] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 16:18:23] wonderlab: warm-up \u2014 49 posts so far, holding to 24/day"
+  "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
+  "[08-18 16:28:27] tinycrafts: warm-up \u2014 44 posts so far, holding to 24/day",
+  "[08-18 16:28:28] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 16:28:28] happyhive: warm-up \u2014 62 posts so far, holding to 24/day",
+  "[08-18 16:28:28] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 16:28:28] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-18 16:28:28] wonderlab: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-18 16:06:29",
