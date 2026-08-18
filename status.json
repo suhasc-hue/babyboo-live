@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18 19:59:53",
+ "updated": "2026-08-18 20:09:57",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -70,9 +70,9 @@
    "queued": 0,
    "job": "",
    "shot": "",
-   "vram_free_gb": 1.1,
+   "vram_free_gb": 0.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.6
+   "ram_free_gb": 11.5
   },
   "pcconee": {
    "owner": "Anshu",
@@ -514,34 +514,34 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-18 19:58:38] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-18 19:59:39] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-18 19:59:39] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-18 19:59:39] tinycrafts: cap override 15 -> 24/day (channels.json)",
-  "[08-18 19:59:39] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-18 19:59:40] happyhive: cap override 15 -> 24/day (channels.json)"
+  "[08-18 20:09:53] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-18 20:09:53] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-18 20:09:53] wonderlab: warm-up \u2014 53 posts so far, holding to 24/day",
+  "[08-18 20:09:54] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-18 20:09:54] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-18 20:09:54] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-18 19:36:32",
+  "updated": "2026-08-18 20:06:32",
   "sample": 168,
   "findings": [
-   "Strongest world: tinycrafts/beach (median 449 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 38% across 167 reels with data.",
+   "Strongest world: tinycrafts/beach (median 453 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
+   "Average completion (watch time / duration) is 38% across 166 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1, kitchen_t11r1y2 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): happyhive_water_table_t0r0y0 (7), storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2)",
-   "Best posting hours so far: 0:00, 18:00, 1:00 (median views 370 at 0:00).",
+   "Best posting hours so far: 0:00, 7:00, 1:00 (median views 370 at 0:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
-   "Shift render/posting share toward tinycrafts/beach; its median outperforms playground/playground_bouncecathedral by 149.7x.",
+   "Shift render/posting share toward tinycrafts/beach; its median outperforms playground/playground_bouncecathedral by 151.0x.",
    "Most-saved concepts are the first candidates for storybook/product adaptation \u2014 a save is a parent bookmarking for their child."
   ],
   "by_channel": {
    "tinycrafts": {
-    "n": 40,
-    "median_views": 251,
-    "avg_completion": 0.333,
-    "avg_eng_rate": 0.0122,
+    "n": 39,
+    "median_views": 254,
+    "avg_completion": 0.337,
+    "avg_eng_rate": 0.0121,
     "avg_saves": 0.2
    },
    "playground": {
@@ -552,9 +552,9 @@
     "avg_saves": 0.1
    },
    "happyhive": {
-    "n": 40,
+    "n": 39,
     "median_views": 165,
-    "avg_completion": 0.5,
+    "avg_completion": 0.505,
     "avg_eng_rate": 0.0126,
     "avg_saves": 0.3
    },
@@ -568,8 +568,8 @@
    "wonderlab": {
     "n": 40,
     "median_views": 131,
-    "avg_completion": 0.341,
-    "avg_eng_rate": 0.0111,
+    "avg_completion": 0.339,
+    "avg_eng_rate": 0.011,
     "avg_saves": 0.1
    }
   }
