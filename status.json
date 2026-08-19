@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 01:23:38",
+ "updated": "2026-08-20 01:34:22",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -108,13 +108,13 @@
      "at": "10:12:11"
     }
    ],
-   "running": 0,
-   "queued": 0,
-   "job": "",
-   "shot": "",
-   "vram_free_gb": 7.2,
+   "running": 1,
+   "queued": 5,
+   "job": "EP06",
+   "shot": "03_09",
+   "vram_free_gb": 2.5,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 42.3
+   "ram_free_gb": 10.5
   }
  },
  "channels": {
@@ -207,7 +207,7 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4219,
-    "total_views": 11665,
+    "total_views": 11674,
     "total_likes": 48,
     "avg_views": 292,
     "demographics": {},
@@ -282,9 +282,9 @@
     "followers": 4,
     "media_count": 82,
     "reach_today": 5194,
-    "total_views": 8365,
+    "total_views": 8408,
     "total_likes": 39,
-    "avg_views": 209,
+    "avg_views": 210,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -293,12 +293,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcNMAj2E937/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776577024_3256680421182360_8023770434972698575_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mXASqEnBKqYQ7kNvwHn1Q--&_nc_oc=Ado3PhA38zOeUoo55gQPiwkXb1QyhXxPin5k3MVkJWb6BSzE2BeOglhEBL3zOLcxKYw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=PKf8K_crixzQ0BZxmGRs3w&_nc_tpa=Q5bMBQJh8iHHWQUwTEcjv6p3qGC30pP6wWVwl5fdY09k0V2uEQbYQmvJl5Uq3axPahu1oAJvHSbkeQ0c&oh=00_AQFv65L_V0DRhX9OQgFs5-Y_hYZDeRoTWvH11pwpVozLAw&oe=6A8BE2F6",
-     "views": 1631,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776577024_3256680421182360_8023770434972698575_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mXASqEnBKqYQ7kNvwHn1Q--&_nc_oc=Ado3PhA38zOeUoo55gQPiwkXb1QyhXxPin5k3MVkJWb6BSzE2BeOglhEBL3zOLcxKYw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=8lKQePt4cn4IE2DczWHZdQ&_nc_tpa=Q5bMBQI6KMfgT9qNDkpwYk07Sn5DGlmIrxThFVgyZ_YGSJKrNrOCMpLwKg9hwaygot9dnZd_pbyE8nDq&oh=00_AQGf1--Jq5BDR-nG59b4uptFDwOrDZzpQ2oCKJIzraoIEQ&oe=6A8BE2F6",
+     "views": 1638,
      "likes": 9,
      "shares": 0,
      "timestamp": "2026-08-19T03:09:18+0000",
-     "ig_reels_avg_watch_time": 9021,
+     "ig_reels_avg_watch_time": 9016,
      "caption": "\ud83d\udcfa\u2728 Wax-Seal Unbox: a Working CRT + Retro Console in a Cyberp"
     },
     {
@@ -322,6 +322,16 @@
      "caption": "\ud83c\udfa1\u2728 Wax-Seal Unbox: a Working Ferris Wheel in a Cozy 70s Den "
     },
     {
+     "permalink": "https://www.instagram.com/reel/DcMUGxsCOFb/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777570411_3570890449741050_7925361978077006583_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=jFUm_TfrLMsQ7kNvwHc87dm&_nc_oc=AdrATsnadfaxBbXEy6khUjVdjFIHm38Hhr-K6eEJtdjoZgtjEl_bJfRcE1FUfnL8R-E&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=8lKQePt4cn4IE2DczWHZdQ&_nc_tpa=Q5bMBQI8E9jyDblYT6uKXJWvOWfZwvcoay591kCTWhPk1rpM3K2ow-6xexYQ73PmyjCSnOR9WEDvDiji&oh=00_AQGMx8AW9Z8p2zU1Ggapk865F3xusAhpQ6-nd0hAbgK3RA&oe=6A8BF72A",
+     "views": 197,
+     "likes": 2,
+     "shares": 0,
+     "timestamp": "2026-08-18T19:00:44+0000",
+     "ig_reels_avg_watch_time": 6170,
+     "caption": "\ud83c\udfaa\ud83e\uddf8 Vacuum-Lid Unbox: a Working Claw Machine in a Pastel Kawa"
+    },
+    {
      "permalink": "https://www.instagram.com/reel/DcOKb35j8G2/",
      "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/781153104_2261684321287341_1050232636571921145_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=d6Dg35V2T54Q7kNvwH2CION&_nc_oc=AdrQQ1UXJBloTynVySaNdHDOWmf-KqsZeuqyoRVoAU_Ahu-P12GK9YmIqtVcu4qc-bg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=MfCmuCJJ6Z0Dzu28eOJDDA&_nc_tpa=Q5bMBQLmbxZsrfhfIS10ALz0A_4BRmYb2kaKKUy3Q8y2oeF56eT9nOzBPY_3143dAraYzFelsAtsh0fv&oh=00_AQHBd4kgT9WuWS9RdWa4ORHGvjjDOpzr5Wfi2OeGcDURvA&oe=6A8BED58",
      "views": 195,
@@ -330,16 +340,6 @@
      "timestamp": "2026-08-19T12:14:35+0000",
      "ig_reels_avg_watch_time": 5608,
      "caption": "\ud83c\udfa1\u2728 Foil-Pouch Unbox: a Working Ferris Wheel in a Beach Shack"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcNnyuNmp-X/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775904873_1041975771782825_5876068264039864625_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Rj5PkwivmEcQ7kNvwFd0xJG&_nc_oc=Adrso13rhTMohf9vXnHArznK3Aatpwz_dRd4thz6VcK6_JyP-FR9dD2FmvYCdLpPL-Y&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=MfCmuCJJ6Z0Dzu28eOJDDA&_nc_tpa=Q5bMBQKllmXVHRjLFxI4RX6xZk-HkDDcEb5Byd7ZPFi_7hhklHPPwlw4aZ0WuufYumWLTCGtW20DcjoJ&oh=00_AQG-XTHOPlEVK4PN3ljjdUtmFm-04WKZxrxsYb8WP8m5cg&oe=6A8BC9A8",
-     "views": 189,
-     "likes": 1,
-     "shares": 0,
-     "timestamp": "2026-08-19T07:11:57+0000",
-     "ig_reels_avg_watch_time": 6158,
-     "caption": "\ud83d\udcfa\u2728 Vacuum-Lid Unbox: a Working CRT + Retro Console in a Past"
     }
    ]
   },
@@ -499,7 +499,7 @@
   "posted": 327,
   "stories_today": 0,
   "made_today": 0,
-  "views": 57370,
+  "views": 57422,
   "followers": 120
  },
  "events": [
@@ -507,12 +507,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 01:22:16] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 01:22:16] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-20 01:22:16] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 01:22:16] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-20 01:22:16] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-20 01:22:16] wonderlab: cap override 15 -> 24/day (channels.json)"
+  "[08-20 01:33:33] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 01:33:33] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-20 01:33:33] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 01:33:33] wonderlab: warm-up \u2014 82 posts so far, holding to 24/day",
+  "[08-20 01:33:34] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 01:33:34] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-20 01:07:08",
