@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 02:06:32",
+ "updated": "2026-08-20 02:17:16",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 6.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.8
+   "ram_free_gb": 6.6
   },
   "w40": {
    "owner": "Neeraj",
@@ -282,7 +282,7 @@
     "followers": 4,
     "media_count": 83,
     "reach_today": 5194,
-    "total_views": 8391,
+    "total_views": 8402,
     "total_likes": 35,
     "avg_views": 210,
     "demographics": {},
@@ -293,12 +293,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcNMAj2E937/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776577024_3256680421182360_8023770434972698575_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mXASqEnBKqYQ7kNvwHn1Q--&_nc_oc=Ado3PhA38zOeUoo55gQPiwkXb1QyhXxPin5k3MVkJWb6BSzE2BeOglhEBL3zOLcxKYw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=UJ3yZLzgYaog4Wug0Y2iYw&_nc_tpa=Q5bMBQJNbhTwc_PtgUbEK-_606fjReF35X85_JYUweEwfD2rMl_vSosyhq2aDnK4FozsqfxHwNnZxxVp&oh=00_AQEbx7jb1NiUEHbqw335z1ky1pZsUyYshQYNMMCvzfbRKw&oe=6A8BE2F6",
-     "views": 1646,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776577024_3256680421182360_8023770434972698575_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mXASqEnBKqYQ7kNvwHn1Q--&_nc_oc=Ado3PhA38zOeUoo55gQPiwkXb1QyhXxPin5k3MVkJWb6BSzE2BeOglhEBL3zOLcxKYw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=cc0mhWQi24xcIwFbUgMXjg&_nc_tpa=Q5bMBQLBwavOV5AEsSORTP-OrtCPxyBfYdmi-qVn_dMvOBpNAQO2fTe1n3lkvxxrx8YPJz52A-LpUC8b&oh=00_AQEaQAdASI_6rgpaqtIXV8g0PuZuzkT5lDWqeFmTTsOU8Q&oe=6A8BE2F6",
+     "views": 1649,
      "likes": 9,
      "shares": 0,
      "timestamp": "2026-08-19T03:09:18+0000",
-     "ig_reels_avg_watch_time": 9021,
+     "ig_reels_avg_watch_time": 9051,
      "caption": "\ud83d\udcfa\u2728 Wax-Seal Unbox: a Working CRT + Retro Console in a Cyberp"
     },
     {
@@ -499,7 +499,7 @@
   "posted": 328,
   "stories_today": 0,
   "made_today": 0,
-  "views": 57542,
+  "views": 57553,
   "followers": 120
  },
  "events": [
@@ -507,26 +507,26 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 02:05:08] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 02:05:08] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-20 02:05:08] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-20 02:05:08] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-20 02:05:09] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 02:05:09] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-20 02:16:26] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 02:16:26] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-20 02:16:26] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-20 02:16:26] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 02:16:27] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 02:16:27] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-20 01:37:09",
+  "updated": "2026-08-20 02:07:09",
   "sample": 167,
   "findings": [
-   "Strongest world: tinycrafts/beach (median 514 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 39% across 167 reels with data.",
+   "Strongest world: tinycrafts/beach (median 515 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
+   "Average completion (watch time / duration) is 39% across 166 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 15:00, 8:00, 18:00 (median views 769 at 15:00).",
+   "Best posting hours so far: 15:00, 8:00, 18:00 (median views 775 at 15:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
-   "Shift render/posting share toward tinycrafts/beach; its median outperforms playground/playground_bouncecathedral by 171.3x.",
+   "Shift render/posting share toward tinycrafts/beach; its median outperforms playground/playground_bouncecathedral by 171.7x.",
    "Most-saved concepts are the first candidates for storybook/product adaptation \u2014 a save is a parent bookmarking for their child."
   ],
   "by_channel": {
@@ -553,16 +553,16 @@
    },
    "happyhive": {
     "n": 39,
-    "median_views": 156,
-    "avg_completion": 0.519,
+    "median_views": 158,
+    "avg_completion": 0.523,
     "avg_eng_rate": 0.0105,
     "avg_saves": 0.1
    },
    "wonderlab": {
     "n": 40,
     "median_views": 131,
-    "avg_completion": 0.319,
-    "avg_eng_rate": 0.0095,
+    "avg_completion": 0.317,
+    "avg_eng_rate": 0.0086,
     "avg_saves": 0.0
    }
   }
