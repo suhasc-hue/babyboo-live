@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 17:42:25",
+ "updated": "2026-08-19 17:53:08",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -21,9 +21,9 @@
    "queued": 0,
    "job": "",
    "shot": "",
-   "vram_free_gb": 3.4,
+   "vram_free_gb": 3.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.0
+   "ram_free_gb": 7.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -274,9 +274,9 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 74,
-   "posted_today": 17,
-   "stored_ready": 196,
+   "posted": 75,
+   "posted_today": 18,
+   "stored_ready": 195,
    "ig": {
     "username": "kidswonderee",
     "followers": 3,
@@ -496,7 +496,7 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 316,
+  "posted": 317,
   "stories_today": 0,
   "made_today": 0,
   "views": 57211,
@@ -507,12 +507,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 17:40:44] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 17:40:44] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 17:40:44] wonderlab: warm-up \u2014 74 posts so far, holding to 24/day",
-  "[08-19 17:40:45] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-19 17:40:45] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 17:40:45] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-19 17:51:42] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 17:51:43] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 17:51:43] happyhive: warm-up \u2014 87 posts so far, holding to 24/day",
+  "[08-19 17:51:43] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 17:51:43] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 17:51:43] wonderlab: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-19 17:37:02",
