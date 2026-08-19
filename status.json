@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 01:34:22",
+ "updated": "2026-08-20 01:45:05",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,13 +17,13 @@
      "at": "10:04:30"
     }
    ],
-   "running": 0,
-   "queued": 0,
-   "job": "",
-   "shot": "",
-   "vram_free_gb": 3.5,
+   "running": 1,
+   "queued": 2,
+   "job": "EP06",
+   "shot": "08_23",
+   "vram_free_gb": 7.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 6.7
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -109,12 +109,12 @@
     }
    ],
    "running": 1,
-   "queued": 5,
+   "queued": 3,
    "job": "EP06",
-   "shot": "03_09",
-   "vram_free_gb": 2.5,
+   "shot": "07_21",
+   "vram_free_gb": 4.8,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 10.5
+   "ram_free_gb": 9.7
   }
  },
  "channels": {
@@ -132,9 +132,9 @@
     "followers": 52,
     "media_count": 82,
     "reach_today": 5155,
-    "total_views": 17860,
+    "total_views": 17863,
     "total_likes": 149,
-    "avg_views": 446,
+    "avg_views": 447,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -207,9 +207,9 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4219,
-    "total_views": 11674,
+    "total_views": 11744,
     "total_likes": 48,
-    "avg_views": 292,
+    "avg_views": 294,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -218,12 +218,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcNU3qLE2LQ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777381526_1925954688360549_5802159074219233435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=b3IHjMhrmtAQ7kNvwE893tD&_nc_oc=Adpe4li2qagrUUwapXmCVcIfCb1JbKcoFbnNBTI3ub__fN5bCEDsscsVWw3ur2d_WxA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=J4nrYFqpx91Mn13HOEjciQ&_nc_tpa=Q5bMBQL5iy_45sqDG8gYCekqUlkpSrhkscqO9JUy_kW9DP2SoTWVf1ZAaNBTsoyAS_1EMiPONoslXuEN&oh=00_AQHZpdqWOoAJCeCjqKx_gTUSgP6oNKGkJ3lhCATBP3fpdw&oe=6A8BC481",
-     "views": 1957,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777381526_1925954688360549_5802159074219233435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=b3IHjMhrmtAQ7kNvwE893tD&_nc_oc=Adpe4li2qagrUUwapXmCVcIfCb1JbKcoFbnNBTI3ub__fN5bCEDsscsVWw3ur2d_WxA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=dexUImBsbzhvFEhuOgWiYw&_nc_tpa=Q5bMBQJrXTmUBXhV3Dxuh9fg3AoCuSq_s4l70Dm-IygsdafdI_4owxd61FHrgfaqzKyJvw930X1mDzMo&oh=00_AQF5dYBnBHSrGJbscLMv6dkAqEU6Vfdh1Pncl3RVvBBAvA&oe=6A8BC481",
+     "views": 1965,
      "likes": 10,
      "shares": 0,
      "timestamp": "2026-08-19T04:26:38+0000",
-     "ig_reels_avg_watch_time": 12114,
+     "ig_reels_avg_watch_time": 12053,
      "caption": "He Toddled Into the Water + One Big Wobble \ud83d\udca6\ud83d\ude02 Soaked, wobbli"
     },
     {
@@ -248,22 +248,22 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcNG8VpEiEt/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=guzYpnn6f04Q7kNvwF5iqem&_nc_oc=Adr62bMHl0v9857vejNQ99ZLwXctryOXPpbYiyx8SW6ViKXM8yPX8qzwf3DPLBMLmfc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=J4nrYFqpx91Mn13HOEjciQ&_nc_tpa=Q5bMBQLArTkeM3z2kw44sAO9NnFtZ9joMubmkAK1TFYySYIVjNP1qDhRdQ2rBcHBPXaycJ26ywvl1M2q&oh=00_AQGV42vtzcRf8pqr6DVRo0zbtOlVARoeY_uds6RgqVbihQ&oe=6A8BD7D1",
-     "views": 773,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=guzYpnn6f04Q7kNvwF5iqem&_nc_oc=Adr62bMHl0v9857vejNQ99ZLwXctryOXPpbYiyx8SW6ViKXM8yPX8qzwf3DPLBMLmfc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=dexUImBsbzhvFEhuOgWiYw&_nc_tpa=Q5bMBQJ-QfS3AxKztv8uALlBn4O4JnRzE-mzZNzOzl5x1DVF0F1h_YNjx3VEQxxiuz-RG1JDUCa55V76&oh=00_AQFlLNO7YUEAfVbqpSCc6dvbG3SxwfgpC6fBY3uEJz3lGQ&oe=6A8BD7D1",
+     "views": 800,
      "likes": 3,
      "shares": 2,
      "timestamp": "2026-08-19T02:24:58+0000",
-     "ig_reels_avg_watch_time": 12608,
+     "ig_reels_avg_watch_time": 12542,
      "caption": "Morning Chaos: Tunnel Boy \ud83d\udd73\ufe0f\ud83d\ude06 The tunnel collapsed on him an"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcNbyQwAgta/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777396025_1348665430670096_4827004895707970590_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=DgLEwjE7unQQ7kNvwFmDmG0&_nc_oc=AdrZ8eQ-jO18nIwvWBAoAJRECM7MiEbdObTc11QURBr456Ty-5YMx2sRD7MsNTwNFmA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=J4nrYFqpx91Mn13HOEjciQ&_nc_tpa=Q5bMBQK1I5PtH3bojqRGIYDaN5ihO4VmSCccEMv8cR049FnFBLtpvcg_YG0ZfTVsvGgui6QIOFmXLQco&oh=00_AQESV0A_3VcdLYGqpxa49aiUihtauhkFAwSj2W-MQlFvtg&oe=6A8BEFC0",
-     "views": 620,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777396025_1348665430670096_4827004895707970590_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=DgLEwjE7unQQ7kNvwFmDmG0&_nc_oc=AdrZ8eQ-jO18nIwvWBAoAJRECM7MiEbdObTc11QURBr456Ty-5YMx2sRD7MsNTwNFmA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=dexUImBsbzhvFEhuOgWiYw&_nc_tpa=Q5bMBQIlnKL-6X2ocr8tPH-DfYe-2BAnCak9CeZZW4pNPLggg7C6oZqAHnpSWd_iEdnPlK8MvX4WXAbC&oh=00_AQHD-3l17t7TZoxdl7ptNTpYbdpgClU7GE_CurMDUpfZsQ&oe=6A8BEFC0",
+     "views": 643,
      "likes": 4,
      "shares": 0,
      "timestamp": "2026-08-19T05:27:04+0000",
-     "ig_reels_avg_watch_time": 8570,
+     "ig_reels_avg_watch_time": 8607,
      "caption": "One Tissue at a Time + One Big Wobble \ud83e\udd27\ud83d\ude04 A whole box gone in"
     }
    ]
@@ -282,9 +282,9 @@
     "followers": 4,
     "media_count": 82,
     "reach_today": 5194,
-    "total_views": 8408,
+    "total_views": 8450,
     "total_likes": 39,
-    "avg_views": 210,
+    "avg_views": 211,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -303,12 +303,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcN8oUBD5Qg/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778256061_3236654019862839_9014388197926432496_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kPgQ0vGpPsgQ7kNvwGyOf_L&_nc_oc=Adp58DAFZJ23O1hlgbwRG17tKr6GA2bypdN4PLVULgUuDDjYfQ1O8XL7SYlMrcCrCpA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=MfCmuCJJ6Z0Dzu28eOJDDA&_nc_tpa=Q5bMBQK3dGeRXByUJ-6vXGnYw4ZM7CqTV-2pA9voArE0E3Nd3PJaEGIOW3v7Aq4Iv6S3UvUl9W2ehAW2&oh=00_AQH5O5KO9fkjKHLPj4U_bLJ6bxgw_HIitZvxMJ0qyhyy8w&oe=6A8BCC02",
-     "views": 1380,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778256061_3236654019862839_9014388197926432496_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kPgQ0vGpPsgQ7kNvwGyOf_L&_nc_oc=Adp58DAFZJ23O1hlgbwRG17tKr6GA2bypdN4PLVULgUuDDjYfQ1O8XL7SYlMrcCrCpA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=XJUkLD74j2DCJGDpI1ziIA&_nc_tpa=Q5bMBQKVxxLGJHX_6BxyfTvK1Dqk7IpuA6l6RNHtYKrblr2k8IUh4XtAms9azBhNX3ZEpvP4VR94ay0v&oh=00_AQFaghhBG1A8Cs9QzGYraBtiKVc08446_YvjyrW968P5zg&oe=6A8BCC02",
+     "views": 1416,
      "likes": 5,
      "shares": 0,
      "timestamp": "2026-08-19T10:14:05+0000",
-     "ig_reels_avg_watch_time": 8478,
+     "ig_reels_avg_watch_time": 8729,
      "caption": "\ud83d\udd34\ud83c\udf6c Wax-Seal Unbox: a Working Gumball Machine in a Neon Arcad"
     },
     {
@@ -322,6 +322,16 @@
      "caption": "\ud83c\udfa1\u2728 Wax-Seal Unbox: a Working Ferris Wheel in a Cozy 70s Den "
     },
     {
+     "permalink": "https://www.instagram.com/reel/DcOKb35j8G2/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/781153104_2261684321287341_1050232636571921145_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=d6Dg35V2T54Q7kNvwH2CION&_nc_oc=AdrQQ1UXJBloTynVySaNdHDOWmf-KqsZeuqyoRVoAU_Ahu-P12GK9YmIqtVcu4qc-bg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=XJUkLD74j2DCJGDpI1ziIA&_nc_tpa=Q5bMBQIwvSbrZ8kpV7NNL2rCd3kzr1XLtx9Co8pjBHd8iiMmPzDGIWLlvfAQ8uOVdRaOTQ1Lc5isHB4r&oh=00_AQGBSLCkWu8vs-E7ZzwpgLCR62yflf49ATDRhj7nYjnrJA&oe=6A8BED58",
+     "views": 197,
+     "likes": 1,
+     "shares": 0,
+     "timestamp": "2026-08-19T12:14:35+0000",
+     "ig_reels_avg_watch_time": 5608,
+     "caption": "\ud83c\udfa1\u2728 Foil-Pouch Unbox: a Working Ferris Wheel in a Beach Shack"
+    },
+    {
      "permalink": "https://www.instagram.com/reel/DcMUGxsCOFb/",
      "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777570411_3570890449741050_7925361978077006583_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=jFUm_TfrLMsQ7kNvwHc87dm&_nc_oc=AdrATsnadfaxBbXEy6khUjVdjFIHm38Hhr-K6eEJtdjoZgtjEl_bJfRcE1FUfnL8R-E&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=8lKQePt4cn4IE2DczWHZdQ&_nc_tpa=Q5bMBQI8E9jyDblYT6uKXJWvOWfZwvcoay591kCTWhPk1rpM3K2ow-6xexYQ73PmyjCSnOR9WEDvDiji&oh=00_AQGMx8AW9Z8p2zU1Ggapk865F3xusAhpQ6-nd0hAbgK3RA&oe=6A8BF72A",
      "views": 197,
@@ -330,16 +340,6 @@
      "timestamp": "2026-08-18T19:00:44+0000",
      "ig_reels_avg_watch_time": 6170,
      "caption": "\ud83c\udfaa\ud83e\uddf8 Vacuum-Lid Unbox: a Working Claw Machine in a Pastel Kawa"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcOKb35j8G2/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/781153104_2261684321287341_1050232636571921145_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=d6Dg35V2T54Q7kNvwH2CION&_nc_oc=AdrQQ1UXJBloTynVySaNdHDOWmf-KqsZeuqyoRVoAU_Ahu-P12GK9YmIqtVcu4qc-bg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=MfCmuCJJ6Z0Dzu28eOJDDA&_nc_tpa=Q5bMBQLmbxZsrfhfIS10ALz0A_4BRmYb2kaKKUy3Q8y2oeF56eT9nOzBPY_3143dAraYzFelsAtsh0fv&oh=00_AQHBd4kgT9WuWS9RdWa4ORHGvjjDOpzr5Wfi2OeGcDURvA&oe=6A8BED58",
-     "views": 195,
-     "likes": 1,
-     "shares": 0,
-     "timestamp": "2026-08-19T12:14:35+0000",
-     "ig_reels_avg_watch_time": 5608,
-     "caption": "\ud83c\udfa1\u2728 Foil-Pouch Unbox: a Working Ferris Wheel in a Beach Shack"
     }
    ]
   },
@@ -499,7 +499,7 @@
   "posted": 327,
   "stories_today": 0,
   "made_today": 0,
-  "views": 57422,
+  "views": 57537,
   "followers": 120
  },
  "events": [
@@ -507,22 +507,22 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 01:33:33] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 01:33:33] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-20 01:33:33] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-20 01:33:33] wonderlab: warm-up \u2014 82 posts so far, holding to 24/day",
-  "[08-20 01:33:34] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 01:33:34] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-20 01:43:48] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 01:43:48] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-20 01:43:48] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 01:43:48] wonderlab: warm-up \u2014 82 posts so far, holding to 24/day",
+  "[08-20 01:43:49] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 01:43:49] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-20 01:07:08",
-  "sample": 166,
+  "updated": "2026-08-20 01:37:09",
+  "sample": 167,
   "findings": [
    "Strongest world: tinycrafts/beach (median 514 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 38% across 165 reels with data.",
-   "Reels losing viewers fastest (completion <60% of average): playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1, kitchen_t11r1y2 \u2014 study their first 3 seconds.",
+   "Average completion (watch time / duration) is 39% across 167 reels with data.",
+   "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 15:00, 0:00, 18:00 (median views 769 at 15:00).",
+   "Best posting hours so far: 15:00, 8:00, 18:00 (median views 769 at 15:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -552,17 +552,17 @@
     "avg_saves": 0.3
    },
    "happyhive": {
-    "n": 38,
+    "n": 39,
     "median_views": 156,
-    "avg_completion": 0.509,
-    "avg_eng_rate": 0.0109,
+    "avg_completion": 0.519,
+    "avg_eng_rate": 0.0105,
     "avg_saves": 0.1
    },
    "wonderlab": {
     "n": 40,
     "median_views": 131,
-    "avg_completion": 0.321,
-    "avg_eng_rate": 0.0096,
+    "avg_completion": 0.319,
+    "avg_eng_rate": 0.0095,
     "avg_saves": 0.0
    }
   }
