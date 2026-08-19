@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 10:45:47",
+ "updated": "2026-08-19 10:55:51",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 7,
+   "queued": 1,
    "job": "kf_EP05",
-   "shot": "05_02",
-   "vram_free_gb": 0.8,
+   "shot": "11_04",
+   "vram_free_gb": 1.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 7,
+   "queued": 0,
    "job": "kf_EP05",
-   "shot": "06_02",
-   "vram_free_gb": 0.7,
+   "shot": "12_05",
+   "vram_free_gb": 1.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 2.4
   },
   "pcconee": {
    "owner": "Anshu",
@@ -116,12 +116,12 @@
     }
    ],
    "running": 1,
-   "queued": 7,
+   "queued": 1,
    "job": "kf_EP05",
-   "shot": "06_01",
-   "vram_free_gb": 1.0,
+   "shot": "12_01",
+   "vram_free_gb": 0.8,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 9.0
+   "ram_free_gb": 8.9
   }
  },
  "channels": {
@@ -139,7 +139,7 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 17173,
+    "total_views": 17178,
     "total_likes": 136,
     "avg_views": 429,
     "demographics": {},
@@ -214,9 +214,9 @@
     "followers": 17,
     "media_count": 80,
     "reach_today": 2273,
-    "total_views": 8292,
+    "total_views": 8310,
     "total_likes": 49,
-    "avg_views": 207,
+    "avg_views": 208,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,11 +287,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 3,
-    "media_count": 67,
+    "media_count": 68,
     "reach_today": 3058,
-    "total_views": 8423,
-    "total_likes": 40,
-    "avg_views": 211,
+    "total_views": 8245,
+    "total_likes": 38,
+    "avg_views": 206,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -339,14 +339,14 @@
      "caption": "\ud83c\udfaa\ud83e\uddf8 Tear-Strip Unbox: a Working Claw Machine in a Cozy 70s De"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcJCoj1jF-u/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775106608_1085790620784795_7764155280153958576_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=aavKubRrSkUQ7kNvwGXAOae&_nc_oc=Adri63CopGJH8qm0iWbzwCRNFWi0ma4XxM4oFGnuuTEXM1Yrymv2I5w_fCL4pAHCarQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=fnUgXkGPj4cZxDnOvM8P8A&_nc_tpa=Q5bMBQLcqPKfWkz_L89PpCYt3QE8_3ZcJ2Db70phbFgJh6yNoAO6bV0PpoKOrCmsHQyhCBVXoTL6nxfu&oh=00_AQEbRtFHhILRmJPGvqXNrnTQvw_Jba87nnb7ctSAlis-iw&oe=6A8B001A",
-     "views": 180,
-     "likes": 2,
+     "permalink": "https://www.instagram.com/reel/DcL_BjKD0F6/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778140186_1383107693191579_1765048493691864095_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kSVzW7hLQPsQ7kNvwGwXY6T&_nc_oc=AdoUaJHMK55_CMzwKpE4rX2NaBxpUSwg_D_MGzm-il2CV9qGSMecSQ_N34lTbVFit94&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=1CKc1-vj1HEsvdl4K8QqTA&_nc_tpa=Q5bMBQI8h5WrHRTuYyt9AXWko7msL3FZQGHcVxRg-bEZ1ZYlTK_onTubhcumYMGVpE0-lPpucsgWbar7&oh=00_AQEMg3aE-9REH6aowPqeAQQlg2eghzGxhrz7e_gNpUWrUA&oe=6A8B0410",
+     "views": 154,
+     "likes": 0,
      "shares": 0,
-     "timestamp": "2026-08-17T12:30:20+0000",
-     "ig_reels_avg_watch_time": 5072,
-     "caption": "\ud83c\udfa1\u2728 Bubble-Wrap Unbox: a Working Ferris Wheel in a Mid-Centur"
+     "timestamp": "2026-08-18T15:56:29+0000",
+     "ig_reels_avg_watch_time": 5757,
+     "caption": "\ud83c\udfa1\u2728 Wax-Seal Unbox: a Working Ferris Wheel in a Cozy 70s Den "
     }
    ]
   },
@@ -506,7 +506,7 @@
   "posted": 303,
   "stories_today": 0,
   "made_today": 0,
-  "views": 53362,
+  "views": 53207,
   "followers": 116
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 10:44:51] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 10:44:51] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-19 10:44:51] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 10:44:51] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 10:44:52] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-19 10:44:52] happyhive: warm-up \u2014 80 posts so far, holding to 24/day"
+  "[08-19 10:55:07] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 10:55:08] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 10:55:08] happyhive: warm-up \u2014 80 posts so far, holding to 24/day",
+  "[08-19 10:55:08] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 10:55:08] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 10:55:08] wonderlab: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-19 10:36:46",
