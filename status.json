@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 12:06:16",
+ "updated": "2026-08-19 12:16:19",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,13 +17,13 @@
      "at": "10:04:30"
     }
    ],
-   "running": 1,
-   "queued": 1,
-   "job": "EP05",
-   "shot": "11_04",
-   "vram_free_gb": 11.1,
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 3.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 3.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 2,
+   "queued": 1,
    "job": "EP05",
-   "shot": "11_03",
-   "vram_free_gb": 7.8,
+   "shot": "12_02",
+   "vram_free_gb": 3.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 2.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 9.5
+   "ram_free_gb": 9.7
   }
  },
  "channels": {
@@ -139,7 +139,7 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 17243,
+    "total_views": 17248,
     "total_likes": 137,
     "avg_views": 431,
     "demographics": {},
@@ -211,12 +211,12 @@
    "stored_ready": 8,
    "ig": {
     "username": "happyhivekidss",
-    "followers": 17,
-    "media_count": 81,
+    "followers": 18,
+    "media_count": 82,
     "reach_today": 2273,
-    "total_views": 8434,
-    "total_likes": 50,
-    "avg_views": 211,
+    "total_views": 8343,
+    "total_likes": 45,
+    "avg_views": 209,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -235,12 +235,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcL6g4EkvZ-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=jfB-OYUIte1n_fJgqAMV7g&_nc_tpa=Q5bMBQLZjqzI31pySZpWOLOGWh6YkxODfzNT378jOgGHQj8EZl3F2841hgolozXmaTuOx41J-TPF3Thh&oh=00_AQFhbIOGJpETmb4dYfOlOJd1sEV0zJoxI8mUDHjcM60brA&oe=6A8B0476",
-     "views": 471,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=x7THXn3pRN6INJjAVibhXw&_nc_tpa=Q5bMBQJKiW5HhmphX7EWKzUnhTii3w9gd9aTHSbEbVAJTsydOl6aC_khGq_MGmH7KKFQscBPOGkFTtU3&oh=00_AQErv6iiXZywrMThmNS2EOnI78-7akk1zp5dv0iNj79Vzg&oe=6A8B3CB6",
+     "views": 480,
      "likes": 1,
      "shares": 0,
      "timestamp": "2026-08-18T15:17:11+0000",
-     "ig_reels_avg_watch_time": 8186,
+     "ig_reels_avg_watch_time": 8160,
      "caption": "Ball Pit Swimming Lessons \ud83c\udf89\ud83d\ude01 Every ball must leave the pit. "
     },
     {
@@ -289,9 +289,9 @@
     "followers": 3,
     "media_count": 69,
     "reach_today": 3058,
-    "total_views": 8322,
-    "total_likes": 37,
-    "avg_views": 208,
+    "total_views": 8660,
+    "total_likes": 38,
+    "avg_views": 216,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -310,12 +310,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcNMAj2E937/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776577024_3256680421182360_8023770434972698575_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mXASqEnBKqYQ7kNvwHn1Q--&_nc_oc=Ado3PhA38zOeUoo55gQPiwkXb1QyhXxPin5k3MVkJWb6BSzE2BeOglhEBL3zOLcxKYw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=owolQlLPlOzNk-cPhV-CtA&_nc_tpa=Q5bMBQIlRAr0-3fmDkQpI-Lk7DCRTDiuX7hv5h0bPM05Dn1IQEcuRsuMO4NJ9ESKx6-3iihJwjwkQoHN&oh=00_AQHkZGGYPWIBF3NasJhh6DZiEtdCHNrF9fTlOEzS4xzZsQ&oe=6A8B01F6",
-     "views": 270,
-     "likes": 0,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776577024_3256680421182360_8023770434972698575_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mXASqEnBKqYQ7kNvwHn1Q--&_nc_oc=Ado3PhA38zOeUoo55gQPiwkXb1QyhXxPin5k3MVkJWb6BSzE2BeOglhEBL3zOLcxKYw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=d2_Rs2cg6c-88CbK-OpZLA&_nc_tpa=Q5bMBQIVcGFGpDFQZLIxELCJcp7RgJfr0PZyNWMnt5fVU2_AWyTiij9A8klykcfKBfCWnMjSXMkEAg03&oh=00_AQFlQKE_qF63NXmiUNHmi97MJVz7IevJbzbBGbr1E9va_A&oe=6A8B3A36",
+     "views": 495,
+     "likes": 1,
      "shares": 0,
      "timestamp": "2026-08-19T03:09:18+0000",
-     "ig_reels_avg_watch_time": 8220,
+     "ig_reels_avg_watch_time": 8593,
      "caption": "\ud83d\udcfa\u2728 Wax-Seal Unbox: a Working CRT + Retro Console in a Cyberp"
     },
     {
@@ -375,7 +375,7 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/Db9J7mcEZeZ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772327424_1469647615185824_2689509960015512230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=__iLNu4U9swQ7kNvwHyj4Fw&_nc_oc=AdrcxRS6HMg7uuDOEvxWV_YykVN2GgZclymUaSHm7vJnU0-iHpkymU9YmZ925XTnqvQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=BYmZINuXOQdCJ_D1_0gBJA&_nc_tpa=Q5bMBQIpj2zPhzihlNZ0shraQDJ9__cRdUN6gb8oInqGLLKyBx1BJN2IEaGODUUmsxvdcYDKkoy92w5z&oh=00_AQFxZCbJ4jXZI5EkNhGvsK3p0kdc7p6loM7A4Bphp5KU1w&oe=6A8AE9DA",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772327424_1469647615185824_2689509960015512230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=__iLNu4U9swQ7kNvwHyj4Fw&_nc_oc=AdrcxRS6HMg7uuDOEvxWV_YykVN2GgZclymUaSHm7vJnU0-iHpkymU9YmZ925XTnqvQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=KL108_MEcScfGhVvf0oE6A&_nc_tpa=Q5bMBQLM7S1a5qzVAzWxZDMg_iPRsBfcHmJqp-hUkm3k_hz_lwcRiMzcJ5-Nd1Y3UmoDVN4KHLZl6DUH&oh=00_AQFgKYax2W1zEgcvbJrHp8Mtyq9oQLiQB1-3_aa1OucCRg&oe=6A8B221A",
      "views": 1774,
      "likes": 29,
      "shares": 0,
@@ -415,7 +415,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Db-wEnfjm0n/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773099117_1344982034464040_4658223684505812315_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Al7bx9v_wUkQ7kNvwFEFgeJ&_nc_oc=AdqkPQxaURPsfeOJnx0EQTqiW12oOQVxvBKNHqyjw3f06luNLRvxWx_ekMIh5csQctQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=BYmZINuXOQdCJ_D1_0gBJA&_nc_tpa=Q5bMBQKyYdkaPAuMucSxWxpre-P4NmBxaftdQuPOI1zT_1xRqcBowPkCaZj8glFy_qh7vXyyFSKhuljH&oh=00_AQHRgUAQWH1kBQ3Nly78v7Ww6lUXKBF4YWglCO23pqNuSg&oe=6A8AEB64",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773099117_1344982034464040_4658223684505812315_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Al7bx9v_wUkQ7kNvwFEFgeJ&_nc_oc=AdqkPQxaURPsfeOJnx0EQTqiW12oOQVxvBKNHqyjw3f06luNLRvxWx_ekMIh5csQctQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=KL108_MEcScfGhVvf0oE6A&_nc_tpa=Q5bMBQIwk0usABOZTnDkzCga1JV7CxRC1pvWiZVtrvFv_J8PuRMn2xPr0_2Phe3S4C-OSh7oGDdOI08W&oh=00_AQEhGgpOAQOM-5Z9yel5mIOPLoDafzRAI--4ULpwu1Fjzw&oe=6A8B23A4",
      "views": 1255,
      "likes": 11,
      "shares": 0,
@@ -506,23 +506,23 @@
   "posted": 306,
   "stories_today": 0,
   "made_today": 0,
-  "views": 53474,
-  "followers": 116
+  "views": 53726,
+  "followers": 117
  },
  "events": [
   "[08-18 11:46:01] SPAWNED w40 pid=14288 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 12:06:12] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 12:06:12] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-19 12:06:12] tinycrafts: cap override 15 -> 24/day (channels.json)",
-  "[08-19 12:06:12] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 12:06:12] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 12:06:13] happyhive: cap override 15 -> 24/day (channels.json)"
+  "[08-19 12:15:25] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 12:15:25] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 12:15:25] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 12:15:25] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-19 12:15:25] wonderlab: warm-up \u2014 69 posts so far, holding to 24/day",
+  "[08-19 12:15:26] happyhive: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-08-19 11:36:47",
+  "updated": "2026-08-19 12:06:47",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 495 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -540,7 +540,7 @@
    "tinycrafts": {
     "n": 40,
     "median_views": 296,
-    "avg_completion": 0.35,
+    "avg_completion": 0.351,
     "avg_eng_rate": 0.0115,
     "avg_saves": 0.2
    },
@@ -558,19 +558,19 @@
     "avg_eng_rate": 0.0135,
     "avg_saves": 0.3
    },
-   "wonderlab": {
-    "n": 40,
-    "median_views": 129,
-    "avg_completion": 0.326,
-    "avg_eng_rate": 0.0101,
-    "avg_saves": 0.0
-   },
    "happyhive": {
     "n": 40,
-    "median_views": 159,
-    "avg_completion": 0.502,
-    "avg_eng_rate": 0.0125,
+    "median_views": 160,
+    "avg_completion": 0.498,
+    "avg_eng_rate": 0.0124,
     "avg_saves": 0.1
+   },
+   "wonderlab": {
+    "n": 39,
+    "median_views": 129,
+    "avg_completion": 0.325,
+    "avg_eng_rate": 0.0102,
+    "avg_saves": 0.0
    }
   }
  }
