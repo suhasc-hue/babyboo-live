@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 10:35:41",
+ "updated": "2026-08-19 10:45:47",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,13 +17,13 @@
      "at": "10:04:30"
     }
    ],
-   "running": 0,
-   "queued": 0,
-   "job": "",
-   "shot": "",
-   "vram_free_gb": 8.4,
+   "running": 1,
+   "queued": 7,
+   "job": "kf_EP05",
+   "shot": "05_02",
+   "vram_free_gb": 0.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 5.6
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,13 +66,13 @@
      "at": "13:46:28"
     }
    ],
-   "running": 0,
-   "queued": 0,
-   "job": "",
-   "shot": "",
-   "vram_free_gb": 3.5,
+   "running": 1,
+   "queued": 7,
+   "job": "kf_EP05",
+   "shot": "06_02",
+   "vram_free_gb": 0.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.7
+   "ram_free_gb": 2.5
   },
   "pcconee": {
    "owner": "Anshu",
@@ -115,13 +115,13 @@
      "at": "10:12:11"
     }
    ],
-   "running": 0,
-   "queued": 0,
-   "job": "",
-   "shot": "",
-   "vram_free_gb": 3.6,
+   "running": 1,
+   "queued": 7,
+   "job": "kf_EP05",
+   "shot": "06_01",
+   "vram_free_gb": 1.0,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 8.2
+   "ram_free_gb": 9.0
   }
  },
  "channels": {
@@ -139,7 +139,7 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 17172,
+    "total_views": 17173,
     "total_likes": 136,
     "avg_views": 429,
     "demographics": {},
@@ -214,7 +214,7 @@
     "followers": 17,
     "media_count": 80,
     "reach_today": 2273,
-    "total_views": 8278,
+    "total_views": 8292,
     "total_likes": 49,
     "avg_views": 207,
     "demographics": {},
@@ -235,12 +235,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcL6g4EkvZ-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=WxuRKdLw8hBfMivsubGdng&_nc_tpa=Q5bMBQK9sJxIJhgZuZ1nbhhj5i53O-XzKo38G60Mv7N4HA6DiII91Z_qYrDmd5KompjC10gD0cGwmlWg&oh=00_AQFwpSEqPwtEMll-O1n5ElakZwHFlxM-uSHaQ2mvoQZZ9Q&oe=6A8B0476",
-     "views": 421,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=BuB28_vnxNkQlqhTzAORmA&_nc_tpa=Q5bMBQK4zHb-EnYMa5NrqbDBrUpVrt8KJC7fPdapJZ9z5Cl0SCEUnl0sWIuABM2IVI6p0yRXcGikn9cH&oh=00_AQGm8SV1RxCa5H0buT6NihClwl0Kuq9J9WGu8BhAOBPBCA&oe=6A8B0476",
+     "views": 435,
      "likes": 1,
      "shares": 0,
      "timestamp": "2026-08-18T15:17:11+0000",
-     "ig_reels_avg_watch_time": 8013,
+     "ig_reels_avg_watch_time": 8053,
      "caption": "Ball Pit Swimming Lessons \ud83c\udf89\ud83d\ude01 Every ball must leave the pit. "
     },
     {
@@ -281,17 +281,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 67,
-   "posted_today": 10,
-   "stored_ready": 203,
+   "posted": 68,
+   "posted_today": 11,
+   "stored_ready": 202,
    "ig": {
     "username": "kidswonderee",
     "followers": 3,
     "media_count": 67,
     "reach_today": 3058,
-    "total_views": 8408,
+    "total_views": 8423,
     "total_likes": 40,
-    "avg_views": 210,
+    "avg_views": 211,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -307,6 +307,16 @@
      "timestamp": "2026-08-17T21:37:58+0000",
      "ig_reels_avg_watch_time": 10207,
      "caption": "\ud83d\udcfa\u2728 Tear-Strip Unbox: a Working CRT + Retro Console in a Neon"
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/DcNMAj2E937/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776577024_3256680421182360_8023770434972698575_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mXASqEnBKqYQ7kNvwHn1Q--&_nc_oc=Ado3PhA38zOeUoo55gQPiwkXb1QyhXxPin5k3MVkJWb6BSzE2BeOglhEBL3zOLcxKYw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=_dMwoj3yitTy6zR1gtwEVA&_nc_tpa=Q5bMBQKAPzbUaX8OPh3Sgh7nbYSrQ7X6Ec2BQhiQcvHW0l2fGpyFlvmgL93NPmTMKeOrvpVMccG0lNVC&oh=00_AQFhFGz_FPAqlWbv6ZWIVYVFmA_GiJUpSMc3Wbr6i73d4A&oe=6A8B01F6",
+     "views": 200,
+     "likes": 0,
+     "shares": 0,
+     "timestamp": "2026-08-19T03:09:18+0000",
+     "ig_reels_avg_watch_time": 8196,
+     "caption": "\ud83d\udcfa\u2728 Wax-Seal Unbox: a Working CRT + Retro Console in a Cyberp"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcJejCXifuW/",
@@ -327,16 +337,6 @@
      "timestamp": "2026-08-17T15:32:51+0000",
      "ig_reels_avg_watch_time": 5574,
      "caption": "\ud83c\udfaa\ud83e\uddf8 Tear-Strip Unbox: a Working Claw Machine in a Cozy 70s De"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcNMAj2E937/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/776577024_3256680421182360_8023770434972698575_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=mXASqEnBKqYQ7kNvwHn1Q--&_nc_oc=Ado3PhA38zOeUoo55gQPiwkXb1QyhXxPin5k3MVkJWb6BSzE2BeOglhEBL3zOLcxKYw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=juyl4AX4pJioXl-hQjX_SA&_nc_tpa=Q5bMBQJiEbzntlZm8NDcgl7mqCcQWIBcDMsetpxUk99Xi0_iUxY20HITNgD_PQvsyvLMRe2NJ5eBgFH4&oh=00_AQGqsLoswibN0s-uSaDrBsQ-AlqWaXKK4w2R1kogaSH-Gg&oe=6A8B01F6",
-     "views": 187,
-     "likes": 0,
-     "shares": 0,
-     "timestamp": "2026-08-19T03:09:18+0000",
-     "ig_reels_avg_watch_time": 7480,
-     "caption": "\ud83d\udcfa\u2728 Wax-Seal Unbox: a Working CRT + Retro Console in a Cyberp"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcJCoj1jF-u/",
@@ -503,10 +503,10 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 302,
+  "posted": 303,
   "stories_today": 0,
   "made_today": 0,
-  "views": 53332,
+  "views": 53362,
   "followers": 116
  },
  "events": [
@@ -514,19 +514,19 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 10:34:43] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 10:34:43] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 10:34:43] wonderlab: warm-up \u2014 67 posts so far, holding to 24/day",
-  "[08-19 10:34:44] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-19 10:34:44] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 10:34:44] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-19 10:44:51] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 10:44:51] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 10:44:51] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 10:44:51] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-19 10:44:52] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 10:44:52] happyhive: warm-up \u2014 80 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-19 10:06:46",
+  "updated": "2026-08-19 10:36:46",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 495 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 38% across 166 reels with data.",
+   "Average completion (watch time / duration) is 38% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1, kitchen_t11r1y2 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 20:00, 18:00, 3:00 (median views 289 at 20:00).",
@@ -561,15 +561,15 @@
    "wonderlab": {
     "n": 40,
     "median_views": 129,
-    "avg_completion": 0.326,
+    "avg_completion": 0.327,
     "avg_eng_rate": 0.0102,
     "avg_saves": 0.0
    },
    "happyhive": {
     "n": 40,
-    "median_views": 157,
-    "avg_completion": 0.494,
-    "avg_eng_rate": 0.0121,
+    "median_views": 159,
+    "avg_completion": 0.493,
+    "avg_eng_rate": 0.0126,
     "avg_saves": 0.1
    }
   }
