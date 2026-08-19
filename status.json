@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 13:37:41",
+ "updated": "2026-08-19 13:47:44",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 2,
-   "job": "kf_EP06",
-   "shot": "11_34",
-   "vram_free_gb": 1.5,
+   "queued": 18,
+   "job": "EP06",
+   "shot": "01_02",
+   "vram_free_gb": 1.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 3.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 2,
-   "job": "kf_EP06",
-   "shot": "11_35",
-   "vram_free_gb": 0.9,
+   "queued": 18,
+   "job": "EP06",
+   "shot": "01_03",
+   "vram_free_gb": 7.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 2.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -119,9 +119,9 @@
    "queued": 0,
    "job": "",
    "shot": "",
-   "vram_free_gb": 6.2,
+   "vram_free_gb": 7.2,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 36.7
+   "ram_free_gb": 42.7
   }
  },
  "channels": {
@@ -214,9 +214,9 @@
     "followers": 17,
     "media_count": 83,
     "reach_today": 4219,
-    "total_views": 8449,
+    "total_views": 8488,
     "total_likes": 44,
-    "avg_views": 211,
+    "avg_views": 212,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -244,6 +244,16 @@
      "caption": "Ball Pit Swimming Lessons \ud83c\udf89\ud83d\ude01 Every ball must leave the pit. "
     },
     {
+     "permalink": "https://www.instagram.com/reel/DcNU3qLE2LQ/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777381526_1925954688360549_5802159074219233435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=b3IHjMhrmtAQ7kNvwE893tD&_nc_oc=Adpe4li2qagrUUwapXmCVcIfCb1JbKcoFbnNBTI3ub__fN5bCEDsscsVWw3ur2d_WxA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=KMH0UJquMvkgf-m6c-gZIA&_nc_tpa=Q5bMBQLD4auNR3ftBZZB6dmcuhW0g6RBAAvf44qjVZrvz7qOfVsYp7UUTgcht2SnYIyQB_xbmqFHbC6e&oh=00_AQFuA3AsJsnntfm_CTJrYKk0QcDdV4l8350bxzv7EzKhRA&oe=6A8B5401",
+     "views": 279,
+     "likes": 3,
+     "shares": 0,
+     "timestamp": "2026-08-19T04:26:38+0000",
+     "ig_reels_avg_watch_time": 10552,
+     "caption": "He Toddled Into the Water + One Big Wobble \ud83d\udca6\ud83d\ude02 Soaked, wobbli"
+    },
+    {
      "permalink": "https://www.instagram.com/reel/DcKDuMJkXYx/",
      "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779624546_27914407371520673_1820716361952380829_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8slRxanuKwQQ7kNvwEm2DQ2&_nc_oc=AdoTXmnYY90vGJdFQvMuTltqGANFT3G4OuXvsqHwJ5ucnvlsjmZa_ws9BXHAU8F_B34&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nxB8hTVicF1q7qLRTrsoBg&_nc_tpa=Q5bMBQKUNqhy8FwQs-L1_5ppP4AAwUQN-Aq-gJLlNj3G_pfj3j10u2yEqvu3H1biLK6Y5Tifj0DwmlHt&oh=00_AQHQGsrCY5TSF0AVWZHJPjhTou1UHZyA1iYH6wsT7RaAEQ&oe=6A8B1A01",
      "views": 278,
@@ -252,16 +262,6 @@
      "timestamp": "2026-08-17T21:59:03+0000",
      "ig_reels_avg_watch_time": 7838,
      "caption": "The Cat Is Very Patient (One Take, No Cuts) \ud83d\udc31\ud83d\ude02 The cat is al"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcNU3qLE2LQ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777381526_1925954688360549_5802159074219233435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=b3IHjMhrmtAQ7kNvwE893tD&_nc_oc=Adpe4li2qagrUUwapXmCVcIfCb1JbKcoFbnNBTI3ub__fN5bCEDsscsVWw3ur2d_WxA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nxB8hTVicF1q7qLRTrsoBg&_nc_tpa=Q5bMBQJ8_YOsWg_O0O9Mw093H_Nr8NCqfqKrxIwLCIcIWNouzl2CKKUpIqXP_eYURcR-3X6KZGJTbAvM&oh=00_AQGCOFjEXY7zlUqNLQrh7vfoKwn4blbm7J8gcY_OA3QPBg&oe=6A8B1BC1",
-     "views": 252,
-     "likes": 3,
-     "shares": 0,
-     "timestamp": "2026-08-19T04:26:38+0000",
-     "ig_reels_avg_watch_time": 9299,
-     "caption": "He Toddled Into the Water + One Big Wobble \ud83d\udca6\ud83d\ude02 Soaked, wobbli"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcLCmssE3xt/",
@@ -281,17 +281,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 70,
-   "posted_today": 13,
-   "stored_ready": 200,
+   "posted": 71,
+   "posted_today": 14,
+   "stored_ready": 199,
    "ig": {
     "username": "kidswonderee",
     "followers": 3,
-    "media_count": 70,
+    "media_count": 71,
     "reach_today": 5184,
-    "total_views": 9663,
-    "total_likes": 43,
-    "avg_views": 242,
+    "total_views": 9481,
+    "total_likes": 42,
+    "avg_views": 237,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -329,24 +329,24 @@
      "caption": "\ud83d\udd79\ufe0f\ud83d\udca1 Wax-Seal Unbox: a Working Arcade Cabinet in a Botanist's"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcJXhDjAePR/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775798824_2485038845340598_6112622944579405398_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4dFev3hVZacQ7kNvwEdxPqz&_nc_oc=AdrbdD5XLnI_yO7IGyV2xgPrY0gpR3U--alsveUhjF7X0InZYlTV3S64L5cHRpLuiLk&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=yWCsYLP9RtS4ahuIvQDweQ&_nc_tpa=Q5bMBQLZPBktImpZnASIGRCOGsSe8NfW1UYmIDOzEFaaItms_XJwdktBGMmtMZFvhF6dS4SalVdtABLT&oh=00_AQEhL-OUiqJAagMiElEPmvEzJxa75QUv-xSAnqOmSLr0dw&oe=6A8B20DB",
-     "views": 190,
-     "likes": 1,
-     "shares": 0,
-     "timestamp": "2026-08-17T15:32:51+0000",
-     "ig_reels_avg_watch_time": 5574,
-     "caption": "\ud83c\udfaa\ud83e\uddf8 Tear-Strip Unbox: a Working Claw Machine in a Cozy 70s De"
-    },
-    {
      "permalink": "https://www.instagram.com/reel/DcL_BjKD0F6/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778140186_1383107693191579_1765048493691864095_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kSVzW7hLQPsQ7kNvwGwXY6T&_nc_oc=AdoUaJHMK55_CMzwKpE4rX2NaBxpUSwg_D_MGzm-il2CV9qGSMecSQ_N34lTbVFit94&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=vrJqRXlFR5pYkvScZQTC2Q&_nc_tpa=Q5bMBQJM8mddW_hQ96yh-bxO89rolQz538UHqBY3f2s23zja4N9kNJNQNF8XgiubLU7vAunmbxpoxU9S&oh=00_AQE99AJCGjI3n3_ALj5e2cP7us5nRDpODhfrOIyn1pC48Q&oe=6A8B3C50",
-     "views": 167,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778140186_1383107693191579_1765048493691864095_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kSVzW7hLQPsQ7kNvwGwXY6T&_nc_oc=AdoUaJHMK55_CMzwKpE4rX2NaBxpUSwg_D_MGzm-il2CV9qGSMecSQ_N34lTbVFit94&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=rWjg8QQ2pTmgfPTIGalS6g&_nc_tpa=Q5bMBQJdvApSZ8y55wvHLXOL3aZFdlZ75bvn7CMmGEBHw0YrLr8e6vh_2HfGlLiBAwczG7mKzWuZ_4g3&oh=00_AQEQCs_ael-s3V-yBd6GeOI-fbXi17PhSvXKhgi4JNDEIw&oe=6A8B3C50",
+     "views": 171,
      "likes": 0,
      "shares": 0,
      "timestamp": "2026-08-18T15:56:29+0000",
-     "ig_reels_avg_watch_time": 6238,
+     "ig_reels_avg_watch_time": 6358,
      "caption": "\ud83c\udfa1\u2728 Wax-Seal Unbox: a Working Ferris Wheel in a Cozy 70s Den "
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/DcMbFetE-Js/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780238928_2315927182569382_5672625678369907113_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzIifQ%3D%3D&_nc_ohc=btObMpRw8qAQ7kNvwGR48XS&_nc_oc=Ado922voWQFs-BGFtszck8GrbnzG1bmznZ61Z36G8nTs9FQza0NELf_e0fa9OAqyKo0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=BaflrKsN0ybT86oIp9-Kdw&_nc_tpa=Q5bMBQKhY3oi2hrk9XaB5zYp-L86eRqtmpeHXmIJbqXPDn_mh29ch-jwcKMeBoZ7n-6HZPR-n7UXD_u0&oh=00_AQGuGSPvEZ4PNAXzYmMfCcXa4Bvnex6gIG0bBPuDDvjS7w&oe=6A8B4DFF",
+     "views": 162,
+     "likes": 0,
+     "shares": 0,
+     "timestamp": "2026-08-18T20:01:46+0000",
+     "ig_reels_avg_watch_time": 5415,
+     "caption": "\ud83d\udcfa\u2728 Tear-Strip Unbox: a Working CRT + Retro Console in a Dust"
     }
    ]
   },
@@ -503,10 +503,10 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 308,
+  "posted": 309,
   "stories_today": 0,
   "made_today": 0,
-  "views": 54945,
+  "views": 54802,
   "followers": 116
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 13:37:25] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 13:37:25] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 13:37:25] wonderlab: warm-up \u2014 70 posts so far, holding to 24/day",
-  "[08-19 13:37:26] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-19 13:37:26] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 13:37:26] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-19 13:47:30] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 13:47:30] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-19 13:47:31] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 13:47:31] happyhive: warm-up \u2014 83 posts so far, holding to 24/day",
+  "[08-19 13:47:31] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 13:47:31] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-19 13:36:59",
