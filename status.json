@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 07:54:34",
+ "updated": "2026-08-19 08:04:39",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 3,
+   "queued": 2,
    "job": "EP03",
-   "shot": "10_26",
-   "vram_free_gb": 11.1,
+   "shot": "11_29",
+   "vram_free_gb": 12.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -67,12 +67,12 @@
     }
    ],
    "running": 1,
-   "queued": 7,
+   "queued": 5,
    "job": "EP03",
-   "shot": "06_16",
-   "vram_free_gb": 7.4,
+   "shot": "08_22",
+   "vram_free_gb": 6.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 0.7
+   "ram_free_gb": 2.5
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 3.6,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 8.0
+   "ram_free_gb": 7.9
   }
  },
  "channels": {
@@ -139,9 +139,9 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 17038,
+    "total_views": 17100,
     "total_likes": 136,
-    "avg_views": 426,
+    "avg_views": 428,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -150,12 +150,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcK0ad7AkDE/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775166813_1093959249722547_5834968079390773407_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Mc-ffBzkTm4Q7kNvwHt9wD9&_nc_oc=Adr_gxGU7sbHzfhbA8on6Hx72LbhtJBhtMhHa3MEhw8Yxb4x0ZGkWrITCjtnncPKSJ0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=9yLLB9dlJv7BG6C3GEpclA&_nc_tpa=Q5bMBQKWCirbqXylXN1-Bolrb1LYJeCbtUyOrPfBucfzATvp7Fu4SgizDUcqQ_vAQKpkhR8T2gXQ5vta&oh=00_AQENoFJeSf80kacYPK9tieSjs_5pZV8g8A9tXV5-c7pFbg&oe=6A8AB8C9",
-     "views": 2097,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775166813_1093959249722547_5834968079390773407_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Mc-ffBzkTm4Q7kNvwHt9wD9&_nc_oc=Adr_gxGU7sbHzfhbA8on6Hx72LbhtJBhtMhHa3MEhw8Yxb4x0ZGkWrITCjtnncPKSJ0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=C5-98LYv0StT4TKmZ9cz-g&_nc_tpa=Q5bMBQJlOHPiYmWs94NdIRjUJVX8auzcLzNQeUI4TUhQjnDWMJd2YXQf7VNZ35jek26onltvKluKeVNZ&oh=00_AQHTYnCUT2Namn2_T9uj3BJY19UhCtXK2lIhFM88Ru5Ydw&oe=6A8AF109",
+     "views": 2127,
      "likes": 13,
      "shares": 0,
      "timestamp": "2026-08-18T05:04:34+0000",
-     "ig_reels_avg_watch_time": 14350,
+     "ig_reels_avg_watch_time": 14440,
      "caption": "babyboo's snack comes ALIVE \ud83c\udf5d\u2728 \u2014 she finds a walnut-sized do"
     },
     {
@@ -206,17 +206,17 @@
    "qc_passed": 129,
    "vision_ok": 51,
    "awaiting_review": 73,
-   "posted": 77,
-   "posted_today": 7,
-   "stored_ready": 13,
+   "posted": 78,
+   "posted_today": 8,
+   "stored_ready": 12,
    "ig": {
     "username": "happyhivekidss",
     "followers": 16,
-    "media_count": 77,
+    "media_count": 78,
     "reach_today": 2273,
-    "total_views": 8888,
-    "total_likes": 55,
-    "avg_views": 222,
+    "total_views": 8362,
+    "total_likes": 53,
+    "avg_views": 209,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -234,19 +234,9 @@
      "caption": "Morning Chaos: Bounce Bounce Bounce \ud83d\udecf\ufe0f\ud83d\ude01 He has figured out t"
     },
     {
-     "permalink": "https://www.instagram.com/reel/Db8gNTInW8m/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773908882_38055549957362517_3703587657125780818_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=fCUKon9sGj4Q7kNvwGvxKcL&_nc_oc=AdqEvIPj7i0ow593-b6XId9FD75xtwIRMagn_cK_ZxHfFDl3a1jCNZlimuQpKUqluDk&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nlotm111QNraQ16g9bGLOg&_nc_tpa=Q5bMBQJEcxTC2Yt9ayr5oCUXAf262g_wyX2rMjzWHzydT_vjKIIQXfDPcJh5ZvokgErF_4uJm3_x3F3w&oh=00_AQEgCgP7fzZiddqHScsRDAfBEj3YnEwGlQERO9-xtRKBZA&oe=6A8AB87C",
-     "views": 529,
-     "likes": 2,
-     "shares": 0,
-     "timestamp": "2026-08-12T15:38:30+0000",
-     "ig_reels_avg_watch_time": 9403,
-     "caption": ""
-    },
-    {
      "permalink": "https://www.instagram.com/reel/DcL6g4EkvZ-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=EKERZ-Q67UUyvk9X2bL_NA&_nc_tpa=Q5bMBQKbeXR47zjN_DGgM_-Vu5_nMdZ5QIgA4bFt_0PzrjcS_h4ewY-YNDU-KWJewkx4gJ_ocvzU4Wzm&oh=00_AQGAHIAvNufzT6h4UQk-UMPDpL8U0leVOiUHCDFp_Gx0dg&oe=6A8ACC36",
-     "views": 393,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dHFYG7dNq3gQ7kNvwGxOajx&_nc_oc=Adq6Yn-0Rf0bwfAI24VM6itqvk_opjSLuvQtXNZ7cnvEqKUYz0Csgt2IbDMLRbb_QnU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=CMqCcIwf1WFb6qj-mlu3Mw&_nc_tpa=Q5bMBQKBA88vc0-t4XwfxfVK-7H79DYlW1Hb04HDOpKsat60IIA_dSOtRPSgISNsARLPv6vct4luW1_a&oh=00_AQEC8AdIC6pFFkQ2Rc2xV51eHL0VkzV8E0Ayyuw_muxBVw&oe=6A8ACC36",
+     "views": 395,
      "likes": 1,
      "shares": 0,
      "timestamp": "2026-08-18T15:17:11+0000",
@@ -272,6 +262,16 @@
      "timestamp": "2026-08-17T14:48:57+0000",
      "ig_reels_avg_watch_time": 9822,
      "caption": "Morning Chaos: He Keeps Picking It Up \ud83e\uddca\ud83d\ude32 The ice cube kept g"
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/DcKDuMJkXYx/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779624546_27914407371520673_1820716361952380829_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=8slRxanuKwQQ7kNvwEm2DQ2&_nc_oc=AdoTXmnYY90vGJdFQvMuTltqGANFT3G4OuXvsqHwJ5ucnvlsjmZa_ws9BXHAU8F_B34&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=hEhRmYiP9ftr6oyfq0mXWg&_nc_tpa=Q5bMBQJwZsCRJBzJSV598-X_syXUb_UFzJBER_lR-ISu1W-mGdOyZU5xc3ExvuCIdCyNG-vGWDtvhIFi&oh=00_AQG6dsmhWb47jdHoo_A0v7rGsjstAEHIxsp6S7ZN7hgKaA&oe=6A8AE1C1",
+     "views": 276,
+     "likes": 3,
+     "shares": 0,
+     "timestamp": "2026-08-17T21:59:03+0000",
+     "ig_reels_avg_watch_time": 7835,
+     "caption": "The Cat Is Very Patient (One Take, No Cuts) \ud83d\udc31\ud83d\ude02 The cat is al"
     }
    ]
   },
@@ -320,7 +320,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcJejCXifuW/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777570406_2141584830111956_6286087844769838729_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lhpEfRSBMOcQ7kNvwEenuDW&_nc_oc=Adqd2eVxYSOn4HVu_wEAEYkY-Y-rcyyP39XgSL3Vxv2fMyw7Ck79KDAQ2MSDQf9sSnw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=OgEvKDZgGxgoIGJPWH5HQw&_nc_tpa=Q5bMBQKfph_DOVnRfVjmNEd-HP7E_uEZGCs2y_IHCXTokvWybF_SoeIVW0ULZPZAFElKGloHygal7jvX&oh=00_AQGv_AlHMwK_eiKofVQYlQNiaWAHovRLJJLzNZdQfjfHOQ&oe=6A8ABE2D",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777570406_2141584830111956_6286087844769838729_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lhpEfRSBMOcQ7kNvwEenuDW&_nc_oc=Adqd2eVxYSOn4HVu_wEAEYkY-Y-rcyyP39XgSL3Vxv2fMyw7Ck79KDAQ2MSDQf9sSnw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=QOSfxKMHXeLvThn-5nfaCA&_nc_tpa=Q5bMBQIMLojX8CZCI9sxbmOknO0XdEpsLcoLSxP5fr7f-_3P9Z7UU6L6YwwIjSM9yw3k7FtlKy21eDvZ&oh=00_AQFX7I77ZTIRqiiCuyprCoPHf_Ho-PsqrBkTSfznkaPLMA&oe=6A8AF66D",
      "views": 190,
      "likes": 4,
      "shares": 0,
@@ -503,10 +503,10 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 297,
+  "posted": 298,
   "stories_today": 0,
   "made_today": 0,
-  "views": 54990,
+  "views": 54526,
   "followers": 115
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 07:54:01] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 07:54:02] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-19 07:54:02] happyhive: warm-up \u2014 77 posts so far, holding to 24/day",
-  "[08-19 07:54:02] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 07:54:02] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-19 07:54:02] wonderlab: cap override 15 -> 24/day (channels.json)"
+  "[08-19 08:04:13] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 08:04:13] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 08:04:13] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-19 08:04:13] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 08:04:13] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-19 08:04:14] happyhive: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-19 07:36:42",
