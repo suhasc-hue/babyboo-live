@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-19 12:16:19",
+ "updated": "2026-08-19 12:26:23",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 3.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.5
+   "ram_free_gb": 6.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,13 +66,13 @@
      "at": "13:46:28"
     }
    ],
-   "running": 1,
-   "queued": 1,
-   "job": "EP05",
-   "shot": "12_02",
-   "vram_free_gb": 3.5,
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 4.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 3.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -139,7 +139,7 @@
     "followers": 51,
     "media_count": 82,
     "reach_today": 2980,
-    "total_views": 17248,
+    "total_views": 17253,
     "total_likes": 137,
     "avg_views": 431,
     "demographics": {},
@@ -214,7 +214,7 @@
     "followers": 18,
     "media_count": 82,
     "reach_today": 2273,
-    "total_views": 8343,
+    "total_views": 8373,
     "total_likes": 45,
     "avg_views": 209,
     "demographics": {},
@@ -289,9 +289,9 @@
     "followers": 3,
     "media_count": 69,
     "reach_today": 3058,
-    "total_views": 8660,
+    "total_views": 8664,
     "total_likes": 38,
-    "avg_views": 216,
+    "avg_views": 217,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -340,12 +340,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcL_BjKD0F6/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778140186_1383107693191579_1765048493691864095_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kSVzW7hLQPsQ7kNvwGwXY6T&_nc_oc=AdoUaJHMK55_CMzwKpE4rX2NaBxpUSwg_D_MGzm-il2CV9qGSMecSQ_N34lTbVFit94&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=GqiGjDOgAXSViMwFK1oz5w&_nc_tpa=Q5bMBQKcUZGmhpjRF-XwoyFgyRND2avsgzpFw6aMdqPA4-3LLQja9gIqlUNFzladKRMdQ1uAN9GrvsRG&oh=00_AQGEqD0UCUfjA6OTf60utdJaiJhg-e-EqgbULoVdLwP8Qw&oe=6A8B0410",
-     "views": 157,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778140186_1383107693191579_1765048493691864095_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=kSVzW7hLQPsQ7kNvwGwXY6T&_nc_oc=AdoUaJHMK55_CMzwKpE4rX2NaBxpUSwg_D_MGzm-il2CV9qGSMecSQ_N34lTbVFit94&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=PvTCiyX7EJaWUR3KMkVRng&_nc_tpa=Q5bMBQLqu23pJfkLDRisv3SZ3s0IG9MJ78T2f8uWqs8zxzORSoBSlZYzmhuA0JFbiq5j43hsEhmQ39AX&oh=00_AQEJPPGNOgzNUvoKU3R_edfCEeWFr0XSyoDs3a4QPU55Rw&oe=6A8B3C50",
+     "views": 159,
      "likes": 0,
      "shares": 0,
      "timestamp": "2026-08-18T15:56:29+0000",
-     "ig_reels_avg_watch_time": 5770,
+     "ig_reels_avg_watch_time": 5851,
      "caption": "\ud83c\udfa1\u2728 Wax-Seal Unbox: a Working Ferris Wheel in a Cozy 70s Den "
     }
    ]
@@ -506,7 +506,7 @@
   "posted": 306,
   "stories_today": 0,
   "made_today": 0,
-  "views": 53726,
+  "views": 53765,
   "followers": 117
  },
  "events": [
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-19 12:15:25] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-19 12:15:25] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-19 12:15:25] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-19 12:15:25] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-19 12:15:25] wonderlab: warm-up \u2014 69 posts so far, holding to 24/day",
-  "[08-19 12:15:26] happyhive: cap override 15 -> 24/day (channels.json)"
+  "[08-19 12:25:40] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-19 12:25:40] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-19 12:25:40] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-19 12:25:40] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-19 12:25:40] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-19 12:25:40] wonderlab: warm-up \u2014 69 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-19 12:06:47",
