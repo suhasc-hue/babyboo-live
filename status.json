@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21 03:41:16",
+ "updated": "2026-08-21 03:52:39",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -267,9 +267,9 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 107,
-   "posted_today": 3,
-   "stored_ready": 163,
+   "posted": 108,
+   "posted_today": 4,
+   "stored_ready": 162,
    "ig": {
     "username": "kidswonderee",
     "followers": 9,
@@ -489,7 +489,7 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 352,
+  "posted": 353,
   "stories_today": 0,
   "made_today": 0,
   "views": 63182,
@@ -500,12 +500,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-21 03:39:24] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-21 03:39:24] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-21 03:39:24] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-21 03:39:24] wonderlab: warm-up \u2014 107 posts so far, holding to 24/day",
-  "[08-21 03:39:25] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-21 03:39:25] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-21 03:50:31] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-21 03:50:31] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-21 03:50:32] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-21 03:50:32] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-21 03:50:32] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-21 03:50:32] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-21 03:37:42",
