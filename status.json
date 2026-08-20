@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 15:57:50",
+ "updated": "2026-08-20 16:08:14",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 17.3
+   "ram_free_gb": 16.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -72,7 +72,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 18.6
+   "ram_free_gb": 19.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -289,7 +289,7 @@
     "followers": 4,
     "media_count": 96,
     "reach_today": 4443,
-    "total_views": 9142,
+    "total_views": 9157,
     "total_likes": 42,
     "avg_views": 229,
     "demographics": {},
@@ -340,12 +340,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcOtI2sDwhc/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/771024889_2191898935092288_7562853420766893168_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=H00inKBUFbsQ7kNvwF7Sk68&_nc_oc=AdrI9ifhKrBmetDzLkxkTOEyJxkr-ihuBoTs2rxCccrcRq9Xv_vMMlWmNBM1d9AErcs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=o1cOZdEVnoqLd33Ab_TnGA&_nc_tpa=Q5bMBQJxrc9aW0-C_D9sckRow8WgQ2BI24OlK313chwQBzJNV-tAK6Z2VcuBQpOjcde25RZ9UEo-oW0J&oh=00_AQFUF3UGU_S0Xi-LWhWsh3LukZKXeuQkemjRgBIkcEa1xQ&oe=6A8C9509",
-     "views": 271,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/771024889_2191898935092288_7562853420766893168_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=H00inKBUFbsQ7kNvwF7Sk68&_nc_oc=AdrI9ifhKrBmetDzLkxkTOEyJxkr-ihuBoTs2rxCccrcRq9Xv_vMMlWmNBM1d9AErcs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Lt4SDCTk-sxp3GKUDTZd4A&_nc_tpa=Q5bMBQK8dfznq9IMBU6AG8i6346DnsPgdm7qvaAgKczDSLeFTv4HGJr3xf0zIpoyp65KeqURFNWN-X1S&oh=00_AQF5Dy-rQf1n2igp-t-8--gzwsSdM_tl-vN0T93ZW2vgFw&oe=6A8C9509",
+     "views": 275,
      "likes": 2,
      "shares": 0,
      "timestamp": "2026-08-19T17:17:59+0000",
-     "ig_reels_avg_watch_time": 7138,
+     "ig_reels_avg_watch_time": 7304,
      "caption": "\ud83c\udfa1\u2728 Bubble-Wrap Unbox: a Working Ferris Wheel in a Botanist's"
     }
    ]
@@ -506,7 +506,7 @@
   "posted": 341,
   "stories_today": 0,
   "made_today": 0,
-  "views": 60239,
+  "views": 60254,
   "followers": 120
  },
  "events": [
@@ -514,15 +514,15 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 15:57:41] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 15:57:41] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-20 15:57:41] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 15:57:41] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-20 15:57:41] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-20 15:57:41] wonderlab: warm-up \u2014 96 posts so far, holding to 24/day"
+  "[08-20 16:06:02] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-20 16:06:03] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 16:06:03] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-20 16:07:24] tinycrafts: cap override 15 -> 24/day (channels.json)",
+  "[08-20 16:07:45] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 16:08:06] storynook: cap override 15 -> 24/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-08-20 15:37:19",
+  "updated": "2026-08-20 16:07:19",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 515 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -567,9 +567,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 136,
-    "avg_completion": 0.339,
-    "avg_eng_rate": 0.0088,
+    "median_views": 139,
+    "avg_completion": 0.34,
+    "avg_eng_rate": 0.0087,
     "avg_saves": 0.1
    }
   }
