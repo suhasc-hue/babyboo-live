@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 17:39:48",
+ "updated": "2026-08-20 17:50:32",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,13 +23,13 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 15.2
+   "ram_free_gb": 15.7
   },
   "w40": {
    "owner": "Neeraj",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.40",
-   "up": true,
+   "up": false,
    "enabled": false,
    "made_today": 36,
    "last_reel": "happyhive_leaf_pile_t0r1y1",
@@ -65,14 +65,7 @@
      "min": 27.5,
      "at": "13:46:28"
     }
-   ],
-   "running": 0,
-   "queued": 0,
-   "job": "",
-   "shot": "",
-   "vram_free_gb": 15.9,
-   "vram_total_gb": 17.1,
-   "ram_free_gb": 17.6
+   ]
   },
   "pcconee": {
    "owner": "Anshu",
@@ -214,7 +207,7 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4017,
-    "total_views": 13686,
+    "total_views": 13695,
     "total_likes": 62,
     "avg_views": 342,
     "demographics": {},
@@ -287,10 +280,10 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 6,
-    "media_count": 97,
+    "media_count": 98,
     "reach_today": 4443,
-    "total_views": 9530,
-    "total_likes": 44,
+    "total_views": 9514,
+    "total_likes": 47,
     "avg_views": 238,
     "demographics": {},
     "demographics_state": "locked",
@@ -319,9 +312,19 @@
      "caption": "\ud83d\udd34\ud83c\udf6c Wax-Seal Unbox: a Working Gumball Machine in a Neon Arcad"
     },
     {
+     "permalink": "https://www.instagram.com/reel/DcQWTs-iJyO/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775319148_1482074447017413_4954494013971331743_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=cbfo7ZlKa-sQ7kNvwH6WEzm&_nc_oc=AdpLpdrW1TV5tq_suuX0kh0LgtMqtUS8qRFenlaO3v4XRtWgZwi8AfeUFjVJEYXV6bE&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Nnkpu4olT38_-RiI29jlmg&_nc_tpa=Q5bMBQJovfoV5tPGvPLDjgG22_HKgAB0TzRv3tJEOgqEazzGPpmKDujf3NvYIBuz9_y3U-XVJs7d4UFa&oh=00_AQFknKlWp7VCiyVSZsNgWNwXwYCMmEPu1C_IclExyNLAKQ&oe=6A8CB33F",
+     "views": 470,
+     "likes": 7,
+     "shares": 0,
+     "timestamp": "2026-08-20T08:36:56+0000",
+     "ig_reels_avg_watch_time": 7757,
+     "caption": "\ud83c\udfa1\u2728 Tear-Strip Unbox: a Working Ferris Wheel in a Dusty Libra"
+    },
+    {
      "permalink": "https://www.instagram.com/reel/DcPQOeElftj/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778291846_4771605013122525_7626627157911022619_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9InuRAYJme0Q7kNvwEEgw1R&_nc_oc=AdqoZunAMXLyPmSHEKu2z5_b0z3oWjEBfTxGrSfw3r2C5MlKtoNiJ5EHB8pPG6uP-vQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=6iFw_YBs6l-xdaQN8A6Xag&_nc_tpa=Q5bMBQKpo-ZNGzEfmotWjLWzkbu_jttOfM8ouuNOZonwAiXI8mKlznvX40FAeQ0JEyDyeRtPy3IA-mel&oh=00_AQGDi9NxwUW8HdaHV_Vg87edVHM83th051yiCMIWiNrmaw&oe=6A8CC143",
-     "views": 409,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778291846_4771605013122525_7626627157911022619_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9InuRAYJme0Q7kNvwEEgw1R&_nc_oc=AdqoZunAMXLyPmSHEKu2z5_b0z3oWjEBfTxGrSfw3r2C5MlKtoNiJ5EHB8pPG6uP-vQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Nnkpu4olT38_-RiI29jlmg&_nc_tpa=Q5bMBQLYhzkNjVb4_Nc0S5GTBzQQfqrobjgPlt8-JFWpReJFHcA54k3FaUDPTcHCJ_Yb64NNwQguKcUE&oh=00_AQEr9hX7_yXrZk2cxNeI3K2wgFsmxvZUyoCfDC2ji_xTLg&oe=6A8CC143",
+     "views": 428,
      "likes": 0,
      "shares": 0,
      "timestamp": "2026-08-19T22:24:35+0000",
@@ -330,23 +333,13 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcPlKPJkdBc/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782386384_1791336422041772_1090690884730058273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vxpNY6l58FMQ7kNvwHqR0V0&_nc_oc=AdoETU3yCpEe7rgTxwC40Y5m7AkF-1Mep7T-A0pKV2oONRAv9ioXMDmnjYAf4TD-06g&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=6iFw_YBs6l-xdaQN8A6Xag&_nc_tpa=Q5bMBQJZZKjGCLDeV1JY3WciNl4LykaJI1a7otp4kGB-EfVZDJbuSLk_r3NV1LHkZ7r_-1NepCeKeXZ0&oh=00_AQFuvDrUHgQgQKpCjPeoXk0k9vWmQ3ucbbxS9_LupldVWg&oe=6A8CB277",
-     "views": 391,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782386384_1791336422041772_1090690884730058273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=vxpNY6l58FMQ7kNvwHqR0V0&_nc_oc=AdoETU3yCpEe7rgTxwC40Y5m7AkF-1Mep7T-A0pKV2oONRAv9ioXMDmnjYAf4TD-06g&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Nnkpu4olT38_-RiI29jlmg&_nc_tpa=Q5bMBQJRHX7lqyTwsrygBka0Xl0hsWxCy0HkrVMw-ljV-1SrsosjksK5lYGgieOW2UnuJUGc0Fzx49xM&oh=00_AQGx9yTelg6BnOAXKiBE4ID5mHqDbSoEAhwyTiZs5OWQFg&oe=6A8CB277",
+     "views": 409,
      "likes": 2,
      "shares": 0,
      "timestamp": "2026-08-20T01:27:32+0000",
-     "ig_reels_avg_watch_time": 6626,
+     "ig_reels_avg_watch_time": 6618,
      "caption": "\ud83c\udfa1\u2728 Foil-Pouch Unbox: a Working Ferris Wheel in a Winter Cabi"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcQWTs-iJyO/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775319148_1482074447017413_4954494013971331743_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=cbfo7ZlKa-sQ7kNvwH6WEzm&_nc_oc=AdpLpdrW1TV5tq_suuX0kh0LgtMqtUS8qRFenlaO3v4XRtWgZwi8AfeUFjVJEYXV6bE&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=6iFw_YBs6l-xdaQN8A6Xag&_nc_tpa=Q5bMBQKg9AaPXpF0P_sTAK0sFr-cEHZCJ0grVJrytYobSFB7cUHhGkWtO0Zptl0IkreBX-mP4LyinJ6w&oh=00_AQGLIqg_jlCR14hGOuc3z7oHSWlnwbFX3OgGF2syaQvwow&oe=6A8CB33F",
-     "views": 321,
-     "likes": 2,
-     "shares": 0,
-     "timestamp": "2026-08-20T08:36:56+0000",
-     "ig_reels_avg_watch_time": 6710,
-     "caption": "\ud83c\udfa1\u2728 Tear-Strip Unbox: a Working Ferris Wheel in a Dusty Libra"
     }
    ]
   },
@@ -506,7 +499,7 @@
   "posted": 343,
   "stories_today": 0,
   "made_today": 0,
-  "views": 60648,
+  "views": 60641,
   "followers": 122
  },
  "events": [
@@ -514,12 +507,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 17:38:48] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-20 17:38:48] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-20 17:38:49] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 17:38:49] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-20 17:38:49] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 17:38:49] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-20 17:49:03] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 17:49:03] wonderlab: warm-up \u2014 98 posts so far, holding to 24/day",
+  "[08-20 17:49:04] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 17:49:04] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-20 17:49:04] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 17:49:04] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-20 17:37:21",
