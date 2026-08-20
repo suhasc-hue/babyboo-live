@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 06:34:40",
+ "updated": "2026-08-20 06:45:24",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -282,7 +282,7 @@
     "followers": 4,
     "media_count": 87,
     "reach_today": 5194,
-    "total_views": 8605,
+    "total_views": 8611,
     "total_likes": 35,
     "avg_views": 215,
     "demographics": {},
@@ -499,7 +499,7 @@
   "posted": 332,
   "stories_today": 0,
   "made_today": 0,
-  "views": 59173,
+  "views": 59179,
   "followers": 120
  },
  "events": [
@@ -507,19 +507,19 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 06:33:02] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-20 06:33:02] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-20 06:33:03] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 06:33:03] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-20 06:33:03] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 06:33:03] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-20 06:44:18] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 06:44:18] wonderlab: warm-up \u2014 87 posts so far, holding to 24/day",
+  "[08-20 06:44:19] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 06:44:19] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-20 06:44:19] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 06:44:19] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-20 06:07:12",
+  "updated": "2026-08-20 06:37:12",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 515 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 39% across 167 reels with data.",
+   "Average completion (watch time / duration) is 39% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 10:00, 15:00, 8:00 (median views 796 at 10:00).",
@@ -561,7 +561,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 131,
-    "avg_completion": 0.326,
+    "avg_completion": 0.323,
     "avg_eng_rate": 0.0088,
     "avg_saves": 0.1
    }
