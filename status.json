@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 23:19:12",
+ "updated": "2026-08-20 23:30:36",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 18.3
+   "ram_free_gb": 18.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -275,7 +275,7 @@
     "followers": 8,
     "media_count": 103,
     "reach_today": 4451,
-    "total_views": 11514,
+    "total_views": 11523,
     "total_likes": 68,
     "avg_views": 288,
     "demographics": {},
@@ -296,12 +296,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcN8oUBD5Qg/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778256061_3236654019862839_9014388197926432496_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=eh73OQIayYcQ7kNvwHQ4yy7&_nc_oc=AdpIh3MqiVoxDJA7QQB2tldNdQx6ghLMxppmMn7wk7pCGrze3emHFa8yS6bSd3MIhBA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=dMc6grTBcVIN-7G63Kq-rA&_nc_tpa=Q5bMBQKKVKkFnwCkWJtUMgQ8eKQ8DHOi0omv9kLjqtE8CZ_dHSwBsWsiiIqLSr8ROSIZGQQfmFIaiuh-&oh=00_AQEsiyrLZsU_GsayaDEq3csGvP325Z2zTIyS0sMaHnw0-Q&oe=6A8CE542",
-     "views": 1462,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778256061_3236654019862839_9014388197926432496_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=eh73OQIayYcQ7kNvwHQ4yy7&_nc_oc=AdpIh3MqiVoxDJA7QQB2tldNdQx6ghLMxppmMn7wk7pCGrze3emHFa8yS6bSd3MIhBA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Gs2tK4yprtrUkVLYbn00kA&_nc_tpa=Q5bMBQJzel4H5E_2xLZY1euXNAFncTEkNYrqw119_PcXfaeXXx2faFRTq0jQBA7Cnf6O1sX0Bz-GqOOX&oh=00_AQHRTStuKWt8fIKVrPXhmK4GcJdjGw_Yu2kdnKtcY5Qy-g&oe=6A8D1D82",
+     "views": 1465,
      "likes": 5,
      "shares": 0,
      "timestamp": "2026-08-19T10:14:05+0000",
-     "ig_reels_avg_watch_time": 9083,
+     "ig_reels_avg_watch_time": 9076,
      "caption": "\ud83d\udd34\ud83c\udf6c Wax-Seal Unbox: a Working Gumball Machine in a Neon Arcad"
     },
     {
@@ -492,7 +492,7 @@
   "posted": 348,
   "stories_today": 0,
   "made_today": 0,
-  "views": 62915,
+  "views": 62924,
   "followers": 124
  },
  "events": [
@@ -500,12 +500,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 23:17:44] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 23:17:44] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-20 23:17:44] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-20 23:17:44] wonderlab: warm-up \u2014 103 posts so far, holding to 24/day",
-  "[08-20 23:17:45] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 23:17:45] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-20 23:29:02] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-20 23:29:02] wonderlab: warm-up \u2014 103 posts so far, holding to 24/day",
+  "[08-20 23:29:03] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 23:29:03] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-20 23:29:03] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 23:29:03] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-20 23:07:38",
