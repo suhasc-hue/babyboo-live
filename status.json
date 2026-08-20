@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21 02:44:18",
+ "updated": "2026-08-21 02:55:41",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -200,7 +200,7 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4017,
-    "total_views": 14012,
+    "total_views": 14013,
     "total_likes": 62,
     "avg_views": 350,
     "demographics": {},
@@ -267,17 +267,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 106,
-   "posted_today": 2,
-   "stored_ready": 164,
+   "posted": 107,
+   "posted_today": 3,
+   "stored_ready": 163,
    "ig": {
     "username": "kidswonderee",
     "followers": 8,
     "media_count": 106,
     "reach_today": 4451,
-    "total_views": 11248,
+    "total_views": 11352,
     "total_likes": 68,
-    "avg_views": 281,
+    "avg_views": 284,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -296,7 +296,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcQWTs-iJyO/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775319148_1482074447017413_4954494013971331743_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=cbfo7ZlKa-sQ7kNvwH6WEzm&_nc_oc=AdpLpdrW1TV5tq_suuX0kh0LgtMqtUS8qRFenlaO3v4XRtWgZwi8AfeUFjVJEYXV6bE&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=QJuLrAUT1nN3CakW1aQ85w&_nc_tpa=Q5bMBQInuE6NWvD_O0oEgC16ejUaZbg9Z15PsV2gv8wNPfKirGGgSh639tdbXAN6yDMfj5aemDfwTTZt&oh=00_AQHk2QZP_s0PCLomg__edlLM7rElKkii7gdJpV04w1bzog&oe=6A8D23BF",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775319148_1482074447017413_4954494013971331743_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=cbfo7ZlKa-sQ7kNvwH6WEzm&_nc_oc=AdpLpdrW1TV5tq_suuX0kh0LgtMqtUS8qRFenlaO3v4XRtWgZwi8AfeUFjVJEYXV6bE&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=ENLcLOKcuQ9tkgkN4jxTEg&_nc_tpa=Q5bMBQJcnsea7SXVT-jbP0yJSt9CEIaOA9OVFrQ9LFnZGUXjU13UhDXMdki0B90BedOdYOrnUFkujnKN&oh=00_AQFQ1R8gCAKtZSXoJ9wug6hVxpUUNMmg4WJyElr3G5AE7A&oe=6A8D5BFF",
      "views": 1413,
      "likes": 16,
      "shares": 0,
@@ -489,10 +489,10 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 351,
+  "posted": 352,
   "stories_today": 0,
   "made_today": 0,
-  "views": 62707,
+  "views": 62812,
   "followers": 124
  },
  "events": [
@@ -500,12 +500,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-21 02:42:01] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-21 02:42:01] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-21 02:42:01] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-21 02:42:01] wonderlab: warm-up \u2014 106 posts so far, holding to 24/day",
-  "[08-21 02:42:02] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-21 02:42:02] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-21 02:54:09] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-21 02:54:09] wonderlab: warm-up \u2014 107 posts so far, holding to 24/day",
+  "[08-21 02:54:10] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-21 02:54:10] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-21 02:54:10] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-21 02:54:10] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-21 02:37:41",
