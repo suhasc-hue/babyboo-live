@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 17:50:32",
+ "updated": "2026-08-20 18:01:16",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -207,9 +207,9 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4017,
-    "total_views": 13695,
+    "total_views": 13733,
     "total_likes": 62,
-    "avg_views": 342,
+    "avg_views": 343,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -238,12 +238,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcNG8VpEiEt/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=guzYpnn6f04Q7kNvwF5iqem&_nc_oc=Adr62bMHl0v9857vejNQ99ZLwXctryOXPpbYiyx8SW6ViKXM8yPX8qzwf3DPLBMLmfc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=gPr6dXj5mrh2PbE0VNJuyA&_nc_tpa=Q5bMBQKaYbMtHsMPwxa7yTRyMkfGBbjEU3IVyG0111x9LJQUgCtw0BynZxJnIa9KcnemCKnhvbFPlLCY&oh=00_AQEKvEniGmMDLp8Yfe1QcNQMuNq5rA7vdWhlzZSiixHZpg&oe=6A8C8091",
-     "views": 1155,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=guzYpnn6f04Q7kNvwF5iqem&_nc_oc=Adr62bMHl0v9857vejNQ99ZLwXctryOXPpbYiyx8SW6ViKXM8yPX8qzwf3DPLBMLmfc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=wRE3p5zAM9lrVF3me2HDUw&_nc_tpa=Q5bMBQI2I6il9t2U03wjXyY26sAnfY83i_SXmOxJLo7vZe6VXlETgfWlDU_6QGSkFFO8bUU3mITAXbK1&oh=00_AQHc7pthmT9S4OhukmB_yMLshfB9UJHlQ4wWBz0MxJP6dw&oe=6A8CB8D1",
+     "views": 1193,
      "likes": 4,
      "shares": 2,
      "timestamp": "2026-08-19T02:24:58+0000",
-     "ig_reels_avg_watch_time": 12318,
+     "ig_reels_avg_watch_time": 12298,
      "caption": "Morning Chaos: Tunnel Boy \ud83d\udd73\ufe0f\ud83d\ude06 The tunnel collapsed on him an"
     },
     {
@@ -282,7 +282,7 @@
     "followers": 6,
     "media_count": 98,
     "reach_today": 4443,
-    "total_views": 9514,
+    "total_views": 9516,
     "total_likes": 47,
     "avg_views": 238,
     "demographics": {},
@@ -499,7 +499,7 @@
   "posted": 343,
   "stories_today": 0,
   "made_today": 0,
-  "views": 60641,
+  "views": 60681,
   "followers": 122
  },
  "events": [
@@ -507,12 +507,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 17:49:03] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-20 17:49:03] wonderlab: warm-up \u2014 98 posts so far, holding to 24/day",
-  "[08-20 17:49:04] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 17:49:04] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-20 17:49:04] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 17:49:04] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-20 18:00:21] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 18:00:21] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-20 18:00:21] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 18:00:21] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-20 18:00:21] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 18:00:21] wonderlab: warm-up \u2014 98 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-20 17:37:21",
