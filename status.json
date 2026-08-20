@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 16:49:30",
+ "updated": "2026-08-20 16:59:33",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 19.4
+   "ram_free_gb": 16.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -72,7 +72,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 17.7
+   "ram_free_gb": 18.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -121,7 +121,7 @@
    "shot": "",
    "vram_free_gb": 2.0,
    "vram_total_gb": 8.5,
-   "ram_free_gb": 35.0
+   "ram_free_gb": 35.1
   }
  },
  "channels": {
@@ -514,12 +514,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 16:48:33] wonderlab: cap override 15 -> 24/day (channels.json)",
-  "[08-20 16:48:33] wonderlab: warm-up \u2014 97 posts so far, holding to 24/day",
-  "[08-20 16:48:34] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 16:48:34] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-20 16:48:34] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 16:48:34] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-20 16:58:54] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 16:58:54] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-20 16:58:54] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 16:58:54] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-20 16:58:54] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 16:58:54] wonderlab: warm-up \u2014 97 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-20 16:37:20",
