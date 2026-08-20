@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 09:04:48",
+ "updated": "2026-08-20 09:15:31",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 6.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 6.3
+   "ram_free_gb": 6.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -207,7 +207,7 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4219,
-    "total_views": 13309,
+    "total_views": 13314,
     "total_likes": 60,
     "avg_views": 333,
     "demographics": {},
@@ -228,12 +228,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcLJk2_lP9A/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4_3rbAjZ2XsQ7kNvwFp3W7W&_nc_oc=Ado5Eui0mqQH1Vx7cISRp2S9jOOZosdzXlTnv2xpwaDTjgrmHODKyYo_mysfEYZr2NY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=CxJ1W9bgDc7hdBN5qpUtjg&_nc_tpa=Q5bMBQLWab3qgNWWu7jguob61wo6w2EcTGHwrWgI2mSJ-cuJOqEDLmfs1qKLDb8PbVjd21EHhL9YwF6-&oh=00_AQFK8RG0McySEQveQZ3-r4ILe4roZ--gwds9XyrJuu9Zqw&oe=6A8C08AE",
-     "views": 1803,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4_3rbAjZ2XsQ7kNvwFp3W7W&_nc_oc=Ado5Eui0mqQH1Vx7cISRp2S9jOOZosdzXlTnv2xpwaDTjgrmHODKyYo_mysfEYZr2NY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=K3MFhmdjmSuXFJHCdrWKQw&_nc_tpa=Q5bMBQIw_C8XPLXjaDBE5GOfqwKWhLgf71aP1A7FfxHTIMGXv5BgEGcs5anxHbVeblkKdKCuFpLt9xjS&oh=00_AQEbT76CTruhRByVgwOhcz61kC9M7AMyY-b4ERyUiiQF3Q&oe=6A8C40EE",
+     "views": 1808,
      "likes": 3,
      "shares": 0,
      "timestamp": "2026-08-18T08:09:20+0000",
-     "ig_reels_avg_watch_time": 10514,
+     "ig_reels_avg_watch_time": 10509,
      "caption": "Morning Chaos: Bounce Bounce Bounce \ud83d\udecf\ufe0f\ud83d\ude01 He has figured out t"
     },
     {
@@ -280,11 +280,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 4,
-    "media_count": 89,
+    "media_count": 90,
     "reach_today": 5194,
-    "total_views": 8656,
-    "total_likes": 36,
-    "avg_views": 216,
+    "total_views": 8598,
+    "total_likes": 35,
+    "avg_views": 215,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -499,7 +499,7 @@
   "posted": 335,
   "stories_today": 0,
   "made_today": 0,
-  "views": 59370,
+  "views": 59317,
   "followers": 120
  },
  "events": [
@@ -507,15 +507,15 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 09:03:26] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
-  "[08-20 09:03:27] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 09:03:27] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-20 09:03:27] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 09:03:27] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-20 09:03:27] wonderlab: cap override 15 -> 24/day (channels.json)"
+  "[08-20 09:14:43] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 09:14:43] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-20 09:14:43] tinycrafts: warm-up \u2014 48 posts so far, holding to 24/day",
+  "[08-20 09:14:43] wonderlab: cap override 15 -> 24/day (channels.json)",
+  "[08-20 09:14:44] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 09:14:44] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-20 08:37:14",
+  "updated": "2026-08-20 09:07:14",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 515 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -554,15 +554,15 @@
    "happyhive": {
     "n": 40,
     "median_views": 163,
-    "avg_completion": 0.533,
+    "avg_completion": 0.534,
     "avg_eng_rate": 0.0104,
     "avg_saves": 0.1
    },
    "wonderlab": {
     "n": 40,
     "median_views": 131,
-    "avg_completion": 0.33,
-    "avg_eng_rate": 0.0088,
+    "avg_completion": 0.328,
+    "avg_eng_rate": 0.0087,
     "avg_saves": 0.1
    }
   }
