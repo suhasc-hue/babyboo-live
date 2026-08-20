@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20 22:56:25",
+ "updated": "2026-08-20 23:07:48",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 20.4
+   "ram_free_gb": 20.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -275,7 +275,7 @@
     "followers": 8,
     "media_count": 103,
     "reach_today": 4451,
-    "total_views": 11365,
+    "total_views": 11366,
     "total_likes": 66,
     "avg_views": 284,
     "demographics": {},
@@ -361,7 +361,7 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/Db9J7mcEZeZ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772327424_1469647615185824_2689509960015512230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=W_mFEFtquQwQ7kNvwH-Kn9p&_nc_oc=AdpYXGjCy8AwFNG5Wi4PyWfiN0scO3y-irXm86kVeExMHT1qvLu_LNOdljJL88dtEEA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=c40R08CGhsJ3BGxmveYDdA&_nc_tpa=Q5bMBQKz5pv3aKun9qBz0OTVazAIPjQ7hkQ0X4jsfDCeNmGzKkTpNh1M1B7z5kRp42-MAgSfrlfclqdJ&oh=00_AQGA-v0LP6L3rB4YIO32WYaRG34AGODxMp2q-cOq8_utUQ&oe=6A8CE41A",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772327424_1469647615185824_2689509960015512230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=W_mFEFtquQwQ7kNvwH-Kn9p&_nc_oc=AdpYXGjCy8AwFNG5Wi4PyWfiN0scO3y-irXm86kVeExMHT1qvLu_LNOdljJL88dtEEA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=n0K7OflLBYm0aIskDqecSA&_nc_tpa=Q5bMBQJUizkY2Et1yVWm46GvRcKcGkrCJ-cTfB7zZZRYQUQLZMJbUVaQy4XBowevFBpJAehBsu_ZI8Y1&oh=00_AQH2AGVYbWKj5w1jbq0DqnfWRPsOeEMiOlFeN5lbxA6prQ&oe=6A8D1C5A",
      "views": 1775,
      "likes": 29,
      "shares": 0,
@@ -492,7 +492,7 @@
   "posted": 348,
   "stories_today": 0,
   "made_today": 0,
-  "views": 62764,
+  "views": 62765,
   "followers": 124
  },
  "events": [
@@ -500,19 +500,19 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-20 22:54:05] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-20 22:54:05] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-20 22:54:05] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-20 22:54:05] wonderlab: warm-up \u2014 103 posts so far, holding to 24/day",
-  "[08-20 22:54:06] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-20 22:54:06] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-20 23:06:26] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-20 23:06:26] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-20 23:06:26] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-20 23:06:26] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-20 23:06:26] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-20 23:06:26] wonderlab: warm-up \u2014 103 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-20 22:37:38",
+  "updated": "2026-08-20 23:07:38",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 515 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 40% across 168 reels with data.",
+   "Average completion (watch time / duration) is 40% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 15:00, 18:00, 8:00 (median views 778 at 15:00).",
@@ -554,8 +554,8 @@
    "wonderlab": {
     "n": 40,
     "median_views": 139,
-    "avg_completion": 0.366,
-    "avg_eng_rate": 0.0094,
+    "avg_completion": 0.37,
+    "avg_eng_rate": 0.01,
     "avg_saves": 0.1
    }
   }
