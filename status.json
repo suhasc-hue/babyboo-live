@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21 06:09:20",
+ "updated": "2026-08-21 06:20:44",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 18.0
+   "ram_free_gb": 18.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -200,7 +200,7 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4017,
-    "total_views": 14062,
+    "total_views": 14064,
     "total_likes": 62,
     "avg_views": 352,
     "demographics": {},
@@ -231,12 +231,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcNG8VpEiEt/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=guzYpnn6f04Q7kNvwF5iqem&_nc_oc=Adr62bMHl0v9857vejNQ99ZLwXctryOXPpbYiyx8SW6ViKXM8yPX8qzwf3DPLBMLmfc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=I1rg9BQouUJDyV1tx95RYQ&_nc_tpa=Q5bMBQL3QRkXXES3sahRdJXVrMnOmGjPp5aSI6T7U_QT3luxVb2JNQ0ON0GQnRUd_4We1AQy2W1FIuFv&oh=00_AQHRZjoUuA0GWjyD-pSew2DW0GtciCx8datXesrfJliLjw&oe=6A8D6191",
-     "views": 1242,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=guzYpnn6f04Q7kNvwF5iqem&_nc_oc=Adr62bMHl0v9857vejNQ99ZLwXctryOXPpbYiyx8SW6ViKXM8yPX8qzwf3DPLBMLmfc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=zkXLQOqm4OrwzagHxKbU1A&_nc_tpa=Q5bMBQIRJdfvKrT4URUMbNfOKhel__7_5-uWkHupApn-ArDkm8p0W_7tVqVg-rGkfAvCrUgnXAGLrQQc&oh=00_AQFP-B0q50jvSNEAIs6ERpFxw9Fi0Aqdle-YILe8I06kjw&oe=6A8D6191",
+     "views": 1244,
      "likes": 4,
      "shares": 2,
      "timestamp": "2026-08-19T02:24:58+0000",
-     "ig_reels_avg_watch_time": 12326,
+     "ig_reels_avg_watch_time": 12302,
      "caption": "Morning Chaos: Tunnel Boy \ud83d\udd73\ufe0f\ud83d\ude06 The tunnel collapsed on him an"
     },
     {
@@ -275,9 +275,9 @@
     "followers": 9,
     "media_count": 110,
     "reach_today": 4451,
-    "total_views": 12191,
-    "total_likes": 70,
-    "avg_views": 305,
+    "total_views": 12315,
+    "total_likes": 73,
+    "avg_views": 308,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -492,7 +492,7 @@
   "posted": 355,
   "stories_today": 0,
   "made_today": 0,
-  "views": 63701,
+  "views": 63827,
   "followers": 125
  },
  "events": [
@@ -500,12 +500,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-21 06:07:11] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-21 06:07:11] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-21 06:07:11] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-21 06:07:11] wonderlab: warm-up \u2014 110 posts so far, holding to 24/day",
-  "[08-21 06:07:12] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-21 06:07:12] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-21 06:18:25] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-21 06:18:25] wonderlab: warm-up \u2014 110 posts so far, holding to 24/day",
+  "[08-21 06:18:26] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-21 06:18:26] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-21 06:18:26] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-21 06:18:26] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-21 06:07:45",
