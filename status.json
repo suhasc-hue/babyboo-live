@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21 09:00:12",
+ "updated": "2026-08-21 09:11:35",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 18.0
+   "ram_free_gb": 18.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -200,7 +200,7 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4017,
-    "total_views": 14071,
+    "total_views": 14072,
     "total_likes": 62,
     "avg_views": 352,
     "demographics": {},
@@ -275,9 +275,9 @@
     "followers": 9,
     "media_count": 113,
     "reach_today": 4451,
-    "total_views": 11246,
+    "total_views": 11260,
     "total_likes": 70,
-    "avg_views": 281,
+    "avg_views": 282,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -492,7 +492,7 @@
   "posted": 358,
   "stories_today": 0,
   "made_today": 0,
-  "views": 62767,
+  "views": 62782,
   "followers": 125
  },
  "events": [
@@ -500,22 +500,22 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-21 08:57:07] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-21 08:58:07] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-21 08:58:08] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-21 08:58:08] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-21 08:58:08] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-21 08:58:08] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-21 09:09:21] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-21 09:09:21] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-21 09:09:21] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-21 09:09:21] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-21 09:09:21] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-21 09:09:21] wonderlab: warm-up \u2014 113 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-21 08:37:47",
+  "updated": "2026-08-21 09:07:48",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 515 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 41% across 168 reels with data.",
+   "Average completion (watch time / duration) is 41% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 10:00, 15:00, 18:00 (median views 875 at 10:00).",
+   "Best posting hours so far: 10:00, 18:00, 20:00 (median views 876 at 10:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -553,9 +553,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 159,
-    "avg_completion": 0.404,
-    "avg_eng_rate": 0.0095,
+    "median_views": 154,
+    "avg_completion": 0.399,
+    "avg_eng_rate": 0.0097,
     "avg_saves": 0.1
    }
   }
