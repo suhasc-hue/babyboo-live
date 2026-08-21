@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21 18:07:02",
+ "updated": "2026-08-21 18:18:26",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 18.5
+   "ram_free_gb": 18.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -272,12 +272,12 @@
    "stored_ready": 148,
    "ig": {
     "username": "kidswonderee",
-    "followers": 11,
+    "followers": 12,
     "media_count": 122,
     "reach_today": 7399,
-    "total_views": 19198,
+    "total_views": 19334,
     "total_likes": 110,
-    "avg_views": 480,
+    "avg_views": 483,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -325,14 +325,14 @@
      "caption": "\ud83c\udfa1\u2728 Tear-Strip Unbox: a Working Ferris Wheel in a Dusty Libra"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcPQOeElftj/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778291846_4771605013122525_7626627157911022619_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=9InuRAYJme0Q7kNvwEEgw1R&_nc_oc=AdqoZunAMXLyPmSHEKu2z5_b0z3oWjEBfTxGrSfw3r2C5MlKtoNiJ5EHB8pPG6uP-vQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=ZxjasU3xiwU7NGXxSRuTKA&_nc_tpa=Q5bMBQIBWO4aZbAWT2_ZmK4nPkxORg6QT1shh4lIgVxT-84d5u-dB82RoZ1BjhnbrKzsOyUonprYSXjG&oh=00_AQHFdnF9zjeM0nWzJEpzt3awzhQQJvxKdE3EQG2eYKLmpw&oe=6A8E12C3",
-     "views": 1225,
-     "likes": 5,
+     "permalink": "https://www.instagram.com/reel/DcSCE0yEWQA/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779896082_2343294369814291_5944712407181358744_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=p1_JlzYuFE8Q7kNvwFStHVB&_nc_oc=Ado0RHXY45oM_kY3PtOhr4XoO5-OcYiwqGp3CTcadW7Snfg3f3ja3yvYQKejFQBoLD8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=aHFN_vNZvcDj36Up32maeA&_nc_tpa=Q5bMBQIyYuBRc2dY-el6ROyzluCgOAGn-BgpU1wOHA_5V2QJTiRPPFLUnWQKG4pk4DoitG7OTp8N_gmp&oh=00_AQHkUR1qGOYEIkzoVpHRbfjYTWzdCUAouDBkpQoSoTfIzg&oe=6A8E2EED",
+     "views": 1280,
+     "likes": 11,
      "shares": 0,
-     "timestamp": "2026-08-19T22:24:35+0000",
-     "ig_reels_avg_watch_time": 7830,
-     "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Shrink-Wrap Unbox: a Working Jukebox Mechanism in a Neon"
+     "timestamp": "2026-08-21T00:18:36+0000",
+     "ig_reels_avg_watch_time": 8989,
+     "caption": "\ud83d\udd34\ud83c\udf6c Bubble-Wrap Unbox: a Working Gumball Machine in a Winter "
     }
    ]
   },
@@ -492,27 +492,27 @@
   "posted": 367,
   "stories_today": 0,
   "made_today": 0,
-  "views": 70756,
-  "followers": 127
+  "views": 70892,
+  "followers": 128
  },
  "events": [
   "[08-18 11:46:01] SPAWNED w40 pid=14288 shard=0/1 -> http://192.168.1.40:8188",
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-21 18:05:00] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-21 18:05:00] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-21 18:05:01] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-21 18:05:01] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-21 18:05:01] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-21 18:05:01] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-21 18:16:17] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-21 18:16:18] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-21 18:16:18] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-21 18:16:18] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-21 18:16:18] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-21 18:16:18] wonderlab: cap override 25 -> 24/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-08-21 17:37:55",
+  "updated": "2026-08-21 18:07:55",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 515 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 42% across 168 reels with data.",
+   "Average completion (watch time / duration) is 42% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 18:00, 8:00, 0:00 (median views 482 at 18:00).",
@@ -527,7 +527,7 @@
     "n": 40,
     "median_views": 309,
     "avg_completion": 0.354,
-    "avg_eng_rate": 0.0116,
+    "avg_eng_rate": 0.0114,
     "avg_saves": 0.2
    },
    "playground": {
@@ -552,10 +552,10 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 40,
-    "median_views": 217,
-    "avg_completion": 0.447,
-    "avg_eng_rate": 0.0088,
+    "n": 39,
+    "median_views": 223,
+    "avg_completion": 0.453,
+    "avg_eng_rate": 0.009,
     "avg_saves": 0.1
    }
   }
