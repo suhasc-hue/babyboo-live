@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21 21:43:32",
+ "updated": "2026-08-21 21:54:55",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,12 +18,12 @@
     }
    ],
    "running": 1,
-   "queued": 3,
+   "queued": 1,
    "job": "kitchen_t9r0y2",
-   "shot": "4",
-   "vram_free_gb": 2.9,
+   "shot": "5",
+   "vram_free_gb": 2.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -72,7 +72,7 @@
    "gpu": "RTX 5060 8GB",
    "ip": "192.168.1.148",
    "up": false,
-   "enabled": false,
+   "enabled": true,
    "made_today": 49,
    "last_reel": "wonderlab_arcadeloft_sewing_t4r2",
    "avg_min": 12.9,
@@ -200,9 +200,9 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 335,
-    "total_views": 14100,
+    "total_views": 14101,
     "total_likes": 62,
-    "avg_views": 352,
+    "avg_views": 353,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -274,10 +274,10 @@
     "username": "kidswonderee",
     "followers": 13,
     "media_count": 125,
-    "reach_today": 7399,
-    "total_views": 21090,
-    "total_likes": 122,
-    "avg_views": 527,
+    "reach_today": 7401,
+    "total_views": 21159,
+    "total_likes": 123,
+    "avg_views": 529,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -326,12 +326,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcSCE0yEWQA/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779896082_2343294369814291_5944712407181358744_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=p1_JlzYuFE8Q7kNvwFStHVB&_nc_oc=Ado0RHXY45oM_kY3PtOhr4XoO5-OcYiwqGp3CTcadW7Snfg3f3ja3yvYQKejFQBoLD8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=7e5KyFc2FJDFXe6dfuN0mQ&_nc_tpa=Q5bMBQKSqB-cRApkiEPXsCMctbRX257uaLLqxrZvRqQr7ndpJLvo7bFLVjhVoAzlpMZYW429QD6_U54R&oh=00_AQF9IhwRlFZsXJN-DgsfWgSpNA8v0YOtnb4M49-9gGLzEQ&oe=6A8E2EED",
-     "views": 1413,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779896082_2343294369814291_5944712407181358744_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=p1_JlzYuFE8Q7kNvwFStHVB&_nc_oc=Ado0RHXY45oM_kY3PtOhr4XoO5-OcYiwqGp3CTcadW7Snfg3f3ja3yvYQKejFQBoLD8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Igfj7oUDb9BCvplEqyDimg&_nc_tpa=Q5bMBQI1sogdGheY-kXnHWT3gjwQyneWEEW9hCwtWznjh1hOswBbcjoBJ7Y5ZLp_VIKamGK-oEN3f7Bb&oh=00_AQHNc3FSo8rv90nZ93rEB8-t3PSFMlroTSLTJWLyeLHWMw&oe=6A8E672D",
+     "views": 1414,
      "likes": 12,
      "shares": 0,
      "timestamp": "2026-08-21T00:18:36+0000",
-     "ig_reels_avg_watch_time": 9615,
+     "ig_reels_avg_watch_time": 9598,
      "caption": "\ud83d\udd34\ud83c\udf6c Bubble-Wrap Unbox: a Working Gumball Machine in a Winter "
     }
    ]
@@ -492,20 +492,20 @@
   "posted": 370,
   "stories_today": 0,
   "made_today": 8,
-  "views": 72666,
+  "views": 72736,
   "followers": 129
  },
  "events": [
-  "[08-21 19:15:38] SPAWNED tech-01 pid=17060 shard=0/1 -> http://192.168.1.57:8188",
-  "[08-21 19:15:38] worker tech-01 switched ON by owner",
   "[08-21 19:15:38] worker w40 switched ON by owner",
   "[08-21 19:15:46] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-21 21:41:23] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-21 21:41:23] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-21 21:41:23] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-21 21:41:23] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-21 21:41:23] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-21 21:41:23] wonderlab: warm-up \u2014 125 posts so far, holding to 24/day"
+  "[08-21 21:52:21] worker pcconee switched ON by owner",
+  "[08-21 21:52:29] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[08-21 21:52:42] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-21 21:52:42] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-21 21:52:42] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-21 21:52:42] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-21 21:52:42] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-21 21:52:42] wonderlab: warm-up \u2014 125 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-21 21:37:58",
