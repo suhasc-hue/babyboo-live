@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21 13:22:12",
+ "updated": "2026-08-21 13:33:35",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -275,9 +275,9 @@
     "followers": 9,
     "media_count": 117,
     "reach_today": 7368,
-    "total_views": 13542,
+    "total_views": 13731,
     "total_likes": 80,
-    "avg_views": 339,
+    "avg_views": 343,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -326,12 +326,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcRDPkbEe9J/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783424086_1378348920382448_5139886754824045420_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wwTuCuJ3LZIQ7kNvwF55w6h&_nc_oc=Adr_BwEjhNuFJiYrSPGT-qFFrfvOmyUtIotE5XUBISWioLJ_dAnJ-4inkKgKSKjfFoc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=UFYFZlapshuaJDVuxAHRew&_nc_tpa=Q5bMBQIGHy6sFBOCUgO_wUxpKFlZc2bPvwS9jO7rVqe508SbIh4remSLv_3B5U6vGB687nUoRdUWcByU&oh=00_AQGYJAa1VQGcS3hF2fuH3CPxn8mseZ7rqypzszvBD1ccpA&oe=6A8DE88C",
-     "views": 762,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783424086_1378348920382448_5139886754824045420_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wwTuCuJ3LZIQ7kNvwF55w6h&_nc_oc=Adr_BwEjhNuFJiYrSPGT-qFFrfvOmyUtIotE5XUBISWioLJ_dAnJ-4inkKgKSKjfFoc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=mLpm4AWGKget_qYZexpADQ&_nc_tpa=Q5bMBQL_qreV0-KXaG7bXgQNTqIPkROSFGR2xf3v2zDCB2KFI2VdMYsBE0IiJoP9owSD5EHqKmLwi4JA&oh=00_AQGV7NCAgQJUH7z0BvL6yol41eVxzQCYyNNWqkHKMJRsTw&oe=6A8DE88C",
+     "views": 772,
      "likes": 3,
      "shares": 1,
      "timestamp": "2026-08-20T15:09:40+0000",
-     "ig_reels_avg_watch_time": 7116,
+     "ig_reels_avg_watch_time": 7072,
      "caption": "\ud83d\ude82\ud83d\udee4\ufe0f Ribbon-Bow Unbox: a Working Train Set in a Cyberpunk All"
     }
    ]
@@ -492,7 +492,7 @@
   "posted": 362,
   "stories_today": 0,
   "made_today": 0,
-  "views": 65087,
+  "views": 65276,
   "followers": 125
  },
  "events": [
@@ -500,12 +500,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-21 13:20:32] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-21 13:20:32] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-21 13:20:32] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-21 13:20:32] wonderlab: warm-up \u2014 117 posts so far, holding to 24/day",
-  "[08-21 13:20:33] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-21 13:20:33] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-21 13:31:51] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-21 13:31:51] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-21 13:31:51] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-21 13:31:51] wonderlab: warm-up \u2014 117 posts so far, holding to 24/day",
+  "[08-21 13:31:52] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-21 13:31:52] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-21 13:07:51",
