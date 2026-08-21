@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21 11:51:04",
+ "updated": "2026-08-21 12:02:28",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -200,7 +200,7 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 4017,
-    "total_views": 14085,
+    "total_views": 14088,
     "total_likes": 62,
     "avg_views": 352,
     "demographics": {},
@@ -267,15 +267,15 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 115,
-   "posted_today": 11,
-   "stored_ready": 155,
+   "posted": 116,
+   "posted_today": 12,
+   "stored_ready": 154,
    "ig": {
     "username": "kidswonderee",
     "followers": 9,
-    "media_count": 115,
+    "media_count": 116,
     "reach_today": 4451,
-    "total_views": 12200,
+    "total_views": 12181,
     "total_likes": 71,
     "avg_views": 305,
     "demographics": {},
@@ -326,12 +326,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcRDPkbEe9J/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783424086_1378348920382448_5139886754824045420_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wwTuCuJ3LZIQ7kNvwF55w6h&_nc_oc=Adr_BwEjhNuFJiYrSPGT-qFFrfvOmyUtIotE5XUBISWioLJ_dAnJ-4inkKgKSKjfFoc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=R5tfp4JgxqJ-kidqMH14qA&_nc_tpa=Q5bMBQJ03i6ITF6MOHYoxNsOJ_WoRPBMZubB4iGW0X7eqp2CtT7sJ6bhoMyYVZVj8yVMKeULYBBos8i-&oh=00_AQF7vABmzoC_hvFpS5z5YIiax0kyuDozK5BstysDFl7dlQ&oe=6A8DB04C",
-     "views": 674,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783424086_1378348920382448_5139886754824045420_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wwTuCuJ3LZIQ7kNvwF55w6h&_nc_oc=Adr_BwEjhNuFJiYrSPGT-qFFrfvOmyUtIotE5XUBISWioLJ_dAnJ-4inkKgKSKjfFoc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=ds2y36XGXacmxZHCjuzlgw&_nc_tpa=Q5bMBQIRxXM6CEHZ6zzY1JGW1_FyiV_aXUnpcQRA_fcj4H4CBNx_eh4Uz5GqTMcolatXedCybJmsmuSs&oh=00_AQGQfTFwzoygLAs-WZBAi3JWC2rzsTfvuWjiUvCr72tgdQ&oe=6A8DB04C",
+     "views": 712,
      "likes": 2,
      "shares": 1,
      "timestamp": "2026-08-20T15:09:40+0000",
-     "ig_reels_avg_watch_time": 6960,
+     "ig_reels_avg_watch_time": 7028,
      "caption": "\ud83d\ude82\ud83d\udee4\ufe0f Ribbon-Bow Unbox: a Working Train Set in a Cyberpunk All"
     }
    ]
@@ -489,10 +489,10 @@
  },
  "totals": {
   "rendered": 1009,
-  "posted": 360,
+  "posted": 361,
   "stories_today": 0,
   "made_today": 0,
-  "views": 63737,
+  "views": 63721,
   "followers": 125
  },
  "events": [
@@ -500,12 +500,12 @@
   "[08-18 11:46:01] worker pcconee switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 15:40:57] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-18 16:26:29] worker w40 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-21 11:48:36] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-21 11:48:36] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-21 11:49:37] tinycrafts: cap override 15 -> 5/day (channels.json)",
-  "[08-21 11:49:37] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-21 11:49:37] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-21 11:49:37] wonderlab: warm-up \u2014 115 posts so far, holding to 24/day"
+  "[08-21 12:00:33] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-21 12:00:34] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-21 12:00:34] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-21 12:00:34] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-21 12:00:34] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-21 12:00:34] wonderlab: cap override 25 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-21 11:37:50",
