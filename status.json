@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 01:14:02",
+ "updated": "2026-08-23 01:25:25",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
+   "queued": 0,
    "job": "garden_t6r3y1",
-   "shot": "7",
-   "vram_free_gb": 2.3,
+   "shot": "3",
+   "vram_free_gb": 2.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 1.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -266,12 +266,12 @@
    "stored_ready": 132,
    "ig": {
     "username": "kidswonderee",
-    "followers": 19,
+    "followers": 20,
     "media_count": 138,
     "reach_today": 10346,
-    "total_views": 25260,
+    "total_views": 25530,
     "total_likes": 118,
-    "avg_views": 632,
+    "avg_views": 638,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -319,14 +319,14 @@
      "caption": "\ud83d\udc97\u26a1 Vacuum-Lid Unbox: a Tiny Neon Sign Kit in a Botanist's Po"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcTjdVnAQSn/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778156794_1370239278594462_2941021982234971457_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=k7Jp18YP3HoQ7kNvwF0P9jv&_nc_oc=Adr-tFx3AmyXO1WDwx4UTHaQrF_EHic_v_C5GyiGvZzqP8CVZKr2alYe99pXZwwB868&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=vC6M-_KTDsEHy3CJQwO8Mg&_nc_tpa=Q5bMBQLA4RwKX7POwhxMiBHdE1M5qQM5D2eF3jkCmjhtSr1Zu3uG8n9Y1f6czPKfcrXkUDxHA2ah0XKI&oh=00_AQGysfE_VnwTmMgaKQn7wQk4FwHhcnBNfvPQhzHiMPwEPQ&oe=6A8FC0C0",
-     "views": 1383,
-     "likes": 9,
+     "permalink": "https://www.instagram.com/reel/DcVbUnjCXN0/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784215246_1462603619230426_5316361343422375230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQY1Vd6peAIQ7kNvwFF02Vu&_nc_oc=AdqJ9QPg_95R-sKLqXA0yrvD_54RmXPD3rxcJixDh0Wus3wEjhUgNMPIjG1dZ9RyRRw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=crQJP8NKYEA0Q8OXQzAhFw&_nc_tpa=Q5bMBQIKF26Qj9ANSQu7B8oUOTwaqPZ2wVoWj8CpOzO-JwlMrc_l3LBiZmWgT74fZ4sxjpFGF4Cj0HIb&oh=00_AQEe8CbfGt8iTKpGtNK6PhCF7RC5u3ewl_C-7-_N4I1voA&oe=6A8FBD47",
+     "views": 1413,
+     "likes": 6,
      "shares": 0,
-     "timestamp": "2026-08-21T14:29:34+0000",
-     "ig_reels_avg_watch_time": 9445,
-     "caption": "\ud83c\udfaf\ud83d\udca5 Shrink-Wrap Unbox: a Working Pinball Table in a Botanist'"
+     "timestamp": "2026-08-22T07:57:01+0000",
+     "ig_reels_avg_watch_time": 9924,
+     "caption": "\ud83d\udd34\ud83c\udf6c Wax-Seal Unbox: a Working Gumball Machine in a Pastel Kaw"
     }
    ]
   },
@@ -485,21 +485,21 @@
   "rendered": 1057,
   "posted": 383,
   "stories_today": 0,
-  "made_today": 4,
-  "views": 76947,
-  "followers": 136
+  "made_today": 5,
+  "views": 77217,
+  "followers": 137
  },
  "events": [
   "[08-22 13:26:00] farm supervisor up: 3 workers configured",
   "[08-22 13:26:01] SPAWNED tech-01 pid=34776 shard=0/1 -> http://192.168.1.57:8188",
   "[08-22 13:26:09] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-22 13:26:17] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 01:12:11] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 01:12:11] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-23 01:12:11] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 01:12:11] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-23 01:12:11] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 01:12:11] wonderlab: warm-up \u2014 138 posts so far, holding to 24/day"
+  "[08-23 01:23:28] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 01:23:28] wonderlab: warm-up \u2014 138 posts so far, holding to 24/day",
+  "[08-23 01:23:29] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 01:23:29] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-23 01:23:29] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 01:23:29] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 00:56:14",
