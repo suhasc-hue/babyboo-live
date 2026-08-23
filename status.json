@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 11:29:04",
+ "updated": "2026-08-23 11:40:28",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -11,13 +11,13 @@
    "last_reel": "",
    "avg_min": null,
    "recent": [],
-   "running": 1,
-   "queued": 2,
-   "job": "garden_t5r1y2",
-   "shot": "7",
-   "vram_free_gb": 2.3,
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 0.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 3.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -269,9 +269,9 @@
     "followers": 21,
     "media_count": 148,
     "reach_today": 10346,
-    "total_views": 23461,
+    "total_views": 23509,
     "total_likes": 98,
-    "avg_views": 587,
+    "avg_views": 588,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -290,12 +290,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcWFKIsjxAG/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784426338_958060647304996_8807249497004432811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQFQuLSB47AQ7kNvwFxCVzr&_nc_oc=AdpAl3v3N4CnkA-qGOKoM_Sl8L-ibw2EDKYN7w97TtQp31YQuIYt7NyEy7fwb0hfaYs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=vp8pf1m_ujahIfkgUbGVAA&_nc_tpa=Q5bMBQIhCH9a2qEa95WPoazSfxVJ7p3QUh3hncX-vofJ58WjTvegczfGxS1xk7gPbloA1Aw2NkYY7nkz&oh=00_AQH7p-jYnKNsoIv8xNHFXYlj47afre-fHbUagIhMF6hNiQ&oe=6A904C17",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784426338_958060647304996_8807249497004432811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQFQuLSB47AQ7kNvwFxCVzr&_nc_oc=AdpAl3v3N4CnkA-qGOKoM_Sl8L-ibw2EDKYN7w97TtQp31YQuIYt7NyEy7fwb0hfaYs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=R9bfTpcGmcaZX_28gb80TQ&_nc_tpa=Q5bMBQI-r7tKlgQ-Wot-5LLzdj1ictDv89AGwUygkj1bySXoVwC9d2i0jldV-Bx-2FWW9GKeOgeUwnm3&oh=00_AQHBT6_4GuAonpo4Hb5Godq3M8-uBKvtS3ccw4eSeQC-Lg&oe=6A904C17",
      "views": 1483,
      "likes": 4,
      "shares": 0,
      "timestamp": "2026-08-22T14:02:33+0000",
-     "ig_reels_avg_watch_time": 9384,
+     "ig_reels_avg_watch_time": 9387,
      "caption": "\ud83d\udd34\ud83c\udf6c Foil-Pouch Unbox: a Working Gumball Machine in a Cyberpun"
     },
     {
@@ -485,8 +485,8 @@
   "rendered": 1090,
   "posted": 393,
   "stories_today": 0,
-  "made_today": 37,
-  "views": 75188,
+  "made_today": 38,
+  "views": 75236,
   "followers": 138
  },
  "events": [
@@ -494,12 +494,12 @@
   "[08-22 13:26:09] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-22 13:26:17] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 11:26:52] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 11:26:52] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-23 11:26:52] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 11:26:52] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-23 11:26:52] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 11:26:52] wonderlab: warm-up \u2014 148 posts so far, holding to 24/day"
+  "[08-23 11:38:09] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 11:38:09] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-23 11:38:09] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 11:38:09] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-23 11:38:09] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 11:38:09] wonderlab: warm-up \u2014 148 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 11:26:21",
