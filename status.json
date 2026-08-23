@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 18:57:34",
+ "updated": "2026-08-23 19:08:17",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "rooftop_t4r0y1",
-   "shot": "6",
-   "vram_free_gb": 3.4,
+   "shot": "2",
+   "vram_free_gb": 2.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.9
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 10,
-   "last_reel": "happyhive_bottom_step_t0r1y1",
+   "made_today": 11,
+   "last_reel": "happyhive_fridge_magnets_t0r1y1",
    "avg_min": 27.7,
    "recent": [
+    {
+     "id": "happyhive_fridge_magnets_t0r1y1",
+     "min": 28.0,
+     "at": "19:03:27"
+    },
     {
      "id": "happyhive_bottom_step_t0r1y1",
      "min": 28.4,
@@ -53,20 +58,15 @@
      "id": "happyhive_cat_chase_t0r1y1",
      "min": 27.7,
      "at": "16:41:36"
-    },
-    {
-     "id": "happyhive_muslin_peekaboo_t0r1y1",
-     "min": 27.4,
-     "at": "16:13:51"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_fridge_magnets_t0r1y1",
+   "job": "happyhive_sofa_cruise_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 11.7,
+   "vram_free_gb": 10.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.1
+   "ram_free_gb": 2.6
   },
   "pcconee": {
    "owner": "Anshu",
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 139,
-   "qc_passed": 139,
+   "rendered": 140,
+   "qc_passed": 140,
    "vision_ok": 51,
-   "awaiting_review": 83,
+   "awaiting_review": 84,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -268,17 +268,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 155,
-   "posted_today": 18,
-   "stored_ready": 115,
+   "posted": 156,
+   "posted_today": 19,
+   "stored_ready": 114,
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
     "media_count": 155,
     "reach_today": 7962,
-    "total_views": 23545,
+    "total_views": 23586,
     "total_likes": 100,
-    "avg_views": 589,
+    "avg_views": 590,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,12 +287,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcXvETHiNXZ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=FwuAY4SxOJZ5FWahfnFq5w&_nc_tpa=Q5bMBQLUaVUA5MJtZbAznnWmCWRJcITCs8Jd7cYEGfwCLA0U5-mum-3T30jnNg6YtAl4WRBe8A50fRft&oh=00_AQHv3CeptYlTit-gItQkeUcp8Y2MF9Tn5IUJkihLTIsejQ&oe=6A90CAAF",
-     "views": 1571,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=d2K0s1FgqXB2yQUImNPY7g&_nc_tpa=Q5bMBQKqmo_5bKO4Bv-Knv8fNSWmgfr6UUIa5GbbAtWSCty7y_hnWsW1ACceuwHKsxSNn6fSOdvEVbMI&oh=00_AQEBbugCskltwXBGuuIdVy8GDBnR6nov_mVoe7SNEarLbg&oe=6A90CAAF",
+     "views": 1574,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-23T05:27:59+0000",
-     "ig_reels_avg_watch_time": 9773,
+     "ig_reels_avg_watch_time": 9759,
      "caption": "\ud83e\udee7\ud83c\udf00 Foil-Pouch Unbox: a Washing Machine That Really Tumbles i"
     },
     {
@@ -327,12 +327,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcXS_8OAOWN/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dFCMjRwX3f8Q7kNvwFcVbsj&_nc_oc=AdoWPnOYILxeb32aC5tdhKVh-63e-si6iNoQsd77bNSpmX7Hty1Lpho43smNQ-lNs3s&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=FwuAY4SxOJZ5FWahfnFq5w&_nc_tpa=Q5bMBQKTWwIOYdz48qtb7QeOloxY0Xy9x0dTFbq4gXUlWEHVA4d8l77j9Qg-6lSRD4wFX1fxQgCL0sqg&oh=00_AQEkBTkEMa4CRlDmE7_ABgK3s9n0olFklSQjUv-kfgli0Q&oe=6A90D2A0",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dFCMjRwX3f8Q7kNvwFcVbsj&_nc_oc=AdoWPnOYILxeb32aC5tdhKVh-63e-si6iNoQsd77bNSpmX7Hty1Lpho43smNQ-lNs3s&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=d2K0s1FgqXB2yQUImNPY7g&_nc_tpa=Q5bMBQLOaTPicTpRjcbcljb6N7lBiWULd6L1Y15IdS_Ytcw9R-_ANI4X7n9Intjwpl8yh3Tge8a_DJpj&oh=00_AQGLZc5OCwnqvMv-6bpviyUZ5ib3nr87XON7duhTg1-3-w&oe=6A90D2A0",
      "views": 1490,
      "likes": 6,
      "shares": 1,
      "timestamp": "2026-08-23T01:22:40+0000",
-     "ig_reels_avg_watch_time": 8442,
+     "ig_reels_avg_watch_time": 8438,
      "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Tear-Strip Unbox: a Working Jukebox Mechanism in a Cyber"
     }
    ]
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1123,
-  "posted": 400,
+  "rendered": 1124,
+  "posted": 401,
   "stories_today": 0,
-  "made_today": 70,
-  "views": 75277,
+  "made_today": 71,
+  "views": 75318,
   "followers": 140
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 13:58:30] SPAWNED w40 pid=16388 shard=0/1 -> http://192.168.1.40:8188",
   "[08-23 15:21:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 18:56:19] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 18:56:19] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-23 18:56:19] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 18:56:19] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-23 18:56:19] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 18:56:19] wonderlab: warm-up \u2014 155 posts so far, holding to 24/day"
+  "[08-23 19:07:36] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 19:07:36] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-23 19:07:36] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-23 19:07:36] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 19:07:37] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 19:07:37] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 18:56:27",
