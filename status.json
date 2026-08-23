@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 02:49:37",
+ "updated": "2026-08-24 03:00:21",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "bathtub_t6r1y2",
-   "shot": "4",
-   "vram_free_gb": 0.8,
+   "shot": "2",
+   "vram_free_gb": 3.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 1.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_laundry_basket_t0r2y0",
    "shot": "1",
-   "vram_free_gb": 4.0,
+   "vram_free_gb": 10.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 1.9
   },
   "pcconee": {
    "owner": "Anshu",
@@ -276,9 +276,9 @@
     "followers": 23,
     "media_count": 163,
     "reach_today": 7962,
-    "total_views": 23887,
+    "total_views": 23915,
     "total_likes": 94,
-    "avg_views": 597,
+    "avg_views": 598,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,17 +287,17 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcYR-wUDfab/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783616833_2188074622124389_4268908681864304341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YRCBm654S5EQ7kNvwFactRA&_nc_oc=Ado_hTRQkBnOrMk1uAmCyWCd2gffj5UDvoyj4G8OCXzN18uIJGF6qAmE-oYaEzkcvw8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=EPphy3s6A8z9lfAojbhq0Q&_nc_tpa=Q5bMBQLsG_5melaaHpXme5Z31ImIViA3_rT55Ae7CE4ZjZ9nF8ig4y7EmR6-HrennZxpEXuuzAk2q3qI&oh=00_AQFbJxTftxkwHK9fc2-CB7jmgDliLGka-pYTF3Njlo3qXw&oe=6A912A43",
-     "views": 1601,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783616833_2188074622124389_4268908681864304341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YRCBm654S5EQ7kNvwFactRA&_nc_oc=Ado_hTRQkBnOrMk1uAmCyWCd2gffj5UDvoyj4G8OCXzN18uIJGF6qAmE-oYaEzkcvw8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=MBC5CoIw5jLoUccdocFz0Q&_nc_tpa=Q5bMBQLUI9nZiY7sbPXVON2cfEfxCCTXKmtF3ZpPL21Zarmx_5FGJWFA70b85Amb78_cTCTQWtM6awUG&oh=00_AQFV9vhSDm0Xqhzi3xgpJe2tjRo8WXlZJwFzrX9u8LWm3w&oe=6A912A43",
+     "views": 1603,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-23T10:33:04+0000",
-     "ig_reels_avg_watch_time": 10729,
+     "ig_reels_avg_watch_time": 10728,
      "caption": "\ud83d\udcf8\ud83c\udf08 Tear-Strip Unbox: a Working Instant Camera in a Beach Sha"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcXvETHiNXZ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=EPphy3s6A8z9lfAojbhq0Q&_nc_tpa=Q5bMBQKxhymAOidrMmw9LGzKcY3Yr6zRcLGUPoPaj9vjodasLfUQXVGXNn8IejUAunbO1c8rNR721pHw&oh=00_AQEoiT09YJWnUAkb0EfaIcQvZIVRAfFh7r244LwM1PS2lA&oe=6A913B2F",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=MBC5CoIw5jLoUccdocFz0Q&_nc_tpa=Q5bMBQJghJ94l8sSjpdvCyI1-N9SBBlLbQhnn1BcvcswlmXN_oZn02MCqdqKUwCq_LTA2yD7fmv5slNd&oh=00_AQG5dnZpoVGTQ4gd0MZ594TLZVEFze3vvYJdGrpYAB1NeQ&oe=6A913B2F",
      "views": 1583,
      "likes": 8,
      "shares": 0,
@@ -493,7 +493,7 @@
   "posted": 408,
   "stories_today": 0,
   "made_today": 17,
-  "views": 75650,
+  "views": 75678,
   "followers": 140
  },
  "events": [
@@ -501,19 +501,19 @@
   "[08-23 15:21:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 21:23:08] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 02:47:57] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 02:47:57] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-24 02:47:57] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 02:47:57] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 02:47:57] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-24 02:47:57] wonderlab: warm-up \u2014 163 posts so far, holding to 24/day"
+  "[08-24 02:59:14] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 02:59:14] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-24 02:59:14] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 02:59:14] wonderlab: warm-up \u2014 163 posts so far, holding to 24/day",
+  "[08-24 02:59:15] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 02:59:15] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-24 02:26:33",
+  "updated": "2026-08-24 02:56:33",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 522 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 167 reels with data.",
+   "Average completion (watch time / duration) is 43% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), wonderlab_kawaii_gumball_t2r0 (3), storynook_railway_coach_naptin_t2r2 (2)",
    "Best posting hours so far: 10:00, 18:00, 9:00 (median views 1583 at 10:00).",
@@ -555,7 +555,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 271,
-    "avg_completion": 0.497,
+    "avg_completion": 0.493,
     "avg_eng_rate": 0.006,
     "avg_saves": 0.3
    }
