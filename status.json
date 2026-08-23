@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 04:26:09",
+ "updated": "2026-08-24 04:36:53",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
+   "queued": 0,
    "job": "playroom_t12r1y0",
-   "shot": "7",
-   "vram_free_gb": 0.4,
+   "shot": "3",
+   "vram_free_gb": 1.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 1.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 10,
-   "last_reel": "happyhive_stacking_cups_t0r2y0",
+   "made_today": 11,
+   "last_reel": "happyhive_tupperware_t0r2y0",
    "avg_min": 27.4,
    "recent": [
+    {
+     "id": "happyhive_tupperware_t0r2y0",
+     "min": 26.9,
+     "at": "04:35:24"
+    },
     {
      "id": "happyhive_stacking_cups_t0r2y0",
      "min": 26.9,
@@ -53,20 +58,15 @@
      "id": "happyhive_pillow_fort_t0r2y0",
      "min": 27.0,
      "at": "02:20:39"
-    },
-    {
-     "id": "happyhive_duck_race_t0r2y0",
-     "min": 27.0,
-     "at": "01:53:39"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_tupperware_t0r2y0",
+   "job": "happyhive_leaf_pile_t0r2y0",
    "shot": "1",
-   "vram_free_gb": 10.2,
+   "vram_free_gb": 5.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -189,7 +189,7 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 162,
+   "rendered": 163,
    "qc_passed": 162,
    "vision_ok": 51,
    "awaiting_review": 106,
@@ -276,7 +276,7 @@
     "followers": 23,
     "media_count": 165,
     "reach_today": 7962,
-    "total_views": 21566,
+    "total_views": 21573,
     "total_likes": 81,
     "avg_views": 539,
     "demographics": {},
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1168,
+  "rendered": 1169,
   "posted": 410,
   "stories_today": 0,
-  "made_today": 25,
-  "views": 73329,
+  "made_today": 26,
+  "views": 73336,
   "followers": 140
  },
  "events": [
@@ -501,19 +501,19 @@
   "[08-23 15:21:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 21:23:08] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 04:24:52] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-24 04:24:53] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 04:24:53] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-24 04:24:53] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 04:24:53] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 04:24:53] wonderlab: cap override 25 -> 24/day (channels.json)"
+  "[08-24 04:35:10] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 04:35:10] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-24 04:35:11] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-24 04:36:11] tinycrafts: cap override 15 -> 5/day (channels.json)",
+  "[08-24 04:36:11] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-24 04:36:11] wonderlab: cap override 25 -> 24/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-08-24 03:56:34",
+  "updated": "2026-08-24 04:26:34",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 522 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 168 reels with data.",
+   "Average completion (watch time / duration) is 43% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), wonderlab_kawaii_gumball_t2r0 (3), storynook_railway_coach_naptin_t2r2 (2)",
    "Best posting hours so far: 10:00, 18:00, 9:00 (median views 1583 at 10:00).",
@@ -554,9 +554,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 271,
-    "avg_completion": 0.483,
-    "avg_eng_rate": 0.0058,
+    "median_views": 263,
+    "avg_completion": 0.49,
+    "avg_eng_rate": 0.0059,
     "avg_saves": 0.3
    }
   }
