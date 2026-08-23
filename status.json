@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 18:03:52",
+ "updated": "2026-08-23 18:14:36",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,10 +12,10 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 1,
-   "job": "farmyard_t3r1y1",
-   "shot": "5",
-   "vram_free_gb": 2.8,
+   "queued": 3,
+   "job": "rooftop_t3r3y2",
+   "shot": "4",
+   "vram_free_gb": 2.7,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.2
   },
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 8,
-   "last_reel": "happyhive_kraft_paper_t0r1y1",
-   "avg_min": 27.5,
+   "made_today": 9,
+   "last_reel": "happyhive_mattress_bounce_t0r1y1",
+   "avg_min": 27.6,
    "recent": [
+    {
+     "id": "happyhive_mattress_bounce_t0r1y1",
+     "min": 28.8,
+     "at": "18:06:57"
+    },
     {
      "id": "happyhive_kraft_paper_t0r1y1",
      "min": 28.5,
@@ -53,20 +58,15 @@
      "id": "happyhive_water_table_t0r1y1",
      "min": 27.1,
      "at": "15:46:25"
-    },
-    {
-     "id": "happyhive_balloon_bat_t0r1y1",
-     "min": 26.6,
-     "at": "15:19:16"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_mattress_bounce_t0r1y1",
+   "job": "happyhive_bottom_step_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 13.8,
+   "vram_free_gb": 10.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.8
+   "ram_free_gb": 6.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 411,
-   "qc_passed": 318,
+   "rendered": 412,
+   "qc_passed": 319,
    "vision_ok": 56,
-   "awaiting_review": 233,
+   "awaiting_review": 234,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 29,
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 137,
-   "qc_passed": 137,
+   "rendered": 138,
+   "qc_passed": 138,
    "vision_ok": 51,
-   "awaiting_review": 81,
+   "awaiting_review": 82,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -268,17 +268,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 154,
-   "posted_today": 17,
-   "stored_ready": 116,
+   "posted": 155,
+   "posted_today": 18,
+   "stored_ready": 115,
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
     "media_count": 154,
     "reach_today": 7962,
-    "total_views": 22860,
-    "total_likes": 94,
-    "avg_views": 572,
+    "total_views": 23286,
+    "total_likes": 96,
+    "avg_views": 582,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -297,12 +297,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcWMHQzlJEo/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783486003_1378082000402680_2443729647608553659_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hLJn62JCyN0Q7kNvwGtOBkg&_nc_oc=AdrdFvf5YncxyNjh4MIi1F8vri-pD0nCAbSv0x5G3ekS3Q-iLoJNqo_reJJ-9_BnqTM&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Pem5-_Uao36Lrdws6dtYMQ&_nc_tpa=Q5bMBQLCA2GGEZ4P_7vrn7VcvYPJAxLHZrr7fKkaBJkJYUph-Zhbp7qFohLErXqcQrmF8Heb2mgk3hAP&oh=00_AQHBSwhPk6jjUICv7ARa6EA_mJzyrwm8vCLoDF-ibXOiaw&oe=6A9080DD",
-     "views": 1511,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783486003_1378082000402680_2443729647608553659_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hLJn62JCyN0Q7kNvwGtOBkg&_nc_oc=AdrdFvf5YncxyNjh4MIi1F8vri-pD0nCAbSv0x5G3ekS3Q-iLoJNqo_reJJ-9_BnqTM&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=VfgejSCiGaD75RIKpmKo6A&_nc_tpa=Q5bMBQK7n-6v8-oXgvJNLmh7rwIHFn1Zo0Q99qXKfAcKoZF4-aBf4Ca82ISjztylRwAAKNPgusAjZf7y&oh=00_AQHkC9g01A_bgqfK-HGVOlUf2ojt0p71QJaSVyJEiF1a7w&oe=6A90B91D",
+     "views": 1517,
      "likes": 5,
      "shares": 0,
      "timestamp": "2026-08-22T15:03:18+0000",
-     "ig_reels_avg_watch_time": 9481,
+     "ig_reels_avg_watch_time": 9472,
      "caption": "\ud83d\udcf8\ud83c\udf08 Ribbon-Bow Unbox: a Working Instant Camera in a Cozy 70s "
     },
     {
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1118,
-  "posted": 399,
+  "rendered": 1120,
+  "posted": 400,
   "stories_today": 0,
-  "made_today": 65,
-  "views": 74592,
+  "made_today": 67,
+  "views": 75018,
   "followers": 140
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 13:58:30] SPAWNED w40 pid=16388 shard=0/1 -> http://192.168.1.40:8188",
   "[08-23 15:21:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 18:03:10] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 18:03:10] wonderlab: warm-up \u2014 154 posts so far, holding to 24/day",
-  "[08-23 18:03:11] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 18:03:11] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-23 18:03:11] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 18:03:11] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-23 18:12:58] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 18:12:58] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-23 18:12:58] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-23 18:12:58] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 18:12:59] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 18:12:59] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 17:56:26",
