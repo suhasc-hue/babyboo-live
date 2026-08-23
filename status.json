@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 13:57:09",
+ "updated": "2026-08-23 14:07:52",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,54 +12,30 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 1,
-   "job": "rainyday_t0r2y1",
-   "shot": "5",
-   "vram_free_gb": 2.5,
+   "queued": 3,
+   "job": "farmyard_t0r3y2",
+   "shot": "4",
+   "vram_free_gb": 2.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.9
   },
   "w40": {
    "owner": "Neeraj",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.40",
-   "up": false,
+   "up": true,
    "enabled": true,
-   "made_today": 36,
-   "last_reel": "happyhive_leaf_pile_t0r1y1",
-   "avg_min": 25.9,
-   "recent": [
-    {
-     "id": "happyhive_leaf_pile_t0r1y1",
-     "min": 27.5,
-     "at": "16:04:45"
-    },
-    {
-     "id": "happyhive_tupperware_t0r1y1",
-     "min": 27.5,
-     "at": "15:37:13"
-    },
-    {
-     "id": "happyhive_stacking_cups_t0r1y1",
-     "min": 27.5,
-     "at": "15:09:41"
-    },
-    {
-     "id": "happyhive_tissue_box_t0r1y1",
-     "min": 27.9,
-     "at": "14:42:11"
-    },
-    {
-     "id": "happyhive_laundry_basket_t0r1y1",
-     "min": 27.8,
-     "at": "14:14:16"
-    },
-    {
-     "id": "happyhive_spaghetti_t0r1y1",
-     "min": 27.5,
-     "at": "13:46:28"
-    }
-   ]
+   "made_today": 0,
+   "last_reel": "",
+   "avg_min": null,
+   "recent": [],
+   "running": 1,
+   "queued": 0,
+   "job": "happyhive_beach_sand_t0r1y1",
+   "shot": "1",
+   "vram_free_gb": 13.3,
+   "vram_total_gb": 17.1,
+   "ram_free_gb": 1.9
   },
   "pcconee": {
    "owner": "Anshu",
@@ -107,7 +83,7 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 399,
+   "rendered": 400,
    "qc_passed": 310,
    "vision_ok": 56,
    "awaiting_review": 225,
@@ -119,9 +95,9 @@
     "followers": 53,
     "media_count": 82,
     "reach_today": 11,
-    "total_views": 18059,
+    "total_views": 18060,
     "total_likes": 155,
-    "avg_views": 451,
+    "avg_views": 452,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -261,17 +237,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 150,
-   "posted_today": 13,
-   "stored_ready": 120,
+   "posted": 151,
+   "posted_today": 14,
+   "stored_ready": 119,
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
-    "media_count": 150,
+    "media_count": 151,
     "reach_today": 7947,
-    "total_views": 22036,
+    "total_views": 22232,
     "total_likes": 89,
-    "avg_views": 551,
+    "avg_views": 556,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -299,13 +275,23 @@
      "caption": "\ud83d\udd34\ud83c\udf6c Foil-Pouch Unbox: a Working Gumball Machine in a Cyberpun"
     },
     {
+     "permalink": "https://www.instagram.com/reel/DcVwTiFAbHS/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783573207_954701127651745_278253178151206691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=7fQQNMryXiwQ7kNvwGLATmH&_nc_oc=AdodCRs2xtz7HRzA12E24SpoeRvwfrCPDWneE6TL4fBAVJd3fMUn6LYUKdyEO35cu1k&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=dcviNKbONwqcZvTuCv8ZsQ&_nc_tpa=Q5bMBQJTRak92EMbGKXcU0gh804lNzlqgCx1E1U1VK8kF-GQqtGzPZ7g5zhZahoZwrL6_2gPLf9GRksH&oh=00_AQFoHt9TmVJTmzKgWvyOlnQZAkOOHhXB9iy9fUajfBWphg&oe=6A909A29",
+     "views": 1479,
+     "likes": 3,
+     "shares": 0,
+     "timestamp": "2026-08-22T11:00:20+0000",
+     "ig_reels_avg_watch_time": 9878,
+     "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Foil-Pouch Unbox: a Working Jukebox Mechanism in an Atom"
+    },
+    {
      "permalink": "https://www.instagram.com/reel/DcVbUnjCXN0/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784215246_1462603619230426_5316361343422375230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQY1Vd6peAIQ7kNvwFF02Vu&_nc_oc=AdqJ9QPg_95R-sKLqXA0yrvD_54RmXPD3rxcJixDh0Wus3wEjhUgNMPIjG1dZ9RyRRw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=n5IcvYLVL_bVsNgnoGZMaw&_nc_tpa=Q5bMBQL8girNIAwS8zhfuDb1MNlV0xmDr4H2MZLWXUzSjvWuEKIbZ9Igt9ZP72lDJcUDJxBXzbleZO9H&oh=00_AQEILBdsCnhp8M6GvcGm1u2_Wa00TsE3b_aYxeCS9wSXuA&oe=6A906607",
-     "views": 1466,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784215246_1462603619230426_5316361343422375230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQY1Vd6peAIQ7kNvwFF02Vu&_nc_oc=AdqJ9QPg_95R-sKLqXA0yrvD_54RmXPD3rxcJixDh0Wus3wEjhUgNMPIjG1dZ9RyRRw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=dcviNKbONwqcZvTuCv8ZsQ&_nc_tpa=Q5bMBQLG5roW18TYPHO4Ix8Rj4NupgzDwnBCDFH4MPjTo1eTyIWmXdJzvUG2LXQ8EPaPiW5yx3TwZgIg&oh=00_AQHJjYbdnhnHZeaoJZA7ZP4XWxhlDs4ZHBOXagUrlcE2IQ&oe=6A909E47",
+     "views": 1469,
      "likes": 6,
      "shares": 0,
      "timestamp": "2026-08-22T07:57:01+0000",
-     "ig_reels_avg_watch_time": 9817,
+     "ig_reels_avg_watch_time": 9809,
      "caption": "\ud83d\udd34\ud83c\udf6c Wax-Seal Unbox: a Working Gumball Machine in a Pastel Kaw"
     },
     {
@@ -317,16 +303,6 @@
      "timestamp": "2026-08-23T01:22:40+0000",
      "ig_reels_avg_watch_time": 8523,
      "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Tear-Strip Unbox: a Working Jukebox Mechanism in a Cyber"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcSdkAclt7t/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780486647_1038535028972719_1852884682451921442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KsynTb0Vm7MQ7kNvwHKWWr4&_nc_oc=AdoFlG4PbUTwyOTYcy1V8uqd1kVNzDCa1XtdCqbRKDwXpckZL0u8ABHw_xRUP6RNK7w&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=vp8pf1m_ujahIfkgUbGVAA&_nc_tpa=Q5bMBQIc1L9PjUWkcYgsXyzBbEkU6h3xsI-zCV-96V01GE-nusSGZBAU5u2tWRL8GlOPzVzbuq1fTWsu&oh=00_AQHJxeCJ9k-6pUbh7EykEqr-tCsFigPTqc77FsJ46xKOJQ&oe=6A904437",
-     "views": 1448,
-     "likes": 4,
-     "shares": 0,
-     "timestamp": "2026-08-21T04:18:40+0000",
-     "ig_reels_avg_watch_time": 9689,
-     "caption": "\ud83d\udc97\u26a1 Vacuum-Lid Unbox: a Tiny Neon Sign Kit in a Botanist's Po"
     }
    ]
   },
@@ -375,7 +351,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcCCmxdD4dd/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773725137_1937725300253049_230821252616513771_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=xkpTIDdQP-MQ7kNvwHl-nEr&_nc_oc=AdohgLuHU6H-PDEqSccwvxbT_tjw7ZgmHjjK3V8K0OpIvXklEfwJLF1zaTYAzXkVBtc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=FyhcaSf-usz91rt0ejaYzw&_nc_tpa=Q5bMBQKqrQfsqydF5y30D5hpLnJM6i7gc7_guyXQ4fxGNMEHJXFXlxaG7ZX5U0PpPE5MZuOC202TrvTU&oh=00_AQFaL19USsghR3RA5J335Kn9Ow8QW6xHfJEf4019RegW-w&oe=6A90733A",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773725137_1937725300253049_230821252616513771_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=xkpTIDdQP-MQ7kNvwHl-nEr&_nc_oc=AdohgLuHU6H-PDEqSccwvxbT_tjw7ZgmHjjK3V8K0OpIvXklEfwJLF1zaTYAzXkVBtc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=huvOB2239nwryLQb8HKNTQ&_nc_tpa=Q5bMBQJNETZQwvXGVl8dCW1lvAljPNhGamb_h_HDyU0bU1hgk8FEgJFTE0nJmvWxJLPW1zJVn1w6HeS_&oh=00_AQG8ajgsB619qRZVvwiMCn1YzlstWiJUpjdLKZD92v6FOQ&oe=6A90733A",
      "views": 1385,
      "likes": 12,
      "shares": 0,
@@ -482,24 +458,24 @@
   }
  },
  "totals": {
-  "rendered": 1098,
-  "posted": 395,
+  "rendered": 1099,
+  "posted": 396,
   "stories_today": 0,
-  "made_today": 45,
-  "views": 73765,
+  "made_today": 46,
+  "views": 73962,
   "followers": 139
  },
  "events": [
-  "[08-22 13:26:01] SPAWNED tech-01 pid=34776 shard=0/1 -> http://192.168.1.57:8188",
   "[08-22 13:26:09] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-22 13:26:17] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 13:55:12] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 13:55:12] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 13:55:12] wonderlab: warm-up \u2014 150 posts so far, holding to 24/day",
-  "[08-23 13:55:13] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 13:55:13] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-23 13:55:13] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-23 13:58:30] SPAWNED w40 pid=16388 shard=0/1 -> http://192.168.1.40:8188",
+  "[08-23 14:06:30] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-23 14:06:31] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 14:06:31] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-23 14:06:31] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 14:06:32] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 14:06:32] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 13:56:23",
