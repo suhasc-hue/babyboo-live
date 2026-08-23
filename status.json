@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 19:08:17",
+ "updated": "2026-08-23 19:19:01",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,10 +12,10 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "rooftop_t4r0y1",
-   "shot": "2",
-   "vram_free_gb": 2.6,
+   "queued": 3,
+   "job": "rainyday_t3r3y2",
+   "shot": "6",
+   "vram_free_gb": 2.8,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.2
   },
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_sofa_cruise_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 10.9,
+   "vram_free_gb": 12.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.6
+   "ram_free_gb": 2.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 414,
-   "qc_passed": 321,
+   "rendered": 415,
+   "qc_passed": 322,
    "vision_ok": 56,
-   "awaiting_review": 236,
+   "awaiting_review": 237,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 29,
@@ -274,11 +274,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
-    "media_count": 155,
+    "media_count": 156,
     "reach_today": 7962,
-    "total_views": 23586,
-    "total_likes": 100,
-    "avg_views": 590,
+    "total_views": 23411,
+    "total_likes": 99,
+    "avg_views": 585,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1124,
+  "rendered": 1125,
   "posted": 401,
   "stories_today": 0,
-  "made_today": 71,
-  "views": 75318,
+  "made_today": 72,
+  "views": 75143,
   "followers": 140
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 13:58:30] SPAWNED w40 pid=16388 shard=0/1 -> http://192.168.1.40:8188",
   "[08-23 15:21:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 19:07:36] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 19:07:36] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-23 19:07:36] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-23 19:07:36] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 19:07:37] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 19:07:37] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-23 19:17:51] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 19:17:51] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-23 19:17:51] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-23 19:17:51] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 19:17:52] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 19:17:52] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 18:56:27",
