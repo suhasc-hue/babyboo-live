@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 16:38:03",
+ "updated": "2026-08-23 16:48:47",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "rooftop_t2r2y2",
-   "shot": "6",
-   "vram_free_gb": 2.4,
+   "shot": "3",
+   "vram_free_gb": 2.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 0.8
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 5,
-   "last_reel": "happyhive_muslin_peekaboo_t0r1y1",
-   "avg_min": 27.1,
+   "made_today": 6,
+   "last_reel": "happyhive_cat_chase_t0r1y1",
+   "avg_min": 27.2,
    "recent": [
+    {
+     "id": "happyhive_cat_chase_t0r1y1",
+     "min": 27.7,
+     "at": "16:41:36"
+    },
     {
      "id": "happyhive_muslin_peekaboo_t0r1y1",
      "min": 27.4,
@@ -57,11 +62,11 @@
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_cat_chase_t0r1y1",
+   "job": "happyhive_shoe_basket_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 11.0,
+   "vram_free_gb": 10.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.0
+   "ram_free_gb": 1.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -184,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 134,
-   "qc_passed": 134,
+   "rendered": 135,
+   "qc_passed": 135,
    "vision_ok": 51,
-   "awaiting_review": 78,
+   "awaiting_review": 79,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -271,9 +276,9 @@
     "followers": 23,
     "media_count": 153,
     "reach_today": 7957,
-    "total_views": 23224,
+    "total_views": 23286,
     "total_likes": 91,
-    "avg_views": 581,
+    "avg_views": 582,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -282,12 +287,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcXvETHiNXZ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=KJ42K-jPwPqXog7ZJD5-Cg&_nc_tpa=Q5bMBQLi1gsTz6MWlF1tk26B0OBuCZb_0DqNBIDL16o_46kdL1vFd594Xzs7mVa_XjCg_R9NFB_yJ1kt&oh=00_AQE5U8tSI_C8fcMsDo5SCU9_7bUTHFZbztkkeEjSvj2L2g&oe=6A90926F",
-     "views": 1518,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=FM4oWG9a0NKb6S6-I5Bnng&_nc_tpa=Q5bMBQIxpeYNwFGJrCqLgMEqb_Bwx6jC7KTthOPMeezhF4TDPj8dDLixVMEHWfTd34qVIHW6igEbW1Z5&oh=00_AQHFUVYFIf8OSFOeViCPnWYL2OdF-xioelWpyfYBf31ZYw&oe=6A90926F",
+     "views": 1536,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-23T05:27:59+0000",
-     "ig_reels_avg_watch_time": 9913,
+     "ig_reels_avg_watch_time": 9896,
      "caption": "\ud83e\udee7\ud83c\udf00 Foil-Pouch Unbox: a Washing Machine That Really Tumbles i"
     },
     {
@@ -302,18 +307,18 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcWFKIsjxAG/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784426338_958060647304996_8807249497004432811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=O7Tg_ltLbEUQ7kNvwEYE_GO&_nc_oc=AdoO2tZxx2TMmG5ZpRcFyZRzOXWMN_XEVSZ_D7-jGroFP2K875QAkHzFhlJTBp33EI0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Z2cG-yszvbUVOlbJlMKZbw&_nc_tpa=Q5bMBQLJeSc4JSPds-M-NX7UbzMmXpl4OaH0VloORPfEguaSQH4kxdHiA9HmD6Mk4ShmYEM1o203wW-e&oh=00_AQG9YELmbf8XIJd7KdynlVAGfOoJGRXzin3sMHnfPoNnTQ&oe=6A908457",
-     "views": 1491,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784426338_958060647304996_8807249497004432811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=O7Tg_ltLbEUQ7kNvwEYE_GO&_nc_oc=AdoO2tZxx2TMmG5ZpRcFyZRzOXWMN_XEVSZ_D7-jGroFP2K875QAkHzFhlJTBp33EI0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=FM4oWG9a0NKb6S6-I5Bnng&_nc_tpa=Q5bMBQIkUAGO1BwfZw9RS04FXXyGrNkZYKCNlRiNEu50QGXeN4kvsqOxu3a6CvD-R8ajNewePpzJwqe-&oh=00_AQFYmfHbwILKUP5WrvEDJEo8vr4NNZuxksu8VWasmtkZ0w&oe=6A90BC97",
+     "views": 1502,
      "likes": 4,
      "shares": 0,
      "timestamp": "2026-08-22T14:02:33+0000",
-     "ig_reels_avg_watch_time": 9386,
+     "ig_reels_avg_watch_time": 9445,
      "caption": "\ud83d\udd34\ud83c\udf6c Foil-Pouch Unbox: a Working Gumball Machine in a Cyberpun"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcXS_8OAOWN/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dFCMjRwX3f8Q7kNvwFcVbsj&_nc_oc=AdoWPnOYILxeb32aC5tdhKVh-63e-si6iNoQsd77bNSpmX7Hty1Lpho43smNQ-lNs3s&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=KJ42K-jPwPqXog7ZJD5-Cg&_nc_tpa=Q5bMBQL_6PWCv-mNokOuDtmYSlutZICAQtJ7lLun8pv5XJ1k9E6gCCjTM9w9c-kM8qMz4uNhF3qntE26&oh=00_AQHf1iXPXyHB4dZzBPNmbFCq6PHknpAFJG-_5JnJQmkvQQ&oe=6A909A60",
-     "views": 1483,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dFCMjRwX3f8Q7kNvwFcVbsj&_nc_oc=AdoWPnOYILxeb32aC5tdhKVh-63e-si6iNoQsd77bNSpmX7Hty1Lpho43smNQ-lNs3s&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=FM4oWG9a0NKb6S6-I5Bnng&_nc_tpa=Q5bMBQLOpV9PHb213lNtTHHm_MD2zG8tFgKKoQKiCaq2WVP1qK1uOCvsVHr2o-NDiaBhXtPFOxUcoYSu&oh=00_AQFmbtH2u5ZeQp1ei-Pbo-w_ftambXvtAjJmlBpx0f6w6g&oe=6A909A60",
+     "views": 1484,
      "likes": 6,
      "shares": 1,
      "timestamp": "2026-08-23T01:22:40+0000",
@@ -484,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1111,
+  "rendered": 1112,
   "posted": 398,
   "stories_today": 0,
-  "made_today": 58,
-  "views": 74954,
+  "made_today": 59,
+  "views": 75016,
   "followers": 140
  },
  "events": [
@@ -496,12 +501,12 @@
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 13:58:30] SPAWNED w40 pid=16388 shard=0/1 -> http://192.168.1.40:8188",
   "[08-23 15:21:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 16:37:09] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 16:37:09] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-23 16:37:09] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 16:37:09] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-23 16:37:09] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 16:37:09] wonderlab: warm-up \u2014 153 posts so far, holding to 24/day"
+  "[08-23 16:47:25] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 16:47:25] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-23 16:47:25] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 16:47:25] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-23 16:47:25] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 16:47:25] wonderlab: warm-up \u2014 153 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 16:26:25",
