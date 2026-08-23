@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 06:44:20",
+ "updated": "2026-08-23 06:55:44",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "garden_t11r0y1",
-   "shot": "3",
-   "vram_free_gb": 1.5,
+   "queued": 1,
+   "job": "playroom_t2r0y1",
+   "shot": "1",
+   "vram_free_gb": 1.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -107,10 +107,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 375,
-   "qc_passed": 287,
+   "rendered": 376,
+   "qc_passed": 288,
    "vision_ok": 56,
-   "awaiting_review": 202,
+   "awaiting_review": 203,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 29,
@@ -261,17 +261,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 143,
-   "posted_today": 6,
-   "stored_ready": 127,
+   "posted": 144,
+   "posted_today": 7,
+   "stored_ready": 126,
    "ig": {
     "username": "kidswonderee",
     "followers": 19,
     "media_count": 143,
     "reach_today": 10346,
-    "total_views": 24855,
+    "total_views": 24861,
     "total_likes": 105,
-    "avg_views": 621,
+    "avg_views": 622,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -299,6 +299,16 @@
      "caption": "\ud83d\udd34\ud83c\udf6c Shrink-Wrap Unbox: a Working Gumball Machine in an Atomic"
     },
     {
+     "permalink": "https://www.instagram.com/reel/DcWFKIsjxAG/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784426338_958060647304996_8807249497004432811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQFQuLSB47AQ7kNvwFxCVzr&_nc_oc=AdpAl3v3N4CnkA-qGOKoM_Sl8L-ibw2EDKYN7w97TtQp31YQuIYt7NyEy7fwb0hfaYs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=qX_yPcS6Dcs76um8dbsXAg&_nc_tpa=Q5bMBQJp1cvwzpPK8p-akph8SEqRzEiaUrCgLAa2nQuQV8yycc-6jDHQy7Fo866WSda5qVXAzyGGEEor&oh=00_AQHRi9WhA-CHvHM0IeykymPGrklr67cayU7rbK2Ly6rdaw&oe=6A9013D7",
+     "views": 1471,
+     "likes": 4,
+     "shares": 0,
+     "timestamp": "2026-08-22T14:02:33+0000",
+     "ig_reels_avg_watch_time": 9393,
+     "caption": "\ud83d\udd34\ud83c\udf6c Foil-Pouch Unbox: a Working Gumball Machine in a Cyberpun"
+    },
+    {
      "permalink": "https://www.instagram.com/reel/DcSCE0yEWQA/",
      "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779896082_2343294369814291_5944712407181358744_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=p1_JlzYuFE8Q7kNvwFStHVB&_nc_oc=Ado0RHXY45oM_kY3PtOhr4XoO5-OcYiwqGp3CTcadW7Snfg3f3ja3yvYQKejFQBoLD8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nNo_eUXzo4FipkWh-BpbQA&_nc_tpa=Q5bMBQIC04yS-lkUcBfvRMBVhBDz7wzkdOEUKD8bVfeTZaG6JhNi2gdmlEIpLaAN1o4-oAnIdz4bHlKq&oh=00_AQFIKFu4IiWMoJM2L08P3fN1onoFuUKeL35MvUuzqQ66ZQ&oe=6A8FF0ED",
      "views": 1470,
@@ -309,18 +319,8 @@
      "caption": "\ud83d\udd34\ud83c\udf6c Bubble-Wrap Unbox: a Working Gumball Machine in a Winter "
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcWFKIsjxAG/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784426338_958060647304996_8807249497004432811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQFQuLSB47AQ7kNvwFxCVzr&_nc_oc=AdpAl3v3N4CnkA-qGOKoM_Sl8L-ibw2EDKYN7w97TtQp31YQuIYt7NyEy7fwb0hfaYs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=u-Mcnxbb4qfQm2hqLvRIfg&_nc_tpa=Q5bMBQLPFLE5ZiH4AqFZalxcugf_nSIcB6PXbANtEYZbRNVKPcH95E0pKsC9Eh0pQ49qyshlcW0bf2Og&oh=00_AQHstk5zwZwhvJe0tf_3gVaj70XGwtxp6AYpWzJMd-t7Tw&oe=6A9013D7",
-     "views": 1469,
-     "likes": 4,
-     "shares": 0,
-     "timestamp": "2026-08-22T14:02:33+0000",
-     "ig_reels_avg_watch_time": 9384,
-     "caption": "\ud83d\udd34\ud83c\udf6c Foil-Pouch Unbox: a Working Gumball Machine in a Cyberpun"
-    },
-    {
      "permalink": "https://www.instagram.com/reel/DcVbUnjCXN0/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784215246_1462603619230426_5316361343422375230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQY1Vd6peAIQ7kNvwFF02Vu&_nc_oc=AdqJ9QPg_95R-sKLqXA0yrvD_54RmXPD3rxcJixDh0Wus3wEjhUgNMPIjG1dZ9RyRRw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=u-Mcnxbb4qfQm2hqLvRIfg&_nc_tpa=Q5bMBQIq_MQvFaWTjtrCkPORXmjHDVmmoqPBPM1vIV6pZBm-sL20LsCUolbXYRAT2x_Jtv3iv18z7zV_&oh=00_AQF_cRvRJ-r1r01ma3e2j_Pq4B3nNaX_2yltgxOzj1uAGA&oe=6A902DC7",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784215246_1462603619230426_5316361343422375230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQY1Vd6peAIQ7kNvwFF02Vu&_nc_oc=AdqJ9QPg_95R-sKLqXA0yrvD_54RmXPD3rxcJixDh0Wus3wEjhUgNMPIjG1dZ9RyRRw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=qX_yPcS6Dcs76um8dbsXAg&_nc_tpa=Q5bMBQJaOIWqme1IMZ9FTPhIj_jx26b2P__fqyd_Y92KcC7_NyDCuMxQB2RdA1h2jk1SxUPk_K0E0O1U&oh=00_AQHnEehba5Dq2oNcs57TDbDSB_XfD47gCOBY3Krsy8lyww&oe=6A902DC7",
      "views": 1455,
      "likes": 6,
      "shares": 0,
@@ -482,11 +482,11 @@
   }
  },
  "totals": {
-  "rendered": 1074,
-  "posted": 388,
+  "rendered": 1075,
+  "posted": 389,
   "stories_today": 0,
-  "made_today": 21,
-  "views": 76575,
+  "made_today": 22,
+  "views": 76581,
   "followers": 136
  },
  "events": [
@@ -494,12 +494,12 @@
   "[08-22 13:26:09] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-22 13:26:17] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 06:42:24] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 06:42:24] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-23 06:42:24] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 06:42:24] wonderlab: warm-up \u2014 143 posts so far, holding to 24/day",
-  "[08-23 06:42:25] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 06:42:25] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-23 06:53:53] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 06:53:53] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-23 06:53:53] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 06:53:53] wonderlab: warm-up \u2014 144 posts so far, holding to 24/day",
+  "[08-23 06:53:54] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 06:53:54] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 06:26:18",
