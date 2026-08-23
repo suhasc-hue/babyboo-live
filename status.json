@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 21:06:24",
+ "updated": "2026-08-23 21:17:07",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -31,9 +31,9 @@
    "queued": 0,
    "job": "happyhive_sock_pull_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 6.7,
+   "vram_free_gb": 11.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.4
+   "ram_free_gb": 3.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -80,9 +80,9 @@
    "queued": 0,
    "job": "happyhive_play_tunnel_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 12.7,
+   "vram_free_gb": 11.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 6.1
+   "ram_free_gb": 4.8
   },
   "pcconee": {
    "owner": "Anshu",
@@ -284,17 +284,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 157,
-   "posted_today": 20,
-   "stored_ready": 113,
+   "posted": 158,
+   "posted_today": 21,
+   "stored_ready": 112,
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
     "media_count": 157,
     "reach_today": 7962,
-    "total_views": 24062,
+    "total_views": 24295,
     "total_likes": 103,
-    "avg_views": 602,
+    "avg_views": 607,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -303,13 +303,23 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcXvETHiNXZ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=It9SXN68sC_oyznZk-2qiA&_nc_tpa=Q5bMBQK43on07_asIkuD2p8us4-ZYvp1qyZmm13dTT8mh-OCtirpPlkgm0by1E3cjcSvnyUq5ibRJF-g&oh=00_AQHeLgYB6y5_aQr-XolAYPEd-FJ92_IoWYa2dE02cbfrzA&oe=6A90CAAF",
-     "views": 1577,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=YZL0Vg2Fwq321wSPXb_2Kw&_nc_tpa=Q5bMBQILWPM1uFrhemQjpQZ4FEbRDnGtGClgzZBT8MsGps0yMKaU1lley128n2HbqilpAYN8ZNoaxiIC&oh=00_AQFp2BLi8ujzyg1--01j_wm6KrpeTjFBflzQwU0iPaDzyg&oe=6A90CAAF",
+     "views": 1579,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-23T05:27:59+0000",
      "ig_reels_avg_watch_time": 9746,
      "caption": "\ud83e\udee7\ud83c\udf00 Foil-Pouch Unbox: a Washing Machine That Really Tumbles i"
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/DcWMHQzlJEo/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783486003_1378082000402680_2443729647608553659_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hLJn62JCyN0Q7kNvwGtOBkg&_nc_oc=AdrdFvf5YncxyNjh4MIi1F8vri-pD0nCAbSv0x5G3ekS3Q-iLoJNqo_reJJ-9_BnqTM&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=YZL0Vg2Fwq321wSPXb_2Kw&_nc_tpa=Q5bMBQLX1fnic-GYpkR-r4Tx2FwoE_3KrpaS_FlP-0qh17Q_USGRQFJbPGs2PNSFSFY2O2QYcMZRLBkS&oh=00_AQG1CynY2L49dSZf-yJckRA9veds1ACs-hmS4RsctEFf3A&oe=6A90F15D",
+     "views": 1525,
+     "likes": 5,
+     "shares": 0,
+     "timestamp": "2026-08-22T15:03:18+0000",
+     "ig_reels_avg_watch_time": 9463,
+     "caption": "\ud83d\udcf8\ud83c\udf08 Ribbon-Bow Unbox: a Working Instant Camera in a Cozy 70s "
     },
     {
      "permalink": "https://www.instagram.com/reel/DcVwTiFAbHS/",
@@ -320,16 +330,6 @@
      "timestamp": "2026-08-22T11:00:20+0000",
      "ig_reels_avg_watch_time": 9858,
      "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Foil-Pouch Unbox: a Working Jukebox Mechanism in an Atom"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcWMHQzlJEo/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783486003_1378082000402680_2443729647608553659_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hLJn62JCyN0Q7kNvwGtOBkg&_nc_oc=AdrdFvf5YncxyNjh4MIi1F8vri-pD0nCAbSv0x5G3ekS3Q-iLoJNqo_reJJ-9_BnqTM&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=VfgejSCiGaD75RIKpmKo6A&_nc_tpa=Q5bMBQK7n-6v8-oXgvJNLmh7rwIHFn1Zo0Q99qXKfAcKoZF4-aBf4Ca82ISjztylRwAAKNPgusAjZf7y&oh=00_AQHkC9g01A_bgqfK-HGVOlUf2ojt0p71QJaSVyJEiF1a7w&oe=6A90B91D",
-     "views": 1517,
-     "likes": 5,
-     "shares": 0,
-     "timestamp": "2026-08-22T15:03:18+0000",
-     "ig_reels_avg_watch_time": 9472,
-     "caption": "\ud83d\udcf8\ud83c\udf08 Ribbon-Bow Unbox: a Working Instant Camera in a Cozy 70s "
     },
     {
      "permalink": "https://www.instagram.com/reel/DcWFKIsjxAG/",
@@ -506,10 +506,10 @@
  },
  "totals": {
   "rendered": 1133,
-  "posted": 402,
+  "posted": 403,
   "stories_today": 0,
   "made_today": 80,
-  "views": 75800,
+  "views": 76033,
   "followers": 140
  },
  "events": [
@@ -517,12 +517,12 @@
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 13:58:30] SPAWNED w40 pid=16388 shard=0/1 -> http://192.168.1.40:8188",
   "[08-23 15:21:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 21:05:09] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 21:05:09] wonderlab: warm-up \u2014 157 posts so far, holding to 24/day",
-  "[08-23 21:05:10] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 21:05:10] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-23 21:05:10] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 21:05:10] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-23 21:16:04] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 21:16:04] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-23 21:16:04] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 21:16:04] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-23 21:16:04] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-23 21:16:04] wonderlab: cap override 25 -> 24/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-08-23 20:56:29",
