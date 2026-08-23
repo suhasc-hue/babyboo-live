@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 22:21:29",
+ "updated": "2026-08-23 22:32:13",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -46,9 +46,9 @@
    "queued": 0,
    "job": "happyhive_ice_cube_t0r1y1",
    "shot": "1",
-   "vram_free_gb": 12.0,
+   "vram_free_gb": 8.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.1
+   "ram_free_gb": 1.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -97,7 +97,7 @@
    "shot": "1",
    "vram_free_gb": 11.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.0
+   "ram_free_gb": 1.8
   },
   "pcconee": {
    "owner": "Anshu",
@@ -307,7 +307,7 @@
     "followers": 23,
     "media_count": 159,
     "reach_today": 7962,
-    "total_views": 24081,
+    "total_views": 24088,
     "total_likes": 98,
     "avg_views": 602,
     "demographics": {},
@@ -357,14 +357,14 @@
      "caption": "\ud83d\udd34\ud83c\udf6c Foil-Pouch Unbox: a Working Gumball Machine in a Cyberpun"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcXS_8OAOWN/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=dFCMjRwX3f8Q7kNvwFcVbsj&_nc_oc=AdoWPnOYILxeb32aC5tdhKVh-63e-si6iNoQsd77bNSpmX7Hty1Lpho43smNQ-lNs3s&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=gou1pvhJHQ0AMyI5_EMbEA&_nc_tpa=Q5bMBQJ13TYetVoclGMaAXBUbGQ9X9Q7UrFVEWOIErp_Xr5QNt13ExdE1ZdXi11-d_lHGa-6FYnmsIsI&oh=00_AQGxl85LzF9YFIJqxbuPGCHTSw3iITVs9UD-gISArocDcg&oe=6A910AE0",
-     "views": 1495,
-     "likes": 6,
-     "shares": 1,
-     "timestamp": "2026-08-23T01:22:40+0000",
-     "ig_reels_avg_watch_time": 8443,
-     "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Tear-Strip Unbox: a Working Jukebox Mechanism in a Cyber"
+     "permalink": "https://www.instagram.com/reel/DcYEBCLiD_E/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779201049_1518402830090238_6682008415936358821_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=D5I4GLv3UX8Q7kNvwHxdb9U&_nc_oc=AdpRZe9Ij-Eu-4jKS8iRF1WK66RvzcfWDqVyiA8QAspczdcd61VQQbQEXIiaMYrjFus&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=k3A9vBdQVqQXdu541Jp8bw&_nc_tpa=Q5bMBQLh2yqW1B1EXDqk2nZ098o_17bzEJvMZEs-cd05kb7BzAeWDUDAzUD6Mss6ZY9uUBW1ERnoVb-z&oh=00_AQGDlrSw6rLweeHods71mcrvSQAM4uGrxq9LXCnMsAIRBg&oe=6A9113E8",
+     "views": 1496,
+     "likes": 9,
+     "shares": 0,
+     "timestamp": "2026-08-23T08:31:12+0000",
+     "ig_reels_avg_watch_time": 9336,
+     "caption": "\ud83e\udd64\ud83e\ude99 Wax-Seal Unbox: a Working Vending Machine in a Neon Arcad"
     }
    ]
   },
@@ -524,7 +524,7 @@
   "posted": 404,
   "stories_today": 0,
   "made_today": 84,
-  "views": 75822,
+  "views": 75829,
   "followers": 140
  },
  "events": [
@@ -532,22 +532,22 @@
   "[08-23 13:58:30] SPAWNED w40 pid=16388 shard=0/1 -> http://192.168.1.40:8188",
   "[08-23 15:21:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 21:23:08] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 22:20:26] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-23 22:20:27] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 22:20:27] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-23 22:20:27] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 22:20:27] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-23 22:20:27] wonderlab: cap override 25 -> 24/day (channels.json)"
+  "[08-23 22:30:41] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-23 22:30:41] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 22:30:42] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 22:30:42] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-23 22:30:42] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 22:30:42] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-23 21:56:30",
+  "updated": "2026-08-23 22:26:30",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 522 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 168 reels with data.",
+   "Average completion (watch time / duration) is 43% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), wonderlab_cyber_gumball_t3r1 (3), wonderlab_kawaii_gumball_t2r0 (3)",
-   "Best posting hours so far: 10:00, 18:00, 0:00 (median views 1581 at 10:00).",
+   "Best posting hours so far: 10:00, 18:00, 0:00 (median views 1582 at 10:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -584,9 +584,9 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 40,
+    "n": 39,
     "median_views": 273,
-    "avg_completion": 0.499,
+    "avg_completion": 0.5,
     "avg_eng_rate": 0.0068,
     "avg_saves": 0.4
    }
