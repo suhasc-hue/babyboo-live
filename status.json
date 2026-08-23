@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23 09:01:01",
+ "updated": "2026-08-23 09:12:24",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "garden_t8r2y1",
-   "shot": "4",
-   "vram_free_gb": 0.9,
+   "shot": "2",
+   "vram_free_gb": 3.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -267,11 +267,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 20,
-    "media_count": 145,
+    "media_count": 146,
     "reach_today": 10346,
-    "total_views": 24288,
+    "total_views": 24159,
     "total_likes": 99,
-    "avg_views": 607,
+    "avg_views": 604,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -300,12 +300,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcWFKIsjxAG/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784426338_958060647304996_8807249497004432811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQFQuLSB47AQ7kNvwFxCVzr&_nc_oc=AdpAl3v3N4CnkA-qGOKoM_Sl8L-ibw2EDKYN7w97TtQp31YQuIYt7NyEy7fwb0hfaYs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=lUaAGN489CSgw-DAdIAPIw&_nc_tpa=Q5bMBQJCuZrwKFTaXEjwRVkd-NMWa4vVoVy0ahD3WaZH1tq2GXg09qKM7RQEHTEAWakSunGBovXzlUcd&oh=00_AQHgwEZ57_e_kc1K34g_zDYpEiVqSneAuuoZ8_9eq96Waw&oe=6A904C17",
-     "views": 1476,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784426338_958060647304996_8807249497004432811_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=RQFQuLSB47AQ7kNvwFxCVzr&_nc_oc=AdpAl3v3N4CnkA-qGOKoM_Sl8L-ibw2EDKYN7w97TtQp31YQuIYt7NyEy7fwb0hfaYs&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=T1c0WVjh5IiXcIN4d-7n3w&_nc_tpa=Q5bMBQLQNgBYynZ7lBB-4L-P7akZSZJT1eegW2zrbWIuiLX7GUILA4gINspIP6DZw08uKDpwAFZmTX_u&oh=00_AQGWchu9cfkXKpi35wj2WtYlnODCCh6aKsBMrdnfO5rugQ&oe=6A904C17",
+     "views": 1480,
      "likes": 4,
      "shares": 0,
      "timestamp": "2026-08-22T14:02:33+0000",
-     "ig_reels_avg_watch_time": 9402,
+     "ig_reels_avg_watch_time": 9398,
      "caption": "\ud83d\udd34\ud83c\udf6c Foil-Pouch Unbox: a Working Gumball Machine in a Cyberpun"
     },
     {
@@ -486,7 +486,7 @@
   "posted": 391,
   "stories_today": 0,
   "made_today": 29,
-  "views": 76010,
+  "views": 75881,
   "followers": 137
  },
  "events": [
@@ -494,12 +494,12 @@
   "[08-22 13:26:09] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-22 13:26:17] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 02:05:24] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-23 08:59:37] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-23 08:59:37] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-23 08:59:37] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-23 08:59:37] wonderlab: warm-up \u2014 146 posts so far, holding to 24/day",
-  "[08-23 08:59:38] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-23 08:59:38] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-23 09:10:54] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-23 09:10:54] wonderlab: warm-up \u2014 146 posts so far, holding to 24/day",
+  "[08-23 09:10:55] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-23 09:10:55] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-23 09:10:55] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-23 09:10:55] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-23 08:56:19",
