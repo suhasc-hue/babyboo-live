@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 13:11:50",
+ "updated": "2026-08-24 13:22:33",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 1,
    "job": "beach_t11r3y1",
-   "shot": "0",
-   "vram_free_gb": 2.8,
+   "shot": "1",
+   "vram_free_gb": 2.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 0.5
+   "ram_free_gb": 3.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_hallway_crawl_race_t0r2y0",
    "shot": "1",
-   "vram_free_gb": 11.8,
+   "vram_free_gb": 12.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.0
+   "ram_free_gb": 4.5
   },
   "pcconee": {
    "owner": "Anshu",
@@ -222,7 +222,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcLJk2_lP9A/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Af8_2C4uqcwQ7kNvwFuHSYj&_nc_oc=AdoTIySomiafiqCIQr2U9dD4GrliwUS3b_BFSVCLsscDvkCvsPyQM595iFjv8OSJ6qI&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Ybggmdw-xmxYt5oqKqEeDw&_nc_tpa=Q5bMBQK6ZQcYoN-vvU6fs5WCAxglJAsA1uPGZunq-kgDy4UNvYG5VUOCM1adzcDQO6YdpEKdeCwvYJen&oh=00_AQGpkUCMG9ywXQH35f7j1I19Kg6mTfVwhKpXt9xB0DG4Qw&oe=6A9186EE",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Af8_2C4uqcwQ7kNvwFuHSYj&_nc_oc=AdoTIySomiafiqCIQr2U9dD4GrliwUS3b_BFSVCLsscDvkCvsPyQM595iFjv8OSJ6qI&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=wYVlYOa0CxamMWNkrOr9mw&_nc_tpa=Q5bMBQI5CkTGrdzFsD5qmlk_9_xlMks7dROpitsr8V4Lg58M3hwHKqH02LXBA49AhaWKReniN8HaaYgr&oh=00_AQHCqkcvFlp16gYkgGHUT8hdb-vr3OqV9d7qxH_paQvOYg&oe=6A91BF2E",
      "views": 1822,
      "likes": 3,
      "shares": 0,
@@ -276,9 +276,9 @@
     "followers": 23,
     "media_count": 173,
     "reach_today": 8818,
-    "total_views": 17708,
-    "total_likes": 80,
-    "avg_views": 443,
+    "total_views": 17773,
+    "total_likes": 81,
+    "avg_views": 444,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -493,7 +493,7 @@
   "posted": 418,
   "stories_today": 0,
   "made_today": 72,
-  "views": 69481,
+  "views": 69546,
   "followers": 140
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 11:18:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 13:10:32] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-24 13:10:32] wonderlab: warm-up \u2014 173 posts so far, holding to 24/day",
-  "[08-24 13:10:33] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 13:10:33] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-24 13:10:33] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 13:10:33] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-24 13:21:49] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 13:21:49] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-24 13:21:49] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 13:21:49] wonderlab: warm-up \u2014 173 posts so far, holding to 24/day",
+  "[08-24 13:21:50] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 13:21:50] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-24 12:56:41",
