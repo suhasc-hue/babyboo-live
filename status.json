@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 14:16:17",
+ "updated": "2026-08-24 14:27:01",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "beach_t10r0y2",
-   "shot": "4",
-   "vram_free_gb": 3.3,
+   "shot": "2",
+   "vram_free_gb": 4.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 13.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.8
+   "ram_free_gb": 4.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -268,17 +268,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 174,
-   "posted_today": 14,
-   "stored_ready": 96,
+   "posted": 175,
+   "posted_today": 15,
+   "stored_ready": 95,
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
     "media_count": 174,
-    "reach_today": 8818,
-    "total_views": 16611,
+    "reach_today": 8819,
+    "total_views": 16717,
     "total_likes": 78,
-    "avg_views": 415,
+    "avg_views": 418,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -490,10 +490,10 @@
  },
  "totals": {
   "rendered": 1220,
-  "posted": 419,
+  "posted": 420,
   "stories_today": 0,
   "made_today": 77,
-  "views": 68384,
+  "views": 68490,
   "followers": 140
  },
  "events": [
@@ -501,15 +501,15 @@
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 11:18:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 14:15:06] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-24 14:15:06] wonderlab: warm-up \u2014 174 posts so far, holding to 24/day",
-  "[08-24 14:15:07] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 14:15:07] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-24 14:15:07] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 14:15:07] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-24 14:25:52] wonderlab: PUBLISHED wonderlab_den70s_record_t6r1 media=17974302230917399",
+  "[08-24 14:25:52] wonderlab: next reel no earlier than 15:25",
+  "[08-24 14:25:53] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 14:25:53] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-24 14:25:53] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 14:25:53] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-24 13:56:42",
+  "updated": "2026-08-24 14:26:42",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 522 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -555,7 +555,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 241,
-    "avg_completion": 0.478,
+    "avg_completion": 0.479,
     "avg_eng_rate": 0.0068,
     "avg_saves": 0.2
    }
