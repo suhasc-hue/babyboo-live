@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 16:25:03",
+ "updated": "2026-08-24 16:35:47",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 1,
-   "job": "nursery_t8r0y2",
-   "shot": "5",
+   "queued": 3,
+   "job": "garden_t3r0y1",
+   "shot": "4",
    "vram_free_gb": 2.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 1.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_mirror_t0r2y1",
    "shot": "1",
-   "vram_free_gb": 1.2,
+   "vram_free_gb": 10.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 1.4
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 473,
-   "qc_passed": 371,
+   "rendered": 474,
+   "qc_passed": 372,
    "vision_ok": 56,
-   "awaiting_review": 286,
+   "awaiting_review": 287,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 29,
@@ -190,9 +190,9 @@
   "happyhive": {
    "handle": "happyhivekidss",
    "rendered": 188,
-   "qc_passed": 187,
+   "qc_passed": 188,
    "vision_ok": 51,
-   "awaiting_review": 131,
+   "awaiting_review": 132,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -268,17 +268,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 176,
-   "posted_today": 16,
-   "stored_ready": 94,
+   "posted": 177,
+   "posted_today": 17,
+   "stored_ready": 93,
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
     "media_count": 176,
     "reach_today": 8823,
-    "total_views": 17186,
-    "total_likes": 81,
-    "avg_views": 430,
+    "total_views": 17296,
+    "total_likes": 82,
+    "avg_views": 432,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -317,12 +317,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcXS_8OAOWN/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Yisbtrd_sIUQ7kNvwG_m0bq&_nc_oc=Adp5jWYtFG2BLimH_41MfJdzr7aNperVtCVAsTTuk1BEPmTkQ0ulosJrqq50doZiuDY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=R1DFTxwAeHhMEswsFC3eXA&_nc_tpa=Q5bMBQINDSIKUeJ8tDj_lsemgupYgplCthftDphdRM8xTy3-dqW1hVsVdduNUP2CbeKx4iBd7U63VI93&oh=00_AQE6PAHwUR-qRpqaDH2a__fvTnXzSVQnxavVa42mW2AR7A&oe=6A91B3A0",
-     "views": 1497,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Yisbtrd_sIUQ7kNvwG_m0bq&_nc_oc=Adp5jWYtFG2BLimH_41MfJdzr7aNperVtCVAsTTuk1BEPmTkQ0ulosJrqq50doZiuDY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Ekf_KgJBkuPYZyeLZC3d6Q&_nc_tpa=Q5bMBQIwxQXrRlf5WkqxWbyI4ZQTe14KkGAzE3UoZ3ixolZaobEfC66_rfDIvbaTsKFU2J5-3NR7DFVj&oh=00_AQFpyv126eyQ7TgkvFnILpp-TnCK5YQMwGLvIrC3cXjqpg&oe=6A91EBE0",
+     "views": 1498,
      "likes": 6,
      "shares": 1,
      "timestamp": "2026-08-23T01:22:40+0000",
-     "ig_reels_avg_watch_time": 8435,
+     "ig_reels_avg_watch_time": 8432,
      "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Tear-Strip Unbox: a Working Jukebox Mechanism in a Cyber"
     },
     {
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1231,
-  "posted": 421,
+  "rendered": 1232,
+  "posted": 422,
   "stories_today": 0,
-  "made_today": 88,
-  "views": 68962,
+  "made_today": 89,
+  "views": 69072,
   "followers": 139
  },
  "events": [
@@ -501,15 +501,15 @@
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 11:18:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 16:23:43] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 16:23:43] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 16:23:43] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-24 16:23:43] wonderlab: warm-up \u2014 176 posts so far, holding to 24/day",
-  "[08-24 16:23:44] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 16:23:44] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-24 16:34:09] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-24 16:34:09] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 16:34:10] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 16:34:10] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-24 16:34:10] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 16:34:10] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-24 15:56:43",
+  "updated": "2026-08-24 16:26:44",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 522 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -555,8 +555,8 @@
    "wonderlab": {
     "n": 40,
     "median_views": 241,
-    "avg_completion": 0.478,
-    "avg_eng_rate": 0.0069,
+    "avg_completion": 0.481,
+    "avg_eng_rate": 0.0068,
     "avg_saves": 0.2
    }
   }
