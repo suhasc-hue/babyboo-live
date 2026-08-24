@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 18:55:15",
+ "updated": "2026-08-24 19:05:59",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "beach_t2r1y2",
-   "shot": "4",
-   "vram_free_gb": 0.6,
+   "shot": "2",
+   "vram_free_gb": 4.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.8
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 13.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.3
+   "ram_free_gb": 3.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -212,7 +212,7 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcNU3qLE2LQ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777381526_1925954688360549_5802159074219233435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yIv4WFYjlmwQ7kNvwGRVJ_t&_nc_oc=Adr6H5ROTjKFi_HpkOILZPT9CigpO35fq8Sl8DmBPJM9n-WrD8XFDXRy9zhasjhmsrc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=EZsrIlLAjPgNvGzy8ol-Xg&_nc_tpa=Q5bMBQIwzusZ7GOlQ3XM-GvbCAMyoTIf239_y3hPqwiP2Bl9naVWRlpe3difPWOPo2o5zWKx122O4Dgm&oh=00_AQGWW1PONwOwuIVQ6lAb0MW7YyuTerxAiLU6VWdaFNLVuA&oe=6A91EB81",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777381526_1925954688360549_5802159074219233435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=yIv4WFYjlmwQ7kNvwGRVJ_t&_nc_oc=Adr6H5ROTjKFi_HpkOILZPT9CigpO35fq8Sl8DmBPJM9n-WrD8XFDXRy9zhasjhmsrc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=B4AGwS2LrUyx7YfJVN5Axw&_nc_tpa=Q5bMBQJZ04y0Sx5sgW6UKueAQRt1xQO7sL7W2CII7O2r9bVfJ4yTjqQ0d5IfjMZK582SNJxtBvhYDRWe&oh=00_AQFJPmSfq7H10EXWTqig0dUYaFDyluVcJ3_UyNLAXRR54w&oe=6A9223C1",
      "views": 2044,
      "likes": 10,
      "shares": 0,
@@ -232,7 +232,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcNG8VpEiEt/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=eVOhPeKPXUcQ7kNvwFhFu73&_nc_oc=AdoropWiQRGI8hKT6onQG9-8j6vJUA__8BaeYnSXoJ2ZqTsvxl1XOgf_zkNPB3kt_Ho&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=EZsrIlLAjPgNvGzy8ol-Xg&_nc_tpa=Q5bMBQLQ5Ze-jBJ2GwcmoNOi5oqPxC4DyyP8HXdHET7VEFZpkAe2_9cKE4PZzdlDbF9sQFIGALLINxZY&oh=00_AQEzRVUw17LwOvNy03V7QURDuRZO_-rN15BNg2bjXA5oDA&oe=6A91FED1",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=SE4uavRuZXkQ7kNvwGxqJir&_nc_oc=AdosDZ0DA0nlXE0eVm2IDsJ02_T88cZnc62cFYrI7HpE-wMYNEprn9RalfCaza4zGTg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=B4AGwS2LrUyx7YfJVN5Axw&_nc_tpa=Q5bMBQJqfi4xm1y2O8HQGamdOK95Bkt25lfkaaAPUUwX9mwoYcKdgVs3lX-wuAbAwSANetJTrDqHhFle&oh=00_AQELe-2oWqSzhz-17xAixr3pdCdx9wN1VdTZFuwNDcM9ew&oe=6A91FED1",
      "views": 1251,
      "likes": 4,
      "shares": 2,
@@ -276,9 +276,9 @@
     "followers": 22,
     "media_count": 179,
     "reach_today": 8829,
-    "total_views": 18705,
+    "total_views": 18968,
     "total_likes": 86,
-    "avg_views": 468,
+    "avg_views": 474,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -493,7 +493,7 @@
   "posted": 424,
   "stories_today": 0,
   "made_today": 101,
-  "views": 70489,
+  "views": 70752,
   "followers": 139
  },
  "events": [
@@ -501,19 +501,19 @@
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 11:18:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 17:22:47] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 18:53:37] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-24 18:53:38] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 18:53:38] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-24 18:53:38] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 18:53:38] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 18:53:38] wonderlab: cap override 25 -> 24/day (channels.json)"
+  "[08-24 19:04:55] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 19:04:55] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-24 19:04:55] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-24 19:04:55] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 19:04:56] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 19:04:56] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-24 18:26:45",
+  "updated": "2026-08-24 18:56:46",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 522 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 168 reels with data.",
+   "Average completion (watch time / duration) is 43% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 10:00, 7:00, 18:00 (median views 881 at 10:00).",
@@ -554,9 +554,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 268,
+    "median_views": 258,
     "avg_completion": 0.48,
-    "avg_eng_rate": 0.0063,
+    "avg_eng_rate": 0.0175,
     "avg_saves": 0.3
    }
   }
