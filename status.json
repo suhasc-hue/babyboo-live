@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 19:38:10",
+ "updated": "2026-08-24 19:48:55",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
+   "queued": 0,
    "job": "kitchen_t13r3y1",
-   "shot": "7",
-   "vram_free_gb": 0.8,
+   "shot": "3",
+   "vram_free_gb": 2.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_laundry_basket_t0r2y1",
    "shot": "1",
-   "vram_free_gb": 6.5,
+   "vram_free_gb": 11.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.6
+   "ram_free_gb": 4.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -190,9 +190,9 @@
   "happyhive": {
    "handle": "happyhivekidss",
    "rendered": 195,
-   "qc_passed": 194,
+   "qc_passed": 195,
    "vision_ok": 51,
-   "awaiting_review": 138,
+   "awaiting_review": 139,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -276,9 +276,9 @@
     "followers": 22,
     "media_count": 180,
     "reach_today": 8829,
-    "total_views": 17729,
+    "total_views": 17843,
     "total_likes": 81,
-    "avg_views": 443,
+    "avg_views": 446,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,12 +287,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcYR-wUDfab/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783616833_2188074622124389_4268908681864304341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YRCBm654S5EQ7kNvwFactRA&_nc_oc=Ado_hTRQkBnOrMk1uAmCyWCd2gffj5UDvoyj4G8OCXzN18uIJGF6qAmE-oYaEzkcvw8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=XORYmiAdpX-PGNFeR5UbEA&_nc_tpa=Q5bMBQIqQ_W81aL2NAjMPQgnCiFvPzwwnO9C7Lz9kigjMCFcUQntYaDJaglYSXj8M0pH8pKQxknPs7kb&oh=00_AQF3Rd9PWqQl9lfNsUfLyevpgqOLWmx2hqsrnULwihqvtQ&oe=6A920B43",
-     "views": 1620,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783616833_2188074622124389_4268908681864304341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YRCBm654S5EQ7kNvwFactRA&_nc_oc=Ado_hTRQkBnOrMk1uAmCyWCd2gffj5UDvoyj4G8OCXzN18uIJGF6qAmE-oYaEzkcvw8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=duT_vv60za9LGpkZ0ERu6A&_nc_tpa=Q5bMBQIUZ1uiinOY9ozjizquOJLQ4MLpBl3c23Qb1uIwFQmBgDLE0fj2fhqHGe8qfLdcKA1OepBmJXio&oh=00_AQEhlXofuvrQddaBw3kVQlZl_5A3BzBsR-MmLft8HPmNAw&oe=6A920B43",
+     "views": 1621,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-23T10:33:04+0000",
-     "ig_reels_avg_watch_time": 10700,
+     "ig_reels_avg_watch_time": 10692,
      "caption": "\ud83d\udcf8\ud83c\udf08 Tear-Strip Unbox: a Working Instant Camera in a Beach Sha"
     },
     {
@@ -493,7 +493,7 @@
   "posted": 425,
   "stories_today": 0,
   "made_today": 105,
-  "views": 69513,
+  "views": 69627,
   "followers": 139
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 11:18:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 17:22:47] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 19:36:34] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 19:36:34] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 19:36:34] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-24 19:36:34] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-24 19:36:35] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 19:36:35] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-24 19:47:52] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-24 19:47:52] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 19:47:53] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 19:47:53] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-24 19:47:53] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 19:47:53] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-24 19:26:46",
