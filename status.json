@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 15:31:25",
+ "updated": "2026-08-24 15:42:09",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "kitchen_t10r3y1",
-   "shot": "4",
-   "vram_free_gb": 3.3,
+   "shot": "2",
+   "vram_free_gb": 2.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.1
+   "ram_free_gb": 2.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_pot_drums_t0r0y1",
    "shot": "1",
-   "vram_free_gb": 10.9,
+   "vram_free_gb": 11.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.0
+   "ram_free_gb": 4.6
   },
   "pcconee": {
    "owner": "Anshu",
@@ -274,11 +274,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
-    "media_count": 175,
+    "media_count": 176,
     "reach_today": 8823,
-    "total_views": 17055,
+    "total_views": 16831,
     "total_likes": 79,
-    "avg_views": 426,
+    "avg_views": 421,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -327,7 +327,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcW2agWkwYO/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/781005799_1952685108749752_7554415478859288317_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hKOj4-vJ0DUQ7kNvwHAQxPJ&_nc_oc=AdoqK_d0AlUgC99_P0v95sEnLVMGoPymN4kqACS10YbF7Ei9DSxdCvFUhlid3WGJY7c&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=p06J6WqWwJaFgbPZNhnPmQ&_nc_tpa=Q5bMBQJany8KwT5rdH2b1GSBcx11y5_XxTZhXZgpeQpGjeICNkY7D9tLD2XBFeXM1_ZV3Mn1lBVj1rLq&oh=00_AQF2kminIB8pT1PeiuUNnupQQiZoIMvJhTTSCbyjA_iyIg&oe=6A91C52E",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/781005799_1952685108749752_7554415478859288317_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hKOj4-vJ0DUQ7kNvwHAQxPJ&_nc_oc=AdoqK_d0AlUgC99_P0v95sEnLVMGoPymN4kqACS10YbF7Ei9DSxdCvFUhlid3WGJY7c&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=xHrArOarKEudyicY4iAyBw&_nc_tpa=Q5bMBQIx9jMm21kFpZbyJBedcJTDNC-WpGtiP7sjowijo0P6V3RZvPCFs3Y4zEPXJBAua8i4W9Cazd0j&oh=00_AQEOMBjqdBPHU7r46Xcb_Orr8aD3xd6TSJET5E0pB-QsBA&oe=6A91FD6E",
      "views": 1437,
      "likes": 5,
      "shares": 0,
@@ -493,7 +493,7 @@
   "posted": 421,
   "stories_today": 0,
   "made_today": 84,
-  "views": 68831,
+  "views": 68607,
   "followers": 140
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 11:18:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 15:30:22] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 15:30:22] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-24 15:30:22] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 15:30:22] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 15:30:22] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-24 15:30:22] wonderlab: cap override 25 -> 24/day (channels.json)"
+  "[08-24 15:40:37] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-24 15:40:37] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 15:40:38] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 15:40:38] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-24 15:40:38] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 15:40:38] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-24 15:26:43",
