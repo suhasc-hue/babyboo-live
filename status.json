@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 09:26:27",
+ "updated": "2026-08-24 09:37:10",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
-   "job": "nursery_t10r3y0",
-   "shot": "7",
-   "vram_free_gb": 3.0,
+   "queued": 3,
+   "job": "snow_t1r3y0",
+   "shot": "0",
+   "vram_free_gb": 3.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.7
+   "ram_free_gb": 0.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 21,
-   "last_reel": "happyhive_mattress_bounce_t0r2y0",
+   "made_today": 22,
+   "last_reel": "happyhive_bottom_step_t0r2y0",
    "avg_min": 27.3,
    "recent": [
+    {
+     "id": "happyhive_bottom_step_t0r2y0",
+     "min": 27.0,
+     "at": "09:32:22"
+    },
     {
      "id": "happyhive_mattress_bounce_t0r2y0",
      "min": 26.9,
@@ -53,20 +58,15 @@
      "id": "happyhive_muslin_peekaboo_t0r2y0",
      "min": 27.0,
      "at": "07:17:28"
-    },
-    {
-     "id": "happyhive_water_table_t0r2y0",
-     "min": 26.9,
-     "at": "06:50:28"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_bottom_step_t0r2y0",
+   "job": "happyhive_fridge_magnets_t0r2y0",
    "shot": "1",
-   "vram_free_gb": 10.6,
+   "vram_free_gb": 11.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.5
+   "ram_free_gb": 4.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 452,
-   "qc_passed": 352,
+   "rendered": 453,
+   "qc_passed": 353,
    "vision_ok": 56,
-   "awaiting_review": 267,
+   "awaiting_review": 268,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 29,
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 173,
-   "qc_passed": 173,
+   "rendered": 174,
+   "qc_passed": 174,
    "vision_ok": 51,
-   "awaiting_review": 117,
+   "awaiting_review": 118,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -274,11 +274,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
-    "media_count": 169,
+    "media_count": 170,
     "reach_today": 7962,
-    "total_views": 20321,
-    "total_likes": 78,
-    "avg_views": 508,
+    "total_views": 18875,
+    "total_likes": 75,
+    "avg_views": 472,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,12 +287,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcYR-wUDfab/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783616833_2188074622124389_4268908681864304341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YRCBm654S5EQ7kNvwFactRA&_nc_oc=Ado_hTRQkBnOrMk1uAmCyWCd2gffj5UDvoyj4G8OCXzN18uIJGF6qAmE-oYaEzkcvw8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=tYOv_9oLBDVPXSz5sNYpJA&_nc_tpa=Q5bMBQKkLWhHs8iUnFNSmxQ9irayOozGym7-iHmYN-2_TeUSD2_twuovCmGpVptoBFZLrBPKepI_FZs7&oh=00_AQEZtJnO7Ge4NVydsAqlUsKuFBukJookM61GkEBM381E9g&oe=6A919AC3",
-     "views": 1613,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783616833_2188074622124389_4268908681864304341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YRCBm654S5EQ7kNvwFactRA&_nc_oc=Ado_hTRQkBnOrMk1uAmCyWCd2gffj5UDvoyj4G8OCXzN18uIJGF6qAmE-oYaEzkcvw8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=H654eWXw9gNDOD7W9Lb7Qw&_nc_tpa=Q5bMBQK_AcL-QUX3V6y9E63b9uJW7tSjNOdeI34REX_nbZaFCVUdhu5XlSbUR_wvyoj6WwOqgkUtDTAq&oh=00_AQG2us__rq56jzzyofg7ZVZ5Dsn43LyWOZqvNEM3la0Vng&oe=6A919AC3",
+     "views": 1616,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-23T10:33:04+0000",
-     "ig_reels_avg_watch_time": 10688,
+     "ig_reels_avg_watch_time": 10713,
      "caption": "\ud83d\udcf8\ud83c\udf08 Tear-Strip Unbox: a Working Instant Camera in a Beach Sha"
     },
     {
@@ -307,23 +307,13 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcWMHQzlJEo/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783486003_1378082000402680_2443729647608553659_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hLJn62JCyN0Q7kNvwGtOBkg&_nc_oc=AdrdFvf5YncxyNjh4MIi1F8vri-pD0nCAbSv0x5G3ekS3Q-iLoJNqo_reJJ-9_BnqTM&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=UGJAlxYMg76p3hBqvbnaNQ&_nc_tpa=Q5bMBQKnqV5RTTyeA1KTNSmeEF8G_2oOfZ-ImlaaDjRcS6BKpl-N1J7HWJhrVqGlrxh6FGZzcULADn-Y&oh=00_AQEuwQsjF2nevy6Tj_IEUXp6q8JX4tkxlOKtKdlMSyjeyw&oe=6A9161DD",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783486003_1378082000402680_2443729647608553659_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hLJn62JCyN0Q7kNvwGtOBkg&_nc_oc=AdrdFvf5YncxyNjh4MIi1F8vri-pD0nCAbSv0x5G3ekS3Q-iLoJNqo_reJJ-9_BnqTM&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=H654eWXw9gNDOD7W9Lb7Qw&_nc_tpa=Q5bMBQIij3jrC-4DbnJMsl2fLr-HCNWR0txn5Kz3yeDT6xB2wQ6dDxI8JLQXryI3nyL5VHseiPPmpm5W&oh=00_AQFrv0HQOR_q5o1FbXbLp9FHJhmLUF1BmnUmWk7Lq_gICA&oe=6A919A1D",
      "views": 1530,
      "likes": 5,
      "shares": 0,
      "timestamp": "2026-08-22T15:03:18+0000",
-     "ig_reels_avg_watch_time": 9441,
+     "ig_reels_avg_watch_time": 9438,
      "caption": "\ud83d\udcf8\ud83c\udf08 Ribbon-Bow Unbox: a Working Instant Camera in a Cozy 70s "
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcVwTiFAbHS/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783573207_954701127651745_278253178151206691_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=7fQQNMryXiwQ7kNvwGLATmH&_nc_oc=AdodCRs2xtz7HRzA12E24SpoeRvwfrCPDWneE6TL4fBAVJd3fMUn6LYUKdyEO35cu1k&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=DxaOU5SqoHobcKU_MqkPvQ&_nc_tpa=Q5bMBQKXiUBXbLgYvAQkYuRZZMdyCu4YIwoUoY3peOWby5kW3F6TKyYf2pxrWbTJsTq_l8_aTN_rpK4l&oh=00_AQEeTFXaW1iOcw50XFcaY-15IWgCbCcdxjRfrWBAjlgHDg&oe=6A917B29",
-     "views": 1523,
-     "likes": 3,
-     "shares": 0,
-     "timestamp": "2026-08-22T11:00:20+0000",
-     "ig_reels_avg_watch_time": 9861,
-     "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Foil-Pouch Unbox: a Working Jukebox Mechanism in an Atom"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcWFKIsjxAG/",
@@ -334,6 +324,16 @@
      "timestamp": "2026-08-22T14:02:33+0000",
      "ig_reels_avg_watch_time": 9441,
      "caption": "\ud83d\udd34\ud83c\udf6c Foil-Pouch Unbox: a Working Gumball Machine in a Cyberpun"
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/DcYEBCLiD_E/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/779201049_1518402830090238_6682008415936358821_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=D5I4GLv3UX8Q7kNvwHxdb9U&_nc_oc=AdpRZe9Ij-Eu-4jKS8iRF1WK66RvzcfWDqVyiA8QAspczdcd61VQQbQEXIiaMYrjFus&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=DxaOU5SqoHobcKU_MqkPvQ&_nc_tpa=Q5bMBQKw3-qFOi1uaZyFAqNPqF-4v5O7CPyNdUe8mZTUvkSLFckU_UydB2y0sXJCY-SnSuSOj1EjRPlX&oh=00_AQF8OoTZpYPT0nBN400nl_LrRPfgYvxJuSQ_y8E8z5Mghg&oe=6A918468",
+     "views": 1504,
+     "likes": 9,
+     "shares": 0,
+     "timestamp": "2026-08-23T08:31:12+0000",
+     "ig_reels_avg_watch_time": 9308,
+     "caption": "\ud83e\udd64\ud83e\ude99 Wax-Seal Unbox: a Working Vending Machine in a Neon Arcad"
     }
    ]
   },
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1195,
+  "rendered": 1197,
   "posted": 415,
   "stories_today": 0,
-  "made_today": 52,
-  "views": 72090,
+  "made_today": 54,
+  "views": 70644,
   "followers": 140
  },
  "events": [
@@ -501,22 +501,22 @@
   "[08-23 21:23:08] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 09:24:57] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 09:24:57] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 09:24:57] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-24 09:24:57] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-24 09:24:58] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 09:24:58] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-24 09:36:15] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-24 09:36:16] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 09:36:16] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-24 09:36:16] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 09:36:17] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 09:36:17] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-24 08:56:38",
+  "updated": "2026-08-24 09:26:38",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 522 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 168 reels with data.",
+   "Average completion (watch time / duration) is 43% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 10:00, 18:00, 9:00 (median views 1583 at 10:00).",
+   "Best posting hours so far: 10:00, 18:00, 7:00 (median views 1583 at 10:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -554,9 +554,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 250,
-    "avg_completion": 0.489,
-    "avg_eng_rate": 0.006,
+    "median_views": 251,
+    "avg_completion": 0.491,
+    "avg_eng_rate": 0.0061,
     "avg_saves": 0.3
    }
   }
