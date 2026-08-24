@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 16:14:20",
+ "updated": "2026-08-24 16:25:03",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 1,
    "job": "nursery_t8r0y2",
-   "shot": "0",
-   "vram_free_gb": 2.5,
+   "shot": "5",
+   "vram_free_gb": 2.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.8
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 35,
-   "last_reel": "happyhive_pot_drums_t0r0y1",
+   "made_today": 36,
+   "last_reel": "happyhive_bubbles_t0r2y1",
    "avg_min": 27.8,
    "recent": [
+    {
+     "id": "happyhive_bubbles_t0r2y1",
+     "min": 27.4,
+     "at": "16:23:59"
+    },
     {
      "id": "happyhive_pot_drums_t0r0y1",
      "min": 27.8,
@@ -53,20 +58,15 @@
      "id": "happyhive_fan_ribbons_t0r2y0",
      "min": 27.5,
      "at": "14:04:50"
-    },
-    {
-     "id": "happyhive_hallway_crawl_race_t0r2y0",
-     "min": 27.9,
-     "at": "13:37:22"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_bubbles_t0r2y1",
+   "job": "happyhive_mirror_t0r2y1",
    "shot": "1",
-   "vram_free_gb": 11.6,
+   "vram_free_gb": 1.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.9
+   "ram_free_gb": 2.4
   },
   "pcconee": {
    "owner": "Anshu",
@@ -189,7 +189,7 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 187,
+   "rendered": 188,
    "qc_passed": 187,
    "vision_ok": 51,
    "awaiting_review": 131,
@@ -222,7 +222,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcLJk2_lP9A/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Af8_2C4uqcwQ7kNvwFuHSYj&_nc_oc=AdoTIySomiafiqCIQr2U9dD4GrliwUS3b_BFSVCLsscDvkCvsPyQM595iFjv8OSJ6qI&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=wYVlYOa0CxamMWNkrOr9mw&_nc_tpa=Q5bMBQI5CkTGrdzFsD5qmlk_9_xlMks7dROpitsr8V4Lg58M3hwHKqH02LXBA49AhaWKReniN8HaaYgr&oh=00_AQHCqkcvFlp16gYkgGHUT8hdb-vr3OqV9d7qxH_paQvOYg&oe=6A91BF2E",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Af8_2C4uqcwQ7kNvwFuHSYj&_nc_oc=AdoTIySomiafiqCIQr2U9dD4GrliwUS3b_BFSVCLsscDvkCvsPyQM595iFjv8OSJ6qI&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=9rn3jeQNqsATB9UVSiiMuA&_nc_tpa=Q5bMBQKqawoFNdPAXY7qwb2obt2SW7d_afww885s7auZ9Uv3CNUroL3gFay24MfP2E910KjGH_suFRPv&oh=00_AQEdZ99SxId0car9tTu_Lsj7iGoV7rK2Kfoqo4-y3w4Hag&oe=6A91F76E",
      "views": 1822,
      "likes": 3,
      "shares": 0,
@@ -276,9 +276,9 @@
     "followers": 22,
     "media_count": 176,
     "reach_today": 8823,
-    "total_views": 17084,
+    "total_views": 17186,
     "total_likes": 81,
-    "avg_views": 427,
+    "avg_views": 430,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1230,
+  "rendered": 1231,
   "posted": 421,
   "stories_today": 0,
-  "made_today": 87,
-  "views": 68860,
+  "made_today": 88,
+  "views": 68962,
   "followers": 139
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 11:18:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 16:13:27] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 16:13:27] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 16:13:27] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-24 16:13:27] wonderlab: warm-up \u2014 176 posts so far, holding to 24/day",
-  "[08-24 16:13:28] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 16:13:28] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-24 16:23:43] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 16:23:43] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-24 16:23:43] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 16:23:43] wonderlab: warm-up \u2014 176 posts so far, holding to 24/day",
+  "[08-24 16:23:44] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 16:23:44] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-24 15:56:43",
