@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 07:49:56",
+ "updated": "2026-08-24 08:00:39",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "kitchen_t7r1y2",
-   "shot": "6",
-   "vram_free_gb": 2.7,
+   "shot": "2",
+   "vram_free_gb": 4.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 2.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 11.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.8
+   "ram_free_gb": 2.6
   },
   "pcconee": {
    "owner": "Anshu",
@@ -276,8 +276,8 @@
     "followers": 23,
     "media_count": 168,
     "reach_today": 7962,
-    "total_views": 20231,
-    "total_likes": 76,
+    "total_views": 20251,
+    "total_likes": 77,
     "avg_views": 506,
     "demographics": {},
     "demographics_state": "locked",
@@ -287,12 +287,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/DcYR-wUDfab/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783616833_2188074622124389_4268908681864304341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YRCBm654S5EQ7kNvwFactRA&_nc_oc=Ado_hTRQkBnOrMk1uAmCyWCd2gffj5UDvoyj4G8OCXzN18uIJGF6qAmE-oYaEzkcvw8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=BAxPfWhnR7BSUddc0js2Og&_nc_tpa=Q5bMBQI6SiQDsYNWXv0dSayCSJDAvrBIi2Mo9DnmhmXF-BjlDmC3UrYxEBwEvqYBo0OElCX27wYz0hVs&oh=00_AQFWYcffMm4qMT7m05hMLbq1lYdO9tfkenNYj1snmZDW-Q&oe=6A916283",
-     "views": 1609,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783616833_2188074622124389_4268908681864304341_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YRCBm654S5EQ7kNvwFactRA&_nc_oc=Ado_hTRQkBnOrMk1uAmCyWCd2gffj5UDvoyj4G8OCXzN18uIJGF6qAmE-oYaEzkcvw8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=ZzKt95_vmnlJS8YEY0j5ZA&_nc_tpa=Q5bMBQKu7-TBP1g7Kl1D2p0P_GfiY5EZWtkz7FsaKXFwIqH1Qf9nsa36ySrShNQwyyvnfwu5_5wOFL5y&oh=00_AQHIPP9FiLWE8gWjYV-2HZhkC5z1zFtKziw35Z3Rlg8PAA&oe=6A919AC3",
+     "views": 1611,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-23T10:33:04+0000",
-     "ig_reels_avg_watch_time": 10692,
+     "ig_reels_avg_watch_time": 10697,
      "caption": "\ud83d\udcf8\ud83c\udf08 Tear-Strip Unbox: a Working Instant Camera in a Beach Sha"
     },
     {
@@ -493,7 +493,7 @@
   "posted": 413,
   "stories_today": 0,
   "made_today": 44,
-  "views": 71994,
+  "views": 72014,
   "followers": 140
  },
  "events": [
@@ -501,15 +501,15 @@
   "[08-23 21:23:08] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-23 22:50:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 07:48:19] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-24 07:48:20] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 07:48:20] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-24 07:48:20] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 07:48:20] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-24 07:48:20] wonderlab: cap override 25 -> 24/day (channels.json)"
+  "[08-24 07:59:36] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 07:59:36] wonderlab: warm-up \u2014 168 posts so far, holding to 24/day",
+  "[08-24 07:59:37] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 07:59:37] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-24 07:59:37] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 07:59:37] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-24 07:26:37",
+  "updated": "2026-08-24 07:56:37",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 522 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -555,7 +555,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 251,
-    "avg_completion": 0.483,
+    "avg_completion": 0.48,
     "avg_eng_rate": 0.006,
     "avg_saves": 0.3
    }
