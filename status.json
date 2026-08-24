@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24 19:27:26",
+ "updated": "2026-08-24 19:38:10",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "playroom_t10r2y1",
-   "shot": "3",
-   "vram_free_gb": 2.0,
+   "queued": 2,
+   "job": "kitchen_t13r3y1",
+   "shot": "7",
+   "vram_free_gb": 0.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 42,
-   "last_reel": "happyhive_pillow_fort_t0r2y1",
+   "made_today": 43,
+   "last_reel": "happyhive_spaghetti_t0r2y1",
    "avg_min": 27.8,
    "recent": [
+    {
+     "id": "happyhive_spaghetti_t0r2y1",
+     "min": 28.2,
+     "at": "19:37:04"
+    },
     {
      "id": "happyhive_pillow_fort_t0r2y1",
      "min": 27.7,
@@ -53,20 +58,15 @@
      "id": "happyhive_sprinkler_t0r2y1",
      "min": 27.4,
      "at": "17:18:49"
-    },
-    {
-     "id": "happyhive_mirror_t0r2y1",
-     "min": 27.4,
-     "at": "16:51:22"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_spaghetti_t0r2y1",
+   "job": "happyhive_laundry_basket_t0r2y1",
    "shot": "1",
-   "vram_free_gb": 11.6,
+   "vram_free_gb": 6.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.6
+   "ram_free_gb": 1.6
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 482,
-   "qc_passed": 380,
+   "rendered": 483,
+   "qc_passed": 381,
    "vision_ok": 56,
-   "awaiting_review": 295,
+   "awaiting_review": 296,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 29,
@@ -189,7 +189,7 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 194,
+   "rendered": 195,
    "qc_passed": 194,
    "vision_ok": 51,
    "awaiting_review": 138,
@@ -268,17 +268,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 179,
-   "posted_today": 19,
-   "stored_ready": 91,
+   "posted": 180,
+   "posted_today": 20,
+   "stored_ready": 90,
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
-    "media_count": 179,
+    "media_count": 180,
     "reach_today": 8829,
-    "total_views": 19130,
-    "total_likes": 86,
-    "avg_views": 478,
+    "total_views": 17729,
+    "total_likes": 81,
+    "avg_views": 443,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -317,7 +317,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcXS_8OAOWN/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Yisbtrd_sIUQ7kNvwG_m0bq&_nc_oc=Adp5jWYtFG2BLimH_41MfJdzr7aNperVtCVAsTTuk1BEPmTkQ0ulosJrqq50doZiuDY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Ekf_KgJBkuPYZyeLZC3d6Q&_nc_tpa=Q5bMBQIwxQXrRlf5WkqxWbyI4ZQTe14KkGAzE3UoZ3ixolZaobEfC66_rfDIvbaTsKFU2J5-3NR7DFVj&oh=00_AQFpyv126eyQ7TgkvFnILpp-TnCK5YQMwGLvIrC3cXjqpg&oe=6A91EBE0",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784816620_1379332590453104_3534908994603458615_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Yisbtrd_sIUQ7kNvwG_m0bq&_nc_oc=Adp5jWYtFG2BLimH_41MfJdzr7aNperVtCVAsTTuk1BEPmTkQ0ulosJrqq50doZiuDY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=0LbT6YoaP3ezupTM-fmLwA&_nc_tpa=Q5bMBQIquy65-BDynlsNB7k6mIsgWX_ed83V_OPZTz4ym0oIpYD0UnEIv4B0oKDD8ROAA33qRFRcxGSE&oh=00_AQEgqKHTa7iUoQjjBV1P19WFIBwzoeHvvC_QRI6iZBy7Zw&oe=6A922420",
      "views": 1498,
      "likes": 6,
      "shares": 1,
@@ -326,14 +326,14 @@
      "caption": "\ud83c\udf9b\ufe0f\ud83e\udee7 Tear-Strip Unbox: a Working Jukebox Mechanism in a Cyber"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcW2agWkwYO/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/781005799_1952685108749752_7554415478859288317_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=hKOj4-vJ0DUQ7kNvwHAQxPJ&_nc_oc=AdoqK_d0AlUgC99_P0v95sEnLVMGoPymN4kqACS10YbF7Ei9DSxdCvFUhlid3WGJY7c&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Z-gxA61FBTIn3MEWPnkZ7A&_nc_tpa=Q5bMBQI_2lSKMJo7m-KTB3qdfZKnyuNuTJaXDhYXdTKRH7tKPAU-25iT26PhJOYlppMZx4h5T8NuxjHz&oh=00_AQHfRWgXHchhk96y9NQlBbk_R-KbK8D-uV0cXZxiKfh9VQ&oe=6A91FD6E",
-     "views": 1437,
-     "likes": 5,
+     "permalink": "https://www.instagram.com/reel/DcZly19ki6U/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780070399_1370925511280234_434004790202374808_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=arDRQhoTgRMQ7kNvwGiiJXp&_nc_oc=Adq-8BjY548a-d58Zqd_5H0E2NOl8CrigpGewInJ8hTD6nxBAN6aovGA2sIgotaZivE&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=0LbT6YoaP3ezupTM-fmLwA&_nc_tpa=Q5bMBQJHy8tL8zxtI7LL3Veg6aKtwnaLvOt2dNeVI9XHs-s5wgqQOJ96jhWYaYnJ0nMCcEHUyKmlOHFa&oh=00_AQFMDOl9LDXzTHIVQxW1Ps8VlWbNTnbe49T599F0EeNY5w&oe=6A9205C2",
+     "views": 1432,
+     "likes": 7,
      "shares": 0,
-     "timestamp": "2026-08-22T21:13:01+0000",
-     "ig_reels_avg_watch_time": 9406,
-     "caption": "\ud83e\uddf5\ud83e\udea1 Matchbox-Slide Unbox: a Working Sewing Machine in a Neon "
+     "timestamp": "2026-08-23T22:45:27+0000",
+     "ig_reels_avg_watch_time": 10112,
+     "caption": "\ud83d\udc97\u26a1 Shrink-Wrap Unbox: a Tiny Neon Sign Kit in a Cyberpunk Al"
     }
    ]
   },
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1246,
-  "posted": 424,
+  "rendered": 1248,
+  "posted": 425,
   "stories_today": 0,
-  "made_today": 103,
-  "views": 70914,
+  "made_today": 105,
+  "views": 69513,
   "followers": 139
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-24 05:09:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 11:18:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-24 17:22:47] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-24 19:26:29] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-24 19:26:29] wonderlab: warm-up \u2014 179 posts so far, holding to 24/day",
-  "[08-24 19:26:30] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-24 19:26:30] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-24 19:26:30] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-24 19:26:30] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[08-24 19:36:34] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-24 19:36:34] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-24 19:36:34] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[08-24 19:36:34] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-24 19:36:35] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-24 19:36:35] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-24 19:26:46",
