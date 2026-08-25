@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26 02:40:30",
+ "updated": "2026-08-26 02:51:13",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,49 +17,25 @@
    "shot": "",
    "vram_free_gb": 4.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 10.9
+   "ram_free_gb": 8.4
   },
   "w40": {
    "owner": "Neeraj",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.40",
-   "up": false,
+   "up": true,
    "enabled": true,
-   "made_today": 43,
-   "last_reel": "happyhive_spaghetti_t0r2y1",
-   "avg_min": 27.8,
-   "recent": [
-    {
-     "id": "happyhive_spaghetti_t0r2y1",
-     "min": 28.2,
-     "at": "19:37:04"
-    },
-    {
-     "id": "happyhive_pillow_fort_t0r2y1",
-     "min": 27.7,
-     "at": "19:08:55"
-    },
-    {
-     "id": "happyhive_duck_race_t0r2y1",
-     "min": 27.7,
-     "at": "18:41:10"
-    },
-    {
-     "id": "happyhive_dog_tug_t0r2y1",
-     "min": 27.4,
-     "at": "18:13:28"
-    },
-    {
-     "id": "happyhive_ball_pit_t0r2y1",
-     "min": 27.2,
-     "at": "17:46:00"
-    },
-    {
-     "id": "happyhive_sprinkler_t0r2y1",
-     "min": 27.4,
-     "at": "17:18:49"
-    }
-   ]
+   "made_today": 0,
+   "last_reel": "",
+   "avg_min": null,
+   "recent": [],
+   "running": 1,
+   "queued": 0,
+   "job": "happyhive_laundry_basket_t0r2y1",
+   "shot": "1",
+   "vram_free_gb": 12.1,
+   "vram_total_gb": 17.1,
+   "ram_free_gb": 2.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -269,7 +245,7 @@
     "followers": 22,
     "media_count": 194,
     "reach_today": 4946,
-    "total_views": 15433,
+    "total_views": 15448,
     "total_likes": 68,
     "avg_views": 386,
     "demographics": {},
@@ -290,8 +266,8 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcdJHRqibay/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784796337_1013674818339708_9106718480805934710_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4m-6ykp-FWwQ7kNvwFoO9jH&_nc_oc=AdriyO1-lh-yKFRV840sDlfmHMpgUZvAd0N_EwdMb1ff9U_OJfLHaIEJOu-fCt2hHNQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=h2s7y8hf7g72TgubRCVJow&_nc_tpa=Q5bMBQISSB-NavyX78waT-YN1cI_00j4DHzoTUaECtFbtQU9LyKUWpnUPN9SPk4sk4AGyMFG_2fOERWG&oh=00_AQGO-doga70k9dg5XR0M2jPDHZXLnUGvuLVfzUgA9ZWohQ&oe=6A93EB6C",
-     "views": 1418,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784796337_1013674818339708_9106718480805934710_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4m-6ykp-FWwQ7kNvwFoO9jH&_nc_oc=AdriyO1-lh-yKFRV840sDlfmHMpgUZvAd0N_EwdMb1ff9U_OJfLHaIEJOu-fCt2hHNQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=0EfHZLEcvWspy1us68CXSw&_nc_tpa=Q5bMBQJWMpKzVJ8ewqZ6JiCZyOt2Ms9LqS_WFnLmo3hCeQUoSsbUKq9RTq37SqSHMY1v08uVKikV11Os&oh=00_AQHyrfO_BGmTEPXv1cXkaOSddQJiXF8GWPFpOPyUWD_1tA&oe=6A93EB6C",
+     "views": 1419,
      "likes": 7,
      "shares": 0,
      "timestamp": "2026-08-25T07:51:48+0000",
@@ -486,20 +462,20 @@
   "posted": 439,
   "stories_today": 0,
   "made_today": 0,
-  "views": 67286,
+  "views": 67301,
   "followers": 139
  },
  "events": [
-  "[08-25 18:28:09] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-25 18:31:59] worker tech-01 switched ON by owner",
   "[08-25 18:32:00] SPAWNED tech-01 pid=22064 shard=0/1 -> http://192.168.1.57:8188",
   "[08-25 18:37:22] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-26 02:38:26] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-26 02:38:26] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-26 02:38:26] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-26 02:38:26] wonderlab: warm-up \u2014 194 posts so far, holding to 24/day",
-  "[08-26 02:38:27] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-26 02:38:27] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-26 02:46:02] SPAWNED w40 pid=13352 shard=0/1 -> http://192.168.1.40:8188",
+  "[08-26 02:49:45] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-26 02:49:45] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-26 02:49:45] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-26 02:49:45] wonderlab: warm-up \u2014 194 posts so far, holding to 24/day",
+  "[08-26 02:49:46] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-26 02:49:46] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-26 02:21:16",
