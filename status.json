@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-25 20:24:03",
+ "updated": "2026-08-25 20:35:27",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 3.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 7.0
+   "ram_free_gb": 6.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -261,17 +261,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 187,
-   "posted_today": 7,
-   "stored_ready": 83,
+   "posted": 188,
+   "posted_today": 8,
+   "stored_ready": 82,
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
-    "media_count": 187,
+    "media_count": 188,
     "reach_today": 4946,
-    "total_views": 19764,
-    "total_likes": 93,
-    "avg_views": 494,
+    "total_views": 18181,
+    "total_likes": 85,
+    "avg_views": 455,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,16 +287,6 @@
      "timestamp": "2026-08-23T10:33:04+0000",
      "ig_reels_avg_watch_time": 10677,
      "caption": "\ud83d\udcf8\ud83c\udf08 Tear-Strip Unbox: a Working Instant Camera in a Beach Sha"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcXvETHiNXZ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/782344857_1485285863616645_8382683345625215608_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oRaGXXQul6cQ7kNvwHFzEr9&_nc_oc=AdqHtZ_0_TfBCvl6U-tv4JGHfgXmleuL3itbC1KLb2-_IuQmjhGfug7VRDDx-Mu3BW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=bIg3Da2YEaqYCJ83WaPBVg&_nc_tpa=Q5bMBQKraezl-A-9SOjUt2Qx5LFCnfxRjdNjhLLGBeHM9ovv0FsLjWp3XXO-jrcYmgfyUKpE6xbFkGLh&oh=00_AQF2Q9cDSNHRbUVY3AXm_7ETegVMjA1GMmnNBwjwJj702w&oe=6A936DAF",
-     "views": 1591,
-     "likes": 8,
-     "shares": 0,
-     "timestamp": "2026-08-23T05:27:59+0000",
-     "ig_reels_avg_watch_time": 9723,
-     "caption": "\ud83e\udee7\ud83c\udf00 Foil-Pouch Unbox: a Washing Machine That Really Tumbles i"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcYEBCLiD_E/",
@@ -327,6 +317,16 @@
      "timestamp": "2026-08-24T07:54:34+0000",
      "ig_reels_avg_watch_time": 9091,
      "caption": "\ud83c\udfaf\ud83d\udca5 Wax-Seal Unbox: a Working Pinball Table in a Cyberpunk Al"
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/DcZ6vQOABOa/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784796337_2158023441818247_5653162337174430472_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=scwRWXWB-C4Q7kNvwFqOuMp&_nc_oc=AdpDuB5mI1vz-Jq6SD319V8NCIIOLgUCvZpuiu5QckrCnxv_mtVCRoZqzG2pShGZpO0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=fxt-1E4rV-HTOPozYjzFMg&_nc_tpa=Q5bMBQJcQhbV8bFH5vUt1i5y_WpgcyVBdoXJlUs-3I02OZV5JKjFUQAnQUTCx3rTS6LnTsIXC1LHfBaQ&oh=00_AQEUcCs3SojHpDXWQJBxrEzwEhOu3VxpdINBE2QYSRYPwg&oe=6A938DBE",
+     "views": 1312,
+     "likes": 7,
+     "shares": 0,
+     "timestamp": "2026-08-24T01:48:27+0000",
+     "ig_reels_avg_watch_time": 9395,
+     "caption": "\ud83d\udc97\u26a1 Foil-Pouch Unbox: a Tiny Neon Sign Kit in a Pastel Kawaii"
     }
    ]
   },
@@ -483,10 +483,10 @@
  },
  "totals": {
   "rendered": 1266,
-  "posted": 432,
+  "posted": 433,
   "stories_today": 0,
   "made_today": 16,
-  "views": 71617,
+  "views": 70034,
   "followers": 139
  },
  "events": [
@@ -494,12 +494,12 @@
   "[08-25 18:31:59] worker tech-01 switched ON by owner",
   "[08-25 18:32:00] SPAWNED tech-01 pid=22064 shard=0/1 -> http://192.168.1.57:8188",
   "[08-25 18:37:22] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
-  "[08-25 20:21:46] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-25 20:21:46] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-25 20:21:46] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-25 20:21:46] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-25 20:21:46] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-25 20:21:46] wonderlab: warm-up \u2014 187 posts so far, holding to 24/day"
+  "[08-25 20:33:15] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-25 20:33:15] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-25 20:33:15] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-25 20:33:15] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-25 20:33:15] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-25 20:33:15] wonderlab: warm-up \u2014 188 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-25 20:21:11",
