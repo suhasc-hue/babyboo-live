@@ -1,23 +1,23 @@
 {
- "updated": "2026-08-25 18:18:42",
+ "updated": "2026-08-25 18:30:05",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.57",
    "up": true,
-   "enabled": true,
+   "enabled": false,
    "made_today": 0,
    "last_reel": "",
    "avg_min": null,
    "recent": [],
-   "running": 1,
-   "queued": 3,
-   "job": "playroom_t13r1y1",
-   "shot": "6",
-   "vram_free_gb": 2.5,
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 6.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 1.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -261,15 +261,15 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 185,
-   "posted_today": 5,
-   "stored_ready": 85,
+   "posted": 186,
+   "posted_today": 6,
+   "stored_ready": 84,
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
     "media_count": 185,
     "reach_today": 4946,
-    "total_views": 19160,
+    "total_views": 19167,
     "total_likes": 87,
     "avg_views": 479,
     "demographics": {},
@@ -483,33 +483,33 @@
  },
  "totals": {
   "rendered": 1266,
-  "posted": 430,
+  "posted": 431,
   "stories_today": 0,
   "made_today": 16,
-  "views": 70987,
+  "views": 70994,
   "followers": 140
  },
  "events": [
-  "[08-25 13:21:01] farm supervisor up: 3 workers configured",
   "[08-25 13:21:02] SPAWNED tech-01 pid=32360 shard=0/1 -> http://192.168.1.57:8188",
   "[08-25 13:21:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-25 13:21:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-25 18:16:47] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-25 18:16:47] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-25 18:16:47] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-25 18:16:47] wonderlab: warm-up \u2014 185 posts so far, holding to 24/day",
-  "[08-25 18:16:48] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-25 18:16:48] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-25 18:27:54] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-25 18:27:54] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-25 18:27:54] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-25 18:27:54] wonderlab: warm-up \u2014 186 posts so far, holding to 24/day",
+  "[08-25 18:27:55] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-25 18:27:55] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-25 18:28:09] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared"
  ],
  "learnings": {
-  "updated": "2026-08-25 17:51:09",
+  "updated": "2026-08-25 18:21:09",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 167 reels with data.",
+   "Average completion (watch time / duration) is 43% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 10:00, 7:00, 18:00 (median views 881 at 10:00).",
+   "Best posting hours so far: 10:00, 7:00, 13:00 (median views 881 at 10:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -548,7 +548,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 276,
-    "avg_completion": 0.489,
+    "avg_completion": 0.486,
     "avg_eng_rate": 0.0067,
     "avg_saves": 0.4
    }
