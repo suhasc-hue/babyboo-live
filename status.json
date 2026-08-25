@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26 05:10:41",
+ "updated": "2026-08-26 05:21:24",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 4.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 16.3
+   "ram_free_gb": 13.6
   },
   "w40": {
    "owner": "Neeraj",
@@ -59,9 +59,9 @@
    "queued": 0,
    "job": "happyhive_beach_sand_t0r2y1",
    "shot": "1",
-   "vram_free_gb": 11.7,
+   "vram_free_gb": 11.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.6
+   "ram_free_gb": 4.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -271,7 +271,7 @@
     "followers": 22,
     "media_count": 196,
     "reach_today": 4946,
-    "total_views": 15324,
+    "total_views": 15325,
     "total_likes": 65,
     "avg_views": 383,
     "demographics": {},
@@ -292,7 +292,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcdJHRqibay/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784796337_1013674818339708_9106718480805934710_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4m-6ykp-FWwQ7kNvwFoO9jH&_nc_oc=AdriyO1-lh-yKFRV840sDlfmHMpgUZvAd0N_EwdMb1ff9U_OJfLHaIEJOu-fCt2hHNQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=3pFqeFaKWbu-gtIpr9SJwA&_nc_tpa=Q5bMBQKWScPmdnH1KyIkMx86B3S1ZacXiGc71LpTzZGoC_-1zaYbFU09nW1plmL11Mi93vIRf-yB6DMO&oh=00_AQG_ms3sCNejHeMhGj8lp_JFl5b4kx8KUAPPxFkHsZrHsw&oe=6A93EB6C",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784796337_1013674818339708_9106718480805934710_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4m-6ykp-FWwQ7kNvwFoO9jH&_nc_oc=AdriyO1-lh-yKFRV840sDlfmHMpgUZvAd0N_EwdMb1ff9U_OJfLHaIEJOu-fCt2hHNQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Ie_qiJSAkzRJoUnw71WZjw&_nc_tpa=Q5bMBQKomnNuIJFQRzhUNCuFob1ATLen8bezbVrnvM3tH4de8lv0ep7Wu-fihpwhtL0AkcKuoahBewhC&oh=00_AQGAefnE6uTJcQY7uknhartaxQ3Dke7MdzsAU9xg618j8Q&oe=6A93EB6C",
      "views": 1422,
      "likes": 7,
      "shares": 0,
@@ -488,7 +488,7 @@
   "posted": 441,
   "stories_today": 0,
   "made_today": 5,
-  "views": 67177,
+  "views": 67178,
   "followers": 139
  },
  "events": [
@@ -496,19 +496,19 @@
   "[08-25 18:32:00] SPAWNED tech-01 pid=22064 shard=0/1 -> http://192.168.1.57:8188",
   "[08-25 18:37:22] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-26 02:46:02] SPAWNED w40 pid=13352 shard=0/1 -> http://192.168.1.40:8188",
-  "[08-26 05:09:49] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-26 05:09:49] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-26 05:09:49] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-26 05:09:49] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-26 05:09:49] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-26 05:09:49] wonderlab: warm-up \u2014 196 posts so far, holding to 24/day"
+  "[08-26 05:20:05] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-26 05:20:05] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-26 05:20:05] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-26 05:20:05] wonderlab: warm-up \u2014 196 posts so far, holding to 24/day",
+  "[08-26 05:20:06] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-26 05:20:06] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-26 04:51:18",
+  "updated": "2026-08-26 05:21:18",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 167 reels with data.",
+   "Average completion (watch time / duration) is 43% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 13:00, 10:00, 7:00 (median views 1382 at 13:00).",
@@ -550,7 +550,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 163,
-    "avg_completion": 0.491,
+    "avg_completion": 0.487,
     "avg_eng_rate": 0.0073,
     "avg_saves": 0.2
    }
