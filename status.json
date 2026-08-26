@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26 19:18:10",
+ "updated": "2026-08-26 19:28:54",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 4.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 13.4
+   "ram_free_gb": 13.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_spaghetti_t0r3y0",
    "shot": "1",
-   "vram_free_gb": 10.7,
+   "vram_free_gb": 10.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.0
+   "ram_free_gb": 2.9
   },
   "pcconee": {
    "owner": "Anshu",
@@ -276,7 +276,7 @@
     "followers": 22,
     "media_count": 210,
     "reach_today": 5847,
-    "total_views": 15486,
+    "total_views": 15499,
     "total_likes": 63,
     "avg_views": 387,
     "demographics": {},
@@ -287,12 +287,12 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/Dce4Y1cCiVK/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783424117_4671049956456516_4195625435506565379_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=oIbRWMznRyMQ7kNvwGPzuTH&_nc_oc=Ado_sqeXT6SOoVPsyb4MP6jse5CXMiHDWBo33ddcfk-p4Z11waR_TUI5kz1firYKqec&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=v0I4Sy8mB2Jp1cOj2Weiqg&_nc_tpa=Q5bMBQIY4-SZDMv28G2sSs-RAK4fE2tcVeXzcTy0VGjXddCL_w8MqB8pZUJvG8867BcNbJlFGHvq0myW&oh=00_AQHIHAKq6jS6g-MCfXPDqCfadu9M3WGPbi94Z3L1PLhZ_g&oe=6A94D1AC",
-     "views": 2895,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/783424117_4671049956456516_4195625435506565379_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzIifQ%3D%3D&_nc_ohc=oIbRWMznRyMQ7kNvwGPzuTH&_nc_oc=Ado_sqeXT6SOoVPsyb4MP6jse5CXMiHDWBo33ddcfk-p4Z11waR_TUI5kz1firYKqec&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=w_Ef3J6VvdBtK231dt6hbg&_nc_tpa=Q5bMBQL_AhlKnH9sjhIGKVpSQAU2ETe-bK4pAx_hGSnLyB9d7DAHA9kAkAUFdWQ-hRC6FbBuo8_JQsn7&oh=00_AQHkbj-VdKApJ7OtFS-v4ApNDja2MmppBLRUuU2Oj6Nk6Q&oe=6A94D1AC",
+     "views": 2896,
      "likes": 8,
      "shares": 0,
      "timestamp": "2026-08-26T00:04:06+0000",
-     "ig_reels_avg_watch_time": 11147,
+     "ig_reels_avg_watch_time": 11137,
      "caption": "\ud83d\udc20\ud83d\udca7 Tear-Strip Unbox: a Working Aquarium in a Tiki Lounge \u2014 F"
     },
     {
@@ -493,7 +493,7 @@
   "posted": 455,
   "stories_today": 0,
   "made_today": 36,
-  "views": 67348,
+  "views": 67361,
   "followers": 139
  },
  "events": [
@@ -501,15 +501,15 @@
   "[08-25 18:32:00] SPAWNED tech-01 pid=22064 shard=0/1 -> http://192.168.1.57:8188",
   "[08-25 18:37:22] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-26 02:46:02] SPAWNED w40 pid=13352 shard=0/1 -> http://192.168.1.40:8188",
-  "[08-26 19:16:41] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-26 19:16:41] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-26 19:16:41] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-26 19:16:41] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-26 19:16:42] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-26 19:16:42] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-26 19:27:59] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-26 19:27:59] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-26 19:27:59] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-26 19:27:59] wonderlab: warm-up \u2014 210 posts so far, holding to 24/day",
+  "[08-26 19:28:00] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-26 19:28:00] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-26 18:51:30",
+  "updated": "2026-08-26 19:21:30",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -553,9 +553,9 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 39,
+    "n": 40,
     "median_views": 155,
-    "avg_completion": 0.472,
+    "avg_completion": 0.473,
     "avg_eng_rate": 0.007,
     "avg_saves": 0.1
    }
