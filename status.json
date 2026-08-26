@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26 13:13:22",
+ "updated": "2026-08-26 13:24:06",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 4.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 13.7
+   "ram_free_gb": 14.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 22,
-   "last_reel": "happyhive_sock_pull_t0r2y1",
+   "made_today": 23,
+   "last_reel": "happyhive_hallway_crawl_race_t0r2y1",
    "avg_min": 27.3,
    "recent": [
+    {
+     "id": "happyhive_hallway_crawl_race_t0r2y1",
+     "min": 27.1,
+     "at": "13:13:52"
+    },
     {
      "id": "happyhive_sock_pull_t0r2y1",
      "min": 27.2,
@@ -53,20 +58,15 @@
      "id": "happyhive_puddle_pat_t0r2y1",
      "min": 27.2,
      "at": "10:58:05"
-    },
-    {
-     "id": "happyhive_sofa_cruise_t0r2y1",
-     "min": 27.2,
-     "at": "10:30:51"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_hallway_crawl_race_t0r2y1",
+   "job": "happyhive_fan_ribbons_t0r2y1",
    "shot": "1",
-   "vram_free_gb": 6.2,
+   "vram_free_gb": 10.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 1.4
   },
   "pcconee": {
    "owner": "Anshu",
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 217,
-   "qc_passed": 217,
+   "rendered": 218,
+   "qc_passed": 218,
    "vision_ok": 51,
-   "awaiting_review": 161,
+   "awaiting_review": 162,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -276,9 +276,9 @@
     "followers": 22,
     "media_count": 204,
     "reach_today": 5830,
-    "total_views": 16891,
+    "total_views": 16901,
     "total_likes": 69,
-    "avg_views": 422,
+    "avg_views": 423,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1288,
+  "rendered": 1289,
   "posted": 449,
   "stories_today": 0,
-  "made_today": 22,
-  "views": 68746,
+  "made_today": 23,
+  "views": 68756,
   "followers": 139
  },
  "events": [
@@ -501,19 +501,19 @@
   "[08-25 18:32:00] SPAWNED tech-01 pid=22064 shard=0/1 -> http://192.168.1.57:8188",
   "[08-25 18:37:22] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-26 02:46:02] SPAWNED w40 pid=13352 shard=0/1 -> http://192.168.1.40:8188",
-  "[08-26 13:11:58] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[08-26 13:11:59] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-26 13:11:59] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-26 13:11:59] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-26 13:11:59] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-26 13:11:59] wonderlab: cap override 25 -> 24/day (channels.json)"
+  "[08-26 13:23:16] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-26 13:23:16] wonderlab: warm-up \u2014 204 posts so far, holding to 24/day",
+  "[08-26 13:23:17] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-26 13:23:17] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-26 13:23:17] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-26 13:23:17] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-26 12:51:25",
+  "updated": "2026-08-26 13:21:25",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 167 reels with data.",
+   "Average completion (watch time / duration) is 43% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 13:00, 7:00, 15:00 (median views 1382 at 13:00).",
@@ -554,9 +554,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 161,
-    "avg_completion": 0.486,
-    "avg_eng_rate": 0.0074,
+    "median_views": 162,
+    "avg_completion": 0.485,
+    "avg_eng_rate": 0.0073,
     "avg_saves": 0.2
    }
   }
