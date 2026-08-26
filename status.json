@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26 14:28:29",
+ "updated": "2026-08-26 14:39:13",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 25,
-   "last_reel": "happyhive_towel_burrito_t0r2y1",
+   "made_today": 26,
+   "last_reel": "happyhive_ice_cube_t0r2y1",
    "avg_min": 27.3,
    "recent": [
+    {
+     "id": "happyhive_ice_cube_t0r2y1",
+     "min": 27.2,
+     "at": "14:35:10"
+    },
     {
      "id": "happyhive_towel_burrito_t0r2y1",
      "min": 27.1,
@@ -53,20 +58,15 @@
      "id": "happyhive_play_tunnel_t0r2y1",
      "min": 27.1,
      "at": "12:19:32"
-    },
-    {
-     "id": "happyhive_picnic_lawn_t0r2y1",
-     "min": 27.1,
-     "at": "11:52:24"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_ice_cube_t0r2y1",
+   "job": "happyhive_drum_bucket_garden_t0r2y1",
    "shot": "1",
-   "vram_free_gb": 10.2,
+   "vram_free_gb": 10.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.7
+   "ram_free_gb": 1.9
   },
   "pcconee": {
    "owner": "Anshu",
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 220,
-   "qc_passed": 220,
+   "rendered": 221,
+   "qc_passed": 221,
    "vision_ok": 51,
-   "awaiting_review": 164,
+   "awaiting_review": 165,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -276,7 +276,7 @@
     "followers": 22,
     "media_count": 205,
     "reach_today": 5841,
-    "total_views": 15580,
+    "total_views": 15582,
     "total_likes": 63,
     "avg_views": 390,
     "demographics": {},
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1291,
+  "rendered": 1292,
   "posted": 450,
   "stories_today": 0,
-  "made_today": 25,
-  "views": 67438,
+  "made_today": 26,
+  "views": 67440,
   "followers": 139
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-25 18:32:00] SPAWNED tech-01 pid=22064 shard=0/1 -> http://192.168.1.57:8188",
   "[08-25 18:37:22] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-26 02:46:02] SPAWNED w40 pid=13352 shard=0/1 -> http://192.168.1.40:8188",
-  "[08-26 14:27:07] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-26 14:27:07] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-26 14:27:07] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-26 14:27:07] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-26 14:27:07] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-26 14:27:07] wonderlab: warm-up \u2014 205 posts so far, holding to 24/day"
+  "[08-26 14:38:26] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-26 14:38:26] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-26 14:38:26] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-26 14:38:26] wonderlab: warm-up \u2014 205 posts so far, holding to 24/day",
+  "[08-26 14:38:27] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-26 14:38:27] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-26 14:21:26",
