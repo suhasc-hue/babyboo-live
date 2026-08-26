@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26 05:32:08",
+ "updated": "2026-08-26 05:42:51",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 4.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 13.1
+   "ram_free_gb": 11.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_cardboard_box_t0r3y0",
    "shot": "1",
-   "vram_free_gb": 10.4,
+   "vram_free_gb": 10.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.8
+   "ram_free_gb": 4.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -268,17 +268,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 196,
-   "posted_today": 5,
-   "stored_ready": 74,
+   "posted": 197,
+   "posted_today": 6,
+   "stored_ready": 73,
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
-    "media_count": 196,
+    "media_count": 197,
     "reach_today": 4946,
-    "total_views": 15361,
+    "total_views": 15199,
     "total_likes": 65,
-    "avg_views": 384,
+    "avg_views": 380,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -297,7 +297,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcdJHRqibay/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784796337_1013674818339708_9106718480805934710_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4m-6ykp-FWwQ7kNvwFoO9jH&_nc_oc=AdriyO1-lh-yKFRV840sDlfmHMpgUZvAd0N_EwdMb1ff9U_OJfLHaIEJOu-fCt2hHNQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Ie_qiJSAkzRJoUnw71WZjw&_nc_tpa=Q5bMBQKomnNuIJFQRzhUNCuFob1ATLen8bezbVrnvM3tH4de8lv0ep7Wu-fihpwhtL0AkcKuoahBewhC&oh=00_AQGAefnE6uTJcQY7uknhartaxQ3Dke7MdzsAU9xg618j8Q&oe=6A93EB6C",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784796337_1013674818339708_9106718480805934710_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4m-6ykp-FWwQ7kNvwFoO9jH&_nc_oc=AdriyO1-lh-yKFRV840sDlfmHMpgUZvAd0N_EwdMb1ff9U_OJfLHaIEJOu-fCt2hHNQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Dq3JzYq8llJ_lD6uOF_P5g&_nc_tpa=Q5bMBQJ0i7RT9tDng1QA27muu6iPNJYOsU-4NU4GCJAMkMfrsLuU27o0pSNWRiYtO7-DvzDADgq-SWZh&oh=00_AQFyAWHE4bPh3HEfDoA4UAM2cXcxd7CbneULgFMqB-9BRQ&oe=6A93EB6C",
      "views": 1422,
      "likes": 7,
      "shares": 0,
@@ -490,10 +490,10 @@
  },
  "totals": {
   "rendered": 1272,
-  "posted": 441,
+  "posted": 442,
   "stories_today": 0,
   "made_today": 6,
-  "views": 67214,
+  "views": 67052,
   "followers": 139
  },
  "events": [
@@ -501,12 +501,12 @@
   "[08-25 18:32:00] SPAWNED tech-01 pid=22064 shard=0/1 -> http://192.168.1.57:8188",
   "[08-25 18:37:22] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-26 02:46:02] SPAWNED w40 pid=13352 shard=0/1 -> http://192.168.1.40:8188",
-  "[08-26 05:31:22] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-26 05:31:22] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-26 05:31:22] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-26 05:31:22] wonderlab: warm-up \u2014 196 posts so far, holding to 24/day",
-  "[08-26 05:31:23] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-26 05:31:23] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-26 05:41:30] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-26 05:41:30] wonderlab: warm-up \u2014 197 posts so far, holding to 24/day",
+  "[08-26 05:41:31] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-26 05:41:31] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-26 05:41:31] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-26 05:41:31] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-26 05:21:18",
