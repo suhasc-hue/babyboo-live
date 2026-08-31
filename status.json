@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-31 19:43:51",
+ "updated": "2026-08-31 19:55:15",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -23,7 +23,7 @@
    "owner": "Neeraj",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.40",
-   "up": true,
+   "up": false,
    "enabled": true,
    "made_today": 9,
    "last_reel": "happyhive_balloon_bat_t0r3y0",
@@ -59,14 +59,7 @@
      "min": 27.0,
      "at": "17:24:35"
     }
-   ],
-   "running": 1,
-   "queued": 0,
-   "job": "happyhive_water_table_t0r3y0",
-   "shot": "1",
-   "vram_free_gb": 9.4,
-   "vram_total_gb": 17.1,
-   "ram_free_gb": 3.7
+   ]
   },
   "pcconee": {
    "owner": "Anshu",
@@ -274,11 +267,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
-    "media_count": 214,
+    "media_count": 215,
     "reach_today": 5,
-    "total_views": 14923,
-    "total_likes": 62,
-    "avg_views": 373,
+    "total_views": 14629,
+    "total_likes": 61,
+    "avg_views": 366,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -493,20 +486,20 @@
   "posted": 460,
   "stories_today": 0,
   "made_today": 9,
-  "views": 66859,
+  "views": 66565,
   "followers": 140
  },
  "events": [
-  "[08-31 15:36:01] farm supervisor up: 3 workers configured",
   "[08-31 15:36:02] SPAWNED w40 pid=34800 shard=0/1 -> http://192.168.1.40:8188",
   "[08-31 15:36:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-31 15:36:10] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-31 19:42:47] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-31 19:42:47] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-31 19:42:47] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-31 19:42:47] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-31 19:42:47] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-31 19:42:47] wonderlab: warm-up \u2014 215 posts so far, holding to 24/day"
+  "[08-31 19:46:13] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[08-31 19:53:03] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-31 19:53:03] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-31 19:53:03] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-31 19:53:03] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[08-31 19:53:03] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-31 19:53:03] wonderlab: warm-up \u2014 215 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-08-31 19:36:22",
