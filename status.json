@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-31 18:28:43",
+ "updated": "2026-08-31 18:39:26",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 4.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 12.3
+   "ram_free_gb": 12.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_beach_sand_t0r3y0",
    "shot": "1",
-   "vram_free_gb": 13.3,
+   "vram_free_gb": 13.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.8
+   "ram_free_gb": 2.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -501,15 +501,15 @@
   "[08-31 15:36:02] SPAWNED w40 pid=34800 shard=0/1 -> http://192.168.1.40:8188",
   "[08-31 15:36:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-31 15:36:10] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-31 18:27:10] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-31 18:27:10] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[08-31 18:27:10] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-31 18:27:10] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-31 18:27:10] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-31 18:27:10] wonderlab: warm-up \u2014 213 posts so far, holding to 24/day"
+  "[08-31 18:38:27] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[08-31 18:38:27] wonderlab: warm-up \u2014 213 posts so far, holding to 24/day",
+  "[08-31 18:38:28] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[08-31 18:38:28] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[08-31 18:38:28] storynook: cap override 15 -> 24/day (channels.json)",
+  "[08-31 18:38:28] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-08-31 18:06:21",
+  "updated": "2026-08-31 18:36:21",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -555,7 +555,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 161,
-    "avg_completion": 0.474,
+    "avg_completion": 0.477,
     "avg_eng_rate": 0.0067,
     "avg_saves": 0.1
    }
