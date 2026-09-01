@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01 23:32:49",
+ "updated": "2026-09-01 23:44:13",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 11.5
+   "ram_free_gb": 11.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -269,9 +269,9 @@
     "followers": 22,
     "media_count": 226,
     "reach_today": 756,
-    "total_views": 13796,
-    "total_likes": 53,
-    "avg_views": 345,
+    "total_views": 13942,
+    "total_likes": 54,
+    "avg_views": 349,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,6 +287,16 @@
      "timestamp": "2026-08-26T00:04:06+0000",
      "ig_reels_avg_watch_time": 11127,
      "caption": "\ud83d\udc20\ud83d\udca7 Tear-Strip Unbox: a Working Aquarium in a Tiki Lounge \u2014 F"
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/DcvNicOkkWq/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=y3o2GkxFkv5UPmo6lPIpkQ&_nc_tpa=Q5bMBQLy7VjSx4YqBZkESwSut5poddqGw1EUFtiB5l67Jp6RZuTaiE23aoq3rlcG4uqQBgBurexBwZiP&oh=00_AQIAbkTxR2jIO0pwubYl-UDeICqkPU3FFx65pGwxe4GSkA&oe=6A9D02AA",
+     "views": 1530,
+     "likes": 7,
+     "shares": 0,
+     "timestamp": "2026-09-01T08:16:47+0000",
+     "ig_reels_avg_watch_time": 10706,
+     "caption": "\ud83c\udffa\ud83c\udf00 Wax-Seal Unbox: a Working Pottery Wheel in a Cyberpunk Al"
     },
     {
      "permalink": "https://www.instagram.com/reel/DceVqcwglHm/",
@@ -307,16 +317,6 @@
      "timestamp": "2026-08-31T15:12:23+0000",
      "ig_reels_avg_watch_time": 10597,
      "caption": "\ud83e\uddf5\ud83e\udea1 Shrink-Wrap Unbox: a Working Sewing Machine in a Winter C"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcvNicOkkWq/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=w82z90AyKtfv5ZZ0VTFv-A&_nc_tpa=Q5bMBQL9qMBP-Zw1HNB5mm4mpiwgOYh00VBzCeP_r2ruzPmY_Aa4f-d5a2DKNV_3oMiqX6zrpn56i0m8&oh=00_AQIzey1uWLmF6i_vsXOunNf60MqFQvSNBG8nKtfOeL1ojg&oe=6A9CCA6A",
-     "views": 1385,
-     "likes": 6,
-     "shares": 0,
-     "timestamp": "2026-09-01T08:16:47+0000",
-     "ig_reels_avg_watch_time": 10509,
-     "caption": "\ud83c\udffa\ud83c\udf00 Wax-Seal Unbox: a Working Pottery Wheel in a Cyberpunk Al"
     },
     {
      "permalink": "https://www.instagram.com/reel/DcgTNjQj5ye/",
@@ -486,7 +486,7 @@
   "posted": 471,
   "stories_today": 0,
   "made_today": 0,
-  "views": 65741,
+  "views": 65887,
   "followers": 140
  },
  "events": [
@@ -494,12 +494,12 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-01 23:30:37] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-01 23:30:37] wonderlab: warm-up \u2014 226 posts so far, holding to 24/day",
-  "[09-01 23:30:38] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-01 23:30:38] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[09-01 23:30:38] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-01 23:30:38] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[09-01 23:41:55] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-01 23:41:55] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-01 23:41:55] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-01 23:41:55] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-01 23:41:55] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-01 23:41:55] wonderlab: warm-up \u2014 226 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-09-01 23:16:12",
