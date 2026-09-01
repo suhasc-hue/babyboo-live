@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01 16:15:33",
+ "updated": "2026-09-01 16:26:57",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 13.0
+   "ram_free_gb": 13.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -269,9 +269,9 @@
     "followers": 22,
     "media_count": 219,
     "reach_today": 753,
-    "total_views": 14570,
+    "total_views": 14615,
     "total_likes": 60,
-    "avg_views": 364,
+    "avg_views": 365,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -486,7 +486,7 @@
   "posted": 464,
   "stories_today": 0,
   "made_today": 0,
-  "views": 66507,
+  "views": 66552,
   "followers": 140
  },
  "events": [
@@ -494,15 +494,15 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-01 16:13:26] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-01 16:13:26] wonderlab: warm-up \u2014 219 posts so far, holding to 24/day",
-  "[09-01 16:13:27] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-01 16:13:27] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[09-01 16:13:27] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-01 16:13:27] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[09-01 16:24:44] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-01 16:24:44] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-01 16:24:44] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-01 16:24:44] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-01 16:24:44] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-01 16:24:44] wonderlab: warm-up \u2014 219 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-09-01 15:46:06",
+  "updated": "2026-09-01 16:16:06",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -547,9 +547,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 158,
+    "median_views": 157,
     "avg_completion": 0.478,
-    "avg_eng_rate": 0.0071,
+    "avg_eng_rate": 0.007,
     "avg_saves": 0.1
    }
   }
