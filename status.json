@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01 23:55:37",
+ "updated": "2026-09-02 00:07:00",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 11.0
+   "ram_free_gb": 11.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -261,17 +261,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 226,
-   "posted_today": 10,
-   "stored_ready": 44,
+   "posted": 227,
+   "posted_today": 0,
+   "stored_ready": 43,
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
-    "media_count": 226,
+    "media_count": 227,
     "reach_today": 756,
-    "total_views": 14104,
-    "total_likes": 55,
-    "avg_views": 353,
+    "total_views": 13992,
+    "total_likes": 52,
+    "avg_views": 350,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -290,12 +290,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcvNicOkkWq/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=y3o2GkxFkv5UPmo6lPIpkQ&_nc_tpa=Q5bMBQLy7VjSx4YqBZkESwSut5poddqGw1EUFtiB5l67Jp6RZuTaiE23aoq3rlcG4uqQBgBurexBwZiP&oh=00_AQIAbkTxR2jIO0pwubYl-UDeICqkPU3FFx65pGwxe4GSkA&oe=6A9D02AA",
-     "views": 1530,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=JWGf26eYoEP7ziFCgUoi-A&_nc_tpa=Q5bMBQKXlJn0i7zSBCpzTJj5d-SA3EsYMDBKoCQT2y2RF6fuT1FR3eyesAThrKBpKNq6KqtOCZW9i5nb&oh=00_AQIKj8rz-apIPXBXRlzCHwuK1IKp_yR7AK8Ni28F4IE3LQ&oe=6A9D02AA",
+     "views": 1568,
      "likes": 7,
      "shares": 0,
      "timestamp": "2026-09-01T08:16:47+0000",
-     "ig_reels_avg_watch_time": 10706,
+     "ig_reels_avg_watch_time": 10758,
      "caption": "\ud83c\udffa\ud83c\udf00 Wax-Seal Unbox: a Working Pottery Wheel in a Cyberpunk Al"
     },
     {
@@ -483,10 +483,10 @@
  },
  "totals": {
   "rendered": 1311,
-  "posted": 471,
+  "posted": 472,
   "stories_today": 0,
   "made_today": 0,
-  "views": 66049,
+  "views": 65937,
   "followers": 140
  },
  "events": [
@@ -494,12 +494,12 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-01 23:54:13] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-01 23:54:13] wonderlab: warm-up \u2014 226 posts so far, holding to 24/day",
-  "[09-01 23:54:14] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-01 23:54:14] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[09-01 23:54:14] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-01 23:54:14] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[09-02 00:05:22] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 00:05:22] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-02 00:05:22] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 00:05:22] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-02 00:05:22] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-02 00:05:22] wonderlab: warm-up \u2014 227 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-09-01 23:46:13",
