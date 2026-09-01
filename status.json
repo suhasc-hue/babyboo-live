@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 00:52:35",
+ "updated": "2026-09-02 01:03:59",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 11.5
+   "ram_free_gb": 11.6
   },
   "w40": {
    "owner": "Neeraj",
@@ -261,17 +261,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 227,
-   "posted_today": 0,
-   "stored_ready": 43,
+   "posted": 228,
+   "posted_today": 1,
+   "stored_ready": 42,
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
-    "media_count": 227,
+    "media_count": 228,
     "reach_today": 757,
-    "total_views": 14492,
+    "total_views": 14357,
     "total_likes": 53,
-    "avg_views": 362,
+    "avg_views": 359,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -290,12 +290,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcvNicOkkWq/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=5A_n8Q8eVSh0-G_dfQNjLg&_nc_tpa=Q5bMBQJhHkmeO3xm4t6uj5rp-aAN6nkfRi_ENIEteQiYszwgMGp6puWYY9ZLQMjkGzHA8hHezO6tuYIN&oh=00_AQIF0FRHGLThtobNtdUS1dPyvgGvQ0swWofdavG7OH39dw&oe=6A9D02AA",
-     "views": 1594,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=rKyt9junTuxnbq4ORGkABw&_nc_tpa=Q5bMBQIfNc2wY2pP1E5DrlVWqvpDmwU7Eks9OoFJZ4imnmNvfY6U8SjKKW3B0GWq_bQoj3rJODQonqu1&oh=00_AQIeyNldngxdg7RXcwOQczIPW8MqdEKE-lljL6g2K0Bu7w&oe=6A9D02AA",
+     "views": 1602,
      "likes": 7,
      "shares": 0,
      "timestamp": "2026-09-01T08:16:47+0000",
-     "ig_reels_avg_watch_time": 10764,
+     "ig_reels_avg_watch_time": 10730,
      "caption": "\ud83c\udffa\ud83c\udf00 Wax-Seal Unbox: a Working Pottery Wheel in a Cyberpunk Al"
     },
     {
@@ -483,10 +483,10 @@
  },
  "totals": {
   "rendered": 1311,
-  "posted": 472,
+  "posted": 473,
   "stories_today": 0,
   "made_today": 0,
-  "views": 66437,
+  "views": 66302,
   "followers": 140
  },
  "events": [
@@ -494,12 +494,12 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 00:50:30] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-02 00:50:30] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 00:50:30] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-02 00:50:30] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-02 00:50:30] wonderlab: warm-up \u2014 227 posts so far, holding to 24/day",
-  "[09-02 00:50:31] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[09-02 01:01:56] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 01:01:56] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-02 01:01:56] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 01:01:56] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-02 01:01:56] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-02 01:01:56] wonderlab: warm-up \u2014 228 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-09-02 00:46:13",
