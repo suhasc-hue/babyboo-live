@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 03:43:30",
+ "updated": "2026-09-02 03:54:53",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 11.7
+   "ram_free_gb": 11.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -269,9 +269,9 @@
     "followers": 22,
     "media_count": 230,
     "reach_today": 757,
-    "total_views": 14973,
+    "total_views": 15028,
     "total_likes": 58,
-    "avg_views": 374,
+    "avg_views": 376,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -319,14 +319,14 @@
      "caption": "\ud83d\udcf8\ud83c\udf08 Tear-Strip Unbox: a Working Instant Camera in a Cyberpunk"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcgTNjQj5ye/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/786924627_1406519731450895_7838148373234546962_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ejNpKE5KCvwQ7kNvwEQ5sGb&_nc_oc=AdpTRLYD_FVrRRD6gchSJXx25DWchGYSHN_1DxiZeFTsk0KiPeDRT3Tl_87j8j_U4GU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=dOhmMJAwnK_DVeIG3_0_iA&_nc_tpa=Q5bMBQKh0vI8VFZv7G1j1hmJIVcVSVj8D98fF2iwzVapUkJ1L-S2o_hh-0yQEqGxWcgHC6fpJzJDGlVE&oh=00_AQK2sv_5BidQY0ITINidySTKwyXCZP2BtflJnZUwn0TtjQ&oe=6A9D22BA",
-     "views": 1081,
-     "likes": 5,
-     "shares": 1,
-     "timestamp": "2026-08-26T13:17:45+0000",
-     "ig_reels_avg_watch_time": 9326,
-     "caption": "\ud83e\uddf5\ud83e\udea1 Matchbox-Slide Unbox: a Working Sewing Machine in a Cozy "
+     "permalink": "https://www.instagram.com/reel/Dcv-k5VkcI9/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790267926_1793042145476764_1121524144271513655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UL_39Sm9ifIQ7kNvwHxkEuW&_nc_oc=Adpt9cqN9lG0Av-r6fleyNy9G_GGZQKrGTFUtbe7-yevlz9XBbtfJJyssuKn6YonSJg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=nruGKaAP_AJTMovyZ8RByw&_nc_tpa=Q5bMBQLcaQVvS545D3CKbArDsZCKTln1ZKKro--yKg_WLaXPSew4ltGZSOg7LFCbCPJB82b_7aAq1hSt&oh=00_AQLwgWnxOaBQf5aPvIohPWPi5SaduonKrsJVTYw_f_jKRg&oe=6A9D20DD",
+     "views": 1108,
+     "likes": 6,
+     "shares": 0,
+     "timestamp": "2026-09-01T15:25:14+0000",
+     "ig_reels_avg_watch_time": 10143,
+     "caption": "\ud83c\udffa\ud83c\udf00 Matchbox-Slide Unbox: a Working Pottery Wheel in a Cyberp"
     }
    ]
   },
@@ -486,7 +486,7 @@
   "posted": 475,
   "stories_today": 0,
   "made_today": 0,
-  "views": 66921,
+  "views": 66976,
   "followers": 138
  },
  "events": [
@@ -494,19 +494,19 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 03:41:51] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 03:41:51] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-02 03:41:51] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-02 03:41:51] wonderlab: warm-up \u2014 230 posts so far, holding to 24/day",
-  "[09-02 03:41:52] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-02 03:41:52] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[09-02 03:53:11] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-02 03:53:11] wonderlab: warm-up \u2014 230 posts so far, holding to 24/day",
+  "[09-02 03:53:12] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 03:53:12] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-02 03:53:12] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 03:53:12] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-09-02 03:16:15",
+  "updated": "2026-09-02 03:46:16",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 167 reels with data.",
+   "Average completion (watch time / duration) is 43% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 5:00, 10:00, 0:00 (median views 938 at 5:00).",
@@ -547,8 +547,8 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 156,
-    "avg_completion": 0.479,
+    "median_views": 158,
+    "avg_completion": 0.475,
     "avg_eng_rate": 0.0063,
     "avg_saves": 0.1
    }
