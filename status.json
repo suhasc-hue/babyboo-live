@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01 17:46:43",
+ "updated": "2026-09-01 17:58:06",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 12.4
+   "ram_free_gb": 12.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -261,17 +261,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 220,
-   "posted_today": 4,
-   "stored_ready": 50,
+   "posted": 221,
+   "posted_today": 5,
+   "stored_ready": 49,
    "ig": {
     "username": "kidswonderee",
     "followers": 22,
-    "media_count": 220,
+    "media_count": 221,
     "reach_today": 754,
-    "total_views": 13570,
-    "total_likes": 58,
-    "avg_views": 339,
+    "total_views": 12135,
+    "total_likes": 51,
+    "avg_views": 303,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -287,16 +287,6 @@
      "timestamp": "2026-08-26T00:04:06+0000",
      "ig_reels_avg_watch_time": 11127,
      "caption": "\ud83d\udc20\ud83d\udca7 Tear-Strip Unbox: a Working Aquarium in a Tiki Lounge \u2014 F"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcdJHRqibay/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/784796337_1013674818339708_9106718480805934710_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=SKdU8YZCXJcQ7kNvwFi7W3q&_nc_oc=AdreNCpXE5eW0GsD6Z9-pRkPBdGkeqZSGGMQq41MQZcuYL8K5K1wMPvAQBEHjj97bo4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=jmJEewGTjzEx7cWfMHKyKg&_nc_tpa=Q5bMBQJqqFLhWNTA3kESWotSBtj9JorT4EWwcMzrkV2ulwx8G4EETf2XbPWuZZlGM9x_2qM1cAdQLS-W&oh=00_AQI4pon93poWpef6oeab3uTraCKbTNw9P9q91xhBSVOLFw&oe=6A9C7D2C",
-     "views": 1449,
-     "likes": 7,
-     "shares": 0,
-     "timestamp": "2026-08-25T07:51:48+0000",
-     "ig_reels_avg_watch_time": 9025,
-     "caption": "\ud83c\udffa\ud83c\udf00 Wax-Seal Unbox: a Working Pottery Wheel in a Beach Shack "
     },
     {
      "permalink": "https://www.instagram.com/reel/DceVqcwglHm/",
@@ -327,6 +317,16 @@
      "timestamp": "2026-08-25T09:53:41+0000",
      "ig_reels_avg_watch_time": 10763,
      "caption": "\ud83c\udfaf\ud83d\udca5 Matchbox-Slide Unbox: a Working Pinball Table in a Cyberp"
+    },
+    {
+     "permalink": "https://www.instagram.com/reel/DctYTV_ihXK/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791335301_4175098282781160_5430100567815690592_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=lWtcXvGInbAQ7kNvwGHriel&_nc_oc=Adra2g3UP_hKETcQ3QSBd_NiAHQkZ70Cv5q9d0b6MOkXTOqL2sm6GbUVI4VRJnAqOZI&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=d7Q5B7_kFJ2FZjtlFavtOw&_nc_tpa=Q5bMBQKZUYDblugLDrmeE6mIF9s7t2fWA83VzjTuj89YuL_4eDZHv94JB79kPCupzpCJl34K_zWK8sOf&oh=00_AQIIyEOzTmq9wkCwGKBE5DKAYa6aA5oZZdUO2r-H8Ims4A&oe=6A9C5EB9",
+     "views": 390,
+     "likes": 1,
+     "shares": 0,
+     "timestamp": "2026-08-31T15:12:23+0000",
+     "ig_reels_avg_watch_time": 9167,
+     "caption": "\ud83e\uddf5\ud83e\udea1 Shrink-Wrap Unbox: a Working Sewing Machine in a Winter C"
     }
    ]
   },
@@ -483,10 +483,10 @@
  },
  "totals": {
   "rendered": 1311,
-  "posted": 465,
+  "posted": 466,
   "stories_today": 0,
   "made_today": 0,
-  "views": 65510,
+  "views": 64075,
   "followers": 140
  },
  "events": [
@@ -494,12 +494,12 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-01 17:45:20] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-01 17:45:20] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-01 17:45:20] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-01 17:45:20] wonderlab: warm-up \u2014 220 posts so far, holding to 24/day",
-  "[09-01 17:45:21] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-01 17:45:21] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[09-01 17:56:30] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-01 17:56:30] wonderlab: warm-up \u2014 221 posts so far, holding to 24/day",
+  "[09-01 17:56:31] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-01 17:56:31] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-01 17:56:31] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-01 17:56:31] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-09-01 17:46:08",
