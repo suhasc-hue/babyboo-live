@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01 15:07:11",
+ "updated": "2026-09-01 15:18:35",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -269,9 +269,9 @@
     "followers": 22,
     "media_count": 218,
     "reach_today": 753,
-    "total_views": 14688,
+    "total_views": 14710,
     "total_likes": 62,
-    "avg_views": 367,
+    "avg_views": 368,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -486,7 +486,7 @@
   "posted": 463,
   "stories_today": 0,
   "made_today": 0,
-  "views": 66625,
+  "views": 66647,
   "followers": 140
  },
  "events": [
@@ -494,15 +494,15 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-01 15:04:50] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-01 15:04:50] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[09-01 15:04:50] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-01 15:04:50] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-01 15:04:50] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-01 15:04:50] wonderlab: warm-up \u2014 218 posts so far, holding to 24/day"
+  "[09-01 15:17:09] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-01 15:17:09] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-01 15:17:09] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-01 15:17:09] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-01 15:17:09] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-01 15:17:09] wonderlab: warm-up \u2014 218 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-09-01 14:46:05",
+  "updated": "2026-09-01 15:16:06",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -548,7 +548,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 158,
-    "avg_completion": 0.475,
+    "avg_completion": 0.478,
     "avg_eng_rate": 0.0071,
     "avg_saves": 0.1
    }
