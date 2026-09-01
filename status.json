@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-31 21:03:38",
+ "updated": "2026-09-01 13:47:22",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 18.7
+   "ram_free_gb": 13.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -262,7 +262,7 @@
    "vision_ok": 270,
    "awaiting_review": 0,
    "posted": 216,
-   "posted_today": 6,
+   "posted_today": 0,
    "stored_ready": 54,
    "ig": {
     "username": "kidswonderee",
@@ -485,28 +485,28 @@
   "rendered": 1311,
   "posted": 461,
   "stories_today": 0,
-  "made_today": 9,
+  "made_today": 0,
   "views": 66527,
   "followers": 140
  },
  "events": [
-  "[08-31 15:36:02] SPAWNED w40 pid=34800 shard=0/1 -> http://192.168.1.40:8188",
-  "[08-31 15:36:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[08-31 15:36:10] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[08-31 19:46:13] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[08-31 21:02:03] storynook: cap override 15 -> 24/day (channels.json)",
-  "[08-31 21:02:03] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[08-31 21:02:03] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[08-31 21:02:03] wonderlab: warm-up \u2014 216 posts so far, holding to 24/day",
-  "[08-31 21:02:04] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[08-31 21:02:04] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[08-31 21:06:10] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-01 13:46:01] drain up: ['tinycrafts', 'wonderlab', 'storynook', 'playground', 'happyhive', 'rescue'] cap=25/day/channel",
+  "[09-01 13:46:01] farm supervisor up: 3 workers configured",
+  "[09-01 13:46:02] tinycrafts: cap override 15 -> 5/day (channels.json)",
+  "[09-01 13:46:02] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[09-01 13:46:02] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-01 13:46:02] wonderlab: warm-up \u2014 216 posts so far, holding to 24/day",
+  "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared"
  ],
  "learnings": {
-  "updated": "2026-08-31 20:36:23",
+  "updated": "2026-09-01 13:46:01",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 168 reels with data.",
+   "Average completion (watch time / duration) is 43% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 5:00, 10:00, 0:00 (median views 938 at 5:00).",
@@ -546,11 +546,11 @@
     "avg_saves": 0.1
    },
    "wonderlab": {
-    "n": 40,
-    "median_views": 157,
-    "avg_completion": 0.469,
+    "n": 39,
+    "median_views": 155,
+    "avg_completion": 0.471,
     "avg_eng_rate": 0.0071,
-    "avg_saves": 0.1
+    "avg_saves": 0.2
    }
   }
  }
