@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 06:22:59",
+ "updated": "2026-09-02 06:34:23",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 11.0
+   "ram_free_gb": 10.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -269,7 +269,7 @@
     "followers": 22,
     "media_count": 233,
     "reach_today": 757,
-    "total_views": 13826,
+    "total_views": 13830,
     "total_likes": 52,
     "avg_views": 346,
     "demographics": {},
@@ -290,7 +290,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcvNicOkkWq/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=4uznW59GOE1q_tktffj7HQ&_nc_tpa=Q5bMBQK_HmCEfBKoaJLdyIjELvk382dY3QLy2gOTGixJvrD_RN6_ssYHKhuvqlhyZQ6ep1OhLbK_iVco&oh=00_AQKi2OofHLKvram4kBI0fCx4DYyVi1vhwVeiKFosY4wNKQ&oe=6A9D3AEA",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=LtFO40oh2f_eDBfvdUS1Yg&_nc_tpa=Q5bMBQI0y0VgD5AYztp3S_tHSs95_m0d8eWLK_243cMEsUptxHwl6fSlBX65P9kA5Mxzu2WdEKA_6pKq&oh=00_AQJJ4P-lJZkXxW3cLmz1DwL0I2CnPXzvFdHr3tHQu9jGbA&oe=6A9D3AEA",
      "views": 1618,
      "likes": 7,
      "shares": 0,
@@ -486,7 +486,7 @@
   "posted": 478,
   "stories_today": 0,
   "made_today": 0,
-  "views": 65774,
+  "views": 65778,
   "followers": 138
  },
  "events": [
@@ -494,12 +494,12 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 06:21:38] tinycrafts: cap override 15 -> 5/day (channels.json)",
-  "[09-02 06:21:38] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
-  "[09-02 06:21:39] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 06:21:39] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-02 06:21:39] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-02 06:21:39] wonderlab: warm-up \u2014 233 posts so far, holding to 24/day"
+  "[09-02 06:32:56] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-02 06:32:56] wonderlab: warm-up \u2014 233 posts so far, holding to 24/day",
+  "[09-02 06:32:57] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 06:32:57] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-02 06:32:57] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 06:32:57] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-09-02 06:16:18",
