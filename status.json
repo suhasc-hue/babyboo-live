@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 12:04:47",
+ "updated": "2026-09-02 12:16:11",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 10.3
+   "ram_free_gb": 11.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -261,17 +261,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 238,
-   "posted_today": 11,
-   "stored_ready": 32,
+   "posted": 239,
+   "posted_today": 12,
+   "stored_ready": 31,
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
     "media_count": 238,
     "reach_today": 757,
-    "total_views": 12067,
+    "total_views": 12142,
     "total_likes": 49,
-    "avg_views": 302,
+    "avg_views": 304,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -300,12 +300,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Dcv-k5VkcI9/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790267926_1793042145476764_1121524144271513655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UL_39Sm9ifIQ7kNvwHxkEuW&_nc_oc=Adpt9cqN9lG0Av-r6fleyNy9G_GGZQKrGTFUtbe7-yevlz9XBbtfJJyssuKn6YonSJg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=1a3ahQ-oxz_N0r8SX4yDpQ&_nc_tpa=Q5bMBQJ9gyUcMDsz3ZyXufrYAGY6wrbTxRH1hmgkIXC_JXEa9oAmUdgE-On0JVZezu0bX_xJEJstyUz2&oh=00_AQJc49hMUTUiu1QUDNWKLON2QHtV2GKnfWWZP6dIaz4eLg&oe=6A9D915D",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790267926_1793042145476764_1121524144271513655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UL_39Sm9ifIQ7kNvwHxkEuW&_nc_oc=Adpt9cqN9lG0Av-r6fleyNy9G_GGZQKrGTFUtbe7-yevlz9XBbtfJJyssuKn6YonSJg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=wV_tW3UpJ_xIkf_26Oj0qQ&_nc_tpa=Q5bMBQLjnWL-6WMW1WZxjpjZ-rT1Hd4BbDJ8YFOc4Ny8t4jHniG9xMqcQmX5FpHnF-iNgsFbnX8u85UR&oh=00_AQI5Iwai4BxdnfJuF0JP5TNXkmNs9WIKTf4jLziepKII5g&oe=6A9D915D",
      "views": 1360,
      "likes": 7,
      "shares": 0,
      "timestamp": "2026-09-01T15:25:14+0000",
-     "ig_reels_avg_watch_time": 10261,
+     "ig_reels_avg_watch_time": 10246,
      "caption": "\ud83c\udffa\ud83c\udf00 Matchbox-Slide Unbox: a Working Pottery Wheel in a Cyberp"
     },
     {
@@ -483,10 +483,10 @@
  },
  "totals": {
   "rendered": 1311,
-  "posted": 483,
+  "posted": 484,
   "stories_today": 0,
   "made_today": 0,
-  "views": 64015,
+  "views": 64090,
   "followers": 139
  },
  "events": [
@@ -494,12 +494,12 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 12:02:52] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-02 12:02:52] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[09-02 12:02:52] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 12:02:52] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-02 12:02:52] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-02 12:02:52] wonderlab: warm-up \u2014 238 posts so far, holding to 24/day"
+  "[09-02 12:14:22] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 12:14:22] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-02 12:14:22] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-02 12:14:22] wonderlab: warm-up \u2014 239 posts so far, holding to 24/day",
+  "[09-02 12:14:23] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 12:14:23] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-09-02 11:46:22",
