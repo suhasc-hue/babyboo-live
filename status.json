@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 15:07:07",
+ "updated": "2026-09-02 15:18:31",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 10.0
+   "ram_free_gb": 10.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -261,17 +261,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 241,
-   "posted_today": 14,
-   "stored_ready": 29,
+   "posted": 242,
+   "posted_today": 15,
+   "stored_ready": 28,
    "ig": {
     "username": "kidswonderee",
     "followers": 23,
     "media_count": 241,
     "reach_today": 5754,
-    "total_views": 13682,
-    "total_likes": 56,
-    "avg_views": 342,
+    "total_views": 13895,
+    "total_likes": 57,
+    "avg_views": 347,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -319,14 +319,14 @@
      "caption": "\ud83e\uddf5\ud83e\udea1 Matchbox-Slide Unbox: a Working Sewing Machine in a Cozy "
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcxSssqDAdi/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790865872_1783653239748671_8465711098699047933_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6o419gMoqCUQ7kNvwGLB-s1&_nc_oc=Adr1FUu0KftOIVeSbRKqdRKR0h2DDWAoGmdwIYUmYph5wJv6m_fPyyX62LM_oDCa-X4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=WtexDfsWxNDv6Yk6DlqyHg&_nc_tpa=Q5bMBQIKww9qZUTFkh_99rrYRZAhDrK2pq-JFMy-rEzLi2dimq5t3Sm6Tc7W2a599J-jrrXrJ6GiY6n2&oh=00_AQLB8LDD73_-bA9E1ofM4bzzoYomzJEbuALomsSupJIz7g&oe=6A9DD9A9",
-     "views": 821,
-     "likes": 7,
+     "permalink": "https://www.instagram.com/reel/DcwTmxtFS00/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/792133056_2460538177804832_1578210696541298287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=nRE4hbRENXEQ7kNvwEms6b1&_nc_oc=AdrOkxKmis9EYwNNxwEiRnbR67mCKaepps8a-uX5zEdAtQeKQ3nZYuQ1pBAlaW_ywj4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=xP_M2A7TIESSXHAeK94aqw&_nc_tpa=Q5bMBQLvgLWjk5r4aTWN0OT1Q7en9WsErSX_s9amszJddjJapHg3SqJhk7VYIDWtzFSPS3bbgCvp3XPC&oh=00_AQKYVzYrThhdrJWrNdlM5VmjIXqV1mudb8rvWQh-jsAlXg&oe=6A9DDB0E",
+     "views": 988,
+     "likes": 6,
      "shares": 0,
-     "timestamp": "2026-09-02T03:40:21+0000",
-     "ig_reels_avg_watch_time": 9899,
-     "caption": "\ud83e\udee7\ud83c\udf00 Shrink-Wrap Unbox: a Washing Machine That Really Tumbles "
+     "timestamp": "2026-09-01T18:29:02+0000",
+     "ig_reels_avg_watch_time": 8807,
+     "caption": "\ud83c\udfaa\ud83e\uddf8 Vacuum-Lid Unbox: a Working Claw Machine in a Tiki Lounge"
     }
    ]
   },
@@ -483,10 +483,10 @@
  },
  "totals": {
   "rendered": 1311,
-  "posted": 486,
+  "posted": 487,
   "stories_today": 0,
   "made_today": 0,
-  "views": 65630,
+  "views": 65843,
   "followers": 139
  },
  "events": [
@@ -494,22 +494,22 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 15:05:05] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 15:05:05] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-02 15:05:05] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-02 15:05:05] wonderlab: warm-up \u2014 241 posts so far, holding to 24/day",
-  "[09-02 15:05:06] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-02 15:05:06] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[09-02 15:16:13] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[09-02 15:16:14] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 15:16:14] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-02 15:16:14] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 15:16:14] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-02 15:16:14] wonderlab: cap override 25 -> 24/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-09-02 14:46:24",
+  "updated": "2026-09-02 15:16:25",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 43% across 167 reels with data.",
+   "Average completion (watch time / duration) is 43% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 9:00, 18:00, 0:00 (median views 646 at 9:00).",
+   "Best posting hours so far: 9:00, 18:00, 0:00 (median views 821 at 9:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -547,9 +547,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 184,
-    "avg_completion": 0.47,
-    "avg_eng_rate": 0.0067,
+    "median_views": 195,
+    "avg_completion": 0.472,
+    "avg_eng_rate": 0.0064,
     "avg_saves": 0.1
    }
   }
