@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 15:52:41",
+ "updated": "2026-09-02 16:04:05",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 10.1
+   "ram_free_gb": 10.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -269,9 +269,9 @@
     "followers": 24,
     "media_count": 242,
     "reach_today": 5757,
-    "total_views": 14672,
+    "total_views": 14723,
     "total_likes": 60,
-    "avg_views": 367,
+    "avg_views": 368,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -319,14 +319,14 @@
      "caption": "\ud83e\udee7\ud83c\udf00 Shrink-Wrap Unbox: a Washing Machine That Really Tumbles "
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcgTNjQj5ye/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/786924627_1406519731450895_7838148373234546962_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=ejNpKE5KCvwQ7kNvwEQ5sGb&_nc_oc=AdpTRLYD_FVrRRD6gchSJXx25DWchGYSHN_1DxiZeFTsk0KiPeDRT3Tl_87j8j_U4GU&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=N1WjKTbcDC5paTfR1Sk-RQ&_nc_tpa=Q5bMBQI9JtzHLS4WIJrc1YcrWbLlKHi4j-niu06A-XdR1hVGBuRpcsdICkpHPsENoX--3D3wgLzhbuKw&oh=00_AQIM9aLgCJfjvyLA5iYZGljaCg47gkBCJHv45f_932lDVA&oe=6A9DCB7A",
-     "views": 1081,
-     "likes": 5,
-     "shares": 1,
-     "timestamp": "2026-08-26T13:17:45+0000",
-     "ig_reels_avg_watch_time": 9326,
-     "caption": "\ud83e\uddf5\ud83e\udea1 Matchbox-Slide Unbox: a Working Sewing Machine in a Cozy "
+     "permalink": "https://www.instagram.com/reel/DcwTmxtFS00/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/792133056_2460538177804832_1578210696541298287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=nRE4hbRENXEQ7kNvwEms6b1&_nc_oc=AdrOkxKmis9EYwNNxwEiRnbR67mCKaepps8a-uX5zEdAtQeKQ3nZYuQ1pBAlaW_ywj4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=YQA8R-UiGJY6HkXZp6_18Q&_nc_tpa=Q5bMBQL7wyux1GuFIaaDc4zv_n-IS_vxcXlAcq9W569PPFi7yCVOiCbPpGtpgc9LteSxwVyaEgb7LXXI&oh=00_AQJXmyIgrxHKRpjI_35T81RARct7sRLc7rNx8BTVp1_v5g&oe=6A9DDB0E",
+     "views": 1099,
+     "likes": 6,
+     "shares": 0,
+     "timestamp": "2026-09-01T18:29:02+0000",
+     "ig_reels_avg_watch_time": 9068,
+     "caption": "\ud83c\udfaa\ud83e\uddf8 Vacuum-Lid Unbox: a Working Claw Machine in a Tiki Lounge"
     }
    ]
   },
@@ -486,7 +486,7 @@
   "posted": 487,
   "stories_today": 0,
   "made_today": 0,
-  "views": 66620,
+  "views": 66671,
   "followers": 140
  },
  "events": [
@@ -494,12 +494,12 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 15:51:16] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-02 15:51:16] wonderlab: warm-up \u2014 242 posts so far, holding to 24/day",
-  "[09-02 15:51:17] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-02 15:51:17] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[09-02 15:51:17] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 15:51:17] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
+  "[09-02 16:02:34] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-02 16:02:34] wonderlab: warm-up \u2014 242 posts so far, holding to 24/day",
+  "[09-02 16:02:35] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 16:02:35] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-02 16:02:35] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 16:02:35] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-09-02 15:46:25",
