@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 22:48:31",
+ "updated": "2026-09-02 22:59:15",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -11,13 +11,13 @@
    "last_reel": "",
    "avg_min": null,
    "recent": [],
-   "running": 1,
+   "running": 0,
    "queued": 0,
    "job": "",
-   "shot": "d2c-050",
-   "vram_free_gb": 0.8,
+   "shot": "",
+   "vram_free_gb": 1.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 5.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 9,
-   "last_reel": "happyhive_sofa_cruise_t0r3y0",
+   "made_today": 10,
+   "last_reel": "happyhive_puddle_pat_t0r3y0",
    "avg_min": 27.3,
    "recent": [
+    {
+     "id": "happyhive_puddle_pat_t0r3y0",
+     "min": 27.7,
+     "at": "22:52:40"
+    },
     {
      "id": "happyhive_sofa_cruise_t0r3y0",
      "min": 27.7,
@@ -53,20 +58,15 @@
      "id": "happyhive_kraft_paper_t0r3y0",
      "min": 27.3,
      "at": "20:35:33"
-    },
-    {
-     "id": "happyhive_shoe_basket_t0r3y0",
-     "min": 27.1,
-     "at": "20:08:17"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_puddle_pat_t0r3y0",
+   "job": "happyhive_popup_toy_t0r3y1",
    "shot": "1",
-   "vram_free_gb": 11.6,
+   "vram_free_gb": 11.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 0.8
+   "ram_free_gb": 4.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 249,
-   "qc_passed": 249,
+   "rendered": 250,
+   "qc_passed": 250,
    "vision_ok": 51,
-   "awaiting_review": 193,
+   "awaiting_review": 194,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -275,10 +275,10 @@
     "username": "kidswonderee",
     "followers": 24,
     "media_count": 248,
-    "reach_today": 5761,
-    "total_views": 20784,
-    "total_likes": 86,
-    "avg_views": 520,
+    "reach_today": 5765,
+    "total_views": 21145,
+    "total_likes": 87,
+    "avg_views": 529,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -307,12 +307,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcxEwRtjh4s/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791096769_4564707770477650_3730615818562167264_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Em-J-TkQ7xYQ7kNvwGJUVJW&_nc_oc=AdrSKY4WYXoCn1HNlI19NO4gy7Sj8STbMsxAuR5kHSdAmO_lOi4LoGCsxBp52UkuRZY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=yLGFcmxBXpIEWQ0xLFRbgg&_nc_tpa=Q5bMBQJEvFZPZhDOqTjB-oe5vgRP-tI-l0TKv5AFTKsOdd9XiYxZrR5E_VWkz265Zp-W5YHEDzxjxMqC&oh=00_AQKG-LhzmZmxTFaVfsMr-aPphbDD1hTNQ_ImdOwPUvZjeg&oe=6A9E2531",
-     "views": 1378,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791096769_4564707770477650_3730615818562167264_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Em-J-TkQ7xYQ7kNvwGJUVJW&_nc_oc=AdrSKY4WYXoCn1HNlI19NO4gy7Sj8STbMsxAuR5kHSdAmO_lOi4LoGCsxBp52UkuRZY&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=A_oA75zLqqteZjp1SG-x1g&_nc_tpa=Q5bMBQLI1Jt3cxiIn4mZgEg38rABbH5z6bsNoAFYjjdU-Gcc2rAC8S7wb_UZ3bYxM5ofjumhzVfT509f&oh=00_AQICFnDqwNELgoI_oti2a8OmEY68omllWxEkvwHnEdqZyQ&oe=6A9E2531",
+     "views": 1381,
      "likes": 4,
      "shares": 0,
      "timestamp": "2026-09-02T01:38:31+0000",
-     "ig_reels_avg_watch_time": 10560,
+     "ig_reels_avg_watch_time": 10526,
      "caption": "\ud83d\udcfa\u2728 Shrink-Wrap Unbox: a Working CRT + Retro Console in a Tik"
     },
     {
@@ -326,14 +326,14 @@
      "caption": "\ud83c\udffa\ud83c\udf00 Matchbox-Slide Unbox: a Working Pottery Wheel in a Cyberp"
     },
     {
-     "permalink": "https://www.instagram.com/reel/DcxSssqDAdi/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790865872_1783653239748671_8465711098699047933_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6o419gMoqCUQ7kNvwGLB-s1&_nc_oc=Adr1FUu0KftOIVeSbRKqdRKR0h2DDWAoGmdwIYUmYph5wJv6m_fPyyX62LM_oDCa-X4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=yLGFcmxBXpIEWQ0xLFRbgg&_nc_tpa=Q5bMBQI9mydPdSG1N3zg5kecLEWbwewnBMFwFSiGmnvASibxWlbALN3xAnfEjGdJO_BumaRHp385kEXz&oh=00_AQL8hkCxksru9TaWdIAv_Fs_AqZxui11gits5tV140UEBA&oe=6A9E11E9",
-     "views": 1340,
-     "likes": 9,
-     "shares": 0,
-     "timestamp": "2026-09-02T03:40:21+0000",
-     "ig_reels_avg_watch_time": 9917,
-     "caption": "\ud83e\udee7\ud83c\udf00 Shrink-Wrap Unbox: a Washing Machine That Really Tumbles "
+     "permalink": "https://www.instagram.com/reel/Dcx8bmjivkH/",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791922756_2104615207109677_1001559948945775842_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=PmRMu06gmG8Q7kNvwHjsHfW&_nc_oc=AdrEQ5q__EUo1GMPqVykNyFdjB2fSTdpNCZ9zaNsh3vt6OWJC4O6rAnqT9PfO4lOFpA&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=A_oA75zLqqteZjp1SG-x1g&_nc_tpa=Q5bMBQIHIVx0endtkTJrTzJtQZ5xjT-pTvDqmhfo4UX1CpIljF31Fy3L7d4RNT31fYPwXBwL3CU3y0Re&oh=00_AQIBkPCQ6cxT_A9VvPw0TE7VLq6_F-tLnAscNlBcApRWIQ&oe=6A9E3F59",
+     "views": 1356,
+     "likes": 2,
+     "shares": 1,
+     "timestamp": "2026-09-02T09:45:00+0000",
+     "ig_reels_avg_watch_time": 9553,
+     "caption": "\ud83e\udee7\ud83c\udf00 Tear-Strip Unbox: a Washing Machine That Really Tumbles i"
     }
    ]
   },
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1321,
+  "rendered": 1322,
   "posted": 493,
   "stories_today": 0,
-  "made_today": 10,
-  "views": 72740,
+  "made_today": 11,
+  "views": 73101,
   "followers": 140
  },
  "events": [
@@ -501,12 +501,12 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-02 22:46:52] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-02 22:46:52] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-02 22:46:52] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-02 22:46:52] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-02 22:46:53] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-02 22:46:53] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-02 22:58:10] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-02 22:58:10] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-02 22:58:10] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-02 22:58:10] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-02 22:58:11] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-02 22:58:11] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-02 22:46:31",
