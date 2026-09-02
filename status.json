@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03 04:10:25",
+ "updated": "2026-09-03 04:21:09",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "picnic_t0r3y1",
-   "shot": "3",
-   "vram_free_gb": 1.6,
+   "queued": 1,
+   "job": "garden_t5r0y2",
+   "shot": "1",
+   "vram_free_gb": 1.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.9
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_bubbles_t0r3y1",
    "shot": "1",
-   "vram_free_gb": 11.0,
+   "vram_free_gb": 11.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.0
+   "ram_free_gb": 2.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 509,
-   "qc_passed": 404,
+   "rendered": 510,
+   "qc_passed": 405,
    "vision_ok": 27,
-   "awaiting_review": 319,
+   "awaiting_review": 320,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 0,
@@ -276,7 +276,7 @@
     "followers": 24,
     "media_count": 248,
     "reach_today": 5765,
-    "total_views": 22893,
+    "total_views": 22899,
     "total_likes": 95,
     "avg_views": 572,
     "demographics": {},
@@ -327,7 +327,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcyKaz-ElSp/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791996251_1541383403894856_2238008554949779442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KXD8b6EPI34Q7kNvwGjWNhH&_nc_oc=Adq_oONDXIgsthCXdd7bzmKpLVq2Kc1J2wgtnsCrpgqZrAqdl343TwcybAcHY-WbK68&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=VLPU7DdsEE060EByFRjgxw&_nc_tpa=Q5bMBQJ0l0gKWVKTqoQ0iiITQicuny6U0dx2POGBRsnMMcaLYjVciyBvHxoC9qotIaaxgb7NcsUdaVoP&oh=00_AQIyeHivZwz3Y0QIf_I9lvge5hTat5cwgh1dhp5G-dc-Pg&oe=6A9E8AF9",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791996251_1541383403894856_2238008554949779442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KXD8b6EPI34Q7kNvwGjWNhH&_nc_oc=Adq_oONDXIgsthCXdd7bzmKpLVq2Kc1J2wgtnsCrpgqZrAqdl343TwcybAcHY-WbK68&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=OHlLQEpmsH05EAz64YPjag&_nc_tpa=Q5bMBQIRT5AAQqOuuvHfGVGNDqNxdWQAjYUztv05ED89X-5WWn7gQ503u5ucmvmCuVHXQApXydaxAf7G&oh=00_AQI3kpWMpHbAhti9rwEqXh5vFLAAziVnOTtMaPsuOlvz6g&oe=6A9E8AF9",
      "views": 1382,
      "likes": 6,
      "shares": 0,
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1340,
+  "rendered": 1341,
   "posted": 493,
   "stories_today": 0,
-  "made_today": 16,
-  "views": 74851,
+  "made_today": 17,
+  "views": 74857,
   "followers": 140
  },
  "events": [
@@ -501,15 +501,15 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-03 04:09:39] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-03 04:09:40] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-03 04:09:40] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-03 04:09:40] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-03 04:09:40] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-03 04:09:40] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[09-03 04:19:56] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-03 04:19:57] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-03 04:19:57] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-03 04:19:57] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-03 04:19:57] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-03 04:19:57] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-09-03 03:46:36",
+  "updated": "2026-09-03 04:16:36",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -554,7 +554,7 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 264,
+    "median_views": 275,
     "avg_completion": 0.513,
     "avg_eng_rate": 0.0059,
     "avg_saves": 0.1
