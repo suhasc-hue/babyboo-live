@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 18:09:26",
+ "updated": "2026-09-02 18:20:13",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,13 +17,13 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 8.7
+   "ram_free_gb": 5.1
   },
   "w40": {
    "owner": "Neeraj",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.40",
-   "up": false,
+   "up": true,
    "enabled": true,
    "made_today": 9,
    "last_reel": "happyhive_balloon_bat_t0r3y0",
@@ -59,7 +59,14 @@
      "min": 27.0,
      "at": "17:24:35"
     }
-   ]
+   ],
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 15.9,
+   "vram_total_gb": 17.1,
+   "ram_free_gb": 13.4
   },
   "pcconee": {
    "owner": "Anshu",
@@ -261,17 +268,17 @@
    "qc_passed": 270,
    "vision_ok": 270,
    "awaiting_review": 0,
-   "posted": 244,
-   "posted_today": 17,
-   "stored_ready": 26,
+   "posted": 245,
+   "posted_today": 18,
+   "stored_ready": 25,
    "ig": {
     "username": "kidswonderee",
     "followers": 24,
     "media_count": 244,
     "reach_today": 5757,
-    "total_views": 15979,
-    "total_likes": 67,
-    "avg_views": 399,
+    "total_views": 16165,
+    "total_likes": 68,
+    "avg_views": 404,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -310,12 +317,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcxSssqDAdi/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790865872_1783653239748671_8465711098699047933_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6o419gMoqCUQ7kNvwGLB-s1&_nc_oc=Adr1FUu0KftOIVeSbRKqdRKR0h2DDWAoGmdwIYUmYph5wJv6m_fPyyX62LM_oDCa-X4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=sU2CS0BB-ZQeBbfZsxSUpw&_nc_tpa=Q5bMBQIUVBfcaDDFw-M9tzpFxgiF_LSx5uDqh7aMrbEF0ihW0k0-0RY9eQH598tn4Sjd5DrnZzpU6p7z&oh=00_AQLW2a4JaPTQKj5bbaCg_6aaPFKjTsIXb0CjsMhl1QntQA&oe=6A9DD9A9",
-     "views": 1324,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790865872_1783653239748671_8465711098699047933_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=6o419gMoqCUQ7kNvwGLB-s1&_nc_oc=Adr1FUu0KftOIVeSbRKqdRKR0h2DDWAoGmdwIYUmYph5wJv6m_fPyyX62LM_oDCa-X4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=cRaMiGsDZEkLgSxfunBjHg&_nc_tpa=Q5bMBQLgZeBza3PieV5SqyQroK2CfcQknh4eUHNOAQbWvDNyuELKuZp24-x9cw693yReRo1oBWkjd-uV&oh=00_AQLyYyZ3qb-BpXxBPa1I2bSqtvrZtB-Bu55pOXFUImToRg&oe=6A9DD9A9",
+     "views": 1325,
      "likes": 9,
      "shares": 0,
      "timestamp": "2026-09-02T03:40:21+0000",
-     "ig_reels_avg_watch_time": 9965,
+     "ig_reels_avg_watch_time": 9960,
      "caption": "\ud83e\udee7\ud83c\udf00 Shrink-Wrap Unbox: a Washing Machine That Really Tumbles "
     },
     {
@@ -483,10 +490,10 @@
  },
  "totals": {
   "rendered": 1311,
-  "posted": 489,
+  "posted": 490,
   "stories_today": 0,
   "made_today": 0,
-  "views": 67932,
+  "views": 68118,
   "followers": 140
  },
  "events": [
@@ -494,22 +501,22 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 18:07:36] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 18:07:36] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-02 18:07:36] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-02 18:07:36] wonderlab: warm-up \u2014 244 posts so far, holding to 24/day",
-  "[09-02 18:07:37] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-02 18:07:37] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
+  "[09-02 18:18:53] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 18:18:53] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-02 18:18:53] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 18:18:53] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-02 18:18:53] wonderlab: PUBLISHED wonderlab_atomic_washer_t3r1 media=17977257336103997",
+  "[09-02 18:18:53] wonderlab: next reel no earlier than 19:18"
  ],
  "learnings": {
-  "updated": "2026-09-02 17:46:26",
+  "updated": "2026-09-02 18:16:27",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
    "Average completion (watch time / duration) is 43% across 167 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 9:00, 10:00, 7:00 (median views 1322 at 9:00).",
+   "Best posting hours so far: 9:00, 10:00, 7:00 (median views 1324 at 9:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -548,7 +555,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 207,
-    "avg_completion": 0.483,
+    "avg_completion": 0.485,
     "avg_eng_rate": 0.006,
     "avg_saves": 0.1
    }
