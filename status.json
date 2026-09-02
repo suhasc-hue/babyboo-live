@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 18:20:13",
+ "updated": "2026-09-02 18:30:57",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 5.1
+   "ram_free_gb": 4.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,48 +25,17 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 9,
-   "last_reel": "happyhive_balloon_bat_t0r3y0",
-   "avg_min": 27.3,
-   "recent": [
-    {
-     "id": "happyhive_balloon_bat_t0r3y0",
-     "min": 27.8,
-     "at": "19:41:58"
-    },
-    {
-     "id": "happyhive_cardboard_box_t0r3y1",
-     "min": 27.5,
-     "at": "19:14:12"
-    },
-    {
-     "id": "happyhive_beach_sand_t0r3y0",
-     "min": 27.7,
-     "at": "18:46:41"
-    },
-    {
-     "id": "happyhive_leaf_pile_t0r3y0",
-     "min": 27.3,
-     "at": "18:18:58"
-    },
-    {
-     "id": "happyhive_tupperware_t0r3y0",
-     "min": 27.1,
-     "at": "17:51:39"
-    },
-    {
-     "id": "happyhive_stacking_cups_t0r3y0",
-     "min": 27.0,
-     "at": "17:24:35"
-    }
-   ],
-   "running": 0,
+   "made_today": 0,
+   "last_reel": "",
+   "avg_min": null,
+   "recent": [],
+   "running": 1,
    "queued": 0,
-   "job": "",
-   "shot": "",
-   "vram_free_gb": 15.9,
+   "job": "happyhive_water_table_t0r3y0",
+   "shot": "1",
+   "vram_free_gb": 10.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 13.4
+   "ram_free_gb": 2.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -274,11 +243,11 @@
    "ig": {
     "username": "kidswonderee",
     "followers": 24,
-    "media_count": 244,
+    "media_count": 245,
     "reach_today": 5757,
-    "total_views": 16165,
+    "total_views": 16368,
     "total_likes": 68,
-    "avg_views": 404,
+    "avg_views": 409,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -307,12 +276,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Dcv-k5VkcI9/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790267926_1793042145476764_1121524144271513655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UL_39Sm9ifIQ7kNvwHxkEuW&_nc_oc=Adpt9cqN9lG0Av-r6fleyNy9G_GGZQKrGTFUtbe7-yevlz9XBbtfJJyssuKn6YonSJg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=HFQOPdFuCJXHa-3hnI8DMQ&_nc_tpa=Q5bMBQITa3qa1L1vD2uwGAMhoGfSEZLALI4pwRD0Y7Uwu5bOk5b_YZ5aXLhrzt9ltjCElnqRP70Lnm8B&oh=00_AQJOb8Yj9Fsw3nwWo1admATvPhFxPakqkXF-hdjpT46AwQ&oe=6A9DC99D",
-     "views": 1364,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/790267926_1793042145476764_1121524144271513655_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=UL_39Sm9ifIQ7kNvwHxkEuW&_nc_oc=Adpt9cqN9lG0Av-r6fleyNy9G_GGZQKrGTFUtbe7-yevlz9XBbtfJJyssuKn6YonSJg&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=zBN6TF1qHn7Q0jOXOPZPDg&_nc_tpa=Q5bMBQLKze_zNXbYN8u-pqNgm_tLG8Cuajhq496QJsDje_IH250bg32DEXLvOCdHx6daEZW--V0Zupvt&oh=00_AQK_jTKinWtiJ8H_CWJRy5pHRNfuzO4u_b2frQ0zDRIQww&oe=6A9E01DD",
+     "views": 1365,
      "likes": 7,
      "shares": 0,
      "timestamp": "2026-09-01T15:25:14+0000",
-     "ig_reels_avg_watch_time": 10244,
+     "ig_reels_avg_watch_time": 10232,
      "caption": "\ud83c\udffa\ud83c\udf00 Matchbox-Slide Unbox: a Working Pottery Wheel in a Cyberp"
     },
     {
@@ -327,12 +296,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcwTmxtFS00/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/792133056_2460538177804832_1578210696541298287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=nRE4hbRENXEQ7kNvwEms6b1&_nc_oc=AdrOkxKmis9EYwNNxwEiRnbR67mCKaepps8a-uX5zEdAtQeKQ3nZYuQ1pBAlaW_ywj4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=J2bsAqJbQIe-is9WxFTzDQ&_nc_tpa=Q5bMBQIFw3rjdip5JZZLEMUtxlWVHCcEm_4tF1iE5ceD3aQZ7ySEWD3PWc789iTc4CF9L96ZsqY1UL5A&oh=00_AQLHFKPI6WV0FB6fTGLaCL4A2Ti0EIgEzlYDN4R6LM8xyg&oe=6A9DDB0E",
-     "views": 1185,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/792133056_2460538177804832_1578210696541298287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=nRE4hbRENXEQ7kNvwEms6b1&_nc_oc=AdrOkxKmis9EYwNNxwEiRnbR67mCKaepps8a-uX5zEdAtQeKQ3nZYuQ1pBAlaW_ywj4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=zBN6TF1qHn7Q0jOXOPZPDg&_nc_tpa=Q5bMBQKrgK4ZwxUEOL-fYXlR4cYjLYQqnGcBWBbMMwcw-PTe6GdiKwt0BPL8dXJzzozz0Mgyv07oOYak&oh=00_AQILB84ZbDvA7Ur51c5zM1Wthnyqcw4-MrzqsEq42XGELQ&oe=6A9DDB0E",
+     "views": 1194,
      "likes": 7,
      "shares": 0,
      "timestamp": "2026-09-01T18:29:02+0000",
-     "ig_reels_avg_watch_time": 9125,
+     "ig_reels_avg_watch_time": 9147,
      "caption": "\ud83c\udfaa\ud83e\uddf8 Vacuum-Lid Unbox: a Working Claw Machine in a Tiki Lounge"
     }
    ]
@@ -493,20 +462,20 @@
   "posted": 490,
   "stories_today": 0,
   "made_today": 0,
-  "views": 68118,
+  "views": 68321,
   "followers": 140
  },
  "events": [
-  "[09-01 13:46:01] farm supervisor up: 3 workers configured",
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 18:18:53] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-02 18:18:53] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[09-02 18:18:53] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 18:18:53] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-02 18:18:53] wonderlab: PUBLISHED wonderlab_atomic_washer_t3r1 media=17977257336103997",
-  "[09-02 18:18:53] wonderlab: next reel no earlier than 19:18"
+  "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
+  "[09-02 18:30:10] tinycrafts: warm-up \u2014 48 posts so far, holding to 5/day",
+  "[09-02 18:30:10] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-02 18:30:11] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 18:30:11] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
+  "[09-02 18:30:11] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 18:30:11] storynook: warm-up \u2014 66 posts so far, holding to 24/day"
  ],
  "learnings": {
   "updated": "2026-09-02 18:16:27",
