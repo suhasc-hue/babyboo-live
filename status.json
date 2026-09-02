@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02 07:42:45",
+ "updated": "2026-09-02 07:54:09",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 10.0
+   "ram_free_gb": 9.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -269,9 +269,9 @@
     "followers": 23,
     "media_count": 234,
     "reach_today": 757,
-    "total_views": 14099,
+    "total_views": 14101,
     "total_likes": 53,
-    "avg_views": 352,
+    "avg_views": 353,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -290,7 +290,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcvNicOkkWq/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=qmzsFd54uGCgx1x1Vq6vyg&_nc_tpa=Q5bMBQIuP5n_h-_45tfhs43wzR9F-y5Rc-8NMsCIYngbsgNiTYup1gcyOH44HraBqI1JONy-bEUpngOH&oh=00_AQJfXAP0n1z_WK3ORk_F_Ou4R6_yAtLTIWj6bSb3xUX8NA&oe=6A9D3AEA",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=pkybA84QGkkQ7kNvwF9mAUJ&_nc_oc=Adqtle50OSqcb5GcpkAGl_f_pHsKQnJGP21vyDkUgA2BowKOO1UtNfKmzwEyskrOF5M&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=SeyxEpBB0TTpeeT1pqVf4A&_nc_tpa=Q5bMBQLwNbv_hBQpoFNANE6F5-uCgOkaOUZdAg4o0QkCj9b0S23QjbBnN48UNbn_bsIGLbGC69esQjq_&oh=00_AQISuvlnP9MutCY97isENKKJKuB5QbQYBTdUxTJtG6SkUQ&oe=6A9D732A",
      "views": 1618,
      "likes": 7,
      "shares": 0,
@@ -486,7 +486,7 @@
   "posted": 479,
   "stories_today": 0,
   "made_today": 0,
-  "views": 66047,
+  "views": 66049,
   "followers": 139
  },
  "events": [
@@ -494,15 +494,15 @@
   "[09-01 13:46:02] worker tech-01 switched OFF by owner \u2014 renderer stopped, queue cleared",
   "[09-01 13:46:10] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-01 13:46:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-02 07:40:27] happyhive: cap override 15 -> 24/day (channels.json)",
-  "[09-02 07:40:27] happyhive: warm-up \u2014 90 posts so far, holding to 24/day",
-  "[09-02 07:40:27] storynook: cap override 15 -> 24/day (channels.json)",
-  "[09-02 07:40:27] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
-  "[09-02 07:40:27] wonderlab: cap override 25 -> 24/day (channels.json)",
-  "[09-02 07:40:27] wonderlab: warm-up \u2014 234 posts so far, holding to 24/day"
+  "[09-02 07:52:48] storynook: cap override 15 -> 24/day (channels.json)",
+  "[09-02 07:52:48] storynook: warm-up \u2014 66 posts so far, holding to 24/day",
+  "[09-02 07:52:48] wonderlab: cap override 25 -> 24/day (channels.json)",
+  "[09-02 07:52:48] wonderlab: warm-up \u2014 234 posts so far, holding to 24/day",
+  "[09-02 07:52:49] happyhive: cap override 15 -> 24/day (channels.json)",
+  "[09-02 07:52:49] happyhive: warm-up \u2014 90 posts so far, holding to 24/day"
  ],
  "learnings": {
-  "updated": "2026-09-02 07:16:18",
+  "updated": "2026-09-02 07:46:19",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -547,8 +547,8 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 158,
-    "avg_completion": 0.447,
+    "median_views": 160,
+    "avg_completion": 0.45,
     "avg_eng_rate": 0.0064,
     "avg_saves": 0.1
    }
