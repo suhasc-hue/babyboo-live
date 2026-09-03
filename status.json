@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03 05:57:41",
+ "updated": "2026-09-03 06:08:25",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "snow_t8r1y1",
-   "shot": "2",
-   "vram_free_gb": 3.6,
+   "queued": 3,
+   "job": "playroom_t2r2y0",
+   "shot": "6",
+   "vram_free_gb": 2.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.8
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_dog_tug_t0r3y1",
    "shot": "1",
-   "vram_free_gb": 11.5,
+   "vram_free_gb": 12.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 515,
-   "qc_passed": 409,
+   "rendered": 516,
+   "qc_passed": 410,
    "vision_ok": 27,
-   "awaiting_review": 324,
+   "awaiting_review": 325,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 0,
@@ -276,7 +276,7 @@
     "followers": 24,
     "media_count": 248,
     "reach_today": 5765,
-    "total_views": 23039,
+    "total_views": 23042,
     "total_likes": 95,
     "avg_views": 576,
     "demographics": {},
@@ -327,12 +327,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcyKaz-ElSp/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791996251_1541383403894856_2238008554949779442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KXD8b6EPI34Q7kNvwGjWNhH&_nc_oc=Adq_oONDXIgsthCXdd7bzmKpLVq2Kc1J2wgtnsCrpgqZrAqdl343TwcybAcHY-WbK68&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=2-eWXT0lpBhxBW9WIJgLVw&_nc_tpa=Q5bMBQLu8BcyLE1u0Kg-4gJlGZetF0MaYI137ALTMnIeQCgM313Z1_ScIUJj-jfCYyJopPr4rZCvdGGC&oh=00_AQJTQ3h9mOPWfv6sr6qF5W5s-1zQTtKyto1bCbzX6A8zxA&oe=6A9E8AF9",
-     "views": 1382,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791996251_1541383403894856_2238008554949779442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KXD8b6EPI34Q7kNvwGjWNhH&_nc_oc=Adq_oONDXIgsthCXdd7bzmKpLVq2Kc1J2wgtnsCrpgqZrAqdl343TwcybAcHY-WbK68&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=xGr5Rdd7Xfutpju78EVk9A&_nc_tpa=Q5bMBQJ4VZKjzigZFjSiOfe8v7s9RNlakvq5yL2LjRFY4_ybL63-U7eBQZmzc7FLOs-AOn6G8kkncjt_&oh=00_AQJPUqLv_IYSMCkQXHTBoVQvMMohEMspmtIauHBPsgCpaA&oe=6A9E8AF9",
+     "views": 1383,
      "likes": 6,
      "shares": 0,
      "timestamp": "2026-09-02T11:47:05+0000",
-     "ig_reels_avg_watch_time": 9173,
+     "ig_reels_avg_watch_time": 9174,
      "caption": "\u2615\ud83e\udd0f Wax-Seal Unbox: a Working Espresso Machine in a Tiki Loun"
     }
    ]
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1350,
+  "rendered": 1351,
   "posted": 493,
   "stories_today": 0,
-  "made_today": 26,
-  "views": 74997,
+  "made_today": 27,
+  "views": 75000,
   "followers": 140
  },
  "events": [
@@ -501,12 +501,12 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-03 05:56:30] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-03 05:56:30] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-03 05:56:30] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-03 05:56:30] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-03 05:56:31] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-03 05:56:31] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-03 06:06:46] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-03 06:06:46] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-03 06:06:47] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-03 06:06:47] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-03 06:06:47] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-03 06:06:47] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-03 05:46:38",
