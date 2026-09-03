@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03 07:44:56",
+ "updated": "2026-09-03 07:55:40",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
-   "job": "picnic_t7r0y0",
-   "shot": "7",
-   "vram_free_gb": 2.3,
+   "queued": 3,
+   "job": "beach_t3r3y1",
+   "shot": "0",
+   "vram_free_gb": 3.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.0
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 12.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 1.8
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,7 +114,7 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 521,
+   "rendered": 522,
    "qc_passed": 414,
    "vision_ok": 27,
    "awaiting_review": 329,
@@ -276,7 +276,7 @@
     "followers": 24,
     "media_count": 248,
     "reach_today": 5765,
-    "total_views": 23094,
+    "total_views": 23096,
     "total_likes": 95,
     "avg_views": 577,
     "demographics": {},
@@ -327,12 +327,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcyKaz-ElSp/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791996251_1541383403894856_2238008554949779442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KXD8b6EPI34Q7kNvwGjWNhH&_nc_oc=Adq_oONDXIgsthCXdd7bzmKpLVq2Kc1J2wgtnsCrpgqZrAqdl343TwcybAcHY-WbK68&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=7vb84qT-Y91ECCHVuJmF1g&_nc_tpa=Q5bMBQK9dh3DSA9JQkdkSBzf2_Bp0ikxNxXib7Nspb6JuqPwjwhZ05HYHUEcdX3jjdOFPNSeEMFTZcaJ&oh=00_AQIwFr8S0j0PuSSZPtiYC2iQgqrxb99u2rIusyXwdmxs5Q&oe=6A9E8AF9",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791996251_1541383403894856_2238008554949779442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=KXD8b6EPI34Q7kNvwGjWNhH&_nc_oc=Adq_oONDXIgsthCXdd7bzmKpLVq2Kc1J2wgtnsCrpgqZrAqdl343TwcybAcHY-WbK68&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Mpjbcvo4XGGkQSIChiWcgw&_nc_tpa=Q5bMBQJXPnF8ZkFzkDi2yhNwTe3esQm38hm72wXeI6pzM6rWRWM5jvpMQX2_Y96UPiKHy4HwtiAdQ5E-&oh=00_AQL82_cr-5Prbc3k4_ExP4cV1Nv7fQjz3rg_3MWea_deDg&oe=6A9EC339",
      "views": 1384,
      "likes": 6,
      "shares": 0,
      "timestamp": "2026-09-02T11:47:05+0000",
-     "ig_reels_avg_watch_time": 9174,
+     "ig_reels_avg_watch_time": 9172,
      "caption": "\u2615\ud83e\udd0f Wax-Seal Unbox: a Working Espresso Machine in a Tiki Loun"
     }
    ]
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1360,
+  "rendered": 1361,
   "posted": 493,
   "stories_today": 0,
-  "made_today": 36,
-  "views": 75052,
+  "made_today": 37,
+  "views": 75054,
   "followers": 140
  },
  "events": [
@@ -501,15 +501,15 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-03 07:43:19] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-03 07:43:19] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-03 07:43:20] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-03 07:43:20] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-03 07:43:20] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-03 07:43:20] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-03 07:54:37] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-03 07:54:37] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-03 07:54:38] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-03 07:54:38] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-03 07:54:38] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-03 07:54:38] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-03 07:16:40",
+  "updated": "2026-09-03 07:46:40",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -555,7 +555,7 @@
    "wonderlab": {
     "n": 40,
     "median_views": 289,
-    "avg_completion": 0.513,
+    "avg_completion": 0.514,
     "avg_eng_rate": 0.0058,
     "avg_saves": 0.1
    }
