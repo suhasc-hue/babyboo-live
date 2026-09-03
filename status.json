@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04 02:43:40",
+ "updated": "2026-09-04 02:54:24",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,10 +12,10 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 1,
    "job": "garden_t3r0y2",
-   "shot": "0",
-   "vram_free_gb": 1.5,
+   "shot": "5",
+   "vram_free_gb": 1.2,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.2
   },
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 6,
-   "last_reel": "happyhive_tupperware_t0r4y0",
+   "made_today": 7,
+   "last_reel": "happyhive_leaf_pile_t0r4y0",
    "avg_min": 27.5,
    "recent": [
+    {
+     "id": "happyhive_leaf_pile_t0r4y0",
+     "min": 27.2,
+     "at": "02:48:42"
+    },
     {
      "id": "happyhive_tupperware_t0r4y0",
      "min": 27.2,
@@ -53,20 +58,15 @@
      "id": "happyhive_spaghetti_t0r4y0",
      "min": 27.7,
      "at": "00:31:54"
-    },
-    {
-     "id": "happyhive_pillow_fort_t0r4y0",
-     "min": 27.7,
-     "at": "00:04:10"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_leaf_pile_t0r4y0",
+   "job": "happyhive_beach_sand_t0r4y0",
    "shot": "1",
-   "vram_free_gb": 10.5,
+   "vram_free_gb": 11.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.4
+   "ram_free_gb": 2.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -115,9 +115,9 @@
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
    "rendered": 582,
-   "qc_passed": 459,
+   "qc_passed": 460,
    "vision_ok": 27,
-   "awaiting_review": 374,
+   "awaiting_review": 375,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 0,
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 310,
-   "qc_passed": 310,
+   "rendered": 311,
+   "qc_passed": 311,
    "vision_ok": 51,
-   "awaiting_review": 254,
+   "awaiting_review": 255,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -276,7 +276,7 @@
     "followers": 25,
     "media_count": 251,
     "reach_today": 8917,
-    "total_views": 22586,
+    "total_views": 22590,
     "total_likes": 95,
     "avg_views": 565,
     "demographics": {},
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1462,
+  "rendered": 1463,
   "posted": 496,
   "stories_today": 0,
-  "made_today": 15,
-  "views": 74545,
+  "made_today": 16,
+  "views": 74549,
   "followers": 141
  },
  "events": [
@@ -501,15 +501,15 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-04 02:41:59] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-04 02:41:59] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-04 02:41:59] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-04 02:41:59] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-04 02:41:59] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-04 02:41:59] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[09-04 02:53:16] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-04 02:53:16] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-04 02:53:17] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-04 02:53:17] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-04 02:53:17] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-04 02:53:17] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-04 02:16:58",
+  "updated": "2026-09-04 02:46:59",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -554,9 +554,9 @@
    },
    "wonderlab": {
     "n": 40,
-    "median_views": 252,
+    "median_views": 255,
     "avg_completion": 0.505,
-    "avg_eng_rate": 0.0063,
+    "avg_eng_rate": 0.0062,
     "avg_saves": 0.1
    }
   }
