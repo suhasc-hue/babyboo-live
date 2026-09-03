@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03 18:39:25",
+ "updated": "2026-09-03 18:50:09",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "snow_t5r1y1",
-   "shot": "6",
-   "vram_free_gb": 1.6,
+   "shot": "3",
+   "vram_free_gb": 2.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.8
+   "ram_free_gb": 2.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 12.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 1.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -276,7 +276,7 @@
     "followers": 24,
     "media_count": 248,
     "reach_today": 8917,
-    "total_views": 23476,
+    "total_views": 23483,
     "total_likes": 95,
     "avg_views": 587,
     "demographics": {},
@@ -493,7 +493,7 @@
   "posted": 493,
   "stories_today": 0,
   "made_today": 95,
-  "views": 75435,
+  "views": 75442,
   "followers": 140
  },
  "events": [
@@ -501,15 +501,15 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-03 18:37:44] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-03 18:38:44] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[09-03 18:38:44] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-03 18:38:45] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-03 18:38:45] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-03 18:38:45] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[09-03 18:49:01] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-03 18:49:02] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-03 18:49:02] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-03 18:49:02] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-03 18:49:03] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-03 18:49:03] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-03 18:16:50",
+  "updated": "2026-09-03 18:46:51",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
