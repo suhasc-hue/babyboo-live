@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03 13:06:45",
+ "updated": "2026-09-03 13:17:29",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 1,
-   "job": "blanketfort_t0r3y2",
-   "shot": "5",
-   "vram_free_gb": 2.1,
+   "queued": 3,
+   "job": "farmyard_t3r3y2",
+   "shot": "4",
+   "vram_free_gb": 2.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.7
+   "ram_free_gb": 1.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_kraft_paper_t0r3y1",
    "shot": "1",
-   "vram_free_gb": 12.4,
+   "vram_free_gb": 10.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.3
+   "ram_free_gb": 1.9
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 538,
-   "qc_passed": 425,
+   "rendered": 539,
+   "qc_passed": 426,
    "vision_ok": 27,
-   "awaiting_review": 340,
+   "awaiting_review": 341,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 0,
@@ -276,9 +276,9 @@
     "followers": 24,
     "media_count": 248,
     "reach_today": 8894,
-    "total_views": 23216,
+    "total_views": 23221,
     "total_likes": 95,
-    "avg_views": 580,
+    "avg_views": 581,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -307,7 +307,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcyYYQ8mIF-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791043198_1321384930072723_5033594371126963149_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=gKbrhoC3BTgQ7kNvwG1K3E9&_nc_oc=AdotymhDAgrm477XkbKIKsLWEs-m_P-x4qEYqh6pL2rPAqpb3cv1E7i4fSgYjfGB3k0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Z5hofREdcJch1oU-otlyzA&_nc_tpa=Q5bMBQIz_STPjOyG5F7nyyFHwJVoilDoqXJrL4bUQ1eu7MnzGy7iel53FsHx7h8v7e0w0mjd2MON7BFS&oh=00_AQINf2umS0yy5rpxdixHTjPCzrozce3Jw539U2IP5oGoog&oe=6A9F0E28",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791043198_1321384930072723_5033594371126963149_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=gKbrhoC3BTgQ7kNvwG1K3E9&_nc_oc=AdotymhDAgrm477XkbKIKsLWEs-m_P-x4qEYqh6pL2rPAqpb3cv1E7i4fSgYjfGB3k0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=9HPIBqFFCNCslxNLc2AuPw&_nc_tpa=Q5bMBQJR882i5hJF6W9QMG8FDLUyiA9URqHGZsvrXAqqXQkJ-8cZzfvV3qCNbIn7xpMqbGxGkmor8K1-&oh=00_AQKWRx-t_zclT2eYSfA23PCbRhgAf4BX7UQ9Belg0EktXA&oe=6A9F0E28",
      "views": 1442,
      "likes": 3,
      "shares": 0,
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1389,
+  "rendered": 1390,
   "posted": 493,
   "stories_today": 0,
-  "made_today": 65,
-  "views": 75174,
+  "made_today": 66,
+  "views": 75179,
   "followers": 140
  },
  "events": [
@@ -501,15 +501,15 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-03 13:05:54] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-03 13:05:54] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-03 13:05:55] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-03 13:05:55] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-03 13:05:55] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-03 13:05:55] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-03 13:16:12] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-03 13:16:12] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-03 13:16:13] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-03 13:16:13] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-03 13:16:13] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-03 13:16:13] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-03 12:46:45",
+  "updated": "2026-09-03 13:16:45",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
@@ -556,7 +556,7 @@
     "n": 40,
     "median_views": 289,
     "avg_completion": 0.513,
-    "avg_eng_rate": 0.0058,
+    "avg_eng_rate": 0.0057,
     "avg_saves": 0.1
    }
   }
