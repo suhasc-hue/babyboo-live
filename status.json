@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03 17:24:18",
+ "updated": "2026-09-03 17:35:02",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "snow_t10r0y2",
-   "shot": "4",
-   "vram_free_gb": 0.4,
+   "shot": "2",
+   "vram_free_gb": 4.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.0
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_sock_pull_t0r3y1",
    "shot": "1",
-   "vram_free_gb": 10.5,
+   "vram_free_gb": 6.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.7
+   "ram_free_gb": 2.4
   },
   "pcconee": {
    "owner": "Anshu",
@@ -501,12 +501,12 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-03 17:22:41] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-03 17:22:41] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-03 17:22:41] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-03 17:22:41] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-03 17:22:42] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-03 17:22:42] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-03 17:33:58] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-03 17:33:58] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-03 17:33:59] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-03 17:33:59] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-03 17:33:59] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-03 17:33:59] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-03 17:16:49",
