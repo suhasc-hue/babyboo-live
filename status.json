@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03 11:19:29",
+ "updated": "2026-09-03 11:30:13",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,10 +12,10 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "blanketfort_t1r2y1",
-   "shot": "3",
-   "vram_free_gb": 1.5,
+   "queued": 1,
+   "job": "rainyday_t1r1y0",
+   "shot": "1",
+   "vram_free_gb": 1.4,
    "vram_total_gb": 17.1,
    "ram_free_gb": 1.7
   },
@@ -64,7 +64,7 @@
    "queued": 0,
    "job": "happyhive_water_table_t0r3y1",
    "shot": "1",
-   "vram_free_gb": 12.5,
+   "vram_free_gb": 11.4,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.3
   },
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 532,
-   "qc_passed": 421,
+   "rendered": 533,
+   "qc_passed": 422,
    "vision_ok": 27,
-   "awaiting_review": 336,
+   "awaiting_review": 337,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 0,
@@ -276,9 +276,9 @@
     "followers": 24,
     "media_count": 248,
     "reach_today": 5765,
-    "total_views": 23171,
+    "total_views": 23180,
     "total_likes": 95,
-    "avg_views": 579,
+    "avg_views": 580,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
@@ -307,7 +307,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcyYYQ8mIF-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791043198_1321384930072723_5033594371126963149_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=gKbrhoC3BTgQ7kNvwG1K3E9&_nc_oc=AdotymhDAgrm477XkbKIKsLWEs-m_P-x4qEYqh6pL2rPAqpb3cv1E7i4fSgYjfGB3k0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=rXY_kqJJ1OGfb3K5iG-hqQ&_nc_tpa=Q5bMBQIR9uUk75IktcpTR93kWi-ZrZiY9s2BjFJUqUn1yXRdaxOAE6ObJapqr3Ukn136MskPw-iKnuWR&oh=00_AQKWQgMwbwCguavKF6UG9B1NR44Isu-tXJY2h9xhof2u4Q&oe=6A9ED5E8",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791043198_1321384930072723_5033594371126963149_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=gKbrhoC3BTgQ7kNvwG1K3E9&_nc_oc=AdotymhDAgrm477XkbKIKsLWEs-m_P-x4qEYqh6pL2rPAqpb3cv1E7i4fSgYjfGB3k0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=DKtYrU0p4wWfcsHSbL_Sdw&_nc_tpa=Q5bMBQJjmL9mDuCcdzq6iEstlaEtTrm2SmTDnnXBI75ZJjYs8kwmPgooFFMyYKe7pivOPHiwDY2lrHS2&oh=00_AQJreBATIja5tEZAd_Raa7u9MTMbIwzHxCHhieXjZuZyyQ&oe=6A9ED5E8",
      "views": 1442,
      "likes": 3,
      "shares": 0,
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1379,
+  "rendered": 1380,
   "posted": 493,
   "stories_today": 0,
-  "made_today": 55,
-  "views": 75129,
+  "made_today": 56,
+  "views": 75138,
   "followers": 140
  },
  "events": [
@@ -501,12 +501,12 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-03 11:18:01] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-03 11:18:01] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-03 11:18:02] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-03 11:18:02] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-03 11:18:02] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-03 11:18:02] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-03 11:29:19] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-03 11:29:19] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-03 11:29:20] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-03 11:29:20] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-03 11:29:20] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-03 11:29:20] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-03 11:16:43",
