@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04 17:55:58",
+ "updated": "2026-09-04 18:06:42",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
-   "job": "playroom_t8r3y1",
-   "shot": "7",
-   "vram_free_gb": 2.6,
+   "queued": 3,
+   "job": "kitchen_t10r0y1",
+   "shot": "0",
+   "vram_free_gb": 2.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 3.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 10.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 1.8
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,7 +114,7 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 629,
+   "rendered": 630,
    "qc_passed": 497,
    "vision_ok": 27,
    "awaiting_review": 412,
@@ -276,7 +276,7 @@
     "followers": 26,
     "media_count": 251,
     "reach_today": 607,
-    "total_views": 22710,
+    "total_views": 22711,
     "total_likes": 96,
     "avg_views": 568,
     "demographics": {},
@@ -297,12 +297,12 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcyYYQ8mIF-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791043198_1321384930072723_5033594371126963149_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zPSfczJTRSkQ7kNvwETx8KT&_nc_oc=AdolW8o5gX_EFacLpTeScAv3LUrfjPrgh0bCZc33HPCvbo6UGBHCRba0Lm2GSnnsphc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=CajTLdz2k-v3nClxDSRiDA&_nc_tpa=Q5bMBQK3ZwxGt4wl2cdZ7cXnSAnzfo6xuiY0EzsHn1uNee5YZ3-ofhTCMRU2tCJnHH7QdrPQykSRpA9Z&oh=00_AQLALwVsfbum53VzeKKS0XSL6T1PE6PshIF692yfzr_lfg&oe=6AA05FA8",
-     "views": 1451,
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791043198_1321384930072723_5033594371126963149_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=zPSfczJTRSkQ7kNvwETx8KT&_nc_oc=AdolW8o5gX_EFacLpTeScAv3LUrfjPrgh0bCZc33HPCvbo6UGBHCRba0Lm2GSnnsphc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=rhmeAxZ8Ly20kKgvD9YSnw&_nc_tpa=Q5bMBQIkDkcGvRES7mh1fErjFLovGIuiF5cU97ktzo3TMItU_jFS1Sgo9xRao7lldvBb4Q9rcJ72dG8j&oh=00_AQLOBf2I5oq-eDKoIj3geTc7d__5tvk3TEUPB48htwtLEQ&oe=6AA097E8",
+     "views": 1452,
      "likes": 3,
      "shares": 0,
      "timestamp": "2026-09-02T13:49:15+0000",
-     "ig_reels_avg_watch_time": 10770,
+     "ig_reels_avg_watch_time": 10762,
      "caption": "\ud83e\uddf5\ud83e\udea1 Shrink-Wrap Unbox: a Working Sewing Machine in a Cyberpun"
     },
     {
@@ -489,11 +489,11 @@
   }
  },
  "totals": {
-  "rendered": 1543,
+  "rendered": 1544,
   "posted": 496,
   "stories_today": 0,
-  "made_today": 96,
-  "views": 74670,
+  "made_today": 97,
+  "views": 74671,
   "followers": 142
  },
  "events": [
@@ -501,12 +501,12 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-04 17:54:20] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-04 17:54:20] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-04 17:54:21] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-04 17:54:21] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-04 17:54:21] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-04 17:54:21] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-04 18:05:40] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-04 18:05:40] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-04 18:05:41] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-04 18:05:41] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-04 18:05:41] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-04 18:05:41] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-04 17:47:14",
