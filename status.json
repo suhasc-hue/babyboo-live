@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04 20:04:43",
+ "updated": "2026-09-04 20:15:26",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 1,
-   "job": "playroom_t2r1y2",
-   "shot": "1",
-   "vram_free_gb": 2.1,
+   "queued": 3,
+   "job": "nursery_t3r1y2",
+   "shot": "0",
+   "vram_free_gb": 2.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.6
+   "ram_free_gb": 3.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_cardboard_box_t1r0y0",
    "shot": "1",
-   "vram_free_gb": 10.0,
+   "vram_free_gb": 10.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.1
+   "ram_free_gb": 2.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 636,
-   "qc_passed": 503,
+   "rendered": 637,
+   "qc_passed": 504,
    "vision_ok": 27,
-   "awaiting_review": 418,
+   "awaiting_review": 419,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 0,
@@ -489,10 +489,10 @@
   }
  },
  "totals": {
-  "rendered": 1555,
+  "rendered": 1556,
   "posted": 497,
   "stories_today": 0,
-  "made_today": 108,
+  "made_today": 109,
   "views": 74476,
   "followers": 142
  },
@@ -501,12 +501,12 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-04 20:03:45] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-04 20:03:46] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-04 20:03:46] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-04 20:03:46] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-04 20:03:46] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-04 20:03:46] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[09-04 20:14:02] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-04 20:14:02] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-04 20:14:02] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-04 20:14:02] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-04 20:14:03] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-04 20:14:03] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-04 19:47:16",
