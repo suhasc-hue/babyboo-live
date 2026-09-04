@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04 16:19:24",
+ "updated": "2026-09-04 16:30:08",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "picnic_t5r3y0",
-   "shot": "6",
-   "vram_free_gb": 0.6,
+   "shot": "3",
+   "vram_free_gb": 2.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.9
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 36,
-   "last_reel": "happyhive_dog_tug_t0r4y1",
+   "made_today": 37,
+   "last_reel": "happyhive_duck_race_t0r4y1",
    "avg_min": 27.4,
    "recent": [
+    {
+     "id": "happyhive_duck_race_t0r4y1",
+     "min": 27.1,
+     "at": "16:25:01"
+    },
     {
      "id": "happyhive_dog_tug_t0r4y1",
      "min": 27.2,
@@ -53,20 +58,15 @@
      "id": "happyhive_bubbles_t0r4y1",
      "min": 27.1,
      "at": "14:09:13"
-    },
-    {
-     "id": "happyhive_pot_drums_t0r2y1",
-     "min": 27.1,
-     "at": "13:42:07"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_duck_race_t0r4y1",
+   "job": "happyhive_pillow_fort_t0r4y1",
    "shot": "1",
-   "vram_free_gb": 11.3,
+   "vram_free_gb": 10.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.7
+   "ram_free_gb": 2.5
   },
   "pcconee": {
    "owner": "Anshu",
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 340,
-   "qc_passed": 340,
+   "rendered": 341,
+   "qc_passed": 341,
    "vision_ok": 51,
-   "awaiting_review": 284,
+   "awaiting_review": 285,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -489,10 +489,10 @@
   }
  },
  "totals": {
-  "rendered": 1534,
+  "rendered": 1535,
   "posted": 496,
   "stories_today": 0,
-  "made_today": 87,
+  "made_today": 88,
   "views": 74660,
   "followers": 142
  },
@@ -501,12 +501,12 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-04 16:18:26] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-04 16:18:26] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-04 16:18:27] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-04 16:18:27] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-04 16:18:27] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-04 16:18:27] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-04 16:28:45] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-04 16:28:46] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-04 16:28:46] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-04 16:28:46] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-04 16:28:46] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-04 16:28:46] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-09-04 16:17:13",
