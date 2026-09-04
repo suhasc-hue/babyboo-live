@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04 06:39:40",
+ "updated": "2026-09-04 06:50:24",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,10 +12,10 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "garden_t11r2y1",
-   "shot": "6",
-   "vram_free_gb": 1.4,
+   "shot": "2",
+   "vram_free_gb": 7.1,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.1
   },
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 10.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.5
+   "ram_free_gb": 1.6
   },
   "pcconee": {
    "owner": "Anshu",
@@ -501,15 +501,15 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-04 06:38:04] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-04 06:38:05] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-04 06:38:05] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-04 06:38:05] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-04 06:38:05] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-04 06:38:05] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[09-04 06:49:22] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-04 06:49:23] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-04 06:49:23] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-04 06:49:23] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-04 06:49:23] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-04 06:49:23] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-09-04 06:17:02",
+  "updated": "2026-09-04 06:47:03",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
