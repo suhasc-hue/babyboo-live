@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04 15:36:29",
+ "updated": "2026-09-04 15:47:13",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "picnic_t9r2y2",
-   "shot": "4",
-   "vram_free_gb": 11.9,
+   "shot": "2",
+   "vram_free_gb": 3.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.9
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -66,7 +66,7 @@
    "shot": "1",
    "vram_free_gb": 10.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.3
   },
   "pcconee": {
    "owner": "Anshu",
@@ -501,15 +501,15 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-04 15:35:12] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-04 15:35:12] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-04 15:35:12] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-04 15:35:12] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-04 15:35:13] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-04 15:35:13] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-04 15:46:30] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-04 15:46:31] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-04 15:46:31] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-04 15:46:31] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-04 15:46:31] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-04 15:46:31] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-09-04 15:17:11",
+  "updated": "2026-09-04 15:47:12",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
