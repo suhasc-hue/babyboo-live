@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04 21:54:41",
+ "updated": "2026-09-04 22:06:04",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -59,7 +59,7 @@
    "shot": "1",
    "vram_free_gb": 10.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -269,7 +269,7 @@
     "followers": 26,
     "media_count": 253,
     "reach_today": 607,
-    "total_views": 22506,
+    "total_views": 22525,
     "total_likes": 96,
     "avg_views": 563,
     "demographics": {},
@@ -486,7 +486,7 @@
   "posted": 498,
   "stories_today": 0,
   "made_today": 116,
-  "views": 74466,
+  "views": 74485,
   "followers": 142
  },
  "events": [
@@ -494,12 +494,12 @@
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
   "[09-04 21:19:29] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-04 21:51:53] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-04 21:52:25] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-04 21:52:25] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-04 21:52:25] wonderlab/wonderlab_tiki_pottery_t0r0: container ERROR (attempt 3/3) \u2014 BENCHED, skipping it from now on",
-  "[09-04 21:52:26] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-04 21:52:26] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-04 22:03:36] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-04 22:03:49] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-04 22:03:49] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-04 22:03:49] wonderlab/wonderlab_tiki_sewing_t1r2: container ERROR (attempt 2/3)",
+  "[09-04 22:03:50] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-04 22:03:50] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-04 21:47:18",
