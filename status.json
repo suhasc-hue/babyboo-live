@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04 14:21:22",
+ "updated": "2026-09-04 14:32:07",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 1,
    "job": "kitchen_t3r3y1",
-   "shot": "0",
-   "vram_free_gb": 12.0,
+   "shot": "5",
+   "vram_free_gb": 7.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.8
+   "ram_free_gb": 2.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_mirror_t0r4y1",
    "shot": "1",
-   "vram_free_gb": 10.1,
+   "vram_free_gb": 9.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -115,9 +115,9 @@
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
    "rendered": 618,
-   "qc_passed": 490,
+   "qc_passed": 491,
    "vision_ok": 27,
-   "awaiting_review": 405,
+   "awaiting_review": 406,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 0,
@@ -501,12 +501,12 @@
   "[09-02 18:19:33] SPAWNED w40 pid=24052 shard=0/1 -> http://192.168.1.40:8188",
   "[09-02 21:43:04] SPAWNED tech-01 pid=4620 shard=0/1 -> http://192.168.1.57:8188",
   "[09-02 21:43:04] worker tech-01 switched ON by owner",
-  "[09-04 14:20:11] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-04 14:20:11] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-04 14:20:11] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-04 14:20:11] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-04 14:20:12] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-04 14:20:12] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-04 14:30:28] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-04 14:30:28] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-04 14:30:28] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-04 14:30:28] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-04 14:30:29] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-04 14:30:29] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-04 14:17:10",
