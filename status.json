@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07 20:28:03",
+ "updated": "2026-09-07 20:39:26",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "beach_t3r1y0",
-   "shot": "0",
-   "vram_free_gb": 2.0,
+   "shot": "2",
+   "vram_free_gb": 3.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.4
+   "ram_free_gb": 2.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -463,15 +463,15 @@
   "[09-07 17:36:01] SPAWNED w40 pid=28160 shard=0/1 -> http://192.168.1.40:8188",
   "[09-07 17:36:09] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-07 17:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-07 20:25:52] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-07 20:25:52] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-07 20:25:53] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-07 20:25:53] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-07 20:25:53] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-07 20:25:53] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-07 20:37:11] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-07 20:37:11] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-07 20:37:11] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-07 20:37:11] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-07 20:37:12] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-07 20:37:12] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-07 20:06:13",
+  "updated": "2026-09-07 20:36:14",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
