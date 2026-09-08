@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08 21:13:14",
+ "updated": "2026-09-08 21:23:58",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,10 +12,10 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 0,
-   "job": "nursery_t0r1y0",
-   "shot": "3",
-   "vram_free_gb": 1.1,
+   "queued": 2,
+   "job": "snow_t0r0y2",
+   "shot": "7",
+   "vram_free_gb": 1.4,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.0
   },
@@ -64,9 +64,9 @@
    "queued": 0,
    "job": "happyhive_dog_tug_t1r0y0",
    "shot": "1",
-   "vram_free_gb": 11.1,
+   "vram_free_gb": 10.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.1
+   "ram_free_gb": 0.8
   },
   "pcconee": {
    "owner": "Anshu",
@@ -114,10 +114,10 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 682,
-   "qc_passed": 540,
+   "rendered": 683,
+   "qc_passed": 541,
    "vision_ok": 27,
-   "awaiting_review": 455,
+   "awaiting_review": 456,
    "posted": 81,
    "posted_today": 0,
    "stored_ready": 0,
@@ -489,10 +489,10 @@
   }
  },
  "totals": {
-  "rendered": 1628,
+  "rendered": 1629,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 46,
+  "made_today": 47,
   "views": 74920,
   "followers": 141
  },
@@ -501,15 +501,15 @@
   "[09-08 12:16:02] SPAWNED tech-01 pid=30032 shard=0/1 -> http://192.168.1.57:8188",
   "[09-08 12:16:02] SPAWNED w40 pid=15308 shard=0/1 -> http://192.168.1.40:8188",
   "[09-08 12:16:10] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-08 21:12:17] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-08 21:12:17] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-08 21:12:18] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-08 21:12:18] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-08 21:12:18] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-08 21:12:18] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-08 21:22:33] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-08 21:22:33] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-08 21:22:34] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-08 21:22:34] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-08 21:22:34] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-08 21:22:34] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-08 20:46:12",
+  "updated": "2026-09-08 21:16:13",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
