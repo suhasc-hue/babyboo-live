@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09 00:58:37",
+ "updated": "2026-09-09 01:09:21",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "picnic_t6r2y0",
-   "shot": "4",
-   "vram_free_gb": 2.0,
+   "shot": "2",
+   "vram_free_gb": 1.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.5
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -44,9 +44,9 @@
    "queued": 0,
    "job": "happyhive_leaf_pile_t1r0y0",
    "shot": "1",
-   "vram_free_gb": 11.1,
+   "vram_free_gb": 12.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.0
+   "ram_free_gb": 1.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -481,12 +481,12 @@
   "[09-08 12:16:02] SPAWNED tech-01 pid=30032 shard=0/1 -> http://192.168.1.57:8188",
   "[09-08 12:16:02] SPAWNED w40 pid=15308 shard=0/1 -> http://192.168.1.40:8188",
   "[09-08 12:16:10] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-09 00:57:18] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-09 00:57:18] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-09 00:57:18] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-09 00:57:18] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-09 00:57:18] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-09 00:57:18] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
+  "[09-09 01:08:36] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-09 01:08:36] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-09 01:08:36] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-09 01:08:36] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-09 01:08:36] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-09 01:08:36] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-09 00:46:16",
