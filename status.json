@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10 04:15:16",
+ "updated": "2026-09-10 04:26:40",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -18,10 +18,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 9,
-   "last_reel": "happyhive_laundry_basket_t1r0y1",
-   "avg_min": 25.7,
+   "made_today": 10,
+   "last_reel": "happyhive_tissue_box_t1r0y1",
+   "avg_min": 25.8,
    "recent": [
+    {
+     "id": "happyhive_tissue_box_t1r0y1",
+     "min": 26.9,
+     "at": "04:18:24"
+    },
     {
      "id": "happyhive_laundry_basket_t1r0y1",
      "min": 27.0,
@@ -46,20 +51,15 @@
      "id": "happyhive_dog_tug_t1r0y1",
      "min": 26.9,
      "at": "02:03:29"
-    },
-    {
-     "id": "happyhive_ball_pit_t1r0y1",
-     "min": 26.9,
-     "at": "01:36:36"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_tissue_box_t1r0y1",
+   "job": "happyhive_stacking_cups_t1r0y1",
    "shot": "1",
-   "vram_free_gb": 11.7,
+   "vram_free_gb": 10.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.7
+   "ram_free_gb": 2.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -182,10 +182,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 418,
-   "qc_passed": 418,
+   "rendered": 419,
+   "qc_passed": 419,
    "vision_ok": 51,
-   "awaiting_review": 362,
+   "awaiting_review": 363,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -482,10 +482,10 @@
   }
  },
  "totals": {
-  "rendered": 1743,
+  "rendered": 1744,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 9,
+  "made_today": 10,
   "views": 74941,
   "followers": 141
  },
@@ -494,15 +494,15 @@
   "[09-10 00:26:10] SPAWNED w40 pid=14980 shard=0/1 -> http://192.168.1.40:8188",
   "[09-10 00:26:10] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-10 00:26:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-10 04:13:18] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-10 04:13:18] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-10 04:13:19] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-10 04:13:19] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-10 04:13:19] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-10 04:13:19] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-10 04:24:36] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-10 04:24:36] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-10 04:24:36] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-10 04:24:36] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-10 04:24:37] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-10 04:24:37] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-10 03:56:09",
+  "updated": "2026-09-10 04:26:09",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
