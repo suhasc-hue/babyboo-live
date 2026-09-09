@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10 02:32:45",
+ "updated": "2026-09-10 02:44:08",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -57,9 +57,9 @@
    "queued": 0,
    "job": "happyhive_pillow_fort_t1r0y1",
    "shot": "1",
-   "vram_free_gb": 9.8,
+   "vram_free_gb": 11.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 2.2
   },
   "pcconee": {
    "owner": "Anshu",
@@ -183,9 +183,9 @@
   "happyhive": {
    "handle": "happyhivekidss",
    "rendered": 415,
-   "qc_passed": 414,
+   "qc_passed": 415,
    "vision_ok": 51,
-   "awaiting_review": 358,
+   "awaiting_review": 359,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -494,12 +494,12 @@
   "[09-10 00:26:10] SPAWNED w40 pid=14980 shard=0/1 -> http://192.168.1.40:8188",
   "[09-10 00:26:10] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-10 00:26:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-10 02:30:28] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-10 02:30:28] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-10 02:30:28] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-10 02:30:28] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-10 02:30:29] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-10 02:30:29] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-10 02:41:49] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-10 02:41:49] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-10 02:41:49] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-10 02:41:49] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-10 02:41:49] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-10 02:41:49] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-10 02:26:07",
