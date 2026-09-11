@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11 17:09:28",
+ "updated": "2026-09-11 17:20:12",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 3,
+   "queued": 0,
    "job": "rainyday_t3r2y0",
-   "shot": "6",
-   "vram_free_gb": 9.9,
+   "shot": "2",
+   "vram_free_gb": 0.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -25,10 +25,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 12,
-   "last_reel": "happyhive_duck_race_t1r1y0",
-   "avg_min": 25.5,
+   "made_today": 13,
+   "last_reel": "happyhive_pillow_fort_t1r1y0",
+   "avg_min": 25.7,
    "recent": [
+    {
+     "id": "happyhive_pillow_fort_t1r1y0",
+     "min": 27.8,
+     "at": "17:10:34"
+    },
     {
      "id": "happyhive_duck_race_t1r1y0",
      "min": 28.5,
@@ -53,20 +58,15 @@
      "id": "happyhive_mirror_t1r1y0",
      "min": 27.5,
      "at": "14:49:26"
-    },
-    {
-     "id": "happyhive_bubbles_t1r1y0",
-     "min": 27.6,
-     "at": "14:21:53"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_pillow_fort_t1r1y0",
+   "job": "happyhive_spaghetti_t1r1y0",
    "shot": "1",
-   "vram_free_gb": 12.8,
+   "vram_free_gb": 12.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 3.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -189,10 +189,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 452,
-   "qc_passed": 452,
+   "rendered": 453,
+   "qc_passed": 453,
    "vision_ok": 51,
-   "awaiting_review": 396,
+   "awaiting_review": 397,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -489,10 +489,10 @@
   }
  },
  "totals": {
-  "rendered": 1824,
+  "rendered": 1825,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 31,
+  "made_today": 32,
   "views": 74977,
   "followers": 143
  },
@@ -501,12 +501,12 @@
   "[09-11 11:36:10] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-11 11:36:40] SPAWNED w40 pid=21860 shard=0/1 -> http://192.168.1.40:8188",
   "[09-11 11:36:40] instance w40 exited (rc=1) \u2014 respawning",
-  "[09-11 17:08:19] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-11 17:08:19] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-11 17:08:19] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-11 17:08:19] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-11 17:08:20] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-11 17:08:20] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-11 17:18:36] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-11 17:18:36] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-11 17:18:36] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-11 17:18:36] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-11 17:18:36] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-11 17:18:36] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-11 17:06:12",
