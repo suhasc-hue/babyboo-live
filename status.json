@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-10 20:02:24",
+ "updated": "2026-09-11 11:36:43",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -11,13 +11,13 @@
    "last_reel": "",
    "avg_min": null,
    "recent": [],
-   "running": 1,
-   "queued": 1,
-   "job": "snow_t8r2y1",
-   "shot": "5",
-   "vram_free_gb": 2.3,
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 1.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 5.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -60,13 +60,13 @@
      "at": "11:29:25"
     }
    ],
-   "running": 1,
+   "running": 0,
    "queued": 0,
-   "job": "happyhive_fan_ribbons_t1r0y1",
-   "shot": "1",
-   "vram_free_gb": 12.0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 8.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 6.6
+   "ram_free_gb": 8.9
   },
   "pcconee": {
    "owner": "Anshu",
@@ -492,24 +492,24 @@
   "rendered": 1793,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 59,
+  "made_today": 0,
   "views": 74954,
   "followers": 141
  },
  "events": [
-  "[09-10 00:26:10] SPAWNED w40 pid=14980 shard=0/1 -> http://192.168.1.40:8188",
-  "[09-10 00:26:18] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-10 11:23:52] SPAWNED tech-01 pid=11288 shard=0/1 -> http://192.168.1.57:8188",
   "[09-10 12:05:14] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-10 20:01:03] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-10 20:01:03] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-10 20:01:04] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-10 20:01:04] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-10 20:01:04] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-10 20:01:04] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-10 20:04:09] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-11 11:36:01] drain up: ['tinycrafts', 'wonderlab', 'storynook', 'playground', 'happyhive', 'rescue'] cap=25/day/channel",
+  "[09-11 11:36:01] farm supervisor up: 3 workers configured",
+  "[09-11 11:36:02] SPAWNED tech-01 pid=9232 shard=0/1 -> http://192.168.1.57:8188",
+  "[09-11 11:36:02] SPAWNED w40 pid=12672 shard=0/1 -> http://192.168.1.40:8188",
+  "[09-11 11:36:02] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[09-11 11:36:02] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
+  "[09-11 11:36:02] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-11 11:36:02] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-10 19:56:26",
+  "updated": "2026-09-11 11:36:02",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
