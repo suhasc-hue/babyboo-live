@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11 12:41:10",
+ "updated": "2026-09-11 12:51:54",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
+   "queued": 0,
    "job": "garden_t10r2y1",
-   "shot": "7",
-   "vram_free_gb": 2.4,
+   "shot": "3",
+   "vram_free_gb": 0.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 3.6
   },
   "w40": {
    "owner": "Neeraj",
@@ -51,7 +51,7 @@
    "shot": "1",
    "vram_free_gb": 12.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.2
+   "ram_free_gb": 2.4
   },
   "pcconee": {
    "owner": "Anshu",
@@ -477,7 +477,7 @@
   "rendered": 1800,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 7,
+  "made_today": 8,
   "views": 74971,
   "followers": 143
  },
@@ -486,12 +486,12 @@
   "[09-11 11:36:10] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-11 11:36:40] SPAWNED w40 pid=21860 shard=0/1 -> http://192.168.1.40:8188",
   "[09-11 11:36:40] instance w40 exited (rc=1) \u2014 respawning",
-  "[09-11 12:39:50] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-11 12:39:50] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-11 12:39:50] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-11 12:39:50] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-11 12:39:50] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-11 12:39:50] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
+  "[09-11 12:51:07] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-11 12:51:07] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-11 12:51:07] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-11 12:51:07] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-11 12:51:08] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-11 12:51:08] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-11 12:36:08",
