@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19 19:48:49",
+ "updated": "2026-09-19 20:00:12",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
-   "job": "bathtub_t11r2y0",
-   "shot": "7",
-   "vram_free_gb": 0.5,
+   "queued": 3,
+   "job": "playroom_t5r2y2",
+   "shot": "4",
+   "vram_free_gb": 1.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.8
+   "ram_free_gb": 2.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -76,7 +76,7 @@
  "channels": {
   "tinycrafts": {
    "handle": "tinycraftsbyleo",
-   "rendered": 1314,
+   "rendered": 1315,
    "qc_passed": 1075,
    "vision_ok": 27,
    "awaiting_review": 990,
@@ -451,10 +451,10 @@
   }
  },
  "totals": {
-  "rendered": 2398,
+  "rendered": 2399,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 66,
+  "made_today": 67,
   "views": 75022,
   "followers": 143
  },
@@ -463,12 +463,12 @@
   "[09-11 11:36:40] instance w40 exited (rc=1) \u2014 respawning",
   "[09-12 21:00:51] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-16 21:59:46] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-19 19:46:43] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-19 19:46:43] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-19 19:46:44] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-19 19:46:44] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-19 19:46:44] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-19 19:46:44] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-19 19:58:02] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-19 19:58:02] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-19 19:58:03] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-19 19:58:03] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-19 19:58:03] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-19 19:58:03] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-19 19:39:27",
