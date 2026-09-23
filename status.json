@@ -1,16 +1,21 @@
 {
- "updated": "2026-09-23 18:57:16",
+ "updated": "2026-09-23 19:09:20",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.57",
-   "up": true,
+   "up": false,
    "enabled": true,
-   "made_today": 20,
-   "last_reel": "happyhive_beach_sand_t1r2y0",
+   "made_today": 21,
+   "last_reel": "happyhive_cardboard_box_t1r2y1",
    "avg_min": 20.9,
    "recent": [
+    {
+     "id": "happyhive_cardboard_box_t1r2y1",
+     "min": 17.2,
+     "at": "18:56:56"
+    },
     {
      "id": "happyhive_beach_sand_t1r2y0",
      "min": 17.1,
@@ -35,20 +40,8 @@
      "id": "happyhive_tissue_box_t1r2y0",
      "min": 17.2,
      "at": "17:31:22"
-    },
-    {
-     "id": "happyhive_laundry_basket_t1r2y0",
-     "min": 17.5,
-     "at": "17:14:10"
     }
-   ],
-   "running": 1,
-   "queued": 0,
-   "job": "happyhive_cardboard_box_t1r2y1",
-   "shot": "1",
-   "vram_free_gb": 7.4,
-   "vram_total_gb": 17.1,
-   "ram_free_gb": 1.8
+   ]
   },
   "w40": {
    "owner": "Neeraj",
@@ -182,10 +175,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 534,
-   "qc_passed": 534,
+   "rendered": 535,
+   "qc_passed": 535,
    "vision_ok": 51,
-   "awaiting_review": 478,
+   "awaiting_review": 479,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -482,7 +475,7 @@
   }
  },
  "totals": {
-  "rendered": 2705,
+  "rendered": 2706,
   "posted": 498,
   "stories_today": 0,
   "made_today": 61,
@@ -490,16 +483,16 @@
   "followers": 142
  },
  "events": [
-  "[09-11 11:36:40] SPAWNED w40 pid=21860 shard=0/1 -> http://192.168.1.40:8188",
   "[09-12 21:00:51] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-16 21:59:46] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-21 14:26:06] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-23 18:55:55] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[09-23 18:55:55] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day",
-  "[09-23 18:55:56] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-23 18:55:56] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-23 18:55:56] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-23 18:55:56] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
+  "[09-23 18:58:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[09-23 19:07:14] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-23 19:07:14] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-23 19:07:14] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-23 19:07:14] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-23 19:07:14] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-23 19:07:14] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-23 18:41:08",
