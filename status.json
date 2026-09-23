@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23 14:57:52",
+ "updated": "2026-09-23 15:09:16",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -46,9 +46,9 @@
    "queued": 0,
    "job": "happyhive_mirror_t1r2y0",
    "shot": "1",
-   "vram_free_gb": 9.7,
+   "vram_free_gb": 11.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.0
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -494,12 +494,12 @@
   "[09-12 21:00:51] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-16 21:59:46] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-21 14:26:06] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-23 14:56:04] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-23 14:56:04] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-23 14:56:05] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-23 14:56:05] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-23 14:56:05] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-23 14:56:05] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-23 15:07:23] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-23 15:07:23] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-23 15:07:23] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-23 15:07:23] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-23 15:07:24] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-23 15:07:24] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-23 14:41:03",
