@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-23 05:50:49",
+ "updated": "2026-09-23 06:02:12",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -12,12 +12,12 @@
    "avg_min": null,
    "recent": [],
    "running": 1,
-   "queued": 2,
+   "queued": 0,
    "job": "bathtub_t5r2y2",
-   "shot": "7",
-   "vram_free_gb": 2.0,
+   "shot": "3",
+   "vram_free_gb": 0.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 0.9
+   "ram_free_gb": 1.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -454,7 +454,7 @@
   "rendered": 2663,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 18,
+  "made_today": 19,
   "views": 75024,
   "followers": 142
  },
@@ -463,12 +463,12 @@
   "[09-12 21:00:51] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-16 21:59:46] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-21 14:26:06] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-23 05:48:28] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-23 05:48:28] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-23 05:48:28] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-23 05:48:28] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-23 05:48:29] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-23 05:48:29] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-23 06:00:48] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-23 06:00:48] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-23 06:00:48] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-23 06:00:48] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-23 06:00:48] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-23 06:00:48] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-23 05:40:55",
