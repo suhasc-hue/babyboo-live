@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27 03:27:28",
+ "updated": "2026-09-27 03:38:12",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -46,9 +46,9 @@
    "queued": 0,
    "job": "happyhive_puddle_pat_t2r0y1",
    "shot": "1",
-   "vram_free_gb": 8.8,
+   "vram_free_gb": 9.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -97,7 +97,7 @@
    "shot": "1",
    "vram_free_gb": 11.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.9
+   "ram_free_gb": 5.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -532,12 +532,12 @@
   "[09-23 18:58:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-26 00:00:21] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-27 03:25:53] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-27 03:25:53] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-27 03:25:53] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-27 03:25:53] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-27 03:25:53] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-27 03:25:53] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
+  "[09-27 03:37:13] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-27 03:37:13] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-27 03:37:13] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-27 03:37:13] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-27 03:37:14] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-27 03:37:14] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-27 03:12:37",
