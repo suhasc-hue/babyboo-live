@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27 23:07:45",
+ "updated": "2026-09-27 23:18:30",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 81,
-   "last_reel": "happyhive_shoe_basket_t2r1y1",
+   "made_today": 82,
+   "last_reel": "happyhive_kraft_paper_t2r1y1",
    "avg_min": 20.0,
    "recent": [
+    {
+     "id": "happyhive_kraft_paper_t2r1y1",
+     "min": 17.2,
+     "at": "23:15:01"
+    },
     {
      "id": "happyhive_shoe_basket_t2r1y1",
      "min": 17.1,
@@ -35,20 +40,15 @@
      "id": "happyhive_balloon_bat_t2r1y1",
      "min": 17.0,
      "at": "21:49:25"
-    },
-    {
-     "id": "happyhive_cardboard_box_t2r2y0",
-     "min": 17.0,
-     "at": "21:32:22"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_kraft_paper_t2r1y1",
+   "job": "happyhive_mattress_bounce_t2r1y1",
    "shot": "1",
    "vram_free_gb": 9.0,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -56,10 +56,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 51,
-   "last_reel": "happyhive_muslin_peekaboo_t2r1y1",
-   "avg_min": 163.5,
+   "made_today": 52,
+   "last_reel": "happyhive_shoe_basket_t2r1y1",
+   "avg_min": 162.6,
    "recent": [
+    {
+     "id": "happyhive_shoe_basket_t2r1y1",
+     "min": 27.3,
+     "at": "23:16:15"
+    },
     {
      "id": "happyhive_muslin_peekaboo_t2r1y1",
      "min": 27.1,
@@ -84,20 +89,15 @@
      "id": "happyhive_tupperware_t2r1y1",
      "min": 27.3,
      "at": "21:00:21"
-    },
-    {
-     "id": "happyhive_tissue_box_t2r1y1",
-     "min": 27.2,
-     "at": "20:33:00"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_shoe_basket_t2r1y1",
+   "job": "happyhive_mattress_bounce_t2r1y1",
    "shot": "1",
-   "vram_free_gb": 10.5,
+   "vram_free_gb": 7.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.0
+   "ram_free_gb": 0.7
   },
   "pcconee": {
    "owner": "Anshu",
@@ -220,10 +220,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 873,
-   "qc_passed": 872,
+   "rendered": 874,
+   "qc_passed": 873,
    "vision_ok": 51,
-   "awaiting_review": 816,
+   "awaiting_review": 817,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -520,10 +520,10 @@
   }
  },
  "totals": {
-  "rendered": 3044,
+  "rendered": 3045,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 82,
+  "made_today": 83,
   "views": 75035,
   "followers": 142
  },
@@ -532,22 +532,22 @@
   "[09-23 18:58:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-26 00:00:21] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-27 23:06:39] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-27 23:06:39] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-27 23:06:39] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-27 23:06:39] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-27 23:06:39] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-27 23:06:39] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
+  "[09-27 23:16:57] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-27 23:16:57] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-27 23:16:58] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-27 23:16:58] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-27 23:16:58] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-27 23:16:58] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-27 22:42:56",
+  "updated": "2026-09-27 23:12:57",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
    "Average completion (watch time / duration) is 44% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 9:00, 10:00, 13:00 (median views 1357 at 9:00).",
+   "Best posting hours so far: 9:00, 10:00, 13:00 (median views 1358 at 9:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
