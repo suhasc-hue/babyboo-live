@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27 05:25:29",
+ "updated": "2026-09-27 05:36:13",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -46,9 +46,9 @@
    "queued": 0,
    "job": "happyhive_towel_burrito_t2r0y1",
    "shot": "1",
-   "vram_free_gb": 9.0,
+   "vram_free_gb": 10.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -56,10 +56,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 12,
-   "last_reel": "happyhive_sock_pull_t2r0y1",
-   "avg_min": 213.7,
+   "made_today": 13,
+   "last_reel": "happyhive_fan_ribbons_t2r0y1",
+   "avg_min": 212.0,
    "recent": [
+    {
+     "id": "happyhive_fan_ribbons_t2r0y1",
+     "min": 27.3,
+     "at": "05:35:26"
+    },
     {
      "id": "happyhive_sock_pull_t2r0y1",
      "min": 27.1,
@@ -84,20 +89,15 @@
      "id": "happyhive_fridge_magnets_t2r0y1",
      "min": 27.2,
      "at": "03:19:05"
-    },
-    {
-     "id": "happyhive_mattress_bounce_t2r0y1",
-     "min": 27.3,
-     "at": "02:51:52"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_fan_ribbons_t2r0y1",
+   "job": "happyhive_towel_burrito_t2r0y1",
    "shot": "1",
-   "vram_free_gb": 10.4,
+   "vram_free_gb": 11.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 0.8
+   "ram_free_gb": 2.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -532,12 +532,12 @@
   "[09-23 18:58:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-26 00:00:21] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-27 05:24:28] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-27 05:24:28] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-27 05:24:28] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-27 05:24:28] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-27 05:24:28] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-27 05:24:28] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
+  "[09-27 05:34:45] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-27 05:34:45] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-27 05:34:45] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-27 05:34:45] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-27 05:34:46] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-27 05:34:46] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-27 05:12:39",
