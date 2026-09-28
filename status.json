@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28 11:28:14",
+ "updated": "2026-09-28 11:38:58",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 40,
-   "last_reel": "happyhive_puddle_pat_t2r2y0",
+   "made_today": 41,
+   "last_reel": "happyhive_popup_toy_t2r2y1",
    "avg_min": 19.9,
    "recent": [
+    {
+     "id": "happyhive_popup_toy_t2r2y1",
+     "min": 17.5,
+     "at": "11:30:04"
+    },
     {
      "id": "happyhive_puddle_pat_t2r2y0",
      "min": 17.2,
@@ -35,20 +40,15 @@
      "id": "happyhive_mattress_bounce_t2r2y0",
      "min": 17.0,
      "at": "10:03:33"
-    },
-    {
-     "id": "happyhive_kraft_paper_t2r2y0",
-     "min": 17.1,
-     "at": "09:46:29"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_popup_toy_t2r2y1",
+   "job": "happyhive_picnic_lawn_t2r2y0",
    "shot": "1",
-   "vram_free_gb": 12.4,
+   "vram_free_gb": 10.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -56,10 +56,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 25,
-   "last_reel": "happyhive_sofa_cruise_t2r2y0",
-   "avg_min": 142.2,
+   "made_today": 26,
+   "last_reel": "happyhive_puddle_pat_t2r2y0",
+   "avg_min": 141.5,
    "recent": [
+    {
+     "id": "happyhive_puddle_pat_t2r2y0",
+     "min": 27.5,
+     "at": "11:37:34"
+    },
     {
      "id": "happyhive_sofa_cruise_t2r2y0",
      "min": 28.2,
@@ -84,20 +89,15 @@
      "id": "happyhive_muslin_peekaboo_t2r2y0",
      "min": 27.3,
      "at": "09:20:17"
-    },
-    {
-     "id": "happyhive_water_table_t2r2y0",
-     "min": 27.3,
-     "at": "08:52:59"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_puddle_pat_t2r2y0",
+   "job": "happyhive_picnic_lawn_t2r2y0",
    "shot": "1",
-   "vram_free_gb": 9.2,
+   "vram_free_gb": 13.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.1
+   "ram_free_gb": 3.8
   },
   "pcconee": {
    "owner": "Anshu",
@@ -220,10 +220,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 916,
-   "qc_passed": 915,
+   "rendered": 917,
+   "qc_passed": 916,
    "vision_ok": 51,
-   "awaiting_review": 859,
+   "awaiting_review": 860,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -520,10 +520,10 @@
   }
  },
  "totals": {
-  "rendered": 3087,
+  "rendered": 3088,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 41,
+  "made_today": 42,
   "views": 75036,
   "followers": 142
  },
@@ -532,12 +532,12 @@
   "[09-23 18:58:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-26 00:00:21] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-28 11:26:57] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-28 11:26:57] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-28 11:26:57] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-28 11:26:57] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-28 11:26:57] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-28 11:26:57] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
+  "[09-28 11:37:17] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-28 11:37:17] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-28 11:37:17] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-28 11:37:17] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-28 11:37:17] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-28 11:37:17] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-28 11:13:11",
