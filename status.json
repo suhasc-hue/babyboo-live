@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29 00:10:23",
+ "updated": "2026-09-29 00:21:47",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -21,7 +21,7 @@
    "queued": 0,
    "job": "happyhive_drum_bucket_garden_t2r2y1",
    "shot": "1",
-   "vram_free_gb": 5.7,
+   "vram_free_gb": 11.1,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.2
   },
@@ -469,15 +469,15 @@
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 11:51:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 12:18:01] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-29 00:08:33] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-29 00:08:33] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-29 00:08:33] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-29 00:08:33] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-29 00:08:34] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-29 00:08:34] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-29 00:19:52] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-29 00:19:52] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-29 00:19:53] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-29 00:19:53] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-29 00:19:53] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-29 00:19:53] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-28 23:43:25",
+  "updated": "2026-09-29 00:13:25",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
