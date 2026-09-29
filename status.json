@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29 14:02:51",
+ "updated": "2026-09-29 14:14:15",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 49,
-   "last_reel": "happyhive_spaghetti_t2r3y1",
+   "made_today": 50,
+   "last_reel": "happyhive_laundry_basket_t2r3y1",
    "avg_min": 19.7,
    "recent": [
+    {
+     "id": "happyhive_laundry_basket_t2r3y1",
+     "min": 17.2,
+     "at": "14:08:26"
+    },
     {
      "id": "happyhive_spaghetti_t2r3y1",
      "min": 17.2,
@@ -35,20 +40,15 @@
      "id": "happyhive_ball_pit_t2r3y1",
      "min": 17.0,
      "at": "12:41:52"
-    },
-    {
-     "id": "happyhive_sprinkler_t2r3y1",
-     "min": 17.0,
-     "at": "12:24:49"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_laundry_basket_t2r3y1",
+   "job": "happyhive_tissue_box_t2r3y1",
    "shot": "1",
-   "vram_free_gb": 11.9,
+   "vram_free_gb": 11.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.2
+   "ram_free_gb": 2.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -182,10 +182,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 1009,
-   "qc_passed": 1007,
+   "rendered": 1010,
+   "qc_passed": 1008,
    "vision_ok": 51,
-   "awaiting_review": 951,
+   "awaiting_review": 952,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -194,66 +194,15 @@
     "followers": 19,
     "media_count": 90,
     "reach_today": 0,
-    "total_views": 14271,
-    "total_likes": 63,
-    "avg_views": 357,
+    "total_views": 0,
+    "total_likes": 0,
+    "avg_views": 0,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
     "stale": null
    },
-   "top_media": [
-    {
-     "permalink": "https://www.instagram.com/reel/DcNU3qLE2LQ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777381526_1925954688360549_5802159074219233435_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=sAHLY4qCytwQ7kNvwG806nb&_nc_oc=AdpeYPyF6URvWgP-svP13dEoaKA0mH-tyWjuaY3i8DOONT-yRvMpLM_QvZgdnHQUv7Y&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=rIH2EcCfleMft5X3vnUfiw&_nc_tpa=Q5bMBQJn_QM_HKbDs0J-PY4TjMr2-XC9aOi3ilzizDwTNDqByREajeSAfDBMd6C4IGCCMZq2jFmGSZFW&oh=00_AQP1XkFT8D3nR5_HPfKrOPuoNSTNZ-eNs8DjyIYzk8DN3g&oe=6AC12941",
-     "views": 2048,
-     "likes": 9,
-     "shares": 0,
-     "timestamp": "2026-08-19T04:26:38+0000",
-     "ig_reels_avg_watch_time": 11844,
-     "caption": "He Toddled Into the Water + One Big Wobble \ud83d\udca6\ud83d\ude02 Soaked, wobbli"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcLJk2_lP9A/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/777867126_1767832384220606_7413832319936542540_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=Q0TWqAE5VhAQ7kNvwHxSp5I&_nc_oc=AdpTH7_UDLIijSTAZA1F6aTD_Ku_bikxPI8Q2eMrjmLOBfRd73DMe2ETYyjZIv6Q5Jw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=ndbXfHmDWitOrZq0CpJeIQ&_nc_tpa=Q5bMBQKQ9gW1aFx0JMoUB5MQRtrMhkwwqmzB9dANl3ESl2zLXQfXzZjho2DyGzBT82yynyIIMz2_xTfv&oh=00_AQP1FM4ky7QFqq0S8tV5FQHPdsRJGy7wGMbAzDkmwVqHbQ&oe=6AC1352E",
-     "views": 1847,
-     "likes": 3,
-     "shares": 0,
-     "timestamp": "2026-08-18T08:09:20+0000",
-     "ig_reels_avg_watch_time": 10473,
-     "caption": "Morning Chaos: Bounce Bounce Bounce \ud83d\udecf\ufe0f\ud83d\ude01 He has figured out t"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcNG8VpEiEt/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780648513_2012060569482684_9043537629099527989_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=4T6ii38rrBQQ7kNvwFCYu3Q&_nc_oc=AdrqnAPGebQKzGhpifOZp6xX9H3BovGD5w1z_O0uWYtsvNEFGQKBd03alT-XMZThfW8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=rIH2EcCfleMft5X3vnUfiw&_nc_tpa=Q5bMBQILGjL_H0MVr5PI_pRL6jnbD-z2TMwCqW4lV6gWk6RwHPKxIDqljvTLTpXJ8f0Wd-b93KPfWJNq&oh=00_AQPU0SetfISlNDdTqjCOlwiwL3BxNKmfDJ4zTgiTci3lQA&oe=6AC13C91",
-     "views": 1251,
-     "likes": 4,
-     "shares": 2,
-     "timestamp": "2026-08-19T02:24:58+0000",
-     "ig_reels_avg_watch_time": 12287,
-     "caption": "Morning Chaos: Tunnel Boy \ud83d\udd73\ufe0f\ud83d\ude06 The tunnel collapsed on him an"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcL6g4EkvZ-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/778794408_28546544311619984_5227401655445504225_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=-MLg7EwsvkAQ7kNvwF7Cvri&_nc_oc=AdrmVrHqf1v0_Rk92n1ERdDXUMslhhwiOF_IS5-rgaT1aR3XdkR_u4hJ8v2i_TLN43Y&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=4xhSn1WOs-HUBrg7ChqHEA&_nc_tpa=Q5bMBQLCMdgRjON81aAT4GQc8wKAQD6XJY1JyYOG6dBB7hwsrGEGVgMsHLaXq7xrHL8XEVT4fUt_MFwO&oh=00_AQM_zrETZW_ba1C-pe00BbmDqqxPVKAQGVs_ttFKwaz47Q&oe=6AC111F6",
-     "views": 988,
-     "likes": 3,
-     "shares": 0,
-     "timestamp": "2026-08-18T15:17:11+0000",
-     "ig_reels_avg_watch_time": 9573,
-     "caption": "Ball Pit Swimming Lessons \ud83c\udf89\ud83d\ude01 Every ball must leave the pit. "
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcM5AclE0Cb/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/780443759_4604531883204534_129126949567332715_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=jnIahlAr6ogQ7kNvwGFsFTM&_nc_oc=AdqsK5BKsXRTqod9Pwzh_GeLxBdqtHFHUraKJGDXeYjBXpayF92UJlwB2k1z6C1eSBw&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=4xhSn1WOs-HUBrg7ChqHEA&_nc_tpa=Q5bMBQLfMTWLTSPbcoIDhAClL7-xLy1g5ldSGVD8_zFmZESSL5iEOY8EH-k11oL5fZ0BzyEHUVcBGPUb&oh=00_AQMoXGVSj1FEg55fhcKA-bKWyzRZ-OQXbZZToaODApxNYQ&oe=6AC13742",
-     "views": 939,
-     "likes": 10,
-     "shares": 0,
-     "timestamp": "2026-08-19T00:23:11+0000",
-     "ig_reels_avg_watch_time": 14122,
-     "caption": "He Actually Won (One Take, No Cuts) \ud83d\udc36\ud83d\ude06 Nine months old and a"
-    }
-   ]
+   "top_media": []
   },
   "wonderlab": {
    "handle": "wonderlabwithmaya",
@@ -269,66 +218,15 @@
     "followers": 24,
     "media_count": 253,
     "reach_today": 1,
-    "total_views": 23042,
-    "total_likes": 100,
-    "avg_views": 576,
+    "total_views": 0,
+    "total_likes": 0,
+    "avg_views": 0,
     "demographics": {},
     "demographics_state": "locked",
     "error": null,
     "stale": null
    },
-   "top_media": [
-    {
-     "permalink": "https://www.instagram.com/reel/DcvNicOkkWq/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/789264269_1052589907696044_6252580900084674521_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=G1JYwhhIQjwQ7kNvwGYJyB5&_nc_oc=AdqrX1erDbo3gLU82kqQqqnOHNFkbrOAnYoVvJ9g40pN8hxvMYwFhnNy2Hy0b3aIuX8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Bq7sGvQAYr5ciMPNXPurJg&_nc_tpa=Q5bMBQIZMQZuihtYAMUJJfK1DZI6505-LqlsWgCtNR2Bh0JcNJi6Xy3hZU63Kk3K85HcRxRdbt-e8L54&oh=00_AQO3cqYMFWfcdiiqBygOpqp2px9-Kboytfi-SYg1AiMzlQ&oe=6AC143EA",
-     "views": 1640,
-     "likes": 8,
-     "shares": 0,
-     "timestamp": "2026-09-01T08:16:47+0000",
-     "ig_reels_avg_watch_time": 10654,
-     "caption": "\ud83c\udffa\ud83c\udf00 Wax-Seal Unbox: a Working Pottery Wheel in a Cyberpunk Al"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcyYYQ8mIF-/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791043198_1321384930072723_5033594371126963149_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=NHv7CkbBmfAQ7kNvwFoaHiV&_nc_oc=AdrmdcAlyuzwhwu9Zpqjd6_vmu_xcqNlv8P6MOvyBgME-Nu3D2zNqpq-rHDVimNS5D0&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=TgtjFG3moeif0DpXO70lTQ&_nc_tpa=Q5bMBQJkPFtmWMJBJAyTkTEULKfaClVu6B7usDvP2sWKKhOdoUhAej9RZKLJNoLRiuFcJcGFnxj67bQV&oh=00_AQOWV-ywMbLlJsBX4bpTNhViFFw8cWGn91gVA_F8Tn5Bgg&oe=6AC11CE8",
-     "views": 1459,
-     "likes": 4,
-     "shares": 0,
-     "timestamp": "2026-09-02T13:49:15+0000",
-     "ig_reels_avg_watch_time": 10743,
-     "caption": "\ud83e\uddf5\ud83e\udea1 Shrink-Wrap Unbox: a Working Sewing Machine in a Cyberpun"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DctYTV_ihXK/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791335301_4175098282781160_5430100567815690592_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=m8Cn1xHoatgQ7kNvwH1D8i7&_nc_oc=AdrQpCaHUQvWUNMVXuR4XIOV2knCr2g_X8IppmYibE4nW7DkVfdYQCO_JsIGkd7uSd8&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=Bq7sGvQAYr5ciMPNXPurJg&_nc_tpa=Q5bMBQJfxzK2qlfKBExEj9iadvkpp4WROqL02XM8mcgFT1eptTFYeHHMrttu8iD9zAtAAwqMluh1yrf5&oh=00_AQNiKEdrptsbk-T4lZc-Eyis8FdJ3OvXHGvmzghjemOQHg&oe=6AC148B9",
-     "views": 1451,
-     "likes": 9,
-     "shares": 0,
-     "timestamp": "2026-08-31T15:12:23+0000",
-     "ig_reels_avg_watch_time": 10449,
-     "caption": "\ud83e\uddf5\ud83e\udea1 Shrink-Wrap Unbox: a Working Sewing Machine in a Winter C"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/DcyKaz-ElSp/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791996251_1541383403894856_2238008554949779442_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=_spPN-0bumwQ7kNvwH09Cpf&_nc_oc=AdqP8m5LiThJc7gUfs6RJ_ohJpHmRXNlJhn6qmpz8gBT8jDopnBK_8mFwqW9QUBkDSk&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=TgtjFG3moeif0DpXO70lTQ&_nc_tpa=Q5bMBQJQAEuUzDhapTmfI3eoixlg6QCLT4e1aaKrvI4YNbmKMUvUPIVewy5ZX_-tXcMzCI7NBTTH5gSI&oh=00_AQPofdAiWgcUQ46hMNOzyxYUfNW7JyRm3vTJfl32EmJtkg&oe=6AC14279",
-     "views": 1399,
-     "likes": 6,
-     "shares": 0,
-     "timestamp": "2026-09-02T11:47:05+0000",
-     "ig_reels_avg_watch_time": 9125,
-     "caption": "\u2615\ud83e\udd0f Wax-Seal Unbox: a Working Espresso Machine in a Tiki Loun"
-    },
-    {
-     "permalink": "https://www.instagram.com/reel/Dcx8bmjivkH/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/791922756_2104615207109677_1001559948945775842_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=nJU1hBQTZEYQ7kNvwE-sKM3&_nc_oc=AdrdoSCbnuDTEaHkpSnj7VujX-Xo6x206nsLQiN5NDkY_26W5deQV3LDLY6VVMes6L4&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=TgtjFG3moeif0DpXO70lTQ&_nc_tpa=Q5bMBQL6BT1Vmcv27vFx0ju3h9ZSgQrImbmp05AckTgB64fkDBbGzt0qE8xod5uxTxspCkYsPg9-DWUU&oh=00_AQOnXMDcQuB9PPs9E5PF1jt8bxWD7MaMeMsJ5NjQxIJ_rQ&oe=6AC12F19",
-     "views": 1396,
-     "likes": 2,
-     "shares": 1,
-     "timestamp": "2026-09-02T09:45:00+0000",
-     "ig_reels_avg_watch_time": 9501,
-     "caption": "\ud83e\udee7\ud83c\udf00 Tear-Strip Unbox: a Washing Machine That Really Tumbles i"
-    }
-   ]
+   "top_media": []
   },
   "storynook": {
    "handle": "storynooksam",
@@ -418,7 +316,7 @@
     "username": "playgroundpalszoe",
     "followers": 3,
     "media_count": 11,
-    "reach_today": 0,
+    "reach_today": null,
     "total_views": 2223,
     "total_likes": 15,
     "avg_views": 202,
@@ -482,11 +380,11 @@
   }
  },
  "totals": {
-  "rendered": 3180,
+  "rendered": 3181,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 49,
-  "views": 75036,
+  "made_today": 50,
+  "views": 37723,
   "followers": 142
  },
  "events": [
@@ -494,22 +392,22 @@
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 11:51:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 12:18:01] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-29 14:00:47] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-29 14:00:47] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-29 14:00:48] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-29 14:00:48] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-29 14:00:48] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-29 14:00:48] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-29 14:12:14] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-29 14:12:14] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-29 14:12:14] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-29 14:12:14] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-29 14:12:15] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-29 14:12:15] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-09-29 13:43:42",
-  "sample": 168,
+  "updated": "2026-09-29 14:13:43",
+  "sample": 88,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 44% across 168 reels with data.",
-   "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
+   "Average completion (watch time / duration) is 36% across 88 reels with data.",
+   "Reels losing viewers fastest (completion <60% of average): playground_bouncecathedral_t0r1, playground_igloovillage_t0r0, picnic_t11r1y1, playroom_t4r0y1, kitchen_t11r1y2 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
-   "Best posting hours so far: 9:00, 10:00, 13:00 (median views 1359 at 9:00).",
+   "Best posting hours so far: 7:00, 0:00, 18:00 (median views 711 at 7:00).",
    "Audience demographics still locked by Instagram (<100 followers) on: tinycrafts, wonderlab, storynook, playground, happyhive \u2014 the 'Iranian women 25-30' profile can be verified from the API only after these accounts cross ~100 followers."
   ],
   "recommendations": [
@@ -537,20 +435,6 @@
     "avg_completion": 0.35,
     "avg_eng_rate": 0.0135,
     "avg_saves": 0.3
-   },
-   "happyhive": {
-    "n": 40,
-    "median_views": 170,
-    "avg_completion": 0.544,
-    "avg_eng_rate": 0.0103,
-    "avg_saves": 0.1
-   },
-   "wonderlab": {
-    "n": 40,
-    "median_views": 292,
-    "avg_completion": 0.513,
-    "avg_eng_rate": 0.0061,
-    "avg_saves": 0.1
    }
   }
  }
