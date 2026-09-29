@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29 14:48:27",
+ "updated": "2026-09-29 14:59:54",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -46,9 +46,9 @@
    "queued": 0,
    "job": "happyhive_tupperware_t2r3y1",
    "shot": "1",
-   "vram_free_gb": 13.6,
+   "vram_free_gb": 12.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.0
+   "ram_free_gb": 1.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -365,7 +365,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/DcCCmxdD4dd/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773725137_1937725300253049_230821252616513771_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=NRZyB7JMCfAQ7kNvwFtYCHa&_nc_oc=Adrm9aU5DJubFts5xgFsaXd2gg1aistQ846hGKEMJH7qUbJUnvDe7k8x3OCZsMYIZYQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=5Lm3ODEvcJV80l27ziFdzQ&_nc_tpa=Q5bMBQIPwomzriOre1keKB3Erc95-zPQuLB2UVNibqxUjIIATQikoB94iA8yob7U6y7bZ3-KPz1pGJ34&oh=00_AQPJFhAdlcTVtOzw1HfdwZX6q0b8-F3N_Uh9PceI7fz7QQ&oe=6AC13ABA",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773725137_1937725300253049_230821252616513771_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=NRZyB7JMCfAQ7kNvwFtYCHa&_nc_oc=Adrm9aU5DJubFts5xgFsaXd2gg1aistQ846hGKEMJH7qUbJUnvDe7k8x3OCZsMYIZYQ&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=oijosrXrkT45OnFPx-HNiQ&_nc_tpa=Q5bMBQKgpeaYLmWFPd0v6KqO2fyFjMY4FXiPcAgT4Ok9BGq14g4jNXj6v7mE84yHQC9i02ZyqZOx4Y7V&oh=00_AQOwyxKowRJjkClJ6nkceQpwprmr5wjkVuKQtklk_JhcEw&oe=6AC13ABA",
      "views": 1399,
      "likes": 12,
      "shares": 0,
@@ -494,12 +494,12 @@
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 11:51:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 12:18:01] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-29 14:46:42] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-29 14:46:42] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-29 14:46:42] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-29 14:46:42] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-29 14:46:43] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-29 14:46:43] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-29 14:58:08] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-29 14:58:08] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-29 14:58:08] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-29 14:58:08] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-29 14:58:09] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-29 14:58:09] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-29 14:43:44",
