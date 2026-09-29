@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30 02:01:38",
+ "updated": "2026-09-30 02:13:02",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 7,
-   "last_reel": "happyhive_leaf_pile_t2r4y0",
+   "made_today": 8,
+   "last_reel": "happyhive_beach_sand_t2r4y0",
    "avg_min": 19.6,
    "recent": [
+    {
+     "id": "happyhive_beach_sand_t2r4y0",
+     "min": 17.0,
+     "at": "02:08:00"
+    },
     {
      "id": "happyhive_leaf_pile_t2r4y0",
      "min": 17.0,
@@ -35,18 +40,13 @@
      "id": "happyhive_laundry_basket_t2r4y0",
      "min": 17.0,
      "at": "00:42:44"
-    },
-    {
-     "id": "happyhive_spaghetti_t2r4y0",
-     "min": 17.0,
-     "at": "00:25:43"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_beach_sand_t2r4y0",
+   "job": "happyhive_cardboard_box_t2r4y1",
    "shot": "1",
-   "vram_free_gb": 12.2,
+   "vram_free_gb": 10.5,
    "vram_total_gb": 17.1,
    "ram_free_gb": 2.2
   },
@@ -182,10 +182,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 1051,
-   "qc_passed": 1049,
+   "rendered": 1052,
+   "qc_passed": 1050,
    "vision_ok": 51,
-   "awaiting_review": 993,
+   "awaiting_review": 994,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -482,10 +482,10 @@
   }
  },
  "totals": {
-  "rendered": 3222,
+  "rendered": 3223,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 7,
+  "made_today": 8,
   "views": 75036,
   "followers": 142
  },
@@ -494,12 +494,12 @@
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 11:51:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 12:18:01] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-30 02:00:13] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-30 02:00:13] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-30 02:00:14] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-30 02:00:14] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-30 02:00:14] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-30 02:00:14] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[09-30 02:11:37] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-30 02:11:37] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[09-30 02:11:37] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-30 02:11:37] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-30 02:11:37] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-30 02:11:37] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-30 01:43:57",
