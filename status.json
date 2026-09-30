@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30 16:50:27",
+ "updated": "2026-09-30 17:01:14",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 58,
-   "last_reel": "happyhive_popup_toy_t3r0y0",
+   "made_today": 59,
+   "last_reel": "happyhive_picnic_lawn_t2r4y1",
    "avg_min": 19.6,
    "recent": [
+    {
+     "id": "happyhive_picnic_lawn_t2r4y1",
+     "min": 17.4,
+     "at": "16:52:39"
+    },
     {
      "id": "happyhive_popup_toy_t3r0y0",
      "min": 17.4,
@@ -35,20 +40,15 @@
      "id": "happyhive_bottom_step_t2r4y1",
      "min": 17.4,
      "at": "15:25:16"
-    },
-    {
-     "id": "happyhive_mattress_bounce_t2r4y1",
-     "min": 17.3,
-     "at": "15:07:51"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_picnic_lawn_t2r4y1",
+   "job": "happyhive_play_tunnel_t2r4y1",
    "shot": "1",
-   "vram_free_gb": 12.5,
+   "vram_free_gb": 11.1,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.9
+   "ram_free_gb": 3.3
   },
   "w40": {
    "owner": "Neeraj",
@@ -56,10 +56,15 @@
    "ip": "192.168.1.40",
    "up": true,
    "enabled": true,
-   "made_today": 7,
-   "last_reel": "happyhive_sofa_cruise_t2r4y1",
-   "avg_min": 153.6,
+   "made_today": 8,
+   "last_reel": "happyhive_popup_toy_t3r0y0",
+   "avg_min": 152.9,
    "recent": [
+    {
+     "id": "happyhive_popup_toy_t3r0y0",
+     "min": 27.6,
+     "at": "16:52:56"
+    },
     {
      "id": "happyhive_sofa_cruise_t2r4y1",
      "min": 27.2,
@@ -84,20 +89,15 @@
      "id": "happyhive_cat_chase_t2r4y1",
      "min": 27.6,
      "at": "14:36:55"
-    },
-    {
-     "id": "happyhive_muslin_peekaboo_t2r4y1",
-     "min": 27.1,
-     "at": "14:09:18"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_popup_toy_t3r0y0",
+   "job": "happyhive_play_tunnel_t2r4y1",
    "shot": "1",
-   "vram_free_gb": 11.4,
+   "vram_free_gb": 11.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 0.0
   },
   "pcconee": {
    "owner": "Anshu",
@@ -220,10 +220,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 1102,
-   "qc_passed": 1100,
+   "rendered": 1103,
+   "qc_passed": 1101,
    "vision_ok": 51,
-   "awaiting_review": 1044,
+   "awaiting_review": 1045,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -520,10 +520,10 @@
   }
  },
  "totals": {
-  "rendered": 3273,
+  "rendered": 3274,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 58,
+  "made_today": 59,
   "views": 75036,
   "followers": 142
  },
@@ -532,12 +532,12 @@
   "[09-28 11:51:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 12:18:01] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-30 12:12:09] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-30 16:49:24] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-30 16:49:24] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[09-30 16:49:24] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-30 16:49:24] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-30 16:49:24] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-30 16:49:24] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
+  "[09-30 16:59:42] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-30 16:59:42] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-30 16:59:42] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-30 16:59:42] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-30 16:59:43] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-30 16:59:43] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-30 16:44:15",
