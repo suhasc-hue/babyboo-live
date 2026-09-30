@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30 09:14:48",
+ "updated": "2026-09-30 09:26:12",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 32,
-   "last_reel": "happyhive_bubbles_t2r4y1",
+   "made_today": 33,
+   "last_reel": "happyhive_mirror_t2r4y1",
    "avg_min": 19.6,
    "recent": [
+    {
+     "id": "happyhive_mirror_t2r4y1",
+     "min": 17.0,
+     "at": "09:14:43"
+    },
     {
      "id": "happyhive_bubbles_t2r4y1",
      "min": 17.1,
@@ -35,20 +40,15 @@
      "id": "happyhive_ice_cube_t2r4y0",
      "min": 17.0,
      "at": "07:49:30"
-    },
-    {
-     "id": "happyhive_towel_burrito_t2r4y0",
-     "min": 17.0,
-     "at": "07:32:26"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_mirror_t2r4y1",
+   "job": "happyhive_sprinkler_t2r4y1",
    "shot": "1",
-   "vram_free_gb": 11.9,
+   "vram_free_gb": 10.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.9
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -182,10 +182,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 1076,
-   "qc_passed": 1074,
+   "rendered": 1077,
+   "qc_passed": 1075,
    "vision_ok": 51,
-   "awaiting_review": 1018,
+   "awaiting_review": 1019,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -355,7 +355,7 @@
    "top_media": [
     {
      "permalink": "https://www.instagram.com/reel/Db9J7mcEZeZ/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772327424_1469647615185824_2689509960015512230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=5y9eakQqVqIQ7kNvwGMOWBj&_nc_oc=Adpxs-SOmwxGu9fKiuVxD6YcawNf6lXvou6vhgyIWrq_CM3lCK6auqRb6umWbEwqd4o&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=1ofYQaf_rVaD9T9Ie_6Z7g&_nc_tpa=Q5bMBQLl_5-If3RhtIpai5WIoZ8MbgmLZTedTqDbDlCYdGq4wb8bcUzQk2otMF9xEx4osQWpbBEou-dA&oh=00_AQNcmfbkVDIO3y6DW_EEJX5ZNKYxTBcJ8S8KsZ5gfr3nhg&oe=6AC248DA",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/772327424_1469647615185824_2689509960015512230_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=5y9eakQqVqIQ7kNvwGMOWBj&_nc_oc=Adpxs-SOmwxGu9fKiuVxD6YcawNf6lXvou6vhgyIWrq_CM3lCK6auqRb6umWbEwqd4o&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=B7EZB55fxBQwCS5YMCJFjA&_nc_tpa=Q5bMBQJ5XSzUP-z-_JMAU85Rj3EGd_tSGZ2JgUaAgNybaObSKTJucyQxoZbnFtSIn2V0a1tMlHXSOyEt&oh=00_AQOSD8QimRtnIkI5rnN5mEMU_7dzvogTyr2BYJmL4IopFQ&oe=6AC248DA",
      "views": 1779,
      "likes": 29,
      "shares": 0,
@@ -385,7 +385,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Db_rbjQChkh/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775201237_4685433651691951_147144926581414073_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=rMumyU8j2h8Q7kNvwF5EWqa&_nc_oc=AdojN8zjilW8abd01WF-uoE2opZtS71s1j1Jh53SLOg-m2Yuz5yjJEpIKKGfZJiQJDc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=1ofYQaf_rVaD9T9Ie_6Z7g&_nc_tpa=Q5bMBQIFrUnSNWJFikJown_8M5etBVTOK6z2laaPMtRgbRbd9GC4oFTlvzWdCBBkHf7I6TjonIIYk_Xg&oh=00_AQNu1p2O0pHmDC1KHrIXuitwlOrxeAoo_c-2t4J4t2PoRg&oe=6AC21F3A",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/775201237_4685433651691951_147144926581414073_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=rMumyU8j2h8Q7kNvwF5EWqa&_nc_oc=AdojN8zjilW8abd01WF-uoE2opZtS71s1j1Jh53SLOg-m2Yuz5yjJEpIKKGfZJiQJDc&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=B7EZB55fxBQwCS5YMCJFjA&_nc_tpa=Q5bMBQID58u7xXnAtNiyDkXEAvVWuqvJ2RX_wzycogOJ9uEHgTTb5-EkJzbhsA6MpUAXrDs73RbbvNkB&oh=00_AQNRKpb-ZOI47gplyB-GJ9qJE-WttFxdlCiOjhvQ2brXGg&oe=6AC2577A",
      "views": 1344,
      "likes": 17,
      "shares": 0,
@@ -395,7 +395,7 @@
     },
     {
      "permalink": "https://www.instagram.com/reel/Db-wEnfjm0n/",
-     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773099117_1344982034464040_4658223684505812315_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wHKELsIDpIUQ7kNvwF_IIfT&_nc_oc=Adp0qBURRRV6Ol8dxn4XkJyeKnyT78utihfGvi4FLsYDonbWiLNAycG67RtdnqP4M0o&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=1ofYQaf_rVaD9T9Ie_6Z7g&_nc_tpa=Q5bMBQJE-1oRSs7qw8GM2k8okfFbpzwhE2rlUirqUmsDjlfXJx0oVwe2i_OeetcKKQBK73ADlw2AhnKc&oh=00_AQPKnfAQwpDxPJARYjkR8KtUf-WNnNwjg1e2Rv3P7s7b0Q&oe=6AC21224",
+     "thumb": "https://instagram.fbom23-1.fna.fbcdn.net/v/t51.71878-15/773099117_1344982034464040_4658223684505812315_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=wHKELsIDpIUQ7kNvwF_IIfT&_nc_oc=Adp0qBURRRV6Ol8dxn4XkJyeKnyT78utihfGvi4FLsYDonbWiLNAycG67RtdnqP4M0o&_nc_zt=23&_nc_ht=instagram.fbom23-1.fna&edm=ANo9K5cEAAAA&_nc_gid=B7EZB55fxBQwCS5YMCJFjA&_nc_tpa=Q5bMBQIIAH5Jfa1Y6zR0-zrZfI7oSGy11QkGGHw527FoP7XLbfqzaqmPvregXFgeFhbNlOmmlySjyUAN&oh=00_AQNO40laDdirUaxoCCqMK4anoQqwGRJ1BvJRlx9ktwvCgQ&oe=6AC24A64",
      "views": 1255,
      "likes": 11,
      "shares": 0,
@@ -482,7 +482,7 @@
   }
  },
  "totals": {
-  "rendered": 3247,
+  "rendered": 3248,
   "posted": 498,
   "stories_today": 0,
   "made_today": 33,
@@ -494,12 +494,12 @@
   "[09-26 22:37:25] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 11:51:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 12:18:01] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[09-30 09:13:00] storynook: cap override 15 -> 3/day (channels.json)",
-  "[09-30 09:13:00] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[09-30 09:13:00] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[09-30 09:13:00] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[09-30 09:13:01] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[09-30 09:13:01] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[09-30 09:24:19] storynook: cap override 15 -> 3/day (channels.json)",
+  "[09-30 09:24:19] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[09-30 09:24:19] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[09-30 09:24:19] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[09-30 09:24:20] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[09-30 09:24:20] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-09-30 09:14:06",
