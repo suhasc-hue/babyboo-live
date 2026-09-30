@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01 01:15:08",
+ "updated": "2026-10-01 01:25:52",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 4,
-   "last_reel": "happyhive_shoe_basket_t3r0y0",
+   "made_today": 5,
+   "last_reel": "happyhive_kraft_paper_t3r0y0",
    "avg_min": 19.5,
    "recent": [
+    {
+     "id": "happyhive_kraft_paper_t3r0y0",
+     "min": 16.8,
+     "at": "01:23:16"
+    },
     {
      "id": "happyhive_shoe_basket_t3r0y0",
      "min": 16.8,
@@ -34,11 +39,11 @@
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_kraft_paper_t3r0y0",
+   "job": "happyhive_mattress_bounce_t3r0y0",
    "shot": "1",
-   "vram_free_gb": 10.7,
+   "vram_free_gb": 9.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.6
+   "ram_free_gb": 1.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -70,9 +75,9 @@
    "queued": 0,
    "job": "happyhive_kraft_paper_t3r0y0",
    "shot": "1",
-   "vram_free_gb": 10.6,
+   "vram_free_gb": 10.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.1
+   "ram_free_gb": 2.8
   },
   "pcconee": {
    "owner": "Anshu",
@@ -195,10 +200,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 1132,
-   "qc_passed": 1129,
+   "rendered": 1133,
+   "qc_passed": 1130,
    "vision_ok": 51,
-   "awaiting_review": 1073,
+   "awaiting_review": 1074,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -495,10 +500,10 @@
   }
  },
  "totals": {
-  "rendered": 3303,
+  "rendered": 3304,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 5,
+  "made_today": 6,
   "views": 75036,
   "followers": 142
  },
@@ -507,12 +512,12 @@
   "[09-28 11:51:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-28 12:18:01] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-30 12:12:09] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-01 01:14:04] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-01 01:14:04] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[10-01 01:14:04] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-01 01:14:04] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[10-01 01:14:05] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-01 01:14:05] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[10-01 01:24:22] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-01 01:24:22] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[10-01 01:24:22] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-01 01:24:22] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[10-01 01:24:22] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-01 01:24:22] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-10-01 01:14:25",
