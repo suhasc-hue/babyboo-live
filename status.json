@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-01 14:07:45",
+ "updated": "2026-10-01 14:18:30",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -46,9 +46,9 @@
    "queued": 0,
    "job": "happyhive_sock_pull_t3r0y1",
    "shot": "1",
-   "vram_free_gb": 13.4,
+   "vram_free_gb": 12.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 3.6
+   "ram_free_gb": 0.1
   },
   "w40": {
    "owner": "Neeraj",
@@ -97,7 +97,7 @@
    "shot": "1",
    "vram_free_gb": 13.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.9
+   "ram_free_gb": 1.1
   },
   "pcconee": {
    "owner": "Anshu",
@@ -532,15 +532,15 @@
   "[09-28 12:18:01] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[09-30 12:12:09] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-01 02:45:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-01 14:06:36] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-01 14:06:36] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[10-01 14:06:37] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-01 14:06:37] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[10-01 14:06:37] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-01 14:06:37] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[10-01 14:16:55] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-01 14:16:55] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[10-01 14:16:55] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-01 14:16:55] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[10-01 14:16:56] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-01 14:16:56] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-10-01 13:44:40",
+  "updated": "2026-10-01 14:14:40",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
