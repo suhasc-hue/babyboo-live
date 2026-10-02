@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02 16:17:36",
+ "updated": "2026-10-02 16:29:00",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 56,
-   "last_reel": "happyhive_spaghetti_t3r2y0",
+   "made_today": 57,
+   "last_reel": "happyhive_laundry_basket_t3r2y0",
    "avg_min": 19.3,
    "recent": [
+    {
+     "id": "happyhive_laundry_basket_t3r2y0",
+     "min": 18.0,
+     "at": "16:20:21"
+    },
     {
      "id": "happyhive_spaghetti_t3r2y0",
      "min": 17.5,
@@ -35,20 +40,15 @@
      "id": "happyhive_ball_pit_t3r2y0",
      "min": 16.9,
      "at": "14:54:13"
-    },
-    {
-     "id": "happyhive_sprinkler_t3r2y0",
-     "min": 16.9,
-     "at": "14:37:16"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_laundry_basket_t3r2y0",
+   "job": "happyhive_tissue_box_t3r2y0",
    "shot": "1",
-   "vram_free_gb": 11.4,
+   "vram_free_gb": 10.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.3
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -188,10 +188,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 1268,
-   "qc_passed": 1265,
+   "rendered": 1269,
+   "qc_passed": 1266,
    "vision_ok": 51,
-   "awaiting_review": 1209,
+   "awaiting_review": 1210,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -488,10 +488,10 @@
   }
  },
  "totals": {
-  "rendered": 3439,
+  "rendered": 3440,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 57,
+  "made_today": 58,
   "views": 75036,
   "followers": 142
  },
@@ -500,12 +500,12 @@
   "[09-30 12:12:09] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-01 02:45:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-02 00:13:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-02 16:15:17] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-02 16:15:17] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[10-02 16:15:17] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-02 16:15:17] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[10-02 16:15:18] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-02 16:15:18] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[10-02 16:27:38] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-02 16:27:38] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[10-02 16:27:39] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-02 16:27:39] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[10-02 16:27:39] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-02 16:27:39] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-10-02 16:15:10",
