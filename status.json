@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02 13:49:27",
+ "updated": "2026-10-02 14:00:51",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -46,9 +46,9 @@
    "queued": 0,
    "job": "happyhive_bubbles_t3r2y0",
    "shot": "1",
-   "vram_free_gb": 10.5,
+   "vram_free_gb": 12.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.1
+   "ram_free_gb": 2.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -274,7 +274,7 @@
     "username": "kidswonderee",
     "followers": 24,
     "media_count": 253,
-    "reach_today": 0,
+    "reach_today": null,
     "total_views": 23042,
     "total_likes": 100,
     "avg_views": 576,
@@ -500,12 +500,12 @@
   "[09-30 12:12:09] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-01 02:45:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-02 00:13:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-02 13:47:44] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-02 13:47:44] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[10-02 13:47:45] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-02 13:47:45] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[10-02 13:47:45] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-02 13:47:45] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[10-02 13:59:06] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-02 13:59:06] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[10-02 13:59:07] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-02 13:59:07] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[10-02 13:59:07] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-02 13:59:07] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-10-02 13:45:07",
