@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03 05:02:15",
+ "updated": "2026-10-03 05:13:38",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -46,9 +46,9 @@
    "queued": 0,
    "job": "happyhive_tissue_box_t3r2y1",
    "shot": "1",
-   "vram_free_gb": 2.4,
+   "vram_free_gb": 10.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.5
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -183,9 +183,9 @@
   "happyhive": {
    "handle": "happyhivekidss",
    "rendered": 1300,
-   "qc_passed": 1296,
+   "qc_passed": 1297,
    "vision_ok": 51,
-   "awaiting_review": 1240,
+   "awaiting_review": 1241,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -494,12 +494,12 @@
   "[10-02 20:53:17] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-02 21:16:31] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-02 22:33:07] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-03 05:00:02] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-03 05:00:02] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[10-03 05:00:03] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-03 05:00:03] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[10-03 05:00:03] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-03 05:00:03] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
+  "[10-03 05:11:22] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-03 05:11:22] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[10-03 05:11:23] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-03 05:11:23] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[10-03 05:11:23] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-03 05:11:23] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
   "updated": "2026-10-03 04:45:24",
