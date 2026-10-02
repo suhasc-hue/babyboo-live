@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02 06:13:30",
+ "updated": "2026-10-02 06:24:54",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -7,10 +7,15 @@
    "ip": "192.168.1.57",
    "up": true,
    "enabled": true,
-   "made_today": 21,
-   "last_reel": "happyhive_tissue_box_t3r1y1",
+   "made_today": 22,
+   "last_reel": "happyhive_stacking_cups_t3r1y1",
    "avg_min": 19.4,
    "recent": [
+    {
+     "id": "happyhive_stacking_cups_t3r1y1",
+     "min": 17.3,
+     "at": "06:16:22"
+    },
     {
      "id": "happyhive_tissue_box_t3r1y1",
      "min": 17.3,
@@ -35,20 +40,15 @@
      "id": "happyhive_duck_race_t3r1y1",
      "min": 17.3,
      "at": "04:49:37"
-    },
-    {
-     "id": "happyhive_dog_tug_t3r1y1",
-     "min": 17.3,
-     "at": "04:32:16"
     }
    ],
    "running": 1,
    "queued": 0,
-   "job": "happyhive_stacking_cups_t3r1y1",
+   "job": "happyhive_tupperware_t3r1y1",
    "shot": "1",
    "vram_free_gb": 10.5,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 2.0
+   "ram_free_gb": 2.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -188,10 +188,10 @@
   },
   "happyhive": {
    "handle": "happyhivekidss",
-   "rendered": 1233,
-   "qc_passed": 1230,
+   "rendered": 1234,
+   "qc_passed": 1231,
    "vision_ok": 51,
-   "awaiting_review": 1174,
+   "awaiting_review": 1175,
    "posted": 90,
    "posted_today": 0,
    "stored_ready": 0,
@@ -488,10 +488,10 @@
   }
  },
  "totals": {
-  "rendered": 3404,
+  "rendered": 3405,
   "posted": 498,
   "stories_today": 0,
-  "made_today": 22,
+  "made_today": 23,
   "views": 75036,
   "followers": 142
  },
@@ -500,19 +500,19 @@
   "[09-30 12:12:09] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-01 02:45:30] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-02 00:13:29] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-02 06:11:17] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-02 06:11:17] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[10-02 06:11:17] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-02 06:11:17] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[10-02 06:11:18] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-02 06:11:18] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[10-02 06:22:37] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-02 06:22:37] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[10-02 06:22:37] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-02 06:22:37] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[10-02 06:22:38] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-02 06:22:38] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-10-02 05:44:58",
+  "updated": "2026-10-02 06:14:59",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
-   "Average completion (watch time / duration) is 44% across 167 reels with data.",
+   "Average completion (watch time / duration) is 44% across 168 reels with data.",
    "Reels losing viewers fastest (completion <60% of average): garden_t9r0y0, playground_bouncecathedral_t0r1, playground_bouncecathedral_t2r0, playground_igloovillage_t0r0, picnic_t11r1y1 \u2014 study their first 3 seconds.",
    "Most-saved (parents saving = strongest product signal): storynook_tea_estate_toolshed_readsto_t0r0 (3), storynook_railway_coach_naptin_t2r2 (2), storynook_shuttered_shopfront_kitchenmal_t0r0 (2)",
    "Best posting hours so far: 9:00, 10:00, 13:00 (median views 1359 at 9:00).",
@@ -526,7 +526,7 @@
    "tinycrafts": {
     "n": 40,
     "median_views": 309,
-    "avg_completion": 0.36,
+    "avg_completion": 0.357,
     "avg_eng_rate": 0.0113,
     "avg_saves": 0.2
    },
