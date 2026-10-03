@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03 18:09:38",
+ "updated": "2026-10-03 18:21:02",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -48,7 +48,7 @@
    "shot": "",
    "vram_free_gb": 9.7,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 12.6
+   "ram_free_gb": 13.6
   },
   "w40": {
    "owner": "Neeraj",
@@ -490,19 +490,19 @@
   "followers": 142
  },
  "events": [
-  "[10-03 17:59:29] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-03 18:01:10] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-03 18:02:51] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-03 18:07:21] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-03 18:07:21] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
-  "[10-03 18:07:21] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-03 18:07:21] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[10-03 18:07:21] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-03 18:07:21] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[10-03 18:07:48] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting"
+  "[10-03 18:07:48] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-03 18:12:57] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-03 18:18:42] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-03 18:18:42] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
+  "[10-03 18:18:43] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-03 18:18:43] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[10-03 18:18:43] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-03 18:18:43] storynook: warm-up \u2014 66 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-10-03 17:45:37",
+  "updated": "2026-10-03 18:15:38",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
