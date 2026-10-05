@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05 17:25:21",
+ "updated": "2026-10-05 17:42:43",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -15,9 +15,9 @@
    "queued": 0,
    "job": "",
    "shot": "",
-   "vram_free_gb": 2.7,
+   "vram_free_gb": 2.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 9.4
+   "ram_free_gb": 9.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -459,19 +459,19 @@
   "followers": 142
  },
  "events": [
-  "[10-04 14:40:21] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-04 14:51:16] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-04 15:33:05] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-04 16:23:12] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-05 17:23:10] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-05 17:23:10] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
-  "[10-05 17:23:10] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-05 17:23:10] wonderlab: warm-up \u2014 253 posts so far, holding to 3/day",
-  "[10-05 17:23:11] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-05 17:23:11] happyhive: warm-up \u2014 90 posts so far, holding to 3/day"
+  "[10-05 17:35:35] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-05 17:35:35] happyhive: warm-up \u2014 90 posts so far, holding to 3/day",
+  "[10-05 17:35:35] storynook: warm-up \u2014 66 posts so far, holding to 3/day",
+  "[10-05 17:41:01] drain up: ['tinycrafts', 'wonderlab', 'storynook', 'playground', 'happyhive', 'rescue'] cap=25/day/channel",
+  "[10-05 17:41:01] farm supervisor up: 3 workers configured",
+  "[10-05 17:41:02] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-05 17:41:02] tinycrafts: warm-up \u2014 48 posts so far, holding to 3/day"
  ],
  "learnings": {
-  "updated": "2026-10-05 17:16:23",
+  "updated": "2026-10-05 17:41:02",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
