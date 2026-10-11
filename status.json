@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11 20:25:33",
+ "updated": "2026-10-11 20:37:08",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 11.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 6.8
+   "ram_free_gb": 7.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -462,13 +462,13 @@
   "[10-11 14:12:15] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-11 16:50:25] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-11 20:21:18] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-11 20:22:48] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-11 20:22:49] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-11 20:23:49] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-11 20:23:49] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-11 20:23:50] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-11 20:23:50] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-11 20:23:52] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting"
+  "[10-11 20:23:52] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-11 20:34:03] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-11 20:34:03] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-11 20:35:03] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-11 20:35:04] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-11 20:35:04] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-11 20:35:04] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-10-11 20:13:25",
