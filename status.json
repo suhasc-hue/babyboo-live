@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11 10:38:14",
+ "updated": "2026-10-11 10:49:37",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -11,13 +11,13 @@
    "last_reel": "",
    "avg_min": null,
    "recent": [],
-   "running": 1,
+   "running": 0,
    "queued": 0,
    "job": "",
-   "shot": "character",
-   "vram_free_gb": 14.8,
+   "shot": "",
+   "vram_free_gb": 15.3,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.4
+   "ram_free_gb": 3.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -463,15 +463,15 @@
   "[10-10 16:00:41] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-10 18:43:49] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-10 19:57:46] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-11 10:34:53] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-11 10:34:53] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-11 10:35:54] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-11 10:35:54] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-11 10:35:54] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-11 10:35:54] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[10-11 10:47:09] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-11 10:47:10] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-11 10:48:10] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-11 10:48:11] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-11 10:48:11] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-11 10:48:11] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-10-11 10:13:15",
+  "updated": "2026-10-11 10:43:16",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
