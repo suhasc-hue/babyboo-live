@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13 00:38:43",
+ "updated": "2026-10-13 00:50:07",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -15,9 +15,9 @@
    "queued": 0,
    "job": "",
    "shot": "WaifuPanel_Character",
-   "vram_free_gb": 15.2,
+   "vram_free_gb": 15.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 1.3
+   "ram_free_gb": 2.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -463,15 +463,15 @@
   "[10-11 20:23:52] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-12 11:44:48] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-12 22:47:35] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-13 00:36:21] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-13 00:36:21] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-13 00:37:22] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-13 00:37:22] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-13 00:37:22] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-13 00:37:22] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[10-13 00:47:36] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-13 00:47:37] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-13 00:48:37] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-13 00:48:38] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-13 00:48:38] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-13 00:48:38] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-10-13 00:13:53",
+  "updated": "2026-10-13 00:43:54",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
