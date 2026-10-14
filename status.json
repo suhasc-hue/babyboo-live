@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13 17:58:51",
+ "updated": "2026-10-14 11:33:03",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -452,19 +452,19 @@
   "followers": 142
  },
  "events": [
-  "[10-11 20:23:52] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-12 11:44:48] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-12 22:47:35] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-13 01:16:20] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-13 17:54:52] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-13 17:54:52] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-13 17:55:53] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-13 17:55:53] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-13 17:55:54] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-13 17:55:54] storynook: cap override 15 -> 3/day (channels.json)"
+  "[10-13 18:03:03] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-13 18:04:04] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-13 18:04:04] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-13 18:04:04] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-13 18:04:04] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-14 11:31:01] drain up: ['tinycrafts', 'wonderlab', 'storynook', 'playground', 'happyhive', 'rescue'] cap=25/day/channel",
+  "[10-14 11:31:01] farm supervisor up: 3 workers configured"
  ],
  "learnings": {
-  "updated": "2026-10-13 17:44:12",
+  "updated": "2026-10-14 11:31:05",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
