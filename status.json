@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17 11:47:48",
+ "updated": "2026-10-17 11:58:32",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -466,16 +466,16 @@
   "followers": 142
  },
  "events": [
-  "[10-17 11:41:48] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-17 11:43:12] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-17 11:44:36] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-17 11:45:55] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-17 11:45:55] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-17 11:46:00] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-17 11:46:56] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-17 11:46:56] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-17 11:46:56] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-17 11:46:57] happyhive: cap override 15 -> 3/day (channels.json)"
+  "[10-17 11:48:48] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-17 11:50:13] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-17 11:51:37] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-17 11:53:01] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-17 11:56:08] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-17 11:56:08] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-17 11:57:09] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-17 11:57:09] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-17 11:57:10] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-17 11:57:10] storynook: cap override 15 -> 3/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-10-17 11:32:18",
