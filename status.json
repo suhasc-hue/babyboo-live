@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17 13:56:53",
+ "updated": "2026-10-17 14:07:37",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 11.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 15.8
+   "ram_free_gb": 15.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -35,7 +35,7 @@
    "shot": "",
    "vram_free_gb": 15.9,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 16.6
+   "ram_free_gb": 16.5
   },
   "pcconee": {
    "owner": "Anshu",
@@ -466,19 +466,19 @@
   "followers": 142
  },
  "events": [
-  "[10-17 13:43:29] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-17 13:44:53] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-17 13:46:17] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-17 13:47:41] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-17 13:54:43] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-17 13:54:43] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-17 13:55:43] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-17 13:55:44] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-17 13:55:44] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-17 13:55:44] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[10-17 14:04:22] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-17 14:04:56] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-17 14:04:56] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-17 14:05:57] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-17 14:05:57] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-17 14:05:57] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-17 14:05:57] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-17 14:06:32] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting"
  ],
  "learnings": {
-  "updated": "2026-10-17 13:32:20",
+  "updated": "2026-10-17 14:02:21",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
