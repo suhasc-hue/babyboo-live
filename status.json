@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18 17:38:49",
+ "updated": "2026-10-18 17:50:34",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -459,16 +459,16 @@
   "followers": 142
  },
  "events": [
-  "[10-18 15:20:03] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-18 15:21:27] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-18 15:51:26] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-18 16:32:10] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-18 17:35:27] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-18 17:35:27] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-18 17:36:28] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-18 17:36:28] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-18 17:36:28] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-18 17:36:28] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[10-18 17:43:44] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-18 17:46:18] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-18 17:47:44] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-18 17:47:44] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-18 17:48:44] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-18 17:48:45] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-18 17:48:45] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-18 17:48:45] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-10-18 17:32:47",
