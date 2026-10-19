@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19 19:18:16",
+ "updated": "2026-10-19 19:29:40",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 11.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 11.6
+   "ram_free_gb": 11.5
   },
   "w40": {
    "owner": "Neeraj",
@@ -459,16 +459,16 @@
   "followers": 142
  },
  "events": [
-  "[10-18 20:01:34] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-19 10:28:25] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-19 13:31:34] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-19 14:28:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-19 19:15:05] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-19 19:15:05] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-19 19:16:06] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-19 19:16:06] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-19 19:16:06] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-19 19:16:06] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[10-19 19:24:18] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-19 19:26:20] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-19 19:26:20] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-19 19:27:20] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-19 19:27:21] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-19 19:27:21] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-19 19:27:21] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-10-19 19:03:10",
