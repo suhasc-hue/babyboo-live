@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19 14:21:37",
+ "updated": "2026-10-19 14:33:15",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 11.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 12.6
+   "ram_free_gb": 12.9
   },
   "w40": {
    "owner": "Neeraj",
@@ -459,19 +459,19 @@
   "followers": 142
  },
  "events": [
-  "[10-18 18:41:14] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-18 20:01:34] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-19 10:28:25] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-19 13:31:34] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-19 14:18:38] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-19 14:18:38] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-19 14:19:39] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-19 14:19:39] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-19 14:19:40] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-19 14:19:40] storynook: cap override 15 -> 3/day (channels.json)"
+  "[10-19 14:28:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-19 14:29:53] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-19 14:29:53] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-19 14:30:54] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-19 14:30:54] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-19 14:30:54] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-19 14:30:54] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-10-19 14:03:06",
+  "updated": "2026-10-19 14:33:06",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
