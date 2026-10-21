@@ -1,16 +1,23 @@
 {
- "updated": "2026-10-21 17:38:03",
+ "updated": "2026-10-21 17:49:37",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
    "gpu": "RTX 5060 Ti 16GB",
    "ip": "192.168.1.57",
-   "up": false,
+   "up": true,
    "enabled": true,
    "made_today": 0,
    "last_reel": "",
    "avg_min": null,
-   "recent": []
+   "recent": [],
+   "running": 0,
+   "queued": 0,
+   "job": "",
+   "shot": "",
+   "vram_free_gb": 15.1,
+   "vram_total_gb": 17.1,
+   "ram_free_gb": 6.2
   },
   "w40": {
    "owner": "Neeraj",
@@ -452,16 +459,16 @@
   "followers": 142
  },
  "events": [
-  "[10-19 13:31:34] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-19 14:28:59] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-19 19:24:18] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-20 01:55:57] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-20 01:55:57] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-21 17:36:01] drain up: ['tinycrafts', 'wonderlab', 'storynook', 'playground', 'happyhive', 'rescue'] cap=25/day/channel",
   "[10-21 17:36:01] farm supervisor up: 3 workers configured",
-  "[10-21 17:36:02] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-21 17:36:02] tinycrafts: daily cap 3 reached \u2014 STORING from here (0 approved reels waiting, they post automatically as the 24h window frees up)",
-  "[10-21 17:36:02] wonderlab: cap override 25 -> 3/day (channels.json)"
+  "[10-21 17:36:10] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-21 17:36:18] worker w40 not ready (http://192.168.1.40:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-21 17:36:26] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-21 17:46:26] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-21 17:46:26] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-21 17:47:27] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-21 17:47:27] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-21 17:47:27] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-21 17:47:28] happyhive: cap override 15 -> 3/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-10-21 17:36:02",
