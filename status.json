@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22 18:47:28",
+ "updated": "2026-10-22 18:59:02",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -15,9 +15,9 @@
    "queued": 0,
    "job": "",
    "shot": "",
-   "vram_free_gb": 15.8,
+   "vram_free_gb": 15.2,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 6.6
+   "ram_free_gb": 1.4
   },
   "w40": {
    "owner": "Neeraj",
@@ -459,16 +459,16 @@
   "followers": 142
  },
  "events": [
-  "[10-21 17:36:26] worker pcconee not ready (http://192.168.1.148:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-22 11:30:58] SPAWNED tech-01 pid=22008 shard=0/1 -> http://192.168.1.57:8188",
   "[10-22 12:08:45] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-22 12:11:19] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-22 18:44:26] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-22 18:44:26] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-22 18:45:27] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-22 18:45:27] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-22 18:45:28] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-22 18:45:28] storynook: cap override 15 -> 3/day (channels.json)"
+  "[10-22 18:53:53] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-22 18:55:42] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-22 18:55:42] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-22 18:56:43] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-22 18:56:43] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-22 18:56:44] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-22 18:56:44] storynook: cap override 15 -> 3/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-10-22 18:36:36",
