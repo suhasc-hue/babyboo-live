@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23 00:02:10",
+ "updated": "2026-10-23 00:13:35",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.4,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 4.1
+   "ram_free_gb": 5.0
   },
   "w40": {
    "owner": "Neeraj",
@@ -459,19 +459,19 @@
   "followers": 142
  },
  "events": [
-  "[10-22 12:11:19] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-22 18:53:53] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-22 23:23:35] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-22 23:36:00] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-23 00:00:39] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-23 00:00:39] storynook: daily cap 3 reached \u2014 STORING from here (6 approved reels waiting, they post automatically as the 24h window frees up)",
-  "[10-23 00:00:39] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-23 00:00:39] wonderlab: daily cap 3 reached \u2014 STORING from here (17 approved reels waiting, they post automatically as the 24h window frees up)",
-  "[10-23 00:00:40] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-23 00:00:40] happyhive: daily cap 3 reached \u2014 STORING from here (0 approved reels waiting, they post automatically as the 24h window frees up)"
+  "[10-23 00:10:05] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-23 00:10:54] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-23 00:10:54] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-23 00:11:55] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-23 00:11:55] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-23 00:11:55] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-23 00:11:55] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-10-22 23:36:40",
+  "updated": "2026-10-23 00:06:41",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
