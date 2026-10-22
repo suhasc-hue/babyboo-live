@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22 23:16:25",
+ "updated": "2026-10-22 23:27:51",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 15.8,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 10.4
+   "ram_free_gb": 8.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -459,16 +459,16 @@
   "followers": 142
  },
  "events": [
-  "[10-22 11:30:58] SPAWNED tech-01 pid=22008 shard=0/1 -> http://192.168.1.57:8188",
   "[10-22 12:08:45] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-22 12:11:19] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-22 18:53:53] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-22 23:13:36] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-22 23:13:36] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-22 23:14:37] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-22 23:14:37] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-22 23:14:37] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-22 23:14:38] happyhive: cap override 15 -> 3/day (channels.json)"
+  "[10-22 23:23:35] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
+  "[10-22 23:24:51] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-22 23:24:51] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-22 23:25:52] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-22 23:25:52] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-22 23:25:52] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-22 23:25:53] happyhive: cap override 15 -> 3/day (channels.json)"
  ],
  "learnings": {
   "updated": "2026-10-22 23:06:40",
