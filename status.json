@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24 00:02:12",
+ "updated": "2026-10-24 00:13:54",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 11.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 13.1
+   "ram_free_gb": 12.8
   },
   "w40": {
    "owner": "Neeraj",
@@ -463,15 +463,15 @@
   "[10-23 22:39:06] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-23 22:41:40] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-23 23:39:01] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-23 23:59:30] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-23 23:59:31] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-23 23:59:31] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-23 23:59:31] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-24 00:00:32] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-24 00:00:32] tinycrafts: daily cap 3 reached \u2014 STORING from here (0 approved reels waiting, they post automatically as the 24h window frees up)"
+  "[10-24 00:10:46] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-24 00:10:46] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-24 00:11:47] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-24 00:11:47] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-24 00:11:47] tinycrafts: cap override 15 -> 3/day (channels.json)",
+  "[10-24 00:11:47] wonderlab: cap override 25 -> 3/day (channels.json)"
  ],
  "learnings": {
-  "updated": "2026-10-23 23:37:03",
+  "updated": "2026-10-24 00:07:04",
   "sample": 168,
   "findings": [
    "Strongest world: tinycrafts/beach (median 523 views, n=4). Weakest: playground/playground_bouncecathedral (median 3, n=5).",
