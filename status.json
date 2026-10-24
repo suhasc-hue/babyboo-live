@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24 23:50:47",
+ "updated": "2026-10-25 00:02:31",
  "workers": {
   "tech-01": {
    "owner": "Jagrat",
@@ -17,7 +17,7 @@
    "shot": "",
    "vram_free_gb": 11.6,
    "vram_total_gb": 17.1,
-   "ram_free_gb": 9.6
+   "ram_free_gb": 9.7
   },
   "w40": {
    "owner": "Neeraj",
@@ -463,12 +463,12 @@
   "[10-24 15:38:27] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-24 17:41:58] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
   "[10-24 18:16:48] worker tech-01 not ready (http://192.168.1.57:8188 \u2014 offline or missing minimax_h3_ref2va_pruned_int8_convrot.safetensors); waiting",
-  "[10-24 23:47:54] storynook: cap override 15 -> 3/day (channels.json)",
-  "[10-24 23:47:55] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-24 23:48:55] tinycrafts: cap override 15 -> 3/day (channels.json)",
-  "[10-24 23:48:55] wonderlab: cap override 25 -> 3/day (channels.json)",
-  "[10-24 23:48:56] happyhive: cap override 15 -> 3/day (channels.json)",
-  "[10-24 23:48:56] storynook: cap override 15 -> 3/day (channels.json)"
+  "[10-25 00:00:11] happyhive: cap override 15 -> 3/day (channels.json)",
+  "[10-25 00:00:11] happyhive: daily cap 3 reached \u2014 STORING from here (0 approved reels waiting, they post automatically as the 24h window frees up)",
+  "[10-25 00:00:11] storynook: cap override 15 -> 3/day (channels.json)",
+  "[10-25 00:00:11] storynook: daily cap 3 reached \u2014 STORING from here (6 approved reels waiting, they post automatically as the 24h window frees up)",
+  "[10-25 00:00:11] wonderlab: cap override 25 -> 3/day (channels.json)",
+  "[10-25 00:00:11] wonderlab: daily cap 3 reached \u2014 STORING from here (17 approved reels waiting, they post automatically as the 24h window frees up)"
  ],
  "learnings": {
   "updated": "2026-10-24 23:37:27",
